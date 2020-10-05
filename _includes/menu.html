@@ -12,7 +12,7 @@ where we provide an easy way to manage your navigation system
     <div class="usa-nav__inner">
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in include.primary_navigation %}
+        {% for nav_item in site.data.navigation.primary_navigation %}
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
@@ -39,7 +39,7 @@ where we provide an easy way to manage your navigation system
       </ul>
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
-          {% for nav_item in include.secondary_navigation %}
+          {% for nav_item in site.data.navigation.secondary_navigation %}
           <li class="usa-nav__secondary-item">
             <a href="{{ nav_item.url | prepend: site.baseurl }}">{{ nav_item.name | escape }}</a>
           </li>

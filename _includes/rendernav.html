@@ -1,0 +1,18 @@
+
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+    <nav>
+      <ul class="usa-sidenav">
+{% for i in page.pagenav %} <!-- site.data.navigation[include.nav] -->
+    {% if i.section %}
+    <li class="usa-sidenav__item">
+        <a href="{{i.section | downcase | replace: " ", "-" | replace: "?", "" | prepend: "#" }}">{{i.name}}</a>
+    </li> 
+    {% else %}
+    <li class="usa-sidenav__item">
+        <a href="{{i.url}}">{{i.name}}</a>
+    </li> 
+    {% endif %}
+{% endfor %}
+        </ul>
+    </nav>
+</aside>

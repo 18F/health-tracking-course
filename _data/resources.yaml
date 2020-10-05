@@ -1,0 +1,15 @@
+books:
+    header: Books
+    resources:
+        - title: A Civic Technologist's Practice Guide
+          author: Cyd Harrell 
+          link: https://cydharrell.com/book/ 
+          note: asdfasdf 
+web:
+    header: Around the Web
+    resources:
+        - title: ASDF
+          url: asdf
+        - title: ASDF
+          url: asdf
+          note: asdfasdf azsdf asdf asdf asdf 

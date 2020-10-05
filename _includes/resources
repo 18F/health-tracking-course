@@ -1,0 +1,18 @@
+{% assign section=site.data.resources[include.section] %}
+
+<h2> {{section.header}} </h2>
+<ul>
+{% for e in section.resources %}
+
+<li> <a href="{{e.url}}">{{e.title}}</a> 
+    {% if e.author %}
+        <br><small>{{e.author}}</small>
+    {% endif %}
+    {% if e.note %}
+    <blockquote style="font-size: 90%; color: #666666; border-left: 4px solid #ccc; padding-left: 4px;">
+    {{e.note}}
+    </blockquote>
+    {% endif %}
+</li>
+{% endfor %}
+</ul>
