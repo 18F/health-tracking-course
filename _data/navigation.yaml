@@ -6,8 +6,8 @@ primary_navigation:
       url: /syllabus/
     - name: Resources
       url: /resources/
-    - name: Schedule
-      url: /schedule/
+    - name: Modules
+      url: /modules/
       
     # - name: Document
     #   url: /document/
