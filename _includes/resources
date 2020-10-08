@@ -5,6 +5,9 @@
 {% for e in section.resources %}
 
 <li> <a href="{{e.url}}">{{e.title}}</a> 
+    {% if e.duration %}
+    ({{e.duration}})
+    {% endif %}
     {% if e.author %}
         <br><small>{{e.author}}</small>
     {% endif %}
