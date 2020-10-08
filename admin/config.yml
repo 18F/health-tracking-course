@@ -12,16 +12,37 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - label: Posts
-    name: posts
-    folder: _posts/
+  - label: Lessons
+    name: lessons
+    folder: _lessons/
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{indicator}}-{{priority}}-{{framing}}-{{slug}}"
     editor:
       preview: false
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'post'}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'widepage'}
       - {label: "Title", name: "title", widget: "string"}
+      - {
+        label: "Indicator", 
+        name: "indicator", 
+        widget: "select", 
+        options: ["Outcomes", "Capacity", "Visibility", "Development"]
+        }
+      - {
+        label: "Priority", 
+        name: "priority", 
+        widget: "select", 
+        options: ["High", "Medium", "Low"]
+        }
+      - { 
+        label: "Framing", 
+        name: "framing", 
+        widget: "number", 
+        default: 1,
+        min: 1,
+        max: 4,
+        value_type: "int"
+        }
       - {
           label: "Publish Date",
           name: "date",
