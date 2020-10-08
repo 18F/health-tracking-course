@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: jadudm/cms-somd
-  base_url: https://federalist-a4de3ee2-d552-458d-8d1f-6ca0ebf71274.app.cloud.gov/site/jadudm/cms-somd/
+  base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
   branch: main
