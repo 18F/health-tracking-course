@@ -1,1 +1,0 @@
-[healthrubric]: https://app.mural.co/t/gsa6/m/gsa6/1593627219860/24d48fac2cd81e50723ca27920677c4b6bf94ba2

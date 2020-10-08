@@ -12,9 +12,9 @@ It **is** a series of activities you can engage in, with colleagues, to improve 
 * TOC
 {:toc}
 
-## Sequence 1: A Foundation
+## Arc 1: A Foundation
 
-<img src="/images/spiral-upward.png" width="100" style="float: right; margin: 0px 15px 15px 0px;" alt="A spiral, growing narrower as it goes up, and ending in an arrowhead pointing straight up." />
+{% asset spiral-upward.png width="50" style="float: right; margin: 0px 15px 15px 0px;" alt="A spiral, growing narrower as it goes up, and ending in an arrowhead pointing straight up." %}
 
 The first sequence lays a foundation; think of it as a first pass, or spiral, through the four dimensions of the health tracker. From this foundation, subsequent sequences will build upon these four modules, adding depth and challenge.
 

@@ -3,8 +3,6 @@ title: Syllabus
 layout: widepage
 ---
 
-{% include links.md %}
-
 | **Course** | State Officer M.D.: Assessing the Health of CMS Projects |
 | **Staff** | Matt Jadud, PhD |
 | | *and...* |

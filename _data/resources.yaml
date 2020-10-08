@@ -4,12 +4,35 @@ books:
         - title: A Civic Technologist's Practice Guide
           author: Cyd Harrell 
           link: https://cydharrell.com/book/ 
-          note: asdfasdf 
+          note: I’ve put every single thing I know about civic tech into this little book. It’s both an onboarding guide and a survival manual, and I hope it will be useful to the field. It outlines the types of projects, partnerships, and people that civic technologists encounter, and the methods we can use to make lasting change. 
 web:
     header: Around the Web
     resources:
-        - title: ASDF
-          url: asdf
-        - title: ASDF
-          url: asdf
-          note: asdfasdf azsdf asdf asdf asdf 
+        - title: So You Want to Be A Product Manager
+          uid: sywtbapm
+          url: https://beingfa.com/2017/10/31/so-you-want-to-be-a-product-manager/
+          author: Julia Austin
+          note: ...
+        - title: The Definition of a Tech Lead
+          url: https://www.patkua.com/blog/the-definition-of-a-tech-lead/
+          uid: doatl
+          author: Pat Kua
+        - title: What is a Tech Lead?
+          url: https://ajahne.github.io/blog/leadership/2018/02/16/what-is-a-tech-lead.html
+          uid: wiatl
+          author: Ajahne
+
+
+videos:
+  header: Videos
+  resources:
+      - title: Day in the Life of a Product Manager
+        uid: ditlpm
+        url: https://www.youtube.com/watch?v=R0ffUjavxxs
+        duration: 2m31s
+        author: Yelp
+      - title: The Role of being Technical in Technical Leadership
+        uid: robttl
+        url: https://www.youtube.com/watch?v=G25_RQqV4vE
+        duration: 5m33s
+        author: O'Reilly
