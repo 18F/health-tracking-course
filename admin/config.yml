@@ -16,7 +16,7 @@ collections:
     name: lessons
     folder: _lessons/
     create: true
-    slug: "{{indicator}}-{{priority}}-{{framing}}-{{slug}}"
+    slug: "{{indicator}}-{{priority}}-{{assessment}}-{{slug}}"
     editor:
       preview: false
     fields:
@@ -35,8 +35,8 @@ collections:
         options: ["High", "Medium", "Low"]
         }
       - { 
-        label: "Framing", 
-        name: "framing", 
+        label: "Assessment", 
+        name: "assessment", 
         widget: "number", 
         default: 1,
         min: 1,
