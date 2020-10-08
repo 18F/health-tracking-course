@@ -3,12 +3,6 @@ title: Syllabus
 layout: widepage
 ---
 
-| **Course** | State Officer M.D.: Assessing the Health of CMS Projects |
-| **Staff** | Matt Jadud, PhD |
-| | *and...* |
-| **Email** | matthew.jadud@gsa.gov |
-| | *and...* |
-
 * TOC
 {:toc}
 

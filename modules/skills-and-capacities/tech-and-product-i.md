@@ -1,5 +1,6 @@
 ---
-title: "Module 1.1: Skills, Capacities, and Management"  
+title: "Tech and Product Management I"
+indicator: "Skills, Capacities, and Management"   
 layout: widepage
 ---
 
