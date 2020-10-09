@@ -7,28 +7,35 @@
       - dimension:
         tips:
           - Ask to see the product roadmap and the overall roadmap.
-          - Ask to see the product roadmap and the overall roadmap.
         red: There is no roadmap for the product / service or enterprise.
         yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
         green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
       - dimension:
         tips:
-          - x Ask to see the product roadmap and the overall roadmap.
-        red: x There is no roadmap for the product / service or enterprise.
-        yellow: x There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-        green: x The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+          - Ask to see how teams measure their progress against program, policy, and/or baseline metrics.
+        red: Explanations of how the state will measure progress or program impact are incongruent or missing all together.
+        yellow: Teams consistently articulate the impact they are targeting but do not have metrics or baselines.
+        green: Teams consistently articulate their target metrics and can demonstrate how they are doing against baselines.
     - level: "Medium Priority" 
       dimensions:
       - dimension:
         tips:
-          - Ask to see the product roadmap and the overall roadmap.
-          - Ask to see the product roadmap and the overall roadmap.
-        red: There is no roadmap for the product / service or enterprise.
-        yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-        green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+          - Ask how feedback from users impacts priorities.
+          - Ask how the state ensures services are accessible for all.
+        red: The team has no information about the current user experience.
+        yellow: The team has information about the current experience but has not spoken directly to users.
+        green: The team has collected feedback from end users directly and can demonstrate how they apply what they learn.
+    - level: "Lower Priority"
+      dimensions:
+      - dimenson:
+        tips:
+          - Ask both project and enterprise-level team members what the current priorities are.
+        red: State team members can't speak to priorities at all.
+        yellow: State team members can speak to priorities, but they're not captured anywhere in written or visual form.
+        green: Outcomes and priorities are clearly articulated by all state team members and live in a shared roadmap that's regularly updated.
       - dimension:
         tips:
-          - x Ask to see the product roadmap and the overall roadmap.
-        red: x There is no roadmap for the product / service or enterprise.
-        yellow: x There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-        green: x The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+          - Ask team members from different departments (program, IT, procurement, etc.) about their role and priorities.
+        red: IT, program, finance, etc. priorities are unconnected or at odds.
+        yellow: Some prioritiesa are aligned, others are disjointed.
+        green: IT, program, finance, etc. priorities are aligned around end-user outcomes.

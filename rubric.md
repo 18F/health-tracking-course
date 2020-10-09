@@ -6,6 +6,7 @@ title: Rubric
 <style>
 .tiprow {
     margin-top: 1em;
+    
 }
 .darkgrey {
     padding: 0.5em;
@@ -30,7 +31,7 @@ title: Rubric
 .green {
     margin: 0.5em;
     padding: 0.2em;
-    background: green;
+    background: #238823;
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -39,7 +40,7 @@ title: Rubric
 .yellow {
     margin: 0.5em;
     padding: 0.2em;
-    background: yellow;
+    background: #FFBF00;
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -48,7 +49,7 @@ title: Rubric
 .red {
     margin: 0.5em;
     padding: 0.2em;
-    background: red;
+    background: #D2222D;
     color: white;
     font-size: 80%;
     border-radius: 10px;
@@ -58,6 +59,9 @@ title: Rubric
     float: right;
     margin: 1em;
     font-variant: small-caps;
+    font-size: 120%;
+    font-weight: bold;
+
 }
 </style>
 
@@ -88,10 +92,11 @@ title: Rubric
             <div class="grid-row">
 
 {% for dimension in priority.dimensions %}
-                <div class="grid-col-2" >
-                    {% if forloop.first %}<h3 class="priority">{{priority.level | replace: " ", "&nbsp;"}}</h3>{% endif%}
+                <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
+                    {% if forloop.first == true %}<p class="priority">{{priority.level | replace: " ", "&nbsp;"}}</p>{% endif%}
                 </div>
                 <div class="grid-col-10">
+                    {% if forloop.first == true %}<hr>{% endif %}
                     <div class="grid-row grid-gap tiprow">
 {% for tip in dimension.tips %}
                         <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip">
