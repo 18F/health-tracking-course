@@ -65,7 +65,7 @@ title: Rubric
 }
 </style>
 
-<div style="width: 90%; margin: auto;">
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
 {% for section in site.data.rubric %}
     <div class="grid-row darkgrey">
         <h1 style="font-variant: small-caps;">{{section.header}}</h1>
