@@ -60,6 +60,68 @@ title: Rubric
     font-variant: small-caps;
 }
 </style>
+
+<div style="width: 90%; margin: auto;">
+{% for section in site.data.rubric %}
+    <div class="grid-row darkgrey">
+        <h1 style="font-variant: small-caps;">{{section.header}}</h1>
+    </div>
+    <div class="grid-row darkgrey">
+        <div class="grid-col-3">
+            <div class="grid-row">
+                <div class="grid-col-12">
+                    <h2>{{section.question}}</h2>
+                </div>
+            </div>
+            <div class="grid-row">
+                <div class="grid-col-8 grid-offset-2">
+                    <h3>Why this matters...</h3>
+                    <p>
+                        {{section.wtm}}
+                    </p>        
+                </div>
+            </div>
+        </div>
+        <div class="grid-col-9">
+
+{% for priority in section.priorities %}
+            <div class="grid-row">
+
+{% for dimension in priority.dimensions %}
+                <div class="grid-col-2" >
+                    {% if forloop.first %}<h3 class="priority">{{priority.level | replace: " ", "&nbsp;"}}</h3>{% endif%}
+                </div>
+                <div class="grid-col-10">
+                    <div class="grid-row grid-gap tiprow">
+{% for tip in dimension.tips %}
+                        <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip">
+                            {{tip}}
+                        </div>
+                        {% if dimension.tips.size == 1%}
+                        <div class="grid-col-1 blanktip"> &nbsp; </div>
+                        {% endif %}
+{% endfor %}
+                        <div class="grid-col-2 red">
+                        {{dimension.red}}
+                        </div>
+                        <div class="grid-col-2 yellow">
+                        {{dimension.yellow}}
+                        </div>
+                        <div class="grid-col-2 green">
+                        {{dimension.green}}
+                        </div>
+                    </div>
+                </div>
+{% endfor %}
+{% endfor %}
+                </div> <!-- end priority group -->
+{% endfor %}
+    </div>
+</div>
+
+<br> &nbsp; <br>
+
+<!--
 <div style="width: 90%; margin: auto;">
     <div class="grid-row darkgrey">
         <h1 style="font-variant: small-caps;">Outcomes / Orientation</h1>
@@ -118,9 +180,9 @@ title: Rubric
                             The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
                         </div>
                     </div>
-                </div> <!-- end priority group -->
+                </div> 
             </div>
         </div>
     </div>
-
 </div>
+-->

@@ -1,0 +1,34 @@
+- header: "Outcomes / Orientation"
+  question: "Are efforts clearly connected to intended outcomes and end users?"
+  wtm: "Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work."
+  priorities:
+    - level: "Top Priority" 
+      dimensions:
+      - dimension:
+        tips:
+          - Ask to see the product roadmap and the overall roadmap.
+          - Ask to see the product roadmap and the overall roadmap.
+        red: There is no roadmap for the product / service or enterprise.
+        yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
+        green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+      - dimension:
+        tips:
+          - x Ask to see the product roadmap and the overall roadmap.
+        red: x There is no roadmap for the product / service or enterprise.
+        yellow: x There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
+        green: x The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+    - level: "Medium Priority" 
+      dimensions:
+      - dimension:
+        tips:
+          - Ask to see the product roadmap and the overall roadmap.
+          - Ask to see the product roadmap and the overall roadmap.
+        red: There is no roadmap for the product / service or enterprise.
+        yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
+        green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+      - dimension:
+        tips:
+          - x Ask to see the product roadmap and the overall roadmap.
+        red: x There is no roadmap for the product / service or enterprise.
+        yellow: x There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
+        green: x The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.

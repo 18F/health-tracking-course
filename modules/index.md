@@ -20,6 +20,6 @@ The first sequence lays a foundation; think of it as a first pass, or spiral, th
 
 ### Module 1.1: Skills, Capacities, and Management
 
-The [first learning module](s1/m1-1) focuses on evaluating the effort, impact, and outcomes of a state and its vendors.
+The [first learning module](/lessons/capacity-high-1-tech-and-product-management-1/) focuses on evaluating the effort, impact, and outcomes of a state and its vendors.
 
 ### Module 1.2: ...
