@@ -1,7 +1,7 @@
 ---
 layout: widepage
 title: "Tech and Product Management"
-indicator: Capacity
+indicator: State Capacity
 priority: High
 assessment: 1
 course: 1
@@ -22,6 +22,8 @@ The first few modules will involve more "context setting," helping you understan
 ## Objective
 
 Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
+
+{% include rubric dimension="sc1.1" %}
 
 ## Reflection: Managing Projects (20m)
 
