@@ -1,41 +1,150 @@
-- header: "Outcomes / Orientation"
-  question: "Are efforts clearly connected to intended outcomes and end users?"
-  wtm: "Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work."
+- header: Outcomes / Orientation
+  question: Are efforts clearly connected to intended outcomes and end users?
+  wtm: Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work.
   priorities:
     - level: "Top Priority" 
       dimensions:
-      - dimension:
-        tips:
-          - Ask to see the product roadmap and the overall roadmap.
-        red: There is no roadmap for the product / service or enterprise.
-        yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-        green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
-      - dimension:
-        tips:
-          - Ask to see how teams measure their progress against program, policy, and/or baseline metrics.
-        red: Explanations of how the state will measure progress or program impact are incongruent or missing all together.
-        yellow: Teams consistently articulate the impact they are targeting but do not have metrics or baselines.
-        green: Teams consistently articulate their target metrics and can demonstrate how they are doing against baselines.
+        - tips:
+            - Ask to see the product roadmap and the overall roadmap.
+          red: There is no roadmap for the product / service or enterprise.
+          yellow: There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
+          green: The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
+        - tips:
+            - Ask to see how teams measure their progress against program, policy, and/or baseline metrics.
+          red: Explanations of how the state will measure progress or program impact are incongruent or missing all together.
+          yellow: Teams consistently articulate the impact they are targeting but do not have metrics or baselines.
+          green: Teams consistently articulate their target metrics and can demonstrate how they are doing against baselines.
     - level: "Medium Priority" 
       dimensions:
-      - dimension:
-        tips:
-          - Ask how feedback from users impacts priorities.
-          - Ask how the state ensures services are accessible for all.
-        red: The team has no information about the current user experience.
-        yellow: The team has information about the current experience but has not spoken directly to users.
-        green: The team has collected feedback from end users directly and can demonstrate how they apply what they learn.
+        - tips:
+            - Ask how feedback from users impacts priorities.
+            - Ask how the state ensures services are accessible for all.
+          red: The team has no information about the current user experience.
+          yellow: The team has information about the current experience but has not spoken directly to users.
+          green: The team has collected feedback from end users directly and can demonstrate how they apply what they learn.
     - level: "Lower Priority"
       dimensions:
-      - dimenson:
-        tips:
-          - Ask both project and enterprise-level team members what the current priorities are.
-        red: State team members can't speak to priorities at all.
-        yellow: State team members can speak to priorities, but they're not captured anywhere in written or visual form.
-        green: Outcomes and priorities are clearly articulated by all state team members and live in a shared roadmap that's regularly updated.
-      - dimension:
-        tips:
-          - Ask team members from different departments (program, IT, procurement, etc.) about their role and priorities.
-        red: IT, program, finance, etc. priorities are unconnected or at odds.
-        yellow: Some priorities are aligned, others are disjointed.
-        green: IT, program, finance, etc. priorities are aligned around end-user outcomes.
+        - tips:
+            - Ask both project and enterprise-level team members what the current priorities are.
+          red: State team members can't speak to priorities at all.
+          yellow: State team members can speak to priorities, but they're not captured anywhere in written or visual form.
+          green: Outcomes and priorities are clearly articulated by all state team members and live in a shared roadmap that's regularly updated.
+        - tips:
+            - Ask team members from different departments (program, IT, procurement, etc.) about their role and priorities.
+          red: IT, program, finance, etc. priorities are unconnected or at odds.
+          yellow: Some priorities are aligned, others are disjointed.
+          green: IT, program, finance, etc. priorities are aligned around end-user outcomes.
+- header: State Capacity
+  question: Does the state have the skills and capacity to to manage the work?
+  wtm: Without some familiarityt with software development, an agency is not well equipped to evaluate vendor work and lead a dvelopment project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
+  priorities:
+    - level: Top Priority
+      dimensions:
+        - tips:
+            - Ask the product and technical leads what their role is and what other responsibilities they have.
+            - Look at the APD staffing plan vs. current staffing.
+          red: The state depends entirely on a vendor for vision and strategy.
+          yellow: State leads are identified but have limited time to lead the strategy and take direction from the vendor.
+          green: State staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
+    - level: Medium Priority
+      dimensions:
+        - tips:
+            - Ask how and when the team utilitizes different types of expertise.
+          red: Teams are not able to be staffed, are only staffed with one skill set/perspective (ex. only a PM), and/or do not include program expertise.
+          yellow: Teams are staffed with project and program expertise, able to pull in other experts when needed.
+          green: Teams are staffed with project, program, technical, and other expertise.
+        - tips:
+            - Ask detailed questions about technology, program goals, end users, etc.
+            - Pay attention to who answers each question.
+          red: Team mebers can't answer questions about the project or issues in plain language.
+          yellow: Team members rely on vendors to answer questions, but answers are in plain language.
+          green: All team members (including IT and procurement) can speak in plain language about the project.
+    - level: Lower Priority
+      dimensions:
+        - tips:
+            - Join meetings and watch team dynamics.
+          red: Adversarial / non-existent relationships across the teams or divisions.
+          yellow: Individuals have good relationships, but team dynamics are strained.
+          green: Individuals and teams from all divisions talk regularly and have good relationships.
+- header: Procurement Flexibility
+  question: Do the state's procurement and vendor management practices provide visibility and flexibility?
+  wtm: States and vendors have different incentives. In order to make sure work is driving toward program outcomes, the state should drive and actively manage vendor work and build monitoring of quality into their contracts.
+  priorities:
+    - level: Top Priority
+      dimensions:
+        - tips: 
+            - Ask how the state knows what progress has been made.
+            - Ask if there are known risks that may cause delay.
+          red: Little to no visibility into progress. Target dates and budget estimates are missed or frequently revised.
+          yellow: There's limited visibility into progress. Many dates are hit, but misses are surprising. 
+          green: State has full visibility into progress. Most dates are hit, and the state knows early on when and why they are not going to meet a date.
+        - tips:
+            - Ask how the team implements quality monitoring through their contracts.
+          red: The state has little or no expectations for monitoring quality in their contracts.
+          yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
+          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure mointoring is implmented.
+    - level: Medium Priority
+      dimensions:
+        - tips:
+            - Ask how the state manages and accesses system data.
+          red: The state has little or no visibility into how data is stored or accessed.
+          yellow: The state can use the vendor's tools to access data, but does not own the data.
+          green: The state owns and controls access to all data.
+    - level: Lower Priority
+      dimensions: 
+        - tips:
+            - Ask what challenges the team is having in driving toward intended outcomes.
+            - Ask who is involved in setting strategy and outcomes.
+          red: The state blames or relies on the vendor for the strategy and achievement of the outcomes.
+          yellow: The state takes partial accountability for the strategy and achievement of the outcomes; leans on vendors for procurement strategy.
+          green: The state considers themselves wholly responsible for the strategy and achievement of the outcomes; leads strategy, collects feedback from vendors.
+- header: Iterative Development
+  question: Does the state use iterative, secure development practices?
+  wtm: Mojre important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
+  priorities:
+    - level: Top Priority
+      dimensions:
+        - tips:
+            - Ask how the development and state team share in-progress work.
+            - Ask to see progress. For example, join demos throughout development.
+          red: Nothing is shared until its completely finished, no code is shown.
+          yellow: In-progress work is shown, but it's always fairly polished, some code is shown.
+          green: You see regular (once a month or more) demos ranging from very messy, incomplete work all the way to polished, finished products.
+        - tips:
+           - Ask how the state incorporates the end user during the development & testing processes.
+          red: The team only collects input from end users at the end of the process.
+          yellow: The team collects feedback at the beginning of the process, but does not validate they are meeting user needs during development.
+          green: The team regularly collects feedback and tests to ensure the product improves the experience for end users.
+        - tips:
+            - Ask how the state approaches security, performance, and migration testing.
+            - Ask how project leads interact with the testing process.
+          red: The team cannot answer what types of testing they are doing, only that they test at the end of the process.
+          yellow: The team can describe their testing approaches but testing is done by a siloed team.
+          green: The team can demonstrate their testing approaches. Testing and development is done by the same team.
+    - level: Medium Priority
+      dimensions:
+        - tips:
+            - Ask how the process of getting new things into production works.
+            - How long does it take? How many steps are involved?
+          red: All changes are rolled out as a "big-bang" effort, where the system is turned off and then back on.
+          yellow: Deploying changes is minimally disruptive to end users, but requires work stops for the internal team.
+          green: Deploying changes is minimally disruptive to end users and the internal team.
+        - tips:
+            - Ask how developers test changes before delivering a feature for review.
+          red: Developers don't test changes before adding them to the project.
+          yellow: Developers manually test features, but don't do automated tests.
+          green: Developers can show how they run manual and automated tests before adding changes to the project.
+        - tips: 
+            - Ask how they monitor system health in production.
+          red: The state can't tell you about the health of the system that's being used.
+          yellow: The state manually monitors system health and creates reports on a regular basis.
+          green: System health is monitored automatically and staff can show you a reporting dashboard.
+    - level: Lower priority
+      dimensions:
+        - tips:
+            - Ask how development choices are made and if open source or reusable options are considered.
+          red: The state can't tell you how they make/made their decisions.
+          yellow: The state can tell you how they made their decisions, but did not consider open source options.
+          green: The state can show you how/why they make their decisions and are using open source when possible.
+
+      

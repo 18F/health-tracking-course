@@ -8,9 +8,17 @@ title: Rubric
     margin-top: 1em;
     
 }
-.darkgrey {
-    padding: 0.5em;
+
+.section:nth-of-type(odd) {
     background: #ccc;
+}
+
+.section:nth-of-type(even) {
+    background: #fff;
+}
+
+.section {
+    padding: 0.5em;
     color: black;
 }
 
@@ -67,30 +75,32 @@ title: Rubric
 
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
 {% for section in site.data.rubric %}
-    <div class="grid-row darkgrey">
-        <h1 style="font-variant: small-caps;">{{section.header}}</h1>
-    </div>
-    <div class="grid-row darkgrey">
+    {% comment %}
+    Need to know, deep in the iteration, whether this is even or odd.
+    CSS rules for even/oddness won't cut it.
+    {% endcomment %}
+    {% assign mod = forloop.index | modulo: 2 %}
+    <div class="grid-row section">
         <div class="grid-col-3">
             <div class="grid-row">
                 <div class="grid-col-12">
+                    <h1 style="font-variant: small-caps;">{{section.header}}</h1>
+
                     <h2>{{section.question}}</h2>
-                </div>
-            </div>
+                </div> <!-- question --> 
+            </div> <!-- row -->
             <div class="grid-row">
                 <div class="grid-col-8 grid-offset-2">
                     <h3>Why this matters...</h3>
                     <p>
                         {{section.wtm}}
                     </p>        
-                </div>
-            </div>
-        </div>
+                </div> <!-- wtm -->
+            </div> <!-- row --> 
+        </div> <!-- col-3 -->
         <div class="grid-col-9">
-
 {% for priority in section.priorities %}
             <div class="grid-row">
-
 {% for dimension in priority.dimensions %}
                 <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
                     {% if forloop.first == true %}<p class="priority">{{priority.level | replace: " ", "&nbsp;"}}</p>{% endif%}
@@ -99,7 +109,7 @@ title: Rubric
                     {% if forloop.first == true %}<hr>{% endif %}
                     <div class="grid-row grid-gap tiprow">
 {% for tip in dimension.tips %}
-                        <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip">
+                        <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip" {% if mod == 0 %}style="background: #ccc;"{% endif %} >
                             {{tip}}
                         </div>
                         {% if dimension.tips.size == 1%}
@@ -115,13 +125,14 @@ title: Rubric
                         <div class="grid-col-2 green">
                         {{dimension.green}}
                         </div>
-                    </div>
-                </div>
+                    </div> <!-- row --> 
+                </div> <!-- col-10 -->
 {% endfor %}
+        </div> <!-- row priority group -->
 {% endfor %}
-                </div> <!-- end priority group -->
+        </div> <!-- col-9 -->
+    </div> <!-- row darkgrey -->
 {% endfor %}
-    </div>
 </div>
 
 <br> &nbsp; <br>
