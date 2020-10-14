@@ -1,10 +1,10 @@
 ---
 layout: widepage
 title: "Tech and Product Management"
+course: 1
+lesson: 3
 indicator: State Capacity
 priority: High
-assessment: 1
-course: 1
 date: October 8, 2020
 ---
 

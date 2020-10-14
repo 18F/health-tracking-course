@@ -1,11 +1,26 @@
+# To run locally:
+# npx netlify-cms-proxy-server 
+# netlify dev
+# To fix for deploy:
+# Change branch to "main"
+# local_backend to false
+
 backend:
   name: github
   repo: jadudm/cms-htmd
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: main
+  branch: kickoff
 
+# See https://www.netlifycms.org/docs/beta-features/
+local_backend: true
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8082/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ['ip_addr']
+  
 media_folder: assets/uploads
 public_folder: /images/uploads
 publish_mode: editorial_workflow
@@ -13,10 +28,16 @@ logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
   - label: Lessons
+    label_singular: Lesson
     name: lessons
-    folder: collections/_lessons/
+    folder: collections/_courses
     create: true
+    # https://www.netlifycms.org/docs/beta-features/
+    nested:
+      depth: 2
+      summary: "Course {{course}}"
     # slug: "{{indicator}}-{{priority}}-{{assessment}}-{{slug}}-{{course}}"
+    # https://www.netlifycms.org/docs/beta-features/
     slug: "{{course}}/{{slug}}"
     editor:
       preview: false
@@ -32,6 +53,15 @@ collections:
         max: 12,
         value_type: "int"
         }
+      - { 
+        label: "Lesson", 
+        name: "lesson", 
+        widget: "number", 
+        default: 1,
+        min: 1,
+        max: 8,
+        value_type: "int"
+        }
       - {
         label: "Indicator", 
         name: "indicator", 
@@ -43,15 +73,6 @@ collections:
         name: "priority", 
         widget: "select", 
         options: ["High", "Medium", "Low"]
-        }
-      - { 
-        label: "Assessment", 
-        name: "assessment", 
-        widget: "number", 
-        default: 1,
-        min: 1,
-        max: 8,
-        value_type: "int"
         }
       - {
           label: "Publish Date",

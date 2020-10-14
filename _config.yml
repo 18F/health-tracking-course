@@ -101,6 +101,7 @@ collections_dir: collections
 collections:
   courses:
     output: true
+    # Path so that course/name works from Netlify.
     permalink: /:collection/:path/
   pages:
     output: true

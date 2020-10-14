@@ -1,10 +1,12 @@
 ---
 layout: widepage
 title: "Kickoff: Course One"
+course: 1
+lesson: 1
 indicator: Admin
 priority: High
-assessment: 1
-course: 1
 date: October 8, 2020
 ---
+
+# {{ page.title }}
 
