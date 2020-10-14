@@ -14,10 +14,10 @@ logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 collections:
   - label: Lessons
     name: lessons
-    folder: _lessons/
+    folder: collections/_lessons/
     create: true
     # slug: "{{indicator}}-{{priority}}-{{assessment}}-{{slug}}-{{course}}"
-    slug: "{{slug}}-{{course}}"
+    slug: "{{course}}/{{slug}}"
     editor:
       preview: false
     fields:
@@ -36,7 +36,7 @@ collections:
         label: "Indicator", 
         name: "indicator", 
         widget: "select", 
-        options: ["Outcomes & Orientation", "State Capacity", "Procurement Flexibility", "Iterative Development"]
+        options: ["Outcomes & Orientation", "State Capacity", "Procurement Flexibility", "Iterative Development", "Admin"]
         }
       - {
         label: "Priority", 

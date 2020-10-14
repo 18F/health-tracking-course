@@ -97,10 +97,14 @@ searchgov:
 # changed if you know what they do
 ##########################################################################################
 
+collections_dir: collections
 collections:
-  lessons:
+  courses:
     output: true
-    permalink: /lessons/:path/
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:name/
 
 permalink: pretty
 
