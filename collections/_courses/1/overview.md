@@ -9,7 +9,7 @@ In the first course, you will get a chance to engage with the highest priority e
 
 Subsequent courses will build your depth of knowledge regarding the practice of assessing software project management. When you are done with the first course, you'll be ready to begin applying the tracker with confidence, and tackle the material in the second course.
 
-Onward!
+
 
 {% assign lessons_only = site.courses | where: "course", 1 | sort: "lesson" %}
 

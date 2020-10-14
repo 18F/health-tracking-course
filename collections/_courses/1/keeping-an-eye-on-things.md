@@ -2,7 +2,7 @@
 layout: widepage
 title: "Keeping an Eye on Things"
 course: 1
-lesson: 2
+lesson: 3
 indicator: Procurement Flexibility
 priority: High
 date: October 8, 2020

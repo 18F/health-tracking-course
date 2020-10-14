@@ -81,27 +81,31 @@
   priorities:
     - level: Top Priority
       dimensions:
-        - tips: 
+        - id: pf1.1
+          tips: 
             - Ask how the state knows what progress has been made.
             - Ask if there are known risks that may cause delay.
           red: Little to no visibility into progress. Target dates and budget estimates are missed or frequently revised.
           yellow: There's limited visibility into progress. Many dates are hit, but misses are surprising. 
           green: State has full visibility into progress. Most dates are hit, and the state knows early on when and why they are not going to meet a date.
-        - tips:
+        - id: pf1.2
+          tips:
             - Ask how the team implements quality monitoring through their contracts.
           red: The state has little or no expectations for monitoring quality in their contracts.
           yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
           green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure mointoring is implmented.
     - level: Medium Priority
       dimensions:
-        - tips:
+        - id: pf2.1
+          tips:
             - Ask how the state manages and accesses system data.
           red: The state has little or no visibility into how data is stored or accessed.
           yellow: The state can use the vendor's tools to access data, but does not own the data.
           green: The state owns and controls access to all data.
     - level: Lower Priority
       dimensions: 
-        - tips:
+        - id: pf3.1
+          tips:
             - Ask what challenges the team is having in driving toward intended outcomes.
             - Ask who is involved in setting strategy and outcomes.
           red: The state blames or relies on the vendor for the strategy and achievement of the outcomes.
@@ -109,22 +113,25 @@
           green: The state considers themselves wholly responsible for the strategy and achievement of the outcomes; leads strategy, collects feedback from vendors.
 - header: Iterative Development
   question: Does the state use iterative, secure development practices?
-  wtm: Mojre important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
+  wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
   priorities:
     - level: Top Priority
       dimensions:
-        - tips:
+        - id: id1.1
+          tips:
             - Ask how the development and state team share in-progress work.
             - Ask to see progress. For example, join demos throughout development.
           red: Nothing is shared until its completely finished, no code is shown.
           yellow: In-progress work is shown, but it's always fairly polished, some code is shown.
           green: You see regular (once a month or more) demos ranging from very messy, incomplete work all the way to polished, finished products.
-        - tips:
+        - id: id1.2
+          tips:
            - Ask how the state incorporates the end user during the development & testing processes.
           red: The team only collects input from end users at the end of the process.
           yellow: The team collects feedback at the beginning of the process, but does not validate they are meeting user needs during development.
           green: The team regularly collects feedback and tests to ensure the product improves the experience for end users.
-        - tips:
+        - id: id1.3
+          tips:
             - Ask how the state approaches security, performance, and migration testing.
             - Ask how project leads interact with the testing process.
           red: The team cannot answer what types of testing they are doing, only that they test at the end of the process.
@@ -132,25 +139,29 @@
           green: The team can demonstrate their testing approaches. Testing and development is done by the same team.
     - level: Medium Priority
       dimensions:
-        - tips:
+        - id: id2.1
+          tips:
             - Ask how the process of getting new things into production works.
             - How long does it take? How many steps are involved?
           red: All changes are rolled out as a "big-bang" effort, where the system is turned off and then back on.
           yellow: Deploying changes is minimally disruptive to end users, but requires work stops for the internal team.
           green: Deploying changes is minimally disruptive to end users and the internal team.
-        - tips:
+        - id: id2.2
+          tips:
             - Ask how developers test changes before delivering a feature for review.
           red: Developers don't test changes before adding them to the project.
           yellow: Developers manually test features, but don't do automated tests.
           green: Developers can show how they run manual and automated tests before adding changes to the project.
-        - tips: 
+        - id: id2.3
+          tips: 
             - Ask how they monitor system health in production.
           red: The state can't tell you about the health of the system that's being used.
           yellow: The state manually monitors system health and creates reports on a regular basis.
           green: System health is monitored automatically and staff can show you a reporting dashboard.
     - level: Lower priority
       dimensions:
-        - tips:
+        - id: id3.1
+          tips:
             - Ask how development choices are made and if open source or reusable options are considered.
           red: The state can't tell you how they make/made their decisions.
           yellow: The state can tell you how they made their decisions, but did not consider open source options.
