@@ -1,6 +1,7 @@
 ---
 layout: widepage
 title: "Course One: Overview"
+visibility: Hidden
 ---
 
 # {{ page.title }}
@@ -11,11 +12,11 @@ Subsequent courses will build your depth of knowledge regarding the practice of 
 
 
 
-{% assign lessons_only = site.courses | where: "course", 1 | sort: "lesson" %}
+{% assign lessons_only = site.courses | where: "visibility", "Visible" | sort: "lesson" %}
 
 ## Lessons in Course One
 <ol>
 {% for p in lessons_only  %}
-<li><a href="{{ p.url }}">{{ p.title }}</a></li>
+<li><a href="{{ p.url | }}">{{ p.title }}</a></li>
 {% endfor %}
 </ol>

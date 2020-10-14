@@ -5,6 +5,7 @@ course: 1
 lesson: 2
 indicator: State Capacity
 priority: High
+visibility: Visible
 date: October 8, 2020
 ---
 

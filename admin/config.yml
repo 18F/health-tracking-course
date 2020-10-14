@@ -75,6 +75,13 @@ collections:
         options: ["High", "Medium", "Low"]
         }
       - {
+        label: "Visibility", 
+        name: "visibility", 
+        widget: "select", 
+        options: ["Visible", "Hidden"]
+        }
+
+      - {
           label: "Publish Date",
           name: "date",
           widget: "datetime",

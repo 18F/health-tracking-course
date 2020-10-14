@@ -5,6 +5,7 @@ course: 1
 lesson: 3
 indicator: Procurement Flexibility
 priority: High
+visibility: Visible
 date: October 8, 2020
 ---
 
