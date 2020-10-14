@@ -17,6 +17,6 @@ Subsequent courses will build your depth of knowledge regarding the practice of 
 ## Lessons in Course One
 <ol>
 {% for p in lessons_only  %}
-<li><a href="/{{ p.url | }}">{{ p.title }}</a></li>
+<li><a href="/{{ p.url }}">{{ p.title }}</a></li>
 {% endfor %}
 </ol>
