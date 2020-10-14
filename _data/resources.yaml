@@ -12,16 +12,17 @@ web:
           uid: sywtbapm
           url: https://beingfa.com/2017/10/31/so-you-want-to-be-a-product-manager/
           author: Julia Austin
-          note: ...
+          note: "There are core competencies that every PM must have – many of which can start in the classroom – but most are developed with experience and good role models/mentoring..."
         - title: The Definition of a Tech Lead
           url: https://www.patkua.com/blog/the-definition-of-a-tech-lead/
           uid: doatl
           author: Pat Kua
+          note: "A Tech Lead is a software engineer responsible for leading a team and alignment of the technical direction. Providing a strong technical direction involves establishing a technical vision, resolving technical disagreements and managing the technical quality of team deliverables. Effective technical leadership ensures the team uses appropriate engineering practices (such as CD or automated testing), invests in continual improvements to tooling or technical debt, and that the system evolves to meet its changing needs and environment."
         - title: What is a Tech Lead?
           url: https://ajahne.github.io/blog/leadership/2018/02/16/what-is-a-tech-lead.html
           uid: wiatl
           author: Ajahne
-
+          note: "A Tech Lead is a senior engineer responsible for leading a team of software developers to achieve a collective goal."
 
 videos:
   header: Videos
@@ -31,8 +32,10 @@ videos:
         url: https://www.youtube.com/watch?v=R0ffUjavxxs
         duration: 2m31s
         author: Yelp
+        note: "Do you love design? Are you motivated by utilizing technical skills and analytics to solve problems? Meet Brittany Cheng, a 5-star Product Manager at Yelp and get a behind the scenes look at her day in the office."
       - title: The Role of being Technical in Technical Leadership
         uid: robttl
         url: https://www.youtube.com/watch?v=G25_RQqV4vE
         duration: 5m33s
         author: O'Reilly
+        note: "There is compelling evidence that technical workers want leaders who are strong technologists, leaders they believe they can learn from. What does this mean for those who wish to become engineering managers and technical leaders? How can you be an effective noncoding technical leader? Camille Fournier explores this conundrum and shares strategies to overcome it."

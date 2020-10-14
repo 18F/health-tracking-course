@@ -9,7 +9,7 @@ primary_navigation:
     - name: Courses
       children:
         - name: Course One
-          url: 
+          url: /courses/1/overview/
       
     # - name: Document
     #   url: /document/

@@ -103,6 +103,7 @@ collections:
     output: true
     # Path so that course/name works from Netlify.
     permalink: /:collection/:path/
+    sort_by: lesson
   pages:
     output: true
     permalink: /:name/
