@@ -11,10 +11,10 @@ backend:
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: kickoff
+  branch: main
 
 # See https://www.netlifycms.org/docs/beta-features/
-local_backend: true
+# local_backend: true
 # local_backend:
 #   # when using a custom proxy server port
 #   url: http://localhost:8082/api/v1
