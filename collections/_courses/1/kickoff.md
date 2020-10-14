@@ -39,9 +39,13 @@ The second indicator has to do with a **state's capacity** to manage the project
 
 {% include rubric dimension="sc1.1" %}
 
-The third indicator we look at has to do with **iterative development**. 
+**Procurement flexibility** .... blah blah
 
 {% include rubric dimension="pf1.1" %}
 
+The final indicator we will talk about has to do with **iterative development**. 
 
 {% include rubric dimension="id1.1" %}
+
+## Confidence and Concern
+
