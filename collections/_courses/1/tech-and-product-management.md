@@ -2,7 +2,7 @@
 layout: widepage
 title: "Tech and Product Management"
 course: 1
-lesson: 2
+lesson: 3
 indicator: State Capacity
 priority: High
 visibility: Visible

@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: "Kickoff: Course One"
+title: "Kickoff"
 course: 1
 lesson: 1
 indicator: Admin

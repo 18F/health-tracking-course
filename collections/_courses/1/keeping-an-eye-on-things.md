@@ -2,7 +2,7 @@
 layout: widepage
 title: "Keeping an Eye on Things"
 course: 1
-lesson: 3
+lesson: 4
 indicator: Procurement Flexibility
 priority: High
 visibility: Visible

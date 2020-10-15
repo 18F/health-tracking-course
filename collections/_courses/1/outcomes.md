@@ -2,7 +2,7 @@
 layout: widepage
 title: "Reading the Map"
 course: 1
-lesson: 1
+lesson: 2
 indicator: "Outcomes & Orientation"
 priority: High
 visibility: Visible
