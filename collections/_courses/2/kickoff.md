@@ -1,7 +1,7 @@
 ---
 layout: widepage
 title: "Kickoff: Course One"
-course: 1
+course: 2
 lesson: 1
 indicator: Admin
 priority: High

@@ -2,6 +2,12 @@
 primary_navigation:
     - name: Home
       url: /
+    - name: Tools
+      children:
+        - name: Health Tracker
+          url: "..."
+        - name: Scoring Rubric 
+          url: /rubric/
     - name: Syllabus
       url: /syllabus/
     - name: Resources
@@ -10,6 +16,8 @@ primary_navigation:
       children:
         - name: Course One
           url: /courses/1/overview/
+        - name: Course Two
+          url: /courses/2/overview/
       
     # - name: Document
     #   url: /document/
