@@ -23,6 +23,24 @@ web:
           uid: wiatl
           author: Ajahne
           note: "A Tech Lead is a senior engineer responsible for leading a team of software developers to achieve a collective goal."
+        - title: "Tips for Agile product roadmaps & product roadmap examples"
+          uid: tfaprm
+          url: https://medium.com/the-value-maximizers/tips-for-agile-product-roadmaps-product-roadmap-examples-55b3c920208e
+          author: Robbin Schuurman
+          note: "The concept of a product roadmap however, is that it is a high-level, strategic plan, that describes the likely development of the product over the next period of time. The roadmap should support the products’ purpose and vision and it helps the Product Owners to keep their stakeholders aligned. The roadmap also makes it easier to coordinate the development of different products and it fosters transparency in order to manage customer expectations."
+        - title: Story Mapping 101 
+          uid: sm101
+          author: David Hawks
+          url: https://agilevelocity.com/story-mapping-101/
+          note: |
+            The challenge presented by traditional backlogs is they are flat and do not convey any notion of the end user’s journey. This makes it difficult to recognize if any gaps exist. Also, we can easily lose business context when trying to prioritize many user stories against each other. Story Maps were invented by Jeff Patton to help overcome those challenges. Patton’s process helps teams discover requirements from a user experience point of view.
+        - title: Product Roadmaps
+          uid: aacpr
+          author: Bree Davies
+          url: https://www.atlassian.com/agile/product-management/product-roadmaps
+          note: |
+            A product roadmap is a shared source of truth that outlines the vision, direction, and progress of a product over time. 
+
 
 videos:
   header: Videos
@@ -39,3 +57,18 @@ videos:
         duration: 5m33s
         author: O'Reilly
         note: "There is compelling evidence that technical workers want leaders who are strong technologists, leaders they believe they can learn from. What does this mean for those who wish to become engineering managers and technical leaders? How can you be an effective noncoding technical leader? Camille Fournier explores this conundrum and shares strategies to overcome it."
+      - title: Guide to Roadmapping
+        uid: jbgtr
+        author: Janna Bastow
+        url: https://vimeo.com/100642934
+        duration: 20m45s
+        note: |
+          Product fanatic Janna Bastow guides us through Roadmapping in this video from London’s June ProductTank. In this video Janna (@simplybastow) covers all aspects of the contentious subject of product roadmaps. She takes us through different visual forms of roadmaps, explains best practices and describes essential components.
+
+slidedecks:
+  header: Slide Decks
+  resources:
+    - title: Creating Agile Product Roadmaps Everyone Understands
+      uid: capreu
+      author: Janna Bastow
+      url: https://www.slideshare.net/uxpin/creating-agile-product-roadmaps-everyone-understands/18

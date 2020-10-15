@@ -24,7 +24,13 @@ module Jekyll
         resources.each do | k, v |
           items = resources[k]["resources"]
           items.each do | i |
-            if i.key?("uid") && i["uid"].strip.eql?(uid.strip)
+            # puts i
+            # puts "author" + i["author"].strip.downcase
+            if (
+                (i.key?("uid") and i["uid"].strip.eql?(uid.strip)) \
+                or \
+                (i.key?("author") and i["author"].strip.downcase.match(uid.strip))
+              )
                 title = i["title"]
                 url = i["url"]
 
