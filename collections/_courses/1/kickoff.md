@@ -63,5 +63,4 @@ We'll say this all again. Point being: demos not memos.
 
 Once you have listened to the intro (or read through the syllabus), you can revisit the [scoring rubric](/rubric/) that is used in the Health Tracker. (You don't *have* to re-read it, but if you want to, you can.) Then, pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous, and it will help us as we shape the course and the conversations we have over the coming weeks.
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrB4tNAvwXzmxd3U?backgroundColor=cyan" frameborder="0" onmousewheel="" width="100%" height="1821.75" style="background: transparent; border: 1px solid #ccc; margin-top: 1em;"></iframe>
-
+{% include airtable-pre.html %}
