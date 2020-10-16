@@ -23,7 +23,7 @@ date: October 8, 2020
                 <code>audio</code> element.
         </audio>
         <br>
-        <small>Intro music CC BY-NC-ND by [BJ Block and Dawn Pemberton](https://freemusicarchive.org/music/BJ_Block__Dawn_Pemberton/II_1060).</small>
+        <small>Intro music CC BY-NC-ND by <a href="https://freemusicarchive.org/music/BJ_Block__Dawn_Pemberton/II_1060">BJ Block and Dawn Pemberton</a>.</small>
     </div>
 </div>
 

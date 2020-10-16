@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: "Course One: Overview"
+title: "Course One"
 course: 1
 lesson: 0
 visibility: Hidden
@@ -15,9 +15,13 @@ Subsequent courses will build your depth of knowledge regarding the practice of 
 
 {% assign lessons_only = site.courses | where: "visibility", "Visible" | where: "course", 1 | sort: "lesson" %}
 
-## Lessons in {{ page.title }}
+## Lessons In This Course
 
 <table class="usa-table--borderless">
+<tr>
+    <td><b>Health Indicator</b></td>
+    <td><b>Lesson</b></td>
+</tr>
 {% for p in lessons_only  %}
 <tr>
     <td>
