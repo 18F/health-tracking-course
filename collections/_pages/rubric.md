@@ -11,7 +11,7 @@ permalink: /rubric/
 }
 
 .section:nth-of-type(odd) {
-    background: #ccc;
+    background: #eaeaea;
 }
 
 .section:nth-of-type(even) {
@@ -25,7 +25,7 @@ permalink: /rubric/
 
 .tip {
     margin: 0.5em;
-    padding: 0.2em;
+    padding: 0.9em;
     background: white;
     color: black;
     border-radius: 10px;
@@ -33,14 +33,14 @@ permalink: /rubric/
 
 .blanktip {
     margin: 0.5em;
-    padding: 0.2em;
+    padding: 0.9em;
     border-radius: 10px;
 }
 
 .green {
     margin: 0.5em;
-    padding: 0.2em;
-    background: #238823;
+    padding: .9em;
+    background: #57F41C;
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -48,8 +48,8 @@ permalink: /rubric/
 
 .yellow {
     margin: 0.5em;
-    padding: 0.2em;
-    background: #FFBF00;
+    padding: 0.9em;
+    background: #FFDF00;
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -57,19 +57,20 @@ permalink: /rubric/
 
 .red {
     margin: 0.5em;
-    padding: 0.2em;
-    background: #D2222D;
-    color: white;
+    padding: 0.9em;
+    background: #F65235;
+    color: black;
     font-size: 80%;
     border-radius: 10px;
 }
 
 .priority {
-    float: right;
+    float: left;
     margin: 1em;
     font-variant: small-caps;
     font-size: 120%;
     font-weight: bold;
+    width: 50%;
 
 }
 </style>
@@ -85,9 +86,9 @@ permalink: /rubric/
         <div class="grid-col-3">
             <div class="grid-row">
                 <div class="grid-col-12">
-                    <h1 style="font-variant: small-caps;">{{section.header}}</h1>
+                    <h1 style="font-variant: small-caps; padding-left: 1.5em;">{{section.header}}</h1>
 
-                    <h2>{{section.question}}</h2>
+                    <h2 style="padding-left: 2em; width: 90%;">{{section.question}}</h2>
                 </div> <!-- question --> 
             </div> <!-- row -->
             <div class="grid-row">
@@ -110,7 +111,7 @@ permalink: /rubric/
                     {% if forloop.first == true %}<hr>{% endif %}
                     <div class="grid-row grid-gap tiprow">
 {% for tip in dimension.tips %}
-                        <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip" {% if mod == 0 %}style="background: #ccc;"{% endif %} >
+                        <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip" {% if mod == 0 %}style="background: #eaeaea;"{% endif %} >
                             {{tip}}
                         </div>
                         {% if dimension.tips.size == 1%}

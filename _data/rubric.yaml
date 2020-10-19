@@ -2,7 +2,7 @@
   question: Are efforts clearly connected to intended outcomes and end users?
   wtm: Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work.
   priorities:
-    - level: "Top Priority" 
+    - level: "Top <br>Priority" 
       dimensions:
         - id: oo1.1 
           tips:
@@ -16,7 +16,7 @@
           red: Explanations of how the state will measure progress or program impact are incongruent or missing all together.
           yellow: Teams consistently articulate the impact they are targeting but do not have metrics or baselines.
           green: Teams consistently articulate their target metrics and can demonstrate how they are doing against baselines.
-    - level: "Medium Priority" 
+    - level: "Medium <br>Priority" 
       dimensions:
         - id: oo2.1
           tips:
@@ -25,7 +25,7 @@
           red: The team has no information about the current user experience.
           yellow: The team has information about the current experience but has not spoken directly to users.
           green: The team has collected feedback from end users directly and can demonstrate how they apply what they learn.
-    - level: "Lower Priority"
+    - level: "Lower <br>Priority"
       dimensions:
         - id: oo3.1
           tips:
@@ -43,7 +43,7 @@
   question: Does the state have the skills and capacity to to manage the work?
   wtm: Without some familiarityt with software development, an agency is not well equipped to evaluate vendor work and lead a dvelopment project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
   priorities:
-    - level: Top Priority
+    - level: Top <br>Priority
       dimensions:
         - id: sc1.1
           tips:
@@ -52,7 +52,7 @@
           red: The state depends entirely on a vendor for vision and strategy.
           yellow: State leads are identified but have limited time to lead the strategy and take direction from the vendor.
           green: State staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
-    - level: Medium Priority
+    - level: Medium <br>Priority
       dimensions:
         - id: sc2.1
           tips:
@@ -67,7 +67,7 @@
           red: Team mebers can't answer questions about the project or issues in plain language.
           yellow: Team members rely on vendors to answer questions, but answers are in plain language.
           green: All team members (including IT and procurement) can speak in plain language about the project.
-    - level: Lower Priority
+    - level: Lower <br>Priority
       dimensions:
         - id: sc3.1
           tips:
@@ -79,7 +79,7 @@
   question: Do the state's procurement and vendor management practices provide visibility and flexibility?
   wtm: States and vendors have different incentives. In order to make sure work is driving toward program outcomes, the state should drive and actively manage vendor work and build monitoring of quality into their contracts.
   priorities:
-    - level: Top Priority
+    - level: Top <br>Priority
       dimensions:
         - id: pf1.1
           tips: 
@@ -94,7 +94,7 @@
           red: The state has little or no expectations for monitoring quality in their contracts.
           yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
           green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure mointoring is implmented.
-    - level: Medium Priority
+    - level: Medium <br>Priority
       dimensions:
         - id: pf2.1
           tips:
@@ -102,7 +102,7 @@
           red: The state has little or no visibility into how data is stored or accessed.
           yellow: The state can use the vendor's tools to access data, but does not own the data.
           green: The state owns and controls access to all data.
-    - level: Lower Priority
+    - level: Lower <br>Priority
       dimensions: 
         - id: pf3.1
           tips:
@@ -115,7 +115,7 @@
   question: Does the state use iterative, secure development practices?
   wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
   priorities:
-    - level: Top Priority
+    - level: Top <br>Priority
       dimensions:
         - id: id1.1
           tips:
@@ -137,7 +137,7 @@
           red: The team cannot answer what types of testing they are doing, only that they test at the end of the process.
           yellow: The team can describe their testing approaches but testing is done by a siloed team.
           green: The team can demonstrate their testing approaches. Testing and development is done by the same team.
-    - level: Medium Priority
+    - level: Medium <br>Priority
       dimensions:
         - id: id2.1
           tips:
@@ -158,7 +158,7 @@
           red: The state can't tell you about the health of the system that's being used.
           yellow: The state manually monitors system health and creates reports on a regular basis.
           green: System health is monitored automatically and staff can show you a reporting dashboard.
-    - level: Lower priority
+    - level: Lower <br>priority
       dimensions:
         - id: id3.1
           tips:

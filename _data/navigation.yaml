@@ -6,7 +6,7 @@ primary_navigation:
       children:
         - name: Health Tracker
           url: https://airtable.com/shrsMy2dpZDPbWTXW
-        - name: Scoring Rubric 
+        - name: Health Rubric 
           url: /rubric/
     - name: Syllabus
       url: /syllabus/
