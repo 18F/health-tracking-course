@@ -12,7 +12,7 @@ date: October 8, 2020
 # {{ page.title }}
 
 
-*This lesson explores the highest priority dimension of the Outcomes and Orientation indicator of the health tracking rubric.*
+*This lesson explores the highest priority dimension of the State Capacity indicator of the health tracking rubric.*
 
 {% include rubric dimension="sc1.1" %}
 
