@@ -10,12 +10,12 @@ primary_navigation:
     #       url: /rubric/
     - name: Syllabus
       url: /syllabus/
-    - name: Resources
-      url: /resources/
     - name: Courses
       children:
         - name: Course One
           url: /course/one/overview/
+    - name: Resources
+      url: /resources/      
 
 secondary_navigation:
     - name: Rubric
