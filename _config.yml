@@ -72,19 +72,19 @@ ga:
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
 # 3. Add your site/affiliate name here.
-searchgov:
+# searchgov:
 
-  # You should not change this.
-  endpoint: https://search.usa.gov
+#   # You should not change this.
+#   endpoint: https://search.usa.gov
 
-  # replace this with your search.gov account
-  affiliate: federalist-uswds-example
+#   # replace this with your search.gov account
+#   affiliate: federalist-uswds-example
 
-  # replace with your access key
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+#   # replace with your access key
+#   access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
 
-  # this renders the results within the page instead of sending to user to search.gov
-  inline: true
+#   # this renders the results within the page instead of sending to user to search.gov
+#   inline: true
 
 ##########################################################################################
 # The values below here are more advanced and should only be

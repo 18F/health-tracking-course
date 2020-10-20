@@ -3,7 +3,7 @@ layout: widepage
 title: Kickoff
 course: 1
 lesson: 1
-indicator: Admin
+indicator: admin
 priority: High
 visibility: Visible
 date: October 8, 2020

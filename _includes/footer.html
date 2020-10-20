@@ -14,10 +14,8 @@
         <div class="tablet:grid-col">
           <ul class="add-list-reset">
             <li><a href="{{site.baseurl}}/">Home</a></li>
-            {% assign overviews = site.courses | where: "visibility", "Hidden" | sort: "course" %}
-            {% for c in overviews %}
-            <li><a href="{{ c.url | prepend: site.baseurl }}">{{ c.title }}</a></li>
-            {% endfor %}
+            <li><a href="{{site.baseurl}}/rubric/">Health Rubric</a></li>
+            <li><a href="{{site.baseurl}}/tracker/">Health Tracker</a></li>
           </ul>
         </div>
         <div class="tablet:grid-col">

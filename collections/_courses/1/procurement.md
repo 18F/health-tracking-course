@@ -3,7 +3,7 @@ layout: widepage
 title: "Progress and Risks"
 course: 1
 lesson: 4
-indicator: Procurement Flexibility
+indicator: procurement
 priority: High
 visibility: Visible
 date: October 8, 2020

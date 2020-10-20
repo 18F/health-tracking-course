@@ -2,8 +2,8 @@
 layout: widepage
 title: "Reading the Map"
 course: 1
-lesson: 1
-indicator: "Outcomes & Orientation"
+lesson: 2
+indicator: outcomes
 priority: High
 visibility: Visible
 date: October 15, 2020

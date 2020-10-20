@@ -1,0 +1,7 @@
+{% case include.slug %}
+    {% when "admin" %} Admin
+    {% when "outcomes" %} Outcomes & Orientation
+    {% when "capacity" %} State Capacity
+    {% when "procurement" %} Procurement Flexibility
+    {% when "development" %} Iterative Development 
+{% endcase %}
