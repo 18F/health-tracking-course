@@ -11,7 +11,7 @@ permalink: /syllabus/
 
 You may not realize it, but our doctors don’t like it when we only come to them when we’re sick. If they had their way, most doctors would love to see us 1) more often, 2) for less time, and 3) help us make sure we take better care of ourselves so that 4) we wouldn’t get sick in the first place! As an SO, which kind of doctor would you rather be? We suspect you’d prefer more checkups, for less time, and avoid the need for major heart surgery when an improved diet and a short walk every day would do the same job!
 
-This course is intended to help you apply your existing expertise as a State Officer in some new ways. It will help you think about how to apply your expertise on a continuous (as opposed to annual or bi-annual) basis. This will help more projects succeed, and therefore, yield better and more robust services for the people that we serve.
+This course is intended to help you apply your existing expertise as a State Officer in new ways. It will help you think about how to apply your expertise on a continuous basis instead of annually or bi-annually. This will help more projects succeed, and yield better and more robust services for the people that we serve.
 
 ## How Will This Course Help You Succeed?
 
@@ -23,9 +23,6 @@ There are three ways this course will help you improve your practices as an SO.
  
 **Tactics**. Long-term health often involves dealing with troublesome patients in the short term. Through case studies and role-plays, we’ll explore challenges you’re likely to encounter, and provide some concrete approaches to shaping behavior for the better.
 
-## What Resources Are Available? 
-
-There’s [quite a few resources available](/resources/), and we’ll be pulling from them throughout the course. There is, as always, more information than we have time to cover. 
 
 ## Goals
 
@@ -49,25 +46,25 @@ It is the long and rich history of the word "bullshit" that inspires us to use i
 
 ## Learning Objectives
 
-Learning objectives are the specific, measurable things we will learn through this course. The outcomes are explicitly structured around the [project health rubric][healthrubric]. 
+Learning objectives are the specific, measurable things we will learn through this course. The outcomes are explicitly structured around the [MES Health Rubric](https://app.mural.co/t/gsa6/m/gsa6/1593627219860/24d48fac2cd81e50723ca27920677c4b6bf94ba2). 
 
-Engaging with this course should increase your confidence in the following:
+Engaging with this course should increase your confidence in the 4 Primary indicators of the Health Rubric:
 
-### Efforts and Outcomes
+### Outcomes orientation
 
 1. Describe short-term project value proposition and long-term alignment.
 2. Appraise process and progress to appropriate baselines and metrics.
 3. Assess user involvement and impact on project timeline and deliverables.
 4. Relate individual and departmental priorities to projects' roadmap and value proposition.
 
-### State's Skills and Capacities
+### State capacity
 
 1. Describe state's technical staffing and strategy (apart from vendor's strategy).
 2.  Assess project staffing and needs.
 3.  Grade the "bullshit score" of language regarding a project.
 4.  Judge relationships within and between teams. 
 
-### Procurement and Vendor Management
+### Procurement flexibility
 
 1. Compare state's estimates of progress to personal assessments and expectations.
 2. Rate contractual commitments to ongoing quality of process and product.
@@ -75,7 +72,7 @@ Engaging with this course should increase your confidence in the following:
 4. Observe level of state commitment to outcomes and success.
 5. Review state's understanding of vendor budget and project spending.
 
-### Software Development Practices
+### Iterative development
 
 1. Judge in-progress work (e.g. software demonstrations) over time, distinguishing progress from "canned" or otherwise "bullshit" demos.
 2.  Review involvement of users as an ongoing aspect of development process.
@@ -84,3 +81,4 @@ Engaging with this course should increase your confidence in the following:
 5.  Assess quality of software testing.
 6.  Appraise system health and quality of health assessment tooling.
 7.  Discuss project openness and the state decision making process regarding software openness.
+
