@@ -63,7 +63,7 @@ collections:
         }
       - {
         label: "Visibility", 
-        name: "visibility", 
+        name: "visible", 
         widget: "boolean", 
         default: true
         }

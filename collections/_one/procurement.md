@@ -4,7 +4,7 @@ title: "Progress and Risks"
 course: 1
 lesson: 4
 indicator: procurement
-priority: High
+priority: high
 visible: true
 date: October 8, 2020
 releaseQuestions:

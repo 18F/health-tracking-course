@@ -4,7 +4,7 @@ title: "Tech and Product Management"
 course: 1
 lesson: 3
 indicator: capacity
-priority: High
+priority: high
 visible: true
 date: October 8, 2020
 ---

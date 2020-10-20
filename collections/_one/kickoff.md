@@ -4,7 +4,7 @@ title: Kickoff
 course: 1
 lesson: 1
 indicator: admin
-priority: High
+priority: high
 visible: true
 date: October 8, 2020
 permalink: /course/1/kickoff/

@@ -4,7 +4,7 @@ title: "Demos not Memos"
 course: 1
 lesson: 5
 indicator: development
-priority: High
+priority: high
 visible: true
 date: October 8, 2020
 ---

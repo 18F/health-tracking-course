@@ -4,6 +4,7 @@ title: "Report Out"
 course: 1
 lesson: 7
 indicator: admin
+priority: high
 visible: true
 date: October 20, 2020
 ---

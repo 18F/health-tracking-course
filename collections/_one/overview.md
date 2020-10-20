@@ -2,6 +2,7 @@
 layout: widepage
 title: "Course One"
 indicator: admin
+priority: high
 visible: false
 ---
 
