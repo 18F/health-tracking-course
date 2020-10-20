@@ -11,7 +11,7 @@ backend:
   base_url: https://federalistapp.18f.gov
   auth_endpoint: external/auth/github
   preview_context: federalist/build
-  branch: main
+  branch: jadudm
 
 # See https://www.netlifycms.org/docs/beta-features/
 # local_backend: true
@@ -34,7 +34,7 @@ collections:
     # https://www.netlifycms.org/docs/beta-features/
     # slug: "{{indicator}}-{{priority}}-{{assessment}}-{{slug}}-{{course}}"
     # https://www.netlifycms.org/docs/beta-features/
-    slug: "one/{{slug}}"
+    # slug: "{{slug}}"
     editor:
       preview: false
     fields:
