@@ -1,9 +1,11 @@
 ---
 layout: widepage
-title: "Course One"
+title: Course One Overview
+lesson: 0
 indicator: admin
 priority: high
 visible: false
+date: October 20, 2020
 ---
 
 # {{ page.title }}
