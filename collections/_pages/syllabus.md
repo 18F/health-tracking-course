@@ -48,7 +48,7 @@ It is the long and rich history of the word "bullshit" that inspires us to use i
 
 Learning objectives are the specific, measurable things we will learn through this course. The outcomes are explicitly structured around the [MES Health Rubric](https://app.mural.co/t/gsa6/m/gsa6/1593627219860/24d48fac2cd81e50723ca27920677c4b6bf94ba2). 
 
-Engaging with this course should increase your confidence in the 4 Primary indicators of the Health Rubric:
+Engaging with this course should increase your confidence in the 4 primary indicators of the MES Health Rubric:
 
 ### Outcomes orientation
 
