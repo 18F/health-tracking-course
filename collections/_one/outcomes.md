@@ -5,7 +5,7 @@ course: 1
 lesson: 2
 indicator: outcomes
 priority: High
-visibility: Visible
+visible: true
 date: October 15, 2020
 ---
 

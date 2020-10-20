@@ -23,8 +23,22 @@ email: matthew.jadud@gsa.gov
 description: >-
   Pilot materials supporting CMS/SOs in using the Health Tracker.
 baseurl: "" 
-# url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
+# the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://example.gov"
 twitter: 18F
+
+collections_dir: collections
+collections:
+  one:
+    output: true
+    # Path so that course/name works from Netlify.
+    permalink: /course/one/:slug/
+    sort_by: lesson
+  pages:
+    output: true
+    permalink: /:name/
+
+permalink: pretty
 
 #################################################################
 #
@@ -90,19 +104,6 @@ ga:
 # The values below here are more advanced and should only be
 # changed if you know what they do
 ##########################################################################################
-
-collections_dir: collections
-collections:
-  courses:
-    output: true
-    # Path so that course/name works from Netlify.
-    permalink: /:collection/:path/
-    sort_by: lesson
-  pages:
-    output: true
-    permalink: /:name/
-
-permalink: pretty
 
 markdown: kramdown
 plugins:

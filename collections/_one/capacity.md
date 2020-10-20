@@ -5,7 +5,7 @@ course: 1
 lesson: 3
 indicator: capacity
 priority: High
-visibility: Visible
+visible: true
 date: October 8, 2020
 ---
 

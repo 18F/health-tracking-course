@@ -5,7 +5,7 @@ course: 1
 lesson: 4
 indicator: procurement
 priority: High
-visibility: Visible
+visible: true
 date: October 8, 2020
 releaseQuestions:
     -   What are the three things he thinks developers are trying to balance?

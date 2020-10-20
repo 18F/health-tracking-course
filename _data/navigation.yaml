@@ -14,25 +14,8 @@ primary_navigation:
       url: /resources/
     - name: Courses
       children:
-        - name: Course One -
-          url: /courses/1/overview/
-        - name: Course Two
-          url: /courses/2/overview/
-
-courseone:
-  children: 
-    - name: Overview
-      url: /courses/1/overview/
-    - name: Kickoff
-      url: /1/kickoff/
-    - name: Outcomes & Orientation
-      url: /1/outcomes/
-    - name: State Capacity
-      url: /1/capacity/
-    - name: Procurement Flexibility
-      url: /1/procurement/
-    - name: Iterative Development
-      url: /1/development/
+        - name: Course One
+          url: /course/one/overview/
 
 secondary_navigation:
     - name: Rubric

@@ -1,8 +1,8 @@
 ---
 layout: widepage
-title: "Course Two"
-course: 2
-visibility: Hidden
+title: "Course One"
+indicator: admin
+visible: false
 ---
 
 # {{ page.title }}
@@ -11,9 +11,9 @@ In the first course, you will get a chance to engage with the highest priority e
 
 Subsequent courses will build your depth of knowledge regarding the practice of assessing software project management. When you are done with the first course, you'll be ready to begin applying the tracker with confidence, and tackle the material in the second course.
 
+{{ site.collections.one }}
 
-{% assign lessons_only = site.courses | where: "visibility", "Visible" | where: "course", 2 | sort: "lesson" %}
-
+{% assign lessons = site.one | where: "visible", true | sort: "lesson" %}
 
 ## Lessons In This Course
 
@@ -22,10 +22,16 @@ Subsequent courses will build your depth of knowledge regarding the practice of 
     <td><b>Health Indicator</b></td>
     <td><b>Lesson</b></td>
 </tr>
-{% for p in lessons_only  %}
+
+{% for p in lessons %}
+    {% if p.indicator == "admin" %}
+        {% assign color = "#aaaaaa" %}
+    {% else %}
+        {% assign color="#1d3557" %}
+    {% endif %}
 <tr>
     <td>
-        <span style="background: #1d3557; color: white; padding-left: 1em; padding-right: 1em;padding-top: 0.2em; padding-bottom: 0.2em; "> {{ p.indicator }} </span> 
+        <span style="background: {{ color }}; color: white; padding-left: 1em; padding-right: 1em;padding-top: 0.2em; padding-bottom: 0.2em; ">{% include indicator slug=p.indicator %}</span> 
     </td>
     <td> 
         <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>

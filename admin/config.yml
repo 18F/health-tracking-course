@@ -27,39 +27,26 @@ publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
 
 collections:
-  - label: Lessons
-    label_singular: Lesson
-    name: lessons
-    folder: collections/_courses
+  - label: Course One
+    name: one
+    folder: collections/_one
     create: true
     # https://www.netlifycms.org/docs/beta-features/
-    nested:
-      depth: 2
-      summary: "Course {{course}}"
     # slug: "{{indicator}}-{{priority}}-{{assessment}}-{{slug}}-{{course}}"
     # https://www.netlifycms.org/docs/beta-features/
-    slug: "{{course}}/{{slug}}"
+    slug: "one/{{slug}}"
     editor:
       preview: false
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'widepage'}
       - {label: "Title", name: "title", widget: "string"}
-      - {
-        label: "Course", 
-        name: "course", 
-        widget: "number", 
-        default: 1,
-        min: 1,
-        max: 12,
-        value_type: "int"
-        }
       - { 
         label: "Lesson", 
         name: "lesson", 
         widget: "number", 
         default: 1,
-        min: 1,
-        max: 8,
+        min: 0,
+        max: 12,
         value_type: "int"
         }
       - {
@@ -72,13 +59,13 @@ collections:
         label: "Priority", 
         name: "priority", 
         widget: "select", 
-        options: ["High", "Medium", "Low"]
+        options: ["high", "medium", "low"]
         }
       - {
         label: "Visibility", 
         name: "visibility", 
-        widget: "select", 
-        options: ["Visible", "Hidden"]
+        widget: "boolean", 
+        default: true
         }
 
       - {
