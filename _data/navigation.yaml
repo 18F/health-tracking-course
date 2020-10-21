@@ -22,7 +22,6 @@ secondary_navigation:
       url: "/rubric/"
     - name: Tracker
       url: "https://airtable.com/shrsMy2dpZDPbWTXW"
-      external: true
 
 syllabus:
     - name: Contact
