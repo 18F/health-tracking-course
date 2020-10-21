@@ -28,7 +28,7 @@ permalink: /course/1/kickoff/
     </div>
 </div>
 
-Another way to get yourself into the course material would be to [read the syllabus](/syllabus/) while listening to some tunes you enjoy. (Or, in quiet. Whatever works best for you.)
+Another way to get yourself into the course material would be to [read the syllabus]({{ '/syllabus/' | prepend: site.baseurl }}) while listening to some tunes you enjoy. (Or, in quiet. Whatever works best for you.)
 
 ## What This Course Covers
 
@@ -62,6 +62,6 @@ We'll say this all again. Point being: demos not memos.
 
 ## Pause to Reflect
 
-Once you have listened to the intro (or read through the syllabus), you can revisit the [scoring rubric](/rubric/) that is used in the Health Tracker. (You don't *have* to re-read it, but if you want to, you can.) Then, pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous, and it will help us as we shape the course and the conversations we have over the coming weeks.
+Once you have listened to the intro (or read through the syllabus), you can revisit the [scoring rubric]({{ '/rubric/' | prepend: site.baseurl }}) that is used in the Health Tracker. (You don't *have* to re-read it, but if you want to, you can.) Then, pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous, and it will help us as we shape the course and the conversations we have over the coming weeks.
 
 {% include airtable-pre.html %}
