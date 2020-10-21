@@ -1,79 +1,39 @@
-<!--
-  Federalist recommends you use Continuous Integration to automatically test
-  and validate any new changes to your site. CircleCI is free for open source
-  projcets. You should replace this badge with your own.
+---
+title: README
+---
 
-  https://circleci.com/
-[![CircleCI](https://circleci.com/gh/18F/federalist-uswds-jekyll.svg?style=svg)](https://circleci.com/gh/18F/federalist-uswds-jekyll)
--->
+# {{ page.title }}
 
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=jadudm/cms-htmd)](https://dependabot.com)
+This course is being developed in conjunction with colleagues at the Centers for Medicare and Medicaid Services. The goal of this course is to support State Officers in tracking project health on an on-going basis. We do this by supporting SOs in asking questions in four broad categories:
 
-# Federalist + U.S. Web Design System + Jekyll
+1. **Assessing Health**. Is my state is on track for success?
+2. **Questioning and Listening**. Is a state or vendor bullshitting me?
+3. **Process and Action**. What steps can I take to improve project outcomes?
+4. **Self and Community**. Am I confident in my work?
 
-This [Jekyll theme](https://jekyllrb.com/docs/themes/) is developed using the [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for Federalist websites.
+## About the word "Bullshit"
 
-This code uses the [Jekyll](https://jekyllrb.com) site engine and built with Ruby. If you prefer to use Javascript, check out [federalist-uswds-gatsby](https://github.com/18F/federalist-uswds-gatsby), which uses [Gatsby](https://gatsbyjs.org) site engine.
+The word "bullshit" has a [long, rich history](https://www.etymonline.com/word/bull?ref=etymonline_crossreference#etymonline_v_18053). It's root, *bull*, comes potentially from the Old French (*bole*) or Icelandic (*bull*), generally meaning to deceive or trick, or in the Icelandic, "nonsense." In 1600's English, it might mean "a ludicrous blunder involving a contradiction in terms," with evidence of its use in the English language going back to the 14th century. 
 
-This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
+In this course, "bullshit" is used as a technical term of art; we embrace the fact that people around the world have been calling bullshit for a very, very long time.
 
-- is accessible to individuals with disabilities;
-- has a consistent appearance;
-- does not duplicate any legacy websites (the legislation also requires agencies to ensure that legacy websites are regularly reviewed, removed, and consolidated);
-- has a search function;
-- uses an industry standard secure connection;
-- “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
-- allows for user customization; and
-- is mobile-friendly.
+# About This Course
 
-### Running the application
+These materials are structured around a series of courses. Each course is made up of four lessons. Each lesson addresses one row of the [health rubric]({{ '/rubric/' | prepend: site.baseurl }}). 
 
-#### With Docker
-    $ docker-compose run node npm install
-    $ docker-compose build
-    $ docker-compose up
+## Taking This Course
 
-To build but not serve the site, run:
-```
-docker-compose run ruby bundle exec jekyll build
-```
-.
+If you are taking this course, we recommend the following:
 
-Note that when built by Federalist, `npm run federalist` is used instead of
-`npm run build`.
+1. **Find some friends**. Do the course with at least one colleague. The course assumes you will have people to talk to about your learning on an ongoing basis.
+2.  **Make time**. Each lesson requires 1-2 hours of reading, viewing, and reflection. Each lesson typically ends with one hour of conversation and reflection in community with your colleagues.
+3.  **Reflect and Revisit**. Learning is not just the conveyance of information. Each lesson will introduce you to new ideas that may take time to understand and integrate into your professional practice. Don't be afraid to revisit the material from time-to-time to refresh yourself when you have questions.
+4.  **Ask Questions**. Finally, remember you are learning in community with others. *Ask questions!* Talk with your colleagues about things you learn, questions you have, and (once you are beginning to apply these ideas) challenges that come up in your day-to-day work with states and vendors.
 
-Open your web browser to [localhost:4000](http://localhost:4000/) to view your
-site.
+## Thank You
 
-### Testing
+Learning is hard. It is to be respected and honored. If you have questions, comments, or concerns, please reach out to your colleagues at 18F and we'll be glad to support you in your work.
 
-#### With locally installed `node` and `ruby`
-    $ npm test
-    OR
-    $ bundle exec htmlproofer _site; npx a11y '_site/**/*.html'
+## License
 
-#### With Docker
-    $ docker-compose run ruby bundle exec htmlproofer _site; npx a11y '_site/**/*.html'
-
-## Technologies you should be familiarize yourself with
-
-- [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
-- [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
-- [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov) 
-
-
-## Contributing
-
-See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
-
-## Public domain
-
-This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
-
-> This project is in the public domain within the United States, and copyright
-> and related rights in the work worldwide are waived through the [CC0 1.0
-> Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
->
-> All contributions to this project will be released under the CC0 dedication.
-> By submitting a pull request, you are agreeing to comply with this waiver of
-> copyright interest.
+This material is made available under the CC0 license. That means that it is free of all licensing and copyright as a work of the US Government. See the [full license]({{ '/LICENSE/' | prepend: site.baseurl }}) for details.
