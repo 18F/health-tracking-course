@@ -1,12 +1,12 @@
 ---
 layout: widepage
 title: Tech and Product Management
+course: 1
 lesson: 3
 indicator: capacity
 priority: high
 visible: true
 date: October 8, 2020
-course: 1
 ---
 
 # {{ page.title }}
@@ -49,30 +49,16 @@ While this content is fresh, pick (at least) two people you work with on your pr
 
 Jot down a few bullets for each. We're not diving deep here; the goal is to reflect some of the learning you've just done back into your own project work.
 
+
+
 ## Discussion: Team Function (1h, group)
 
-With a colleague, find a time to have some conversation about your projects. For this conversation, roughly follow the script below. You might work your way through each set of questions, building up a shared understanding of each-other's projects.
+With a colleague, find a time to have some conversation about your projects. 
 
-1. How would you describe the "feeling" of communications you have with your teams?
-   1. Stiff? Formal?
-   2. Informal? Plain language?
-2. Who do you talk with on your teams? 
-   1. How many people on the teams do you know? 
-   2. Do you get to talk with entire teams (state, vendor), or do you only get to talk to leadership?
-3. What kind of relationship do you think the state and vendor teams have?
-   1. With each-other?
-   2. With the State CTO?
-4. When you talk to people in technical leadership roles:
-   1. Do they use plain language to describe their work?
-   2. Do you think they are being honest, or trying to hide difficulty with complexity?
-   3. Do they answer simple questions in simple ways?
-5. When you talk to people in product management roles:
-   1. Is everything always going well?
-   2. Do they seem to value the people they work with?
-   3. Do they seem to have a broad understanding (technical and user-centered) about the product?
-
-By the end of an hour, you should have a shared understanding of each-other's projects. Most importantly, you want to compare and contrast the teams you have observed working on your projects, both on the state side and vendor side. 
-
-Try and leave a few minutes to go back through, with your partner, and "flag" things as "red light," "yellow light," "green light." That is, given your knowledge so far, identify things you think are good ("green light"), things that might be cause for concern or to pay more attention to ("yellow light"), and those aspects of your teams that you think are going to be a space of focus and potential intervention in the future ("red light"). We'll come back to those "red light" concerns in future modules.
+1. {% include countdowntimer id="checkin" minutes=5 %} **Check in**. First, check in with each-other. How are you all doing? Take a moment to share something positive from the week, either at work or at home.
+2. {% include countdowntimer id="collect" minutes=3 %} **Collect Thoughts**. In the next step, you're going to report out brief answers to each of the questions below. So, lets collect our thoughts. Read the questions below, and make a note or two about each, so that you'll be ready to speak clearly and briefly about each.
+3. {% include countdowntimer id="circle" minutes=20 %} **Question Circle**. For each of the five questions below, take 2m each to answer these questions round-robin style. That is, take question 1, and have each person report out for 1-2m (no more! be brief!). Then, move on to question 2, and so on.
+4. {% include countdowntimer id="contrast" minutes=20 %} **Compare and Contrast**. You've not heard from each-other regarding each-other's projects. What resonated as familiar or similar? What sounds different? Did anything surface that was particularly challenging or problematic? You might want to take a few minutes as a group and dig into those challenging spaces. Try not to spend more than 5-8 minutes per challenge.
+5. {% include countdowntimer id="redgreen" minutes=5 %} **Red / Green**. Finally, go back through with your partner and "flag" things as "red light," "yellow light," "green light." That is, given your knowledge so far, identify things you think are good ("green light"), things that might be cause for concern or to pay more attention to ("yellow light"), and those aspects of your teams that you think are going to be a space of focus and potential intervention in the future ("red light"). We'll come back to those "red light" concerns in future modules.
 
 {% include airtable-post.html %}

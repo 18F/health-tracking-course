@@ -35,8 +35,31 @@ site, this is the place to do it.
   <link rel="shortcut icon" type="image/ico" href="{% asset favicons/favicon.ico @path %}">
   <link rel="icon" type="image/png" href="{% asset favicons/favicon.png @path %}">
   <link rel="icon" type="image/png" sizes="192x192" href="{% asset favicons/favicon-192.png @path %}">
-  <!-- CSS
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.min.js" integrity="sha512-OyrI249ZRX2hY/1CAD+edQR90flhuXqYqjNYFJAiflsKsMxpUYg5kbDDAVA8Vp0HMlPG/aAl1tFASi1h4eRoQw==" crossorigin="anonymous"></script>  <!-- CSS
     ================================================== -->
   {% asset index.scss %}
   {% asset rubric.css %}
 </head>
+
+
+<script>
+  function countdownTimer(durationInMinutes, id) {
+     var duration = durationInMinutes * 60;
+     var timer = duration, minutes, seconds;
+     var thisTimer = setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+        document.getElementById(id).innerHTML = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+           var audio = new Audio("{{ '/audio/bing-bong.mp3' | prepend: site.baseurl }}");
+           document.getElementById(id).innerHTML = "STOP";
+           audio.play();
+           clearInterval(thisTimer);
+        }
+     }, 1000);
+  }
+</script>
