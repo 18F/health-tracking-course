@@ -26,6 +26,22 @@ As you engage in your reading and viewing, **remember to make note of questions 
 * TOC
 {:toc}
 
+{% alert no-icon Two Quick Notes %}
+
+<p>
+    Before you get started, two quick, hot takes.
+</p>
+
+<p>
+    <b>Work with what y'a got</b>. If a lesson suggests you look at material from states, and you don't have it... <i>you do not need to go asking for it</i>. Instead, use it as an opportunity to reach out to your learning cohort, and see if anyone else has materials you might look at. The spirit of using authentic materials is to keep the learning authentic. You'll have plenty of time later to ask questions of your states and their vendors; for now, this learning is for you and your colleagues.
+</p>
+
+<p>
+    <b>Leverage your colleagues</b>. You're doing this work in a cohort for many reasons. In part, it is to build community&mdash;you're engaged in learning together, and that's powerful. Many of these lessons will suggest "solo" work. You are, however, welcome to schedule time with a colleague to do that learning together if you like. <b>Yes, you can have "study buddies."</b> It might be easier to hold yourself (and each-other) accountable, it might make the learning more fun, and it will certainly help you get to know your colleagues better. So, don't be afraid to chat with each-other in whatever way makes sense as you're engaged in your learning.
+</p>
+
+{% endalert %}
+
 ## Conceptual: What Kind, When? (1h, solo)
 
 There are *many* kinds of roadmap. When it comes to categorizing things, I sometimes find it is good to start with a spectrum, or grid. That is, I like to find a way to "position" what I'm looking at.
@@ -127,6 +143,20 @@ Pull one. Go back to a recent roadmap from one of your projects, and look at it.
 
 These are fairly common roadmap questions. 
 
+{% alert warning What if I don't have a map? %}
+<p>
+    It might be that you don't have a roadmap to hand. Perhaps your state doesn't have one in their reported materials. Perhaps you're new, and you don't have have material that has accumulated from past projects.
+</p>
+
+<p>
+    This is an excellent time to leverage your community. Reach out to the cohort you're going through this course with, and ask if anyone would like to pair-share on this question. Yes, it says <b>solo</b> in terms of the work. But that's just a suggestion. You are <em><b>always</b> welcome and encouraged</em> to collaborate with colleagues in these learning activities.
+</p>
+
+<p>
+    So, drop a friend a note. See if anyone has a roadmap they'd be willing to share, or perhaps just schedule some time for coffee, and talk your way through these questions together. Either/both are absolutely excellent ways to engage in your learning.
+</p>
+{% endalert %}
+
 ## Reflecting on a Map (30m, solo)
 
 These questions are of a different nature. The previous set of questions asked you to make some judgements... but, really, they're questions that a good roadmap should almost answer for you.
@@ -155,3 +185,5 @@ Come together with your colleagues for a conversation.
 ## Reflect Out (10m, solo)
 
 When you're done, we'd greatly appreciate you taking a few minutes to briefly reflect out from this lesson.
+
+{% include airtable-post.html %}
