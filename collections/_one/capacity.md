@@ -1,14 +1,14 @@
 ---
 layout: widepage
-title: Lesson 2 - Tech and Product Management
+title: Tech and Product Management
+course: 1
 lesson: 2
 indicator: capacity
 priority: high
 visible: true
 date: October 8, 2020
-course: 1
 ---
-# {{ page.title }}
+# Lesson {{ page.lesson }} - {{ page.title }}
 
 *This lesson is about a top priority for the "State capacity" primary indicator in the health rubric.* 
 

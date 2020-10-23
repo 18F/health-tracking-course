@@ -2,7 +2,7 @@
 layout: widepage
 title: "Progress and Risks"
 course: 1
-lesson: 4
+lesson: 3
 indicator: procurement
 priority: high
 visible: true

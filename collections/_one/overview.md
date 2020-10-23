@@ -37,7 +37,8 @@ Subsequent courses will build your depth of knowledge regarding the practice of 
         <span style="background: {{ color }}; color: white; padding-left: 1em; padding-right: 1em;padding-top: 0.2em; padding-bottom: 0.2em; ">{% include indicator slug=p.indicator %}</span> 
     </td>
     <td> 
-        <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+        
+           <a href="{{ p.url | prepend: site.baseurl }}">{% if p.lesson > 0 %}Lesson {{ p.lesson }} - {% endif %}{{ p.title }}</a>
     </td>
 </tr>
 {% endfor %}

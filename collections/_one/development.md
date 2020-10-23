@@ -2,7 +2,7 @@
 layout: widepage
 title: "Demos not Memos"
 course: 1
-lesson: 5
+lesson: 4
 indicator: development
 priority: high
 visible: true

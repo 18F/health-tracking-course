@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Lesson 1 - Reading the Map
+title: Reading the Map
 lesson: 1
 indicator: outcomes
 priority: high

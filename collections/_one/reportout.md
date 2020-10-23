@@ -2,7 +2,7 @@
 layout: widepage
 title: "Report Out"
 course: 1
-lesson: 7
+lesson: 5
 indicator: admin
 priority: high
 visible: true
