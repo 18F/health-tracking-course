@@ -1,7 +1,7 @@
 ---
 layout: widepage
-title: Course One Overview
-course: 1
+title: Course Two Overview
+course: 2
 lesson: 0
 indicator: admin
 priority: high
@@ -11,11 +11,9 @@ date: October 20, 2020
 
 # {{ page.title }}
 
-In the first course, you will get a chance to engage with the highest priority elements of the project Health Tracker. The goal of this course is to build familiarity. When you are done, you'll have a holistic sense for how the Health Tracker, as a tool, is really just the *reporting* stage of a *process*. 
+In the second course, you will get a chance to engage with more elements of the project Health Tracker. The goal of this course is to begin building more depth of understanding around software projects and their successful management. 
 
-Subsequent courses will build your depth of knowledge regarding the practice of assessing software project management. When you are done with the first course, you'll be ready to begin applying the tracker with confidence, and tackle the material in the second course.
-
-{% assign lessons = site.one | where: "visible", true | sort: "lesson" %}
+{% assign lessons = site.two | where: "visible", true | sort: "lesson" %}
 
 ## Lessons In This Course
 

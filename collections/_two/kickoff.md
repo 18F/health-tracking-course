@@ -1,0 +1,51 @@
+---
+layout: widepage
+title: Kickoff
+course: 1
+lesson: 0
+indicator: admin
+priority: high
+visible: true
+date: October 8, 2020
+permalink: /course/1/kickoff/
+---
+
+# {{ page.title }}
+
+Course Two is not necessarily more complex or harder than Course One. It continues to work its way down the [rubric]({{ "/rubric/" | prepend: site.baseurl }}), exploring the depth and breadth of project monitoring.
+
+## What This Course Covers
+
+This course will cover four dimensions of the Health Tracker, one for each indicator.
+
+### Outcomes and Orientation
+
+The first indicator has to do with a project's **outcomes and orientation**. By *orientation*, we mean "which way is it pointing?" Having a "map" of sorts, and knowing how to keep an agile project pointed in the right direction is a challenge unto itself.
+
+{% include rubric dimension="oo1.2" %}
+
+### State Capacity
+
+The second indicator has to do with a **state's capacity** to manage the project on an ongoing basis. We'll focus on understanding the roles people play, and how those roles can (and cannot) contribute to project success.
+
+{% include rubric dimension="sc1.2" %}
+
+### Procurement Flexibility
+
+**Procurement flexibility** is *critical*. It is where the money meets the work. In this course, we're going to focus in on questions about progress tracking. How are deadlines chosen? Who chooses them? Why? What stories are told when deadlines are hit, and what stories are told when deadlines are missed?
+
+{% include rubric dimension="pf1.2" %}
+
+### Iterative Development
+
+The final indicator we will talk about has to do with **iterative development**. In this first course, we're going to focus on the most important thing you can: **demos**. That is, *working software*. If someone gives you a report about a piece of software, *the software probably doesn't work*. (Ask me how I know.) If someone shows you a video of a piece of software, *the software may have worked once*. (Ask me how I know.) If someone shows you a piece of software, but they control it, *the software barely works*. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+
+We'll say this all again. Point being: demos not memos.
+
+{% include rubric dimension="id1.2" %}
+
+## Pause to Reflect
+
+Once you have listened to the intro (or read through the syllabus), you can revisit the [scoring rubric]({{ '/rubric/' | prepend: site.baseurl }}) that is used in the Health Tracker. (You don't *have* to re-read it, but if you want to, you can.) Then, pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous, and it will help us as we shape the course and the conversations we have over the coming weeks.
+
+{% include airtable-pre.html %}

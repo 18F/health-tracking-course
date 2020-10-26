@@ -34,6 +34,11 @@ collections:
     # Path so that course/name works from Netlify.
     permalink: /course/one/:slug/
     sort_by: lesson
+  two:
+    output: true
+    # Path so that course/name works from Netlify.
+    permalink: /course/two/:slug/
+    sort_by: lesson
   pages:
     output: true
     permalink: /:name/
