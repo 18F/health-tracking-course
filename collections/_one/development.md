@@ -24,7 +24,7 @@ It's simple: do you get to see the software in progress, or not? If not, you sho
 
 You've seen a lot of projects over your time. You've seen successful projects, and unsuccessful projects.
 
-When it comes to how the software was developed, did the vendor share the work in progress? Did the state get to see incremental improvements step-by-step? Or, was the software developed in the dark, with reports written on schedule (such *beautiful* reports), and then when the deadline came for delivery, there were problems? 
+When it comes to how the software was developed, did the vendor share the work in progress? Did the state get to see incremental improvements step-by-step? Or was the software developed in the dark, with reports written on schedule (such *beautiful* reports), and then when the deadline came for delivery, there were problems? 
 
 In your journal, make some notes about the projects you've seen, focusing on how the software was discovered.
 
