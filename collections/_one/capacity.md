@@ -17,7 +17,7 @@ date: October 8, 2020
 Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
 
 * TOC
-  {:toc}
+{:toc}
 
 ## Reflection: Managing Projects (20m, solo)
 
