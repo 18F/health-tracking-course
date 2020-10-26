@@ -42,6 +42,6 @@ When you're done, you'll have four "lessons learned" and four actionable "next s
 
 ## Report Out (?m, team)
 
-To celebrate the completion of the first course, find time in a team huddle to report out on this first course. The core of your presentation should be the four lessons learned, and the actionable next steps. It is likely that you won't have much time (because, sadly, we're all busy), but this is an opportunity for your colleagues to lift you up for having undertaken this learning, and a chance for you to share out how you hope to advance and grow as a state officer.
+To celebrate the completion of the first course, find time in a team huddle to report out on this first course. The core of your presentation should be the four lessons learned and the actionable next steps. It is likely that you won't have much time, but this is an opportunity for your colleagues to lift you up for having undertaken this learning, and a chance for you to share out how you hope to advance and grow as a state officer.
 
-Congratulations. You've completed course one. 
+Congratulations. You've completed course one. :tada:
