@@ -1,13 +1,12 @@
 ---
 layout: widepage
 title: Kickoff
-course: 1
+course: 2
 lesson: 0
 indicator: admin
 priority: high
 visible: true
-date: October 8, 2020
-permalink: /course/1/kickoff/
+date: October 26, 2020
 ---
 
 # {{ page.title }}
@@ -20,27 +19,25 @@ This course will cover four dimensions of the Health Tracker, one for each indic
 
 ### Outcomes and Orientation
 
-The first indicator has to do with a project's **outcomes and orientation**. By *orientation*, we mean "which way is it pointing?" Having a "map" of sorts, and knowing how to keep an agile project pointed in the right direction is a challenge unto itself.
+The first indicator has to do with a project's **outcomes and orientation**. Part of the rubric that we'll investigate has to do with how teams measure progress, and whether they can demonstrate progress against those metrics and baselines.
 
 {% include rubric dimension="oo1.2" %}
 
 ### State Capacity
 
-The second indicator has to do with a **state's capacity** to manage the project on an ongoing basis. We'll focus on understanding the roles people play, and how those roles can (and cannot) contribute to project success.
+The second indicator has to do with a **state's capacity** to manage the project on an ongoing basis. Here, we start to pick apart the roles that we might see within a well managed software project, and how those roles work together.
 
-{% include rubric dimension="sc1.2" %}
+{% include rubric dimension="sc2.1" %}
 
 ### Procurement Flexibility
 
-**Procurement flexibility** is *critical*. It is where the money meets the work. In this course, we're going to focus in on questions about progress tracking. How are deadlines chosen? Who chooses them? Why? What stories are told when deadlines are hit, and what stories are told when deadlines are missed?
+**Procurement flexibility** is *critical*. It is where the money meets the work. The second course explores quality monitoring, which ties in neatly with other dimensions of the rubric explored in course two.
 
 {% include rubric dimension="pf1.2" %}
 
 ### Iterative Development
 
-The final indicator we will talk about has to do with **iterative development**. In this first course, we're going to focus on the most important thing you can: **demos**. That is, *working software*. If someone gives you a report about a piece of software, *the software probably doesn't work*. (Ask me how I know.) If someone shows you a video of a piece of software, *the software may have worked once*. (Ask me how I know.) If someone shows you a piece of software, but they control it, *the software barely works*. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
-
-We'll say this all again. Point being: demos not memos.
+The final indicator we will talk about has to do with **iterative development**. Testing is a sometimes misunderstood and, yet, *critical* aspect of a long-lived software project. Specifically, this lesson will speak to the role that *actual users* play in the ongoing testing of a major software project.
 
 {% include rubric dimension="id1.2" %}
 

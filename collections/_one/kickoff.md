@@ -7,7 +7,6 @@ indicator: admin
 priority: high
 visible: true
 date: October 8, 2020
-permalink: /course/1/kickoff/
 ---
 
 # {{ page.title }}
