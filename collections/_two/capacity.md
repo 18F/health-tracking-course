@@ -100,6 +100,27 @@ To close out this lesson, come together with your learning cohort.
 5. **Repeat**. Repeat steps 2, 3, and 4, but switching roles.
 6. **Wrap**. {% include countdowntimer id="wrap" minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
+
+{% alert no-icon Regarding Roleplays %}
+
+<p>
+    Roleplays are fun.
+</p>
+
+<p>
+   They are also a powerful simulation tool. When you roleplay the vendor-side, you're stepping out of your normal headspace, and attempting to imagine the system that you are part of from another perspective. In terms of evaluation, this is a critical skill.
+</p>
+
+<p>
+   When you are roleplaying the State Officer engaging with the vendor, you're developing and practicing questioning skills that are fundamental to your work. But, you're practicing them in a safe environment where, if you make mistakes, you get to step back with colleagues and discuss what might have been a better approach.
+</p>
+
+<p>
+   The point being: regardless of which role you are in, you're developing a powerful set of skills and habits of mind that are intended to improve your ability to imagine and detect bullshit (Learning Goal #2) as well as improve your confidence in digging into the work of your states and their vendors (Learning Goal #4). And, at the risk of being redundant, let's be honest... <em>roleplays are fun</em>. <pre>:)</pre>  
+</p>
+
+{% endalert %}
+
 ## Reflection (15-30m, solo)
 
 CMS oversees large, complex projects that involve many people, lots of dollars, over a long period of time. The program and project managers on those projects are critical stakeholders in the process; they have leadership roles in the design and delivery of the software, and they are not without hopes, biases, and faults. As a SO, it is up to you to understand not only the projects they are overseeing, but these people and the roles they inhabit, so that you can better work with them and understand the progress being made on delivering excellent tools to the people.

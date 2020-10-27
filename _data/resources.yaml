@@ -46,6 +46,19 @@ web:
           url: https://www.pmi.org/about/learn-about-pmi/what-is-project-management
           note: |
             More specifically, what is a project? It's a temporary endeavor undertaken to create a unique product, service or result.
+        - title:  The 9 Best Metrics to Measure Software Team Productivity
+          uid: nbmtmstp
+          author: Jama Software
+          url: https://www.jamasoftware.com/blog/the-9-best-metrics-to-measure-software-team-productivity/
+          note: One group's thoughts on metrics for software team productivity.
+        - title: Development Leaders Reveal the Best Metrics for Measuring Software Development Productivity
+          uid: dlrbmfmsdp
+          author: Alexandra Altvater
+          url: https://stackify.com/measuring-software-development-productivity/
+          note: |
+            From the author: When it comes to evaluating the productivity of your development teams, what metrics matter most? Should you merely be concerned with deadlines and time sheets, or should you focus on customer satisfaction to evaluate team performance?
+
+
 
 videos:
   header: Videos

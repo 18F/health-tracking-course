@@ -15,8 +15,18 @@ module Jekyll
         title = "default"
         url = "default"
         attrib = Array.new
+        txt = nil
 
+        # Pull out the link text if it exists. Remove it
+        # from the parameter list when done.
+        if @text.match(/text\s*=\s*"(.*?)"/)
+          txt = @text.match(/text\s*=\s*"(.*?)"/)[1]  
+          @text.gsub(/text\s*=\s*".*?"/, "")
+        end
+
+        # Split out the tag parameters
         ls = @text.split(" ")
+
         uid = ls.shift
         
         # The hash is a set of sections
@@ -46,6 +56,10 @@ module Jekyll
           end
         end
         
+        # If we found text for the link, use it here.
+        if txt
+          title = txt
+        end
         result = "<a href='#{url}'>#{title}</a>"
 
         if !attrib.empty?
