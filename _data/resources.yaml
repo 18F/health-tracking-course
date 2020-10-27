@@ -40,7 +40,12 @@ web:
           url: https://www.atlassian.com/agile/product-management/product-roadmaps
           note: |
             A product roadmap is a shared source of truth that outlines the vision, direction, and progress of a product over time. 
-
+        - title: Project Management
+          uid: wipm
+          author: Project Management Institute
+          url: https://www.pmi.org/about/learn-about-pmi/what-is-project-management
+          note: |
+            More specifically, what is a project? It's a temporary endeavor undertaken to create a unique product, service or result.
 
 videos:
   header: Videos
@@ -64,6 +69,35 @@ videos:
         duration: 20m45s
         note: |
           Product fanatic Janna Bastow guides us through Roadmapping in this video from London’s June ProductTank. In this video Janna (@simplybastow) covers all aspects of the contentious subject of product roadmaps. She takes us through different visual forms of roadmaps, explains best practices and describes essential components.
+      - title: Agile Product Ownership in a Nutshell
+        uid: apoian
+        author: Henrik Kniberg
+        url: https://www.youtube.com/watch?v=502ILHjX9EE
+        duration: 15m51s
+        note: |
+          This is basically a 1 day product ownership course compressed into 15 minute animated presentation. There's obviously more to product ownership than this, so see this is a high level summary.
+      - title: What do product managers do?
+        uid: wdpmd
+        author: Atlassian
+        url: https://www.youtube.com/watch?v=yUOC-Y0f5ZQ
+        duration: 5m28s
+        note: |
+           From the Author: The product manager role continues to be a topic of debate. This is because as teams and organizations grow the responsibilites of a PM change from being a swiss army knife doing anything and everything to a skilled influencer creating a shared understanding with the team. Distinguished Product Manager Sherif Mansour walks us through the challenges and misconceptions of the product manager role based on his ten years of experience as a PM at Atlassian.
+      - title: A Day in the Life of a Project Manager (Working from Home)
+        uid: aditloapmwfh
+        author: Kristyn Alexis
+        url: https://www.youtube.com/watch?v=nECjeK-mAMg
+        duration: 11m53s
+        note: |
+          From the Author: Welcome to my day in the life of a project manager working from home. You can expect to learn about what it takes to become a good project manager and what I do in a typical day of work.
+      - title: Top 12 Project Management Jargon Terms Project Managers Use
+        uid: ttpmjtpmu
+        author: Mike Clayton
+        url: https://www.youtube.com/watch?v=F25BGXAlaG0
+        duration: 15m59s
+        note: |
+          From the Author: Here's our list of the top 12 project management jargon terms. Among this list, are the terms project managers use most often. And, if you are going to manage projects, I'd certainly say these are among the most important project management terms for you to know.
+
 
 slidedecks:
   header: Slide Decks
