@@ -82,6 +82,37 @@ Below are two random experts from the article. (<a href="#/" onclick="getTwoExpe
 <ul id="twoexperts">
 </ul>
 
+<script>
+    function randomTwo(arr) {
+        arr = arr.split(",");
+        var first = arr[Math.floor(Math.random() * arr.length)];
+        var filtered = arr.filter((v, i, arr) => { return v != first; });
+        var second = filtered[Math.floor(Math.random() * filtered.length)];
+        return [first, second];
+    }
+
+    function getTwoExperts() {
+        var two = randomTwo("{{ page.experts | join: "," }}");
+        var ul = document.getElementById("twoexperts");
+        
+        // Remove the old LIs.
+        while (ul.firstChild) {
+            // Because this is live/the way the DOM gets updated,
+            // this *actually* works. It just feels... wrong.
+            ul.removeChild(ul.firstChild);
+        }
+
+        // Add in the two new experts.
+        for (txt of two) {
+            var li = document.createElement("li");
+            li.appendChild(document.createTextNode(txt));
+            ul.appendChild(li);
+        }
+    }
+
+    getTwoExperts();
+</script>
+
 Now, read what those two experts have to say in the Stackify article. After you've read and noted the highlights of what they have to say, compare and contrast. If you were approaching the evaluation of your state's projects, which of these experts do you think are offering you better advice? Why? Which do you think would not be useful to you? Again, why?
 
 Record your thoughts in your notebook. We're going to come back together to report out on what you gathered from these experts, and also share out what you thought would actually be useful to you in your context. 
@@ -94,28 +125,38 @@ Record your thoughts in your notebook. We're going to come back together to repo
 
 {% endalert %}
 
-## Viewing: Counterpoint on Measurement (30m, friend)
+## Viewing: Counterpoint on Measurement (45m, friend)
 
+{% alert no-icon Small Group Notice %}
+<p>
+    This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say high, do some breathing, report out something positive from the past week), and then break into pairs for this work.
+</p>
+{% endalert %}
 
+You began by taking a very terse list of success metrics, and ordering them by importance. Then, you read the statements of two experts, and compared and contrasted what they had to say about software quality and measuring the progress of software teams. Now, we're going to critique one developer's (PM's?) view on measuring software quality.
 
-<script>
-    function randomTwo(arr) {
-        arr = arr.split(",");
-        var first = arr[Math.floor(Math.random() * arr.length)];
-        var filtered = arr.filter((v, i, arr) => { return v != first; });
-        var second = filtered[Math.floor(Math.random() * filtered.length)];
-        return [first, second];
-    }
+Or: *there's nothing like a little bit of devil's advocacy to spice things up*.
 
-    function getTwoExperts() {
-        var two = randomTwo("{{ page.experts | join: "," }}")
-        document.getElementById("twoexperts").innerHTML = "<li>"
-            + two[0] + "</li><li>" + two[1] + "</li>";
+First, schedule 30m that you can get together with a colleague. Then, in preparation for that meeting, watch this video once. This way, you're familiar with the content before diving into discussion.
 
-    }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yxfb-drlE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    getTwoExperts();
-</script>
+Now, when you get together with your colleague, have a **viewing party**. This is where you watch a video together and comment in realtime. Normally, people install some software on their computers so that one person can control the start-and-stop of the video on both machines... but, we can't do that (because gov't computers). You could click the gear (the settings icon in the YouTube player) and reduce the quality of the video (to reduce bandwidth requirements), and have one person screenshare while another controls playback (it might work). Or, you can just play it on your separate machines and shout "stop!" and "start!" at each-other. **Whatever works.** 
 
+This video was chosen because:
+
+1. it is short (8m long)
+2. it is debateable
+3. claims made are likely representative of vendor claims
+
+This is an exercise in calling bullshit. Imagine this is a vendor describing their software quality measurement process. You and your colleague were unable to make the presentation, so it was recorded for you to watch later. Therefore, you have the opportunity to comment and critique without having to respond in real-time to the vendor.
+
+It is easy to have "pretender syndrome," where you wonder if you don't know enough about software projects to comment meaningfully. One way to overcome that is to develop foundational skills and knowledge (we're doing that in this course). However, talking about doing things is not the same as *doing things*, and this roleplay activity is just that: instead of talking about riding a bike, we're actually getting up on a bike and practicing. 
+
+Have fun, call bullshit, and if you need to, take some time to ask "why?" There's learning in exploring why a colleague thinks something has a smell. And, there's learning in your own explanations.
+
+## Reflection (10m, solo)
+
+When you're done, spend 10 minutes making notes in your journal. Specifically, make note of two or three things from your "calling bullshit" session where you note what you were particularly concerned about during the presentation, and why. 
 
 {% include airtable-post.html %}
