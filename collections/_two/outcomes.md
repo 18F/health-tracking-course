@@ -129,7 +129,7 @@ Record your thoughts in your notebook. We're going to come back together to repo
 
 {% alert no-icon Small Group Notice %}
 <p>
-    This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say high, do some breathing, report out something positive from the past week), and then break into pairs for this work.
+    This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say "hi," do some breathing, report out something positive from the past week), and then break into pairs for this work.
 </p>
 {% endalert %}
 
