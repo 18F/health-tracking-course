@@ -1,8 +1,10 @@
 ---
 title: resources
 layout: widepage
-permalink: /joeltest/
+permalink: /questioning/
 ---
+
+# Asking Questions of Software Project Teams
 
 Long ago, during the era of *blogs*, there was a program manager at Microsoft named Joel. He came up with a test. Actually, he had probably left his job at Microsoft, and had already started a software company about frogs. The details of his life, and his business dealings, were not recorded on Tik Tok, so it is likely that no one is particularly concerned about the specifics.
 
