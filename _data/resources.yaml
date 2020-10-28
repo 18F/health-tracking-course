@@ -81,6 +81,14 @@ web:
           url: https://derisking-guide.18f.gov/state-field-guide/
           note: |
             Technical knowledge is cheap and abundant, but knowing how to run a state agency is a rare and valuable skill. Government must embrace and own its responsibility and risk of failure, recognizing that technology vendors are hired only to help and should be easily replaceable if they don’t deliver.
+        - title: Agile Principles and 18F Practices
+          uid: agileprinciples
+          author: 18F
+          url: https://agile.18f.gov/
+          note: |
+            Analysis and experimentation conducted during the 1990’s suggested that the so-called waterfall development process was largely responsible for this climate of failure. After ten years of work, the Agile Manifesto was published in 2001. The Manifesto ushered in the age of Agile software development by outlining a framework for a different approach to the problem. The (then) new Agile approach featured outreach to potential users of software, decomposition of large software projects into much smaller projects that were much less difficult and risky, and empowerment of development teams to respond to evolving requirements.
+
+
 
 
 
