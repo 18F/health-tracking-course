@@ -10,20 +10,20 @@ Long ago, during the era of *blogs*, there was a program manager at Microsoft na
 
 Joel wrote a test. More than 20 years later, people still talk about the "Joel Test," and for good reason: it spoke to simple, fundamental things that good software teams do. So, even though his test did not go viral as a 10 second video, it did help shape how we talk about and practice developing software in teams.
 
-{% link thejoeltest text="The original blog has been preserved at the Smithsonian." %} (That's not actually true.) However, it did, right at the top, lay out twelve simple rules to determine if a software team is going about developing software in a sane way. It is phrased as if Joel is asking the questions of another program manager.
+{% link thejoeltest text="The original blog is still up and on the internet." %}  However, it did, right at the top, lay out twelve simple rules to determine if a software team is going about developing software in a sane way. It is phrased as if Joel is asking the questions of another program manager.
 
 1. Do you use source control?
-1. Can you make a build in one step?
-1. Do you make daily builds?
-1. Do you have a bug database?
-1. Do you fix bugs before writing new code?
-1. Do you have an up-to-date schedule?
-1. Do you have a spec?
-1. Do programmers have quiet working conditions?
-1. Do you use the best tools money can buy?
-1. Do you have testers?
-1. Do new candidates write code during their interview?
-1. Do you do hallway usability testing?
+2. Can you make a build in one step?
+3. Do you make daily builds?
+4. Do you have a bug database?
+5. Do you fix bugs before writing new code?
+6. Do you have an up-to-date schedule?
+7. Do you have a spec?
+8. Do programmers have quiet working conditions?
+9. Do you use the best tools money can buy?
+10. Do you have testers?
+11. Do new candidates write code during their interview?
+12. Do you do hallway usability testing?
 
 This list has been updated over the years. This article will talk you through the test, and explain (briefly) why each is critical. If your states and vendors can't pass the Joel Test, the project is probably in trouble.
 
