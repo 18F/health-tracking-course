@@ -14,6 +14,8 @@ primary_navigation:
       children:
         - name: Course One
           url: /course/one/overview/
+        - name: Course Two
+          url: /course/two/overview/
     - name: Resources
       children:
         - name: Agile Practices
