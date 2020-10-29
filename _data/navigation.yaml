@@ -14,10 +14,14 @@ primary_navigation:
       children:
         - name: Course One
           url: /course/one/overview/
-        - name: Course Two
-          url: /course/two/overview/
     - name: Resources
-      url: /resources/      
+      children:
+        - name: Agile Practices
+          url: /agile/
+        - name: Asking Technical Questions
+          url: /questioning/
+        - name: Course References
+          url: /resources/      
 
 secondary_navigation:
     - name: Rubric

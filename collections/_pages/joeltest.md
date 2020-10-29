@@ -6,11 +6,11 @@ permalink: /questioning/
 
 # Asking Questions of Software Project Teams
 
-Long ago, during the era of *blogs*, there was a program manager at Microsoft named Joel. He came up with a test. Actually, he had probably left his job at Microsoft, and had already started a software company about frogs. The details of his life, and his business dealings, were not recorded on Tik Tok, so it is likely that no one is particularly concerned about the specifics.
+Long ago, during the era of *blogs*, there was a program manager at Microsoft named Joel. He came up with a test. Actually, at the time he came up with the test, he may have already left Microsoft and founded Frog Creek Software. The details of Joel's life and his business dealings are not critical to the story.
 
-Joel wrote a test. More than 20 years later, people still talk about the "Joel Test," and for good reason: it spoke to simple, fundamental things that good software teams do. So, even though his test did not go viral as a 10 second video, it did help shape how we talk about and practice developing software in teams.
+Joel wrote a test. More than 20 years later, people still talk about the "Joel Test," and for good reason: it spoke to simple, fundamental things that good software teams do. So, even though his test did not go viral as a 10 second video made by cool kids on the internet, it did help shape how we talk about and practice developing software in teams.
 
-{% link thejoeltest text="The original blog is still up and on the internet." %}  However, it did, right at the top, lay out twelve simple rules to determine if a software team is going about developing software in a sane way. It is phrased as if Joel is asking the questions of another program manager.
+{% link thejoeltest text="The original blog is still up and on the internet." %}  Right at the top, it lays out twelve simple rules to determine if a software team is going about developing software in a sane way. When reading it, you can hear it as if Joel is asking the questions of another program manager about the software development practices of their team.
 
 1. Do you use source control?
 2. Can you make a build in one step?
