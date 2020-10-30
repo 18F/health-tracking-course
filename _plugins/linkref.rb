@@ -20,12 +20,19 @@ module Jekyll
         # Pull out the link text if it exists. Remove it
         # from the parameter list when done.
         if @text.match(/text\s*=\s*"(.*?)"/)
-          txt = @text.match(/text\s*=\s*"(.*?)"/)[1]  
+          txt = @text.match(/text\s*=\s*"(.*?)"/)[1]
+          puts @text  
           @text.gsub(/text\s*=\s*".*?"/, "")
+          puts @text
         end
 
         # Split out the tag parameters
         ls = @text.split(" ")
+
+        # It is possible someone borked the link tag badly.
+        if !ls 
+          return ""
+        end
 
         uid = ls.shift
         
