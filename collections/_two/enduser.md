@@ -7,45 +7,14 @@ priority: high
 visible: true
 date: October 30, 2020
 course: 2
-metrics:
-    - Cycle Time|time spent on each issue?
-    - Release Cycle Time|time between releases?
-    - Velocity|how many features delivered in a time period?
-    - Throughput|how many tasks, chores, bugfixes, and features shipped in time period?
-    - Number of Open Pull Requests
-    - Work in Progress|how many tasks open and underway per time period?
-    - Feature Difficulty|how hard to implement were the features built out?
-    - Impatience Score|do devs think things can go faster?
-experts:
-    - Allison Grappone
-    - Ross Smith
-    - Skot Carruth
-    - Jonathan Roger
-    - Vlad Giverts
-    - Michael Mah
-    - Swapnil Bhagwat
-    - Rodolfo Justoni
-    - Doru Paraschiv
-    - Cristian Rennella
-    - Tosho Trajanov
-    - Andrew Ward
-    - Dawn Roberts
-    - Gady Pitaru
-    - Steve Krzysiak
-    - Rob Zuber
-    - David Attard
-    - Kean Graham
-    - Dan Rasband
-    - Hristo Stalev
-    - Andrew Haller
-    - Steve Mezak
+
 ---
 
 # {{ page.title }}
 
 *This lesson is about measuring progress and the metrics used. Understanding progress measurement is a high priority in the outcomes-orientation primary indicator.*
 
-{% include rubric dimension="oo1.2" %}
+{% include rubric dimension="id1.2" %}
 
 If something is hard or frustrating to use, it just won’t get used the way we intend or at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
 
@@ -77,6 +46,7 @@ Let's take a short momemt to write down some notes about the topics in the video
 - Ideation
 - Iteration
 - Implementation
+</p>
 
 Where have you seen this cycle in our own state's projects?
 
@@ -102,7 +72,7 @@ Human-centered design:
 - Tests assumptions -- what users say often surprise you! 
 - Cuts waste -- instead of building something and having it fail spectacularly, you invest a bit of time in a prototype and get feedback on those results
 - Helps an approach with questions, instead of solutions
-
+</p>
 
 {% endalert %}
 Questions:
@@ -125,11 +95,11 @@ Think if they include in their plans for the projects:
 Pick a couple of examples of this in your state’s current projects -- maybe one that looked good and one that didn’t. We’ll discuss these when we gather as a group.
 
 
-# Discuss in Community (1h, group)
+## Discuss in Community (1h, group)
 
 These questions are all meant to help you get at this one dimension of the rubric:
 
-{% include rubric dimension="oo1.1" %}
+{% include rubric dimension="id1.2" %}
 
 Come together with your colleagues for a conversation.
 
