@@ -39,17 +39,26 @@ This short video helps illustrate this process and shows that its a cycle -- it 
 Let's take a short momemt to write down some notes about the topics in the video. Empathy isn't something you usually hear about in software development, but it's an important tool in building something that works for users.
 
 {% alert no-icon Always Questioning %}
-
 <p>
- The 4 main phases of human-centered design that are outlined in the video:
-- Inspiration
-- Ideation
-- Iteration
-- Implementation
+    The 4 main phases of human-centered design that are outlined in the video:
+    <ul>
+        <li>
+            Inspiration
+        </li>
+        <li>
+            Ideation
+        </li>
+        <li>
+            Iteration
+        </li>
+        <li>
+            Implementation
+        </li>
+    </ul>
 </p>
-
-Where have you seen this cycle in our own state's projects?
-
+<p>
+    Where have you seen this cycle in our own state's projects?
+</p>
 {% endalert %}
 
 Questions:
