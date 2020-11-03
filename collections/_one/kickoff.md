@@ -31,17 +31,17 @@ Another way to get yourself into the course material would be to [read the sylla
 
 ## What This Course Covers
 
-This course will cover four dimensions of the Health Tracker, one for each indicator.
+This course will cover four dimensions of the Health Tracker, one for each primary indicator.
 
-### Outcomes and Orientation
+### Outcomes-orientation
 
-The first indicator has to do with a project's **outcomes and orientation**. By *orientation*, we mean "which way is it pointing?" Having a "map" of sorts, and knowing how to keep an agile project pointed in the right direction is a challenge unto itself.
+The first indicator has to do with a project's **outcomes-orientation**. By *orientation*, we mean "which way is it pointing?" Having a "map" of sorts, and knowing how to keep an agile project pointed in the right direction is a challenge unto itself.
 
 {% include rubric dimension="oo1.1" %}
 
 ### State Capacity
 
-The second indicator has to do with a **state's capacity** to manage the project on an ongoing basis. We'll focus on understanding the roles people play, and how those roles can (and cannot) contribute to project success.
+The second indicator has to do with **state capacity** to manage the project on an ongoing basis. We'll focus on understanding the roles people play, and how those roles can (and cannot) contribute to project success.
 
 {% include rubric dimension="sc1.1" %}
 
@@ -53,7 +53,7 @@ The second indicator has to do with a **state's capacity** to manage the project
 
 ### Iterative Development
 
-The final indicator we will talk about has to do with **iterative development**. In this first course, we're going to focus on the most important thing you can: **demos**. That is, *working software*. If someone gives you a report about a piece of software, *the software probably doesn't work*. (Ask me how I know.) If someone shows you a video of a piece of software, *the software may have worked once*. (Ask me how I know.) If someone shows you a piece of software, but they control it, *the software barely works*. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+The final primary indicator we will talk about has to do with **iterative development**. In this first course, we're going to focus on the most important thing you can: **demos**. That is, *working software*. If someone gives you a report about a piece of software, *the software probably doesn't work*. (Ask me how I know.) If someone shows you a video of a piece of software, *the software may have worked once*. (Ask me how I know.) If someone shows you a piece of software, but they control it, *the software barely works*. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
 
 We'll say this all again. Point being: demos not memos.
 
