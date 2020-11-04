@@ -31,7 +31,7 @@ collections_dir: collections
 collections:
   rubric:
     output: true
-    permalink: /rubric/:slug
+    # permalink: /rubric/:slug
   courses:
     output: true
     # permalink: /course/:slug
