@@ -109,7 +109,7 @@ This is a professional engineer at the top of his craft talking about his work i
 </p>
 
 <p>
-    Perhaps it felt like every other conversation about software projects, where you just didn't have enough background to make heads-or-tails of things, and therefore, it just kinda <b>pissed you off</b>.
+    Perhaps it felt like every other conversation about software projects, where you just didn't have enough background to make heads-or-tails of things, and therefore, you were just kind of like... <b>shrug</b>?
 </p>
 
 <p>
