@@ -1,0 +1,14 @@
+
+{% for id in include.lessons %}
+{% assign lesson = 0 %}
+{% for p in site.rubric %}
+    {% if p.dimension == id %}
+        {% assign lesson = p %}
+    {% endif %}
+{% endfor %}
+{% if lesson.overview %}
+<h3>{% include indicator slug=lesson.indicator %}</h3>
+<p>{{ lesson.overview }}</p>
+{% include rubric dimension=lesson.dimension %}
+{% endif %}
+{% endfor %}
