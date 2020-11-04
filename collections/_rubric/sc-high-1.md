@@ -7,6 +7,9 @@ indicator: capacity
 priority: high
 visible: true
 date: October 8, 2020
+overview: |
+   What role do people play on the state and vendor teams, and how do those roles can (and cannot) contribute to project success?
+dimension: sc1.1
 ---
 # Lesson {{ page.lesson }} - {{ page.title }}
 

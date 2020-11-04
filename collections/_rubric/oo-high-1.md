@@ -7,6 +7,9 @@ priority: high
 visible: true
 date: October 15, 2020
 course: 1
+overview: |
+    Software project roadmaps are a powerful tool for orienting an outsider to the current state of affairs in the life of a service. Here, "orienting" is in the "orienteering" sense, meaning "which way is it pointing?" 
+dimension: oo1.1
 ---
 
 # {{ page.title }}
