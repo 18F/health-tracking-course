@@ -16,7 +16,7 @@ course: 2
 
 {% include rubric dimension="id1.2" %}
 
-If something is hard or frustrating to use, it just won’t get used the way we intend or at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
+If something is hard or frustrating to use, it probably won’t get used the way intended or may not even get used at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
 
 If we create a piece of software or new feature and only stop to get feedback when all the work of making it is done, the entire effort might be wasted if it’s not useful to the intended audience. That’s why it’s important to check in with users at the beginning, middle, and end of the development process so that their feedback can steer the work toward a great product for them. Ideally, the user input should be as continuous as possible, and so this row in the Rubric  is a top priority in the iterative development process.
 
@@ -29,7 +29,7 @@ First, let’s consider the end user -- the person who uses the product or softw
 
 You may have heard terms like user-centered design, human-centered design, or UX. These all refer to part of this process of centering the end user and their experience with the software.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=UahMFILt304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> (3 min video)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UahMFILt304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> (3 min video)
 
 This short video helps illustrate this process and shows that its a cycle -- it doesn’t just mean asking users for feedback once and being done with it. Designing for humans means continually checking in as features come to life, testing with real people, gathering their feedback, and making changes to do it all again to get the most useful product for them at the end.
 
@@ -70,9 +70,9 @@ Questions:
 ## Viewing: Designing for people, not problems (10m, video)
 
 Here we're going to go a little deeper into human-centered design with two videos. Watch these two videos and at the end we'll answer a few more questions.
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=0bxtEqM2TQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0bxtEqM2TQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=rmM0kRf8Dbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmM0kRf8Dbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% alert no-icon Always Questioning %}
 
