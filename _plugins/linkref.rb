@@ -21,9 +21,7 @@ module Jekyll
         # from the parameter list when done.
         if @text.match(/text\s*=\s*"(.*?)"/)
           txt = @text.match(/text\s*=\s*"(.*?)"/)[1]
-          puts @text  
           @text.gsub(/text\s*=\s*".*?"/, "")
-          puts @text
         end
 
         # Split out the tag parameters
