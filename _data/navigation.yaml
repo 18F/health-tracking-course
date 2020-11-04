@@ -13,11 +13,11 @@ primary_navigation:
     - name: Courses
       children:
         - name: Course One
-          url: /course/one/overview/
+          url: /courses/one/overview/
         - name: Course Two
-          url: /course/two/overview/
+          url: /courses/two/overview/
         - name: Course Three
-          url: /course/three/overview/
+          url: /courses/three/overview/
     - name: Resources
       children:
         - name: Agile Practices
