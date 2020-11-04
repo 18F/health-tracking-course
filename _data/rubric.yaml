@@ -69,7 +69,7 @@
           tips:
             - Ask detailed questions about technology, program goals, end users, etc.
             - Pay attention to who answers each question.
-          red: Team mebers can't answer questions about the project or issues in plain language.
+          red: Team members can't answer questions about the project or issues in plain language.
           yellow: Team members rely on vendors to answer questions, but answers are in plain language.
           green: All team members (including IT and procurement) can speak in plain language about the project.
     - label: Lower Priority
