@@ -8,8 +8,10 @@ visible: true
 date: November 5, 2020
 course: 3
 dimension: oo2.1
-overview: 
-In this lesson, we’ll shift our focus from considering user experience as an testing metric to considering user experience as an outcome. We’ll learn why it’s just as important to think about users at the beginning of a project as it is throughout the project’s development. We'll also discuss accessibility concerns and how to ensure that what we're building is as inclusive as possible.
+overview: |
+   In this lesson, we’ll shift our focus from considering user experience as an testing metric to considering user experience as an outcome. 
+   We’ll learn why it’s   just as important to think about users at the beginning of a project as it is throughout the project’s development. 
+   We'll also discuss accessibility concerns and how to ensure that what we're building is as inclusive as possible.
 ---
 
 # {{ page.title }}
