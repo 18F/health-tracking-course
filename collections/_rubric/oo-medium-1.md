@@ -20,7 +20,7 @@ overview: |
 
 {% include rubric dimension="oo2.1" %}
 
-While in the iterative development primary indicator **[[ADD LINK TO CONSIDER THE USER LESSON]]**, we saw user experience as, well, iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
+When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/oo-high-2/" | prepend: site.baseurl }}), we saw user experience as, well, iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
 
 In this lesson, we’ll shift our focus from considering user experience as an testing metric to considering user experience as an outcome. We’ll learn why it’s just as important to think about users at the beginning of a project as it is throughout the project’s development. We'll also discuss accessibility concerns and how to ensure that what we're building is as inclusive as possible.
 
