@@ -24,7 +24,7 @@ There are two things that are important to keep in mind about the assurance of q
 * TOC
 {:toc}
 
-## Listening: A Conversation on QASPs (30m, solo)
+## Active Listening: A Conversation on QASPs (~60m (30m + 30m), solo)
 
 
 <div class="grid-row grid-gap">
@@ -42,6 +42,23 @@ There are two things that are important to keep in mind about the assurance of q
         <small>This clip does not yet have groovy intro music.</small>
     </div>
 </div>
+
+There are seven dimensions to a basic QASP discussed in this conversation:
+
+1. tested code
+2. properly styled code
+3. accessibility
+4. deployed code
+5. documented code
+6. security
+7. user research
+
+In the conversation, these are called out pretty clearly. As you're listening, keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. Perhaps its a feature that has taken forever to come into reality. Perhaps its a criterion for delivery that you thought was impossible, or (thinking the other way) easy to achieve without delivering value. Possibly you're thinking about how a better QASP would have avoided a particular problem (or raft of problems) that you're seeing. Or... maybe you're hearing something in the conversation that makes you think about something that is similarly working well in your own projects. (We don't *always* have to be critical, after all.)
+
+The process of listening actively takes time. One strategy is to listen closely on a first pass. Another would be to listen (perhaps while on a walk?), and then sit down and do a second listen where you engage in the active note-taking process. Either way... whatever works best for you.
+
+
+### A Conversation about QASPs
 
 | Matt | Good morning. This is Matt Jadud, I'm an Innovation Specialist at 18F, and the topic today is QASPS... or is it "KASPS?" I mean, how do you pronounce that? It's Q-A-S-P. So, I've asked my colleague Randy Hart to share his experience with costs or "quality assessment surveillance plans," and their role in the procurement and contracting process. So, Randy, could you tell us a little bit about who you are and what you do at 18F? |
 | Randy | Sure. I, my name is Randy Hart. I'm a former contracting officer, and I've been with the federal government since 2002. I joined 18F about five years ago, after having lived through a number of nightmare contracts that I was the contracting officer for. And I just wanted to see if there's a different way of approaching contracting, when it comes to it and digital services for the government. And so for the last five years, we've been tinkering with ways of approaching contracting differently. Holding contractors accountable for delivery versus documentation. And it's been a lot of fun. And I'll say it's its **quality assurance surveillance plan**. |
@@ -73,5 +90,15 @@ There are two things that are important to keep in mind about the assurance of q
 | Randy | Yeah. And, this is probably another conversation, but we try to write RFPs or solicitations in a way that invites those sorts of vendors---at my last agency, one of my RFPs was like 400 pages, and nobody read it. We asked for binders and binders of proposals and nobody could read through all that.<br>&nbsp;<br>And it was all this idea that you can get away from risk by writing down more things. But at the end of the day, if things aren't being delivered, there's not a whole lot you can do. So what we are trying to do with our solicitations is reduce all the noise and make the RFPs accessible to vendors that might be excellent, but maybe not in the government space---but want to be part of the government space---or trying to increase the market, for those kind of vendors, most of which are small businesses. They're really strong, small businesses that can do this work really well. But, they read these solicitations and they're just terrified. You know, they've got all these codes and all this stuff that's just not necessary, so with the QASP kind of laying things out, what we see is excellent delivery. And then there's a vision statement and objectives written in the RFP that are less prescriptive and more about where we want to go with the products being built. That attracts vendors that are really good at this work, and that's really what we try to do at 18F with our acquisitions is lower the barrier of entry for vendors that might want to be part of the world of civic tech. And that's just that's one of our focuses as we as we work with different agencies. |
 | Matt | I think that's a great spot to end. Randy, I want to say thank you. We recorded this on a Thursday, October 29th, 2020. You're coming to us live from (Randy: Fredericksburg, Virginia). And, to hear you tell it, it's one of the best places on earth. I'm recording here out of Lewiston, Maine. Again, thank you so much.|
 | Randy | I enjoyed it.|
+
+## Discuss In Community (1h, group)
+
+You will need someone to volunteer to take some notes. Whomever was born after, but closest, to January 20th should be the note taker today.
+
+1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} Give everyone a moment to show up, and while people are arriving, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Centering**. {% include countdowntimer id="centering" minutes=3 %} We jump from meeting-to-meeting, and there's nothing healthy about that. You will get more from the next hour if you're *here*. A simple breathing exercise (breathe in on 4, hold 4, exhale 4, hold 4) is a good way to clear your mind and body. [There's lots of resources online](https://www.youtube.com/watch?v=eLRI4HV9h-o) regarding simple centering exercises that you could investigate and use at the start of group conversation.
+3.  **Focus**. {% include countdowntimer id="focus" minutes=1 %} Take one minute to identify one or two insights this conversation led you to. Make a note or two in your notebook so you can be focused when you share out. 
+4.  **The Seven Dimensions**. {% include countdowntimer id="sevendimensions" minutes=30 %} As a group, first share out which dimension(s) you found to be most interesting in your reflections. Then, after you share out which dimensions of the QASP inspired thought, go back around and take a minute or two each (round-robin) to share *why* that dimension triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
+5.  **Transformation**. {% include countdowntimer id="transformation" minutes=15 %} Were there themes that you saw emerge from your insights? Commonalities across projects? Identify what you saw as a group. Then (and more importantly), do you have any thoughts about your process with states, and how you might transform your process so as to improve outcomes? The note taker should try and capture the group's thoughts regarding themes and process transformation for sharing back out to the group/community.
 
 {% include airtable-post.html %}

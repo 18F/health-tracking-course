@@ -65,6 +65,7 @@ Jama Software has {% link nbmtmstp text="nine metrics that they think relate to 
 
 Give the article a skim. Make sure to note questions you have about these metrics as you read; we have to admit, it's not a very... *verbose*... article. Then, come back, and re-order the metrics (by dragging-and-dropping) so that the metric that you think would tell you the **most** about a team's product quality is at the **top**, and the metric that you think would tell you the **least** is at the **bottom**.
 
+{% asset dragonfly.js %}
 <div class="drag-container">
 {% for elem in page.metrics %}
     {% assign arr = elem | split: "|" %}
