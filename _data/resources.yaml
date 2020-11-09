@@ -87,12 +87,12 @@ web:
           url: https://agile.18f.gov/
           note: |
             Analysis and experimentation conducted during the 1990’s suggested that the so-called waterfall development process was largely responsible for this climate of failure. After ten years of work, the Agile Manifesto was published in 2001. The Manifesto ushered in the age of Agile software development by outlining a framework for a different approach to the problem. The (then) new Agile approach featured outreach to potential users of software, decomposition of large software projects into much smaller projects that were much less difficult and risky, and empowerment of development teams to respond to evolving requirements.
-
-
-
-
-
-
+        - title: Shifting Our Team Goals to be UX Outcomes
+          uid: sotgtbuxo
+          url: https://articles.uie.com/shifting-our-team-goals-to-be-ux-outcomes/
+          author: Jared M. Spool
+          note: |
+            When a team measures their goals using activities, they are focusing on the outputs of UX research and design efforts. Outputs are necessary, but they are not the end of the game.
 
 videos:
   header: Videos
@@ -171,9 +171,20 @@ videos:
         duration: 2m55s
         note: |
           Human-Centered Design (HCD) is not about following processes. It’s about being mindful of HCD principles. Keep focus on people and the entire system to solve the right problems.
-
-
-
+      - title: How To Write User Stories, Epics, & Personas - Dev Life
+        uid: htwusep
+        author: freeCodeCamp.org
+        url: https://www.youtube.com/watch?v=Fw98L-kcRpc
+        duration: 7m38s
+        note: |
+          User Stories, Epics, and Personas help organize all the needs of a project so it is clear what needs to be done.
+      - title: Web Accessibility Perspectives - Compilation of 10 Topics/Videos
+        url: https://www.youtube.com/watch?v=3f31oufqFSM
+        uid: wapco10
+        author: W3C Web Accessibility Initiative (WAI)
+        duration: 7m36s
+        note: |
+          Web accessibility: essential for some, useful for all.
 
 slidedecks:
   header: Slide Decks
