@@ -28,9 +28,9 @@ Software projects are complex, creative projects that involve the orchestration 
 
 Before you dive into the learning material for this module, grab a friend. Your challenge is to think about all of the work that goes into managing large, long-lived products/projects. 
 
-After checking in and saying hello, start a shared document (if you have access to something like Google Docs that allows for collaborative editing) and start making notes about all of the things you believe are involved in managing a large (software) project. If you don't have shared editing tools, one of you can take responsibility for taking notes, and sharing them after the conversation. And, remember: even if you feel you don't have expertise in managing *software* projects, they are (at the end of the day) just *projects*. So, do your best to generate a rich list of the management tasks that are likely involved in running such projects.
+After checking in and saying hello, start a shared document (if you have access to something like Google Docs that allows for collaborative editing) and start making notes about all of the things you believe are involved in managing a large (software) project. If you don't have shared editing tools, one of you can take responsibility for taking notes, and sharing them after the conversation. And remember: even if you feel you don't have expertise in managing *software* projects, they are (at the end of the day) just *projects*. So do your best to generate a rich list of the management tasks that are likely involved in running such projects.
 
-If finding time to work with a colleague is difficult, take 15 minutes to do this on your own. Or, do it on your own, and then compare notes with a colleague when you're done. The goal is to do some pre-thinking before we dive into the learning, so that you're primed and ready for learning about **product** ownership/management and **project** management. 
+If finding time to work with a colleague is difficult, take 15 minutes to do this on your own. Or do it on your own, and then compare notes with a colleague when you're done. The goal is to do some pre-thinking before we dive into the learning, so that you're primed and ready for learning about **product** ownership/management and **project** management. 
 
 ## Program Management
 
@@ -74,11 +74,11 @@ The Project Management Institute is a source for learning and training around th
 
 ### Watch: Unpacking the Jargon (15m, solo)
 
-As a short list of terms, the PMI article leaves things to be desired. Mike Clayton goes a bit deeper, unpacking 12 terms that you'll hear thrown around (in conversation, in reports) regarding project management. This video ({% link ttpmjtpmu %}) is basically 12, 1-minute videos back-to-back.
+As a short list of terms, the PMI article leaves things to be desired. Mike Clayton goes a bit deeper, unpacking 12 terms that you'll hear thrown around (in conversation, in reports) regarding project management. This video ({% link ttpmjtpmu %}) is basically 12 one-minute videos back-to-back.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F25BGXAlaG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-To assess project health, you'll need to be able to keep up with the jargon. And, frankly, *jargon is a great way to bullshit someone*. If I want you to 1) think I know what I'm talking about, but 2) confuse you along the way, I'm going to use jargon and words that I think you don't know well. If a product manager or project manager wants to mislead you regarding the health of a project, or otherwise mislead you as to how things are going, they're going to hide behind the words of their trade, and try and hide the realities of a project's health in the details.
+To assess project health, you'll need to be able to keep up with the jargon. Frankly, *jargon is a great way to bullshit someone*. If I want you to 1) think I know what I'm talking about, but 2) confuse you along the way, I'm going to use jargon and words that I think you don't know well. If a product manager or project manager wants to mislead you regarding the health of a project, or otherwise mislead you as to how things are going, they're going to hide behind the words of their trade, and try and hide the realities of a project's health in the details.
 
 ### Watch: A Day In The Life of a Project Manager (12m, solo)
 
@@ -111,7 +111,7 @@ To close out this lesson, come together with your learning cohort.
 </p>
 
 <p>
-   They are also a powerful simulation tool. When you roleplay the vendor-side, you're stepping out of your normal headspace, and attempting to imagine the system that you are part of from another perspective. In terms of evaluation, this is a critical skill.
+   They are also a powerful simulation tool. When you roleplay the vendor-side, you're stepping out of your normal headspace and attempting to imagine the system that you are part of from another perspective. In terms of evaluation, this is a critical skill.
 </p>
 
 <p>
@@ -119,7 +119,7 @@ To close out this lesson, come together with your learning cohort.
 </p>
 
 <p>
-   The point being: regardless of which role you are in, you're developing a powerful set of skills and habits of mind that are intended to improve your ability to imagine and detect bullshit (Learning Goal #2) as well as improve your confidence in digging into the work of your states and their vendors (Learning Goal #4). And, at the risk of being redundant, let's be honest... <em>roleplays are fun</em>. <pre>:)</pre>  
+   The point being: regardless of which role you are in, you're developing a powerful set of skills and habits of mind that are intended to improve your ability to imagine and detect bullshit (Learning Goal #2) as well as improve your confidence in digging into the work of your states and their vendors (Learning Goal #4). And at the risk of being redundant, let's be honest... <em>roleplays are fun</em>. <pre>:)</pre>  
 </p>
 
 {% endalert %}
