@@ -145,13 +145,13 @@ First, schedule 30m that you can get together with a colleague. Then, in prepara
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0yxfb-drlE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Now, when you get together with your colleague, have a **viewing party**. This is where you watch a video together and comment in realtime. Normally, people install some software on their computers so that one person can control the start-and-stop of the video on both machines... but, we can't do that (because gov't computers). You could click the gear (the settings icon in the YouTube player) and reduce the quality of the video (to reduce bandwidth requirements), and have one person screenshare while another controls playback (it might work). Or, you can just play it on your separate machines and shout "stop!" and "start!" at each-other. **Whatever works.** 
+Now, when you get together with your colleague, have a **viewing party**. This is where you watch a video together and comment in realtime. Normally, people install some software on their computers so that one person can control the start-and-stop of the video on both machines... but, we can't do that (because gov't computers). You could click the gear (the settings icon in the YouTube player) and reduce the quality of the video (to reduce bandwidth requirements), and have one person screenshare while another controls playback (it might work). Or you can just play it on your separate machines and shout "stop!" and "start!" at each-other. **Whatever works.** 
 
 This video was chosen because:
 
-1. it is short (8m long)
-2. it is debateable
-3. claims made are likely representative of vendor claims
+1. It is short (8m long)
+2. It is debateable
+3. Claims made are likely representative of vendor claims
 
 This is an exercise in calling bullshit. Imagine this is a vendor describing their software quality measurement process. You and your colleague were unable to make the presentation, so it was recorded for you to watch later. Therefore, you have the opportunity to comment and critique without having to respond in real-time to the vendor.
 
