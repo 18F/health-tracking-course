@@ -151,6 +151,28 @@ videos:
         duration: 7m55s
         note: |
           From the author: There’s an old saying “you improve what you focus on, and you focus on what you measure”.
+      - title: Human-centered design in 60 seconds!
+        uid: hcdin60
+        author: Icey Jiang
+        duration: 2m35s
+        note: |
+          In this episode Icey Jiang, ambassador for Women Techmakers, goes over Human-centered design, which sits at the intersection of empathy and creativity. It is a creative approach to problem-solving starting with people and ending with tailored-made innovative solutions. Learn about the 4 main phases and implement this approach today!
+      - title: "DevExplains: What is human-centered design — and why does it matter?"
+        uid: dewihcd
+        url: https://www.youtube.com/watch?v=0bxtEqM2TQU
+        author: Devex
+        duration: 3m18s
+        note: |
+          Is human-centered design a game changer in global development, or just another buzzword? Devex breaks down exactly what it is and why it matters for the global development community — and delves into some of the ways it could help organizations work more efficiently.
+      - title: Principles of Human-Centered Design (Don Norman)
+        uid: pohcd
+        url: https://www.youtube.com/watch?v=rmM0kRf8Dbk
+        author: NNgroup
+        duration: 2m55s
+        note: |
+          Human-Centered Design (HCD) is not about following processes. It’s about being mindful of HCD principles. Keep focus on people and the entire system to solve the right problems.
+
+
 
 
 slidedecks:
