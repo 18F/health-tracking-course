@@ -33,21 +33,26 @@
                 {% endif %}
             {% endfor %}
         {% endif %}
-    {% if lesson != 0 %}
-    {% if lesson.indicator == "admin" %}
-    {% assign color = "#aaaaaa" %}
-    {% else %}
-        {% assign color="#1d3557" %}
-    {% endif %}
-    <tr>
-        <td>
-            <span class="courseslug" style="background: {{ color }};">{% include indicator slug=lesson.indicator %}</span> 
-        </td>
-        <td> 
-               <a href="{{ lesson.url | prepend: site.baseurl }}">{% if lesson.indicator != "admin" %}Lesson {{ lesson.lesson }} - {% endif %}{{ lesson.title }}</a>
-        </td>
-    </tr>
-    {% endif %}
+        {% if lesson != 0 %}
+            {% if lesson.indicator == "admin" %}
+                {% assign color = "#aaaaaa" %}
+            {% else %}
+                {% assign color="#1d3557" %}
+            {% endif %}
+            {% comment %} Find all the courses that match this id {% endcomment %}
+            {% for lesson in site.rubric %}
+                {% if lesson.dimension == id %}
+                    <tr>
+                        <td>
+                            <span class="courseslug" style="background: {{ color }};">{% include indicator slug=lesson.indicator %}</span> 
+                        </td>
+                        <td> 
+                            <a href="{{ lesson.url | prepend: site.baseurl }}">{% if lesson.indicator != "admin" %}Lesson {{ lesson.lesson }} - {% endif %}{{ lesson.title }}</a>
+                        </td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
     {% endfor %}
     </table>
     
