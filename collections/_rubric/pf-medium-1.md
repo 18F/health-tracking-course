@@ -21,7 +21,9 @@ dimension: pf2.1
 * TOC
 {:toc}
 
-## An Experiment in Data Access (20m, solo)
+## An Experiment in Data Access (40m, solo)
+
+**Timer**: {% include countdowntimer id="eida" minutes=20 %} 
 
 *This is an interactive lesson. Read, reflect, and **do** as you make your way through.*
 
@@ -41,7 +43,7 @@ We removed the name of the board, and replaced it with `.json`. Try clicking thi
 
 [https://trello.com/b/WGQ0ZGKe.json](https://trello.com/b/WGQ0ZGKe.json)
 
-YOU BROKE IT!
+**YOU BROKE IT!**
 
 Just kidding. What you're looking at is JSON, or the JavaScript Object Notation format. It is probably not how an enterprise data system would export data, but it is a common interchange format for small amounts of data on the internet. Trello makes it possible to quickly and easily see the underlying data that is used to create a board.
 
@@ -113,7 +115,9 @@ Let's break that down a bit further, though. What is true about the data stored 
 6. **Self-Documenting**. The data extracted from Trello was *self-documenting*. That means we could look at the data, and it was immediately apparent what that data represented. No additional documentation or questions to the vendor (in this case, Atlassian) were necessary.
 7. **One-Click Extraction**. It is essentially possible to extract data from Trello with a "single click." We could easily write a script that, given a collection of Trello boards, could extract (and store, backup, migrate, or otherwise manipulate) all of the data in all of the boards.
  
-## Data in your State (20m, solo)
+## Data in your State (40m, solo)
+
+**Timer**: {% include countdowntimer id="diys" minutes=30 %} 
 
 In the section above, you were introduced to Trello, a web-based tool for organizing data into lists and cards. It is widely used by software and product management teams for organizing the work that takes place on software projects. We then wrote a short web application that 1) accesses a Trello board and 2) counts the cards in each of the lists, 3) presenting that data back to you, the end-user.
 
@@ -135,15 +139,31 @@ Once you have answered these questions (some of which might have the answer "I d
 
 A state who has answers to all of these questions, and (in particular) can extract and validate an archive of all of their data in a single command, is in an excellent position to potentially reuse or otherwise migrate their data to new systems. A state whose data is "locked away" or otherwise completely opaque, from their point of view, is potentially locked in to a single vendor, and has no way to consider new vendors or systems without a lengthy, expensive, and possibly contentious process of first extracting their data from one vendor before moving to another.
 
-## Additional Reading (30m, solo)
+## Vendor Lock-In (1h, group)
 
-* [What Is Vendor Lock-In? | Vendor Lock-In and Cloud Computing
-](https://www.cloudflare.com/learning/cloud/what-is-vendor-lock-in/)
+Come together with your colleagues for a conversation.
 
+{% include rubric dimension="pf2.1" %}
 
+Google offers a service called *takeout*. If you have a Google account, you can go to [https://takeout.google.com/](https://takeout.google.com/) and, in a single click, download *all* of your data. You can get a compressed file containing all of your emails. You can get a single download of all of the data you have in Drive. You can download a zip of all of your photos. In short, you can take all of your data and leave Google's services.
 
+We suspect that states cannot move their data from one system to another nearly so easily.
 
+In your group conversation, you fundamentally have two questions to explore:
 
+1. Is your state's data locked in to a single vendor? If so, how?
+2. What steps can you take, as state officers, to help your states break free?
+
+For #2 and #3, below, you'll want someone to take notes. Whomever has a birthday closest to Veteran's Day (after, not before) is encouraged to step up.
+
+1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Catalog**. {% include countdowntimer id="catalog" minutes=10 %} The first question asked above asks us how data might be "locked away" from a state. As a group, catalog the ways you see your states' health data locked away from them. In the event that you feel a state is *not* "locked in," share that, and why. Your goal is to come up with a catalog of the ways you see your states constrained (or not) by their vendors.
+3.  **Deconstruct**.  {% include countdowntimer id="catalog" minutes=25 %} Once you have a catalog, start working through it. As a group, think about the second question posed above: how could you, given where you sit, help states "break free?" What would be the ideal situation for states when it comes to their health data? How can you help them get there?
+4. **Reflect and Vote**.  {% include countdowntimer id="catalog" minutes=5 %} Take a pause from your conversation, and let the notetaker reflect back what you've said so far. Assuming you have multiple strategies, each of you should pick *two* that you think are of potential interest to explore further. Spend your **+1**s, and after voting, see which two ideas have the most votes. 
+
+At your next full team meeting, the note taker should share out a brief summary of your conversation, and highlight the two ideas/strategies for "freeing" state data with the rest of the group. Our hope is that this will be the beginning of a conversational space for potential work amongst the larger group to shift data management/ownership practices.
+
+{% include airtable-post.html %}
 
 
 
