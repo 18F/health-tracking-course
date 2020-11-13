@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: All The Managements
+title: Questioning the Teams
 course: 3
 lesson: 3
 indicator: capacity
