@@ -31,27 +31,30 @@ dimension: id1.3
 
 ### Roadmap
 
-In this lesson, we're going to be talking about data, moving it from point A to point B, preserving it as software is updated, and how to keep it safe. If you're engaging with this material on a one-lesson-per-week timeframe, this is a two-week (4h) lesson, because of the amount of material and thinking we're going to ask you to do.
+In this lesson, we're going to be talking about data, moving it from point A to point B, preserving it as software is updated, and how to keep it safe. This lesson has a lot of detail in it. We're going to start at the bottom (with zeros and ones) and build up to how this information is organized and moved around. 
+
+On one hand, this might be *too* much detail. On the other hand, the details provide some rich context that will help you better understand what states and vendors mean when they're talking about databases... and, more importantly, some of the critical challenges that states and vendors **must** be paying attention to if we want robust, manageable software systems that can be maintained for years/decades.
+
+While it is true you do not need to become an expert in databases to be a State Officer, M.D., it is also true that you need to be able to ask hard questions about these technologies if you're going to help hold states and vendors accountable for producing robust systems that can withstand the test of time. So good luck, dig in, ask questions, and remember that this stuff takes time and practice to master. Onward!
 
 {% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" %}
 
 # Bits and Bytes (20m, solo)
 
-The first part of this lesson really is about databases. We're going to start at the bottom (with zeros and ones) and build up to how this information is organized and moved around. On one hand, this might be *too* much detail. On the other hand, the details provide some rich context that will help you better understand what states and vendors mean when they're talking about databases... and, more importantly, some of the critical challenges that states and vendors **must** be paying attention to if we want robust, manageable software systems that can be maintained for years/decades.
+This lesson starts with details, and builds up to big picture. By starting with zeros and ones, the goal is to give you a bit of background and context for the *size* of data. This way, if someone says "oh, we can't move that database... it contains *gigabytes* of data," then you'll know to call BS. Why? Because you'll know that gigabytes are *not* a lot of data.
 
 {% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Bits and Bytes" %}
 
-
-Let's start start with some numbers and arithmetic. If you work with federal budgeting process, you *absolutely* got this.
+Let's start start with some numbers and arithmetic. If you work with federal budgeting process, you *absolutely* got this. Most everything here is going to be multiplications by 1000.
 
 * A **bit** is either a zero or a one.
 * A **byte** is 8 bits. So, eight zeros or eight ones (or some combination).
 * A **kilo**byte (or KB) is, therefore, 1000 bytes. (We have a prefix table below.)
-* A **mega**byte (MB) is one million bytes.
+* A **mega**byte (MB) is one million bytes, or 1000 KB.
 * A **giga**byte (GB) is one billion bytes, or 1000 MB.
-* A **tera**byte (TB) is 1000 GB.
-* A **peta**byte (PB) is 1000 TB, or one million gigabytes.
-* An **exa**byte is 1000 PB, or one million terabytes.
+* A **tera**byte (TB) is 1000 GB. Its oodles of bytes.
+* A **peta**byte (PB) is 1000 TB, or one million gigabytes, or oodles and oodles of bytes.
+* An **exa**byte is 1000 PB, or one million terabytes. Bytes just don't factor into it.
 
 ### In a Table
 
@@ -65,7 +68,7 @@ Let's start start with some numbers and arithmetic. If you work with federal bud
 
 ### Some Examples
 
-Those are just number-numbers. They probably don't mean much to you. Here's a few examples of digital "things," and their size in gigabytes. (At this point in history, it is probably useful to think of things in terms of gigabytes.)
+Those are just number-numbers. They probably don't mean much to you. To put those numbers into context, here's a few examples of digital "things," and their size in gigabytes. 
 
 | Thing | Size | GB |
 | A single letter (e.g., the letter `A`) | 1 byte | 0.000000001 |
@@ -77,7 +80,9 @@ Those are just number-numbers. They probably don't mean much to you. Here's a fe
 | Movie (DVD) | 4.7GB | 4.7 |
 | Project Gutenberg (60,000 books) | 80 GB | 80 | 
 
-None of these things are *huge*. An 80GB dataset (Project Gutenberg) is big, but for context, a 128GB microSD storage card (one of those little things you put in cameras and phones) costs $20, so... in terms of "cost of storage," 80GB is not an "expensive" amount of data.
+None of these things are *huge*. And, we might want to put some costs on this, for context. If I want to buy a USB stick today, $15 will get me a stick that holds 128GB. That means I can put all of Project Gutenberg (at 80GB) onto a single USB stick, and have room left over for... 40GB of podcasts, or roughly 500 *hours* of spoken word content. So... in terms of "cost of storage," 80GB is not an "expensive" amount of data.
+
+If I were to use a cloud-based service for storing 80GB, it would cost me $4.80/year (in 2020). So, three years of storage in the cloud would cost the same amount as buying a USB stick. If I wanted to store a petabyte of data in the cloud, it would cost me $60,000/year, or I could do it with 7800 USB sticks costing roughly $117,000. (No... no one keeps a petabyte of data on USB sticks. They do, however, contract for storage on that scale in the cloud. Think, for example, about NASA and satellite imagery, or the NOAA and weather data.)
 
 ### Things, In Context
 
@@ -218,14 +223,14 @@ We would use the dependent ID to look up (possibly multiple) dependents in yet a
 | 404 | 1010 | Montoya | ... | ... | ... |
 | ... | ... | ... | ... | ... | ... |
 
-By arranging data into multiple tables, we keep separate things separate. This often means that we have to use information from one table to look things up in another. This is just like a budget spreadsheet document with multiple tabs; you keep one kind of data in one tab, and different data in another. You bring it all together by linking it row-by-row, or doing VLOOKUPs, and so on. 
+By arranging data into multiple tables, we keep separate things separate. This often means that we have to use information from one table to look things up in another. This is just like a budget spreadsheet  with multiple tabs; you keep one kind of data in one tab, and different data in another. You bring it all together by linking it row-by-row, or doing VLOOKUPs, and so on. 
 
 Fundamentally, this is how every table in a database is organized. Each column defines the kind (or type) of data that it holds. Each row is a sequence of entries that match the kinds of data defined by the columns. Most rows contain a unique identifier. And, finally, a database is typically made up of many tables.
 
 
 ## Questions about Databases
 
-This slightly more applied example might help you appreciate the complexity of the data that is being managed by these systems. Unfortunateley, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
+This slightly more applied example might help you appreciate the complexity of the data that is being managed by these systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
 
 We asked a few questions about bits and bytes earlier. You can now ask a few other questions that start to target the databases themselves.
 
@@ -246,10 +251,28 @@ This second set of questions will make people nervous, and very, *very* likely t
 
 # Migration
 
-Up to this point, we've been laying some knowledge foundations. Thinking about the size of data (bits and bytes) and the shape of data (databases tables and so on) are 
+Let's check in.
 
-This is where, as a state officer, it is really important to start t
+1. You've thought about bits, bytes, and the *size* of data.
+2. You've read and thought about the way data is organized in databases. In short, databases look like a bunch of spreadsheets.
+
+Now, my question is this: what happens when you want to **change the database**?
 
 {% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Migration" %}
 
+In this section, we'll explore what it means to **migrate** a database, and the kinds of tooling that developers need to have in place to make sure that migrations take place safely.
 
+## An Example: Adding Details to Users
+
+We'll begin with an example. Previously, we suggested that there might be a database table that represents users of a system. These might be people who are applying for benefits of some sort, and therefore we need to represent details about them in our case management system.
+
+**Table: Users v1**
+
+| ID | User ID | Last | First | SSN | Age |
+| ... | ... | ... | ... | ... | ... |
+| 37 | 103 | Montoya | Inigo | 999-99-9999 | 29 |
+| ... | ... | ... | ... | ... | ... |
+
+We'll call this "version one" of the table. We have an identifier for each row (`ID`), a unique `User ID`, and then things like the person's `last` and `first` name, their `SSN`, and `age`. (We'll use `this font` when talking about the names of columns.)
+
+There's 

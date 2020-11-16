@@ -2,7 +2,7 @@
 layout: widepage
 title: Questioning the Teams
 course: 3
-lesson: 3
+lesson: 2
 indicator: capacity
 priority: medium
 visible: true

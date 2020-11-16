@@ -1,4 +1,4 @@
-{% assign colors = "6da34d,785E82,548687,8fbc94,c5e99b" | split: "," %}
+{% assign colors = "37A45D,22675E,B08F3B,8E602F,BF6C40" | split: "," %}
 {% assign values = include.seq | split: "," %}
 <div class="grid-row" style="margin-top: 1em; margin-bottom: 1em;">
 {% for item in values %}

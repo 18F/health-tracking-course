@@ -2,7 +2,7 @@
 layout: widepage
 title: "Managing Data"
 course: 3
-lesson: 2
+lesson: 3
 indicator: procurement
 priority: high
 visible: true

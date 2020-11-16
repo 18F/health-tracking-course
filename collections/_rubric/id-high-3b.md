@@ -20,7 +20,7 @@ dimension: id1.3
 
 ### Roadmap
 
-This lesson is going to involve some bits and bytes. That is, we're going to be talking about data, moving it from point A to point B, preserving it as software is updated, and how to keep it safe. If you're engaging with this material on a one-lesson-per-week timeframe, this is a two-week (4h) lesson, because of the amount of material and thinking we're going to ask you to do.
+This lesson is going to involve some bits and bytes. That is, we're going to be talking about data, moving it from point A to point B, preserving it as software is updated, and how to keep it safe. If you're engaging with this material on a one-lesson-per-week time frame, this is a two-week (4h) lesson, because of the amount of material and thinking we're going to ask you to do.
 
 <style>
 .arrow {
