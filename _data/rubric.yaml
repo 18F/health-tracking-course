@@ -100,7 +100,7 @@
             - Ask how the team implements quality monitoring through their contracts.
           red: The state has little or no expectations for monitoring quality in their contracts.
           yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
-          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure mointoring is implmented.
+          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure monitoring is implmented.
     - label: Medium Priority
       priority: medium
       dimensions:
