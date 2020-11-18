@@ -72,27 +72,28 @@ Vendor
 
 ### Watch: Unpacking the Jargon (15m, solo)
 
-I'll borrow a quote from a previous lesson on state capacity:
+I'll borrow a quote from a [previous lesson on state capacity](({{ "/rubric/sc-medium-1/" | prepend: site.baseurl }}):
 
 "To assess project health, you'll need to be able to keep up with the jargon. And, frankly, *jargon is a great way to bullshit someone*. If I want you to 1) think I know what I'm talking about, but 2) confuse you along the way, I'm going to use jargon and words that I think you don't know well. If a product manager or project manager wants to mislead you regarding the health of a project, or otherwise mislead you as to how things are going, they're going to hide behind the words of their trade, and try and hide the realities of a project's health in the details."
 
-Another way to get around jargon is to ask the person speaking to explain it to you like you're a small child. Or a golden retriver. I'm sharing this movie clip for inspiration, but definitely not endorsing this using this sort of behavior to ask for simplified language.
+Another way to get around jargon is to ask the person speaking to explain it to you like you're a small child. Or a golden retriver. We're sharing this movie clip for inspiration, but definitely not endorsing this using this sort of behavior to ask for simplified language.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SmHl7hKlVj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The point is that you can feel comfortable asking someone to back up and explain things back simply. if they can't use plain language to talk about the work, question why or if they're possibly trying to hide something behind a lot of jargon.
 
 
 ## Roleplay: Play the Part (45m, group)
 
-To close out this lesson, come together with your learning cohort. *EDIT THIS TO BE ABOUT ASKING STATES!!!!!!*
+To close out this lesson, come together with your learning cohort. 
 
 1. **Checkin**. {% include countdowntimer id="checkin" minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards throguh the year.
-2. **Prep**. {% include countdowntimer id="prep" minutes=3 %} Now, count off, so that half of the group is an "Green" group and half the group is "Purple." The green group should put themselves in the place of their state's project, and imagine themselves as a program manager for that project. The purple group should take this time and imagine they are prepping for a conversation with the program manager to work on assessing project health. Take three minutes to prep for the roleplay.
-3. **Breakout I**. {% include countdowntimer id="uam" minutes=5 %} Break into pairs. The purple group should be playing the role of a state officer talking to the project's program manager, working to understand the health of the project. The green group should be playing the role of a program manager working on their state's software.
+2. **Prep**. {% include countdowntimer id="prep" minutes=3 %} Now divide the group, so that part of the group is people who are on the State side &mdash; a developer, a procurement officer, and a project manager for the State. The other half the group represents the SO asking questions of the group. The State group should put themselves in the place of their state's project, and imagine themselves as a program manager (or procurement officer, or developer) for that project. The SO group should take this time and imagine they are prepping for a conversation with these state team members to work on assessing project health. Take three minutes to prep for the roleplay.
+3. **Breakout I**. {% include countdowntimer id="uam" minutes=5 %} Break into groups. Each pair should have one state officer and each of the state team members. Have the state officer talking each of the team members, working to understand the health of the project and asking the team members to explain the project. 
 4. **Debrief I**. {% include countdowntimer id="uam" minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
-   * For the purple group: What questions were particularly useful? What words/behaviors did you note from the program managers that were encouraging or inspired confidence? 
-   * For the green group: How did getting into the program manager's head shape your thinking about the role of the SO? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
-5. **Repeat**. Repeat steps 2, 3, and 4, but switching roles.
-6. **Wrap**. {% include countdowntimer id="wrap" minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
+   * For the SOs: What questions were particularly useful? What words/behaviors did you note from the state team members that were encouraging or inspired confidence? 
+   * For the State Team Members: How did getting into the state's head shape your thinking about how the state may explain projects to you? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
+5. **Wrap**. {% include countdowntimer id="wrap" minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
 
 {% alert no-icon Regarding Roleplays %}
