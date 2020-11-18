@@ -18,7 +18,7 @@ overview: |
 
 {% include rubric dimension="oo2.1" %}
 
-When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/oo-high-2/" | prepend: site.baseurl }}), we saw user experience as, well, iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
+When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/id-high-2/" | prepend: site.baseurl }}), we saw user experience as iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
 
 {{ page.overview }}
 
@@ -43,7 +43,7 @@ When you think about it, a good experience for someone using a software tool is 
 
 Even so, it can be easy to put a business outcome or goal in place of a user outcome.  Read through {% link sotgtbuxo %}, which discusses this in depth. 
 
-After you read this, go back to your notes on your projects. Have you seen any of them tracking business outcomes instead of user outcomes. Write down how they might improve.
+After you read this, go back to your notes on your projects. Have you seen any of them tracking business outcomes instead of user outcomes? Write down how they might improve.
 
 ## Viewing: Tools of the UX trade (45m, group)
 
@@ -57,7 +57,7 @@ There are a few tools of the trade that may help you recognize this process:
 * User stories
 * Epics
 
-Watch the video below as Anissa Deanna gives us a glimpse into this process and tells us what these terms means and their purpose in planning projects. Her video is from an Agile perspective, but gives a good overview of the terms and the process.
+Watch the video below as Anissa Deanna gives us a glimpse into this process and tells us what these terms means and their purpose in planning projects. Her video is from an Agile perspective, but gives a good overall overview of the terms and the process.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fw98L-kcRpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -74,11 +74,11 @@ Watch the video below as Anissa Deanna gives us a glimpse into this process and 
 </pre>
 
 <p>
-<i>Epics</i> are bigger, goal-orientated statements about the feature. Broken down into little user stories to get more specific.
+<i>Epics</i> are bigger, goal-orientated statements about the feature. They are broken down into little user stories to get more specific.
 </p>
 
 <p>
-Personas are the characters in the user stories who have a goal that is solved by your software tool.
+Personas are the characters in the user stories who have a goal that your software can help them solve.
 </p>
 
 {% endalert %}
@@ -86,7 +86,7 @@ Personas are the characters in the user stories who have a goal that is solved b
 Now take the time to consider the following questions, writing notes in your notebook and then grabbing a colleague to discuss and trade stories and answers:
 
 
-1. "As a X, I want to Y, so I can Y” &mdash; think about how this applies to your state’s projects. Do the projects have the same user stories or do they differ? If they differ, how? 
+1. "As a X, I want to Y, so I can Z” &mdash; think about how this applies to your state’s projects. Do the projects have the same user stories or do they differ? If they differ, how? 
 2. Think of who might do this work on your projects. They might not always have the title “UX designer,” as Anisse mentions in the video, she has had to play multiple roles on her projects. Can you think of specific people who do this? What are their titles? How does the team split the work?
 3. What personas could work well in your projects? Brainstorm some with a friend and write them down to share when we meet as a larger group.
 
