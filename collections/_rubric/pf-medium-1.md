@@ -45,7 +45,7 @@ We removed the name of the board, and replaced it with `.json`. Try clicking thi
 
 **YOU BROKE IT!**
 
-Just kidding. What you're looking at is JSON, or the JavaScript Object Notation format. It is probably not how an enterprise data system would export data, but it is a common interchange format for small amounts of data on the internet. Trello makes it possible to quickly and easily see the underlying data that is used to create a board.
+Just kidding. What you're looking at is JSON, or the JavaScript Object Notation format. It is probably not how a MES system would export data, but it is a common interchange format for small amounts of data on the internet. Trello makes it possible to quickly and easily see the underlying data that is used to create a board.
 
 This also means that we can write code that interacts with that data.
 
@@ -124,20 +124,19 @@ In the section above, you were introduced to Trello, a web-based tool for organi
 Now, think about the systems that your state is paying for year-over-year. In your notebook, ask (and answer) these questions:
 
 1. Is the data in your state's systems easily accessible?
-2. Is the data in your state's systems stored in industry-standard formats?
-3. Is the data in yor state's systems stored using open-source software (e.g. MariaDB or PostgreSQL as a database vs. a product from Oracle)? 
-4. Is the data in your state's systems stored in open, industry-standard formats?
-5. Can the data be accessed using free and open tooling (e.g. free, open libraries written in a common programming language like Java, Python, Ruby, or C/C++), or is it only accessible via proprietary, closed-source tools (e.g. Salesforce)?
-6. Is process by which data can be accessed and extracted from a vendor's systems well documented? 
-7. Has that documentation been tested? That is, can someone employed by the state follow the instructions provided and  get a complete and correct dump of data in the system?
-8. Is the integrity of the data tested as a regular part of software  testing?
-9. Is it possible to dump the data and validate/verity the integrity of the archive that is extracted? 
+2. Is the data in your state's systems stored using open-source software (e.g. MariaDB or PostgreSQL as a database vs. a product from Oracle)? 
+3. Is the data in your state's systems stored in open, industry-standard formats? Which ones?
+4. Can the data be accessed using free and open tooling (e.g. free, open libraries written in a common programming language like Java, Python, Ruby, or C/C++), or is it only accessible via proprietary, closed-source tools (e.g. Salesforce)?
+5. Is process by which data can be accessed and extracted from a vendor's systems well documented? 
+6. Has that documentation been tested? That is, can someone employed by the state follow the instructions provided and get a complete and correct dump of data in the system?
+8. Is the integrity of the data tested as a regular part of software testing?
+9. Is it possible to get the data outof the system and validate/verity the integrity of the archive that is extracted? 
 10. Is the data format self-documenting? That is, once extracted, is it complex and opaque, or could a reasonably dedicated programmer study the data and understand what is going on?
 11. Can the data be extracted with a single command? 
 
 Once you have answered these questions (some of which might have the answer "I don't know"), take some time to think about other questions you think we should be asking. Our goal should be to have a long, working list of questions that we would be able to ask states and vendors as part of our ongoing oversight process. 
 
-A state who has answers to all of these questions, and (in particular) can extract and validate an archive of all of their data in a single command, is in an excellent position to potentially reuse or otherwise migrate their data to new systems. A state whose data is "locked away" or otherwise completely opaque, from their point of view, is potentially locked in to a single vendor, and has no way to consider new vendors or systems without a lengthy, expensive, and possibly contentious process of first extracting their data from one vendor before moving to another.
+A state who has answers to all of these questions, and (in particular) can extract and validate an archive of all of their data in a single command, is in an excellent position to potentially reuse or otherwise migrate their data to new systems. A state whose data is "locked away" or unreachable to them is potentially locked in to a single vendor and has no way to consider new vendors or systems without a lengthy, expensive, and possibly contentious process of first extracting their data from one vendor before moving to another.
 
 ## Vendor Lock-In (1h, group)
 
@@ -145,7 +144,7 @@ Come together with your colleagues for a conversation.
 
 {% include rubric dimension="pf2.1" %}
 
-Google offers a service called *takeout*. If you have a Google account, you can go to [https://takeout.google.com/](https://takeout.google.com/) and, in a single click, download *all* of your data. You can get a compressed file containing all of your emails. You can get a single download of all of the data you have in Drive. You can download a zip of all of your photos. In short, you can take all of your data and leave Google's services.
+Google offers a service called *takeout*. If you have a Google account, you can go to [https://takeout.google.com/](https://takeout.google.com/) and download *all* of your data in a single click. You can get a compressed file containing all of your emails. You can get a single download of all of the data you have in Drive. You can download a zip of all of your photos. In short, you can take all of your data and leave Google's services.
 
 We suspect that states cannot move their data from one system to another nearly so easily.
 
