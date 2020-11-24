@@ -14,20 +14,20 @@ overview: |
 
 ### Roadmap
 
-We've introduced the notion of bits and bytes in the previous lesson. In this lesson, we're going to talk about how those pieces of data get organized into systems that can be searched and organized: databases.
+In this lesson, we're going to talk about how pieces of data get organized into systems that can be searched and organized: databases. We'll start here to understand just WHAT we're testing when we talk about security, performance, and migration testing -- since it's usually DATABASES.
 
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Migration" %}
+{% include breadcrumbs seq="Databases,Migration,Testing" highlight="Migration" %}
 
 # Migration
 
 Let's check in.
 
-1. You've thought about bits, bytes, and the *size* of data.
+1. You've learned about databases.
 2. You've read and thought about the way data is organized in databases. In short, databases look like a bunch of spreadsheets.
 
 Now, my question is this: what happens when you want to **change the database**?
 
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Migration" %}
+{% include breadcrumbs seq="Databases,Migration,Testing" highlight="Migration" %}
 
 A change in the database is a kind of *migration*. That is, if we change a database table (by adding or removing a column), that means that we need to update all of the records in the *current* database, and all future data written to the database must take this into account.
 
@@ -35,11 +35,11 @@ Doing this on a live system is difficult. It is *especially* difficult if the de
 
 # Questions Regarding Migration
 
-These questions start to get... specific. However, we're now talking about the data that upholds a complex system. And, if those systems (and the care and feeding of the data in those systems) are not designed and implemented well, the implications are that the taxpayer will suffer when changes are made and upgrades need to happen. Or, worse... the system will so difficult to upgrade, that we will be locked in with aging technology, and have no clear path forward. 
+These questions start to get... specific. However, we're now talking about the data that upholds a complex system. And if those systems (and the care and feeding of the data in those systems) are not designed and implemented well, the implications are that the taxpayer will suffer when changes are made and upgrades need to happen. Or worse, the system will so difficult to upgrade that we will be locked in with aging technology and have no clear path forward. 
 
-This is, of course, where we are today. Many systems are bound up in proprietary, aging mainframe systems that are extremely difficult to upgrade and maintain. The questions here scratch the surface of what should be being considered to develop software and systems that are robust in the face of aging and change.
+This is where we are often find ourselves today. Many systems are bound up in proprietary, aging mainframe systems that are extremely difficult to upgrade and maintain. The questions here scratch the surface of what should be being considered to develop software and systems that are robust in the face of aging and change.
 
-Because these questions are getting specific, we will include a *why* with each. This may help you better understand the context for the question, and why it matters. (And, to better contextualize the answers that you receive.)
+Because these questions are getting specific, we will include a *why* with each. This may help you better understand the context for the question and why it matters. (And, to better contextualize the answers that you receive.)
 
 1. **Is the data stored in an open database, or a proprietary database?**
    <br>WHY: If the database is free/open software (e.g. PostgreSQL, MariaDB, MongoDB, etc.), it is less likely the state can be locked into a single set of tools in the long run. If the database is closed/proprietary/vendor-specific, then migration becomes more difficult.
