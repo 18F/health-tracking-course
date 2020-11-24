@@ -15,19 +15,19 @@ overview: |
 
 ### Roadmap
 
-We've introduced the notion of bits and bytes in the previous lesson. In this lesson, we're going to talk about how those pieces of data get organized into systems that can be searched and organized: databases.
+ In this lesson, we're going to talk about how pieces of data get organized into systems that can be searched and organized: databases. We'll start here to understand just WHAT we're testing when we talk about security, performance, and migration testing -- since it's usually DATABASES.
 
 {% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Databases" %}
 
 ## Databases (20m, solo)
 
-A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. Therefore, it is important to have a reference for how big these different kinds of data are. 
+A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. They can be different sizes, depending on how much data they store. 
 
 A database with one million words will be roughly 8MB in size. **Why?** Because one million words that are around 8 characters long will be one million, 8-byte things, or 8 megabytes.
 
 A database with one million desktop wallpapers will be roughly 2GB in size. **Why?** A desktop wallpaper is 2MB, and we have one million of them. A million megabytes would be a gigabyte, and we have one million 2MB things... hence, two gigabytes.
 
-But more important to our understanding here is what a database looks like, and how it is organized. 
+But more important to our understanding here is what a database looks like and how it is organized. 
 
 ### The LEGO Database
 
@@ -50,7 +50,7 @@ Now that we have visions of LEGO people dancing in our heads, lets imagine we're
   * Ages
 * ...
 
-Suddenly, it seems like we're going to need more than one table, and we're going to need to keep them linked and connected to each-other. Now, we might have a table that looks like this:
+Suddenly, it seems like we're going to need more than one table, and we're going to need to keep them linked and connected to each-other. Now, we might have a table that looks like this (maybe a bit like an Excel table):
 
 **Table: Main**
 
@@ -80,7 +80,7 @@ We would use the dependent ID to look up (possibly multiple) dependents in yet a
 
 By arranging data into multiple tables, we keep separate things separate. This often means that we have to use information from one table to look things up in another. This is just like a budget spreadsheet  with multiple tabs; you keep one kind of data in one tab, and different data in another. You bring it all together by linking it row-by-row, or doing VLOOKUPs, and so on. 
 
-Fundamentally, this is how every table in a database is organized. Each column defines the kind (or type) of data that it holds. Each row is a sequence of entries that match the kinds of data defined by the columns. Most rows contain a unique identifier. And, finally, a database is typically made up of many tables.
+Fundamentally, this is how every table in a database is organized. Each column defines the kind (or type) of data that it holds. Each row is a sequence of entries that match the kinds of data defined by the columns. Most rows contain a unique identifier. *And finally, a database is typically made up of many tables.*
 
 
 ## Questions about Databases
