@@ -17,7 +17,7 @@ overview: |
 
  In this lesson, we're going to talk about how pieces of data get organized into systems that can be searched and organized: databases. We'll start here to understand just WHAT we're testing when we talk about security, performance, and migration testing -- since it's usually DATABASES.
 
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Databases" %}
+{% include breadcrumbs seq="Databases,Migration,Testing" highlight="Databases" %}
 
 ## Databases (20m, solo)
 
