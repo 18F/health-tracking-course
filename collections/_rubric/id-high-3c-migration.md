@@ -8,30 +8,33 @@ overview: |
 
 # {{ page.title }}
 
-*This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into multiple lessons.
+*This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into multiple lessons. This is the second of two on data*.
 
 {% include rubric dimension="id1.3" %}
 
-### Roadmap
-
-We've introduced the notion of bits and bytes in the previous lesson. In this lesson, we're going to talk about how those pieces of data get organized into systems that can be searched and organized: databases.
-
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Migration" %}
-
-# Migration
-
-Let's check in.
-
-1. You've thought about bits, bytes, and the *size* of data.
-2. You've read and thought about the way data is organized in databases. In short, databases look like a bunch of spreadsheets.
-
+# The Question
 Now, my question is this: what happens when you want to **change the database**?
-
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Migration" %}
 
 A change in the database is a kind of *migration*. That is, if we change a database table (by adding or removing a column), that means that we need to update all of the records in the *current* database, and all future data written to the database must take this into account.
 
 Doing this on a live system is difficult. It is *especially* difficult if the developers failed to account for this reality from the beginning. However, a good development team will have tools in place to support data migrations in an automated manner, and ongoing improvements and changes to the system should not cause any (substantial) difficulty. 
+
+# Migrations: Three Kinds
+
+For now, we'll claim there are three kinds of data migration. This is not, by any means, an exhaustive characterization. The names for these migrations are not "terms of art," but should help you think about what is involved in changing and moving data in a system.
+
+1. **Incremental**. Incremental migrations happen when the system is grown as part of its normal, ongoing development. For example, if the system was built with the notion of a first/middle/last name, and it is being updated to include a more inclusive (and therefore accurate) notion of names, this would be an incremental migration within the system.
+2. **Geographic**. "Geographic" migrations happen when the data is moved, wholesale, from "Point A" to "Point B." For example, perhaps the state is moving the data from servers they own and manage into "the cloud." Or, perhaps they are changing the cloud provider for their database infrastructure.
+3. **Legacy**. Legacy migrations happen when a system is being moved from a 30-year-old, proprietary/bespoke technology to a modern, open database solution. These are sometimes part of a massive system rewrite. However, done correctly, they can be incremental and be completed alongside a living, legacy system.
+
+We'll dwell on the incremental and the geographic migrations, as legacy systems migrations are a whole set of topics unto themselves. 
+
+## Migrations: Incremental
+
+The example from the previous lesson regarded names; let's build on that here. 
+
+A database might store names as three fields: **first**, **middle**, and **last**. It might be that we want to 
+
 
 # Questions Regarding Migration
 

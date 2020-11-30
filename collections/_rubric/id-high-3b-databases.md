@@ -12,32 +12,20 @@ overview: |
 *This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into multiple lessons.
 
 {% include rubric dimension="id1.3" %}
-
-### Roadmap
-
-We've introduced the notion of bits and bytes in the previous lesson. In this lesson, we're going to talk about how those pieces of data get organized into systems that can be searched and organized: databases.
-
-{% include breadcrumbs seq="Bits and Bytes,Databases,Migration,Testing" highlight="Databases" %}
-
 ## Databases (20m, solo)
 
-A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. Therefore, it is important to have a reference for how big these different kinds of data are. 
-
-A database with one million words will be roughly 8MB in size. **Why?** Because one million words that are around 8 characters long will be one million, 8-byte things, or 8 megabytes.
-
-A database with one million desktop wallpapers will be roughly 2GB in size. **Why?** A desktop wallpaper is 2MB, and we have one million of them. A million megabytes would be a gigabyte, and we have one million 2MB things... hence, two gigabytes.
-
-But more important to our understanding here is what a database looks like, and how it is organized. 
-
+A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. In the databases that state systems use, there will likely be text (names, phone numbers, etc.) and possibly some images (scans of identification, paperwork). The important question, though, is less *what kind* of data is in a state's databases, and more *how is it organized*. Ultimately, our questions will lead us to the space of *how movable is that data*, but not quite yet...
 ### The LEGO Database
 
-To break things up a bit, sit back, channel your inner child, and revisit the world of LEGO. Danielle Thé provides a concise overview of databases and SQL (pronounced "see-quell"), the ur-language of databases... and she does it with LEGO, in 4 minutes. 
+To get a quick overview of what a database is, and how it is used, sit back, channel your inner child, and revisit the world of LEGO. Danielle Thé provides a concise overview of databases and SQL (pronounced "see-quell"), the ur-language of databases... and she does it with LEGO, in 4 minutes. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/27axs9dO7AE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Although short, it may be worth taking notes on terminology and the metaphors used here. If you're working with states and vendors, and they can't break down how their data is stored and organized in a simple, clear way, *there are problems*. 
+
 ### Data, in CMS Terms
 
-Now that we have visions of LEGO people dancing in our heads, lets imagine we're building a case management system for SNAP. It is, essentially, going to be a database system. We're going to need to keep track of a lot of information:
+Now that we have visions of LEGO people dancing in our heads, lets imagine we're building a case management system for SNAP. It is, essentially, going to be an interface on top of a database system. We're going to need to keep track of a lot of information:
 
 * People's names
 * SSNs
@@ -50,42 +38,19 @@ Now that we have visions of LEGO people dancing in our heads, lets imagine we're
   * Ages
 * ...
 
-Suddenly, it seems like we're going to need more than one table, and we're going to need to keep them linked and connected to each-other. Now, we might have a table that looks like this:
+The challenge for the vendor and state is what happens to this data when it is time to update the application? There's any number of common, but painful, changes that often need to be made, but vendors will claim it is 1) too difficult or 2) to expensive to change. Consider these three examples:
 
-**Table: Main**
+1. Many database systems in the US use a first, middle, and last name. This naming convention completely fails to acknowledge how people are named around the world. [Spanish naming traditions](https://en.wikipedia.org/wiki/Spanish_naming_customs) might include the forename *María* or *José*, or even *José María* as a **single** forename. *José María Álvarez del Manzano y López del Hierro* has a compound forename, and two compound surnames (*Álvarez del Manzano* and *López del Hierro*). 
+2. Not everyone has a fore and surname. A colleague in the NHS wrote an article for the BMJ titled [The surname I do not have](https://www.bmj.com/content/324/7349/1307). "My name (one and only name) is Radhika. Until I got married, I was called M Radhika." However, many database systems are written so that it is impossible to leave either the forename or surname blank.  
+3. [Native American naming traditions](https://www.npr.org/templates/story/story.php?storyId=5079630) do not map directly onto a first/middle/last name. Pause and consider what it means for a federally funded system to continue, in the 21st century, to continue to disrespect and demean the lives of Native Americans.
+ 
+**It is important to build systems that honor and respect human beings as individuals**. It takes intentionality and effort, but it can, and should, be done. A system that is incapable of honoring and respecting a person's name is unlikely to support them as human beings throughout a benefits application process (for example). And, a vendor or state that does not see that this is a problem, or claims their systems cannot be updated to capture these realities, is likely in need of substantial support and education.
 
-| ID | User ID | Dependent ID | Address ID |
-| ... | ... | ... | ... |
-| 1 | 103 | 1010 | 203 |
-| ... | ... | ... | ... |
+It is true that changing something as fundamental as a name can be invasive and require changes throughout a piece of software. However, if it was well written from the start, then changes to the data and the interface will be manageable, tests will be executed to verify the correctness of the changes, and life will go on. Poorly written systems will fail in horrific ways. This is likely a space where vendors will insist on massive, multi-year contracts to do the work... and a place where states should begin to rethink their contracting practices.
 
-The user ID is a number that we have to look up in a different table:
+## Questions about Databases (10m, solo)
 
-**Table: Users**
-
-| ID | User ID | Last | First | SSN | Age |
-| ... | ... | ... | ... | ... | ... |
-| 37 | 103 | Montoya | Inigo | 999-99-9999 | 29 |
-| ... | ... | ... | ... | ... | ... |
-
-We would use the dependent ID to look up (possibly multiple) dependents in yet a different table:
-
-**Table: Dependents**
-
-| ID | Dependent ID | Last | First | SSN | Age |
-| ... | ... | ... | ... | ... | ... |
-| 403 | 1010 | Montoya | Mandy | ... | ... |
-| 404 | 1010 | Montoya | ... | ... | ... |
-| ... | ... | ... | ... | ... | ... |
-
-By arranging data into multiple tables, we keep separate things separate. This often means that we have to use information from one table to look things up in another. This is just like a budget spreadsheet  with multiple tabs; you keep one kind of data in one tab, and different data in another. You bring it all together by linking it row-by-row, or doing VLOOKUPs, and so on. 
-
-Fundamentally, this is how every table in a database is organized. Each column defines the kind (or type) of data that it holds. Each row is a sequence of entries that match the kinds of data defined by the columns. Most rows contain a unique identifier. And, finally, a database is typically made up of many tables.
-
-
-## Questions about Databases
-
-This slightly more applied example might help you appreciate the complexity of the data that is being managed by these systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
+This contextualize example regarding names might help you appreciate the complexity of the data that is being managed by these systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
 
 We asked a few questions about bits and bytes earlier. You can now ask a few other questions that start to target the databases themselves.
 
@@ -103,3 +68,13 @@ We asked a few questions about bits and bytes earlier. You can now ask a few oth
 * How difficult would be it be migrate the data from a closed system to an open system?
 
 This second set of questions will make people nervous, and very, *very* likely to uncover some very, *very* disturbing truths about the systems being run by states.
+
+## Pause and Reflect (20m, solo)
+
+This is the first of two lessons on data and databases. Before proceeding, pause. 
+
+In your notebook, work through the questions from the section above. Assuming you are familiar with the work in your state(s), answer those questions to the best of your ability. It's OK if you have to write down "no idea" as an answer to some of these questions.
+
+Once you have taken stock, add some additional notes. Asking these questions directly, while fun, might set people unnecessarily on edge. Who might you have some conversation with at the state level who would have some insights in this space? What questions could you probe gently, so that you have a fuller picture of what is going on "on the ground?" 
+
+Reflecting on these questions will prepare you for the next lesson, where we talk about the *migration* of data, and ultimately come together in a group to talk all-things-data.
