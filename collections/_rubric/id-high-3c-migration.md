@@ -35,12 +35,74 @@ We'll dwell on the incremental and the geographic migrations, as legacy systems 
 
 The example from the previous lesson regarded names; let's build on that here. 
 
-A database might store names as three fields: **first**, **middle**, and **last**. It might be that we want to 
+A database might store names as three fields: **first**, **middle**, and **last**. It might be that we want to represent names more humanely. Each of the following names would "present a challenge" for a system that *expects* a first, middle, and last name.
 
+1. Simon
+2. Darth Vader
+3. Gordon Matthew Thomas Sumner
+4. Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso
 
+The first is an example of someone who has only one name. The second is someone without a middle name (and they get *really* angry when they have to fill in a middle name. Yes, they use Skywalker, but they often end up crushing the mouse in rage.) The third example is the artist more commonly known as Sting. The last is the artist you might best know as "Pablo Picasso."
+
+### Incremental Migration: Multiple Steps
+
+It might be that a proposal is put forward to make changes in more than one step. That is, the system is live, and working, and significant changes could be problematic. The first step might be to change the way data is entered by caseworkers. This could involve *capturing* the full, proper name, but not *yet* integrating it.
+
+In the database, we would then have four fields: first, middle, last, and **full name**.
+
+Now, these might be entered as follows:
+
+| **first** | **middle** | **last** | **full** |
+| Simon | N/A | N/A |  Simon |
+| Darth | N/A | Vader |  | Darth Vader |
+| Gordon | Matthew Thomas | Sumner | Gordon Matthew Thomas Sumner |
+| Pablo | N/A | Picasso | Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso |
+
+This step has the problem that it involves the caseworker entering data twice; this introduces the possibility of a name being entered correctly in one place, and incorrectly in another. We could do things like check that the **first** name appears in the **full** name (which would help), but it would be a potentially fraught step. (This detail is mentioned to help you imagine why migrations are complex. Good developers will work with users, have tests in place, and plan a series of changes that yield better software over the course of the incremental changes.)
+
+A second step might be to integrate this new information in the system as a whole. For example, if there is a search interface, that might be modified to use this new **full** name field. That way, if someone comes in and says their name is "Pablo Diego Picasso," the system will use that information to search the first, middle, and last name fields... but *also* search the full name field. This improves the quality of search in the system, but still does not fix the challenge of dealing with first/middle/last names.
+
+The next step might be to modify the case management system so it does not *rely* on any of these fields. That is, it might *only* expect a first name, but the notion of "expect" here is that it is then used for presentation. If everywhere in the system is designed so that there *must* be a **full** name field, and there *should* be a **first** name field, and everything else is *optional*, then we're ready for the final big change.
+
+In the last change, the system would be modified so that the only *required* field was the **full** name field. The first, middle, and last name fields would all bec ome optional. In this way, we would properly record people's names, and for search/presentation purposes, we might have a first name (to keep things short), but all questions of whether someone does or does not have a middle or last name goes away.
+
+### Incremental Migration: Testing and Rollback
+
+This series of changes might take weeks to months, depending on how large and complex the system is. With each change, not only does the software have to change, but the database has to change as well. Good development teams will develop tests that show the system is working well *as-is*, and they will develop tests for how the system should work *when they update*. They will have a tool that transforms the original database to a newer database, and have tests in place that confirm the changes happened.
+
+All of these tests should allow the software team to have the live (production) system, the new system under test (staging), and the ability to syncronize/test both at the same time. Depending on the size and complexity of the system, they should then be able to move to a [blue/green configuration](https://martinfowler.com/bliki/BlueGreenDeployment.html). This means they have two versions of the system side-by-side. If the switch to the new version doesn't work for some reason, it is possible to point things back to the original version and figure out what went wrong.
+
+### Incremental Migration: In Summary
+
+**This is a lot of detail, yet it still glosses over a great deal.** The important thing to remember here is that an incremental migration isn't necessarily small or simple. However, it does mean that the system is always available, and always improving. You, as the State Officer, M.D., should be on the lookout for situations where a state or vendor is claiming a system will need to be offline for several days, or that a change will take more funds, or months, or any number of things that suggest that the data and system are not being tested and managed in a way that allow for incremental change. (More questions of this sort will come at the end of this lesson.)
+
+## Migration: Geographic
+
+A geographic migration involves moving data between data centers or cloud providers. It is, essentially, a huge "file copy" of the data from one system to another.
+
+For example. *A story*. (Get some popcorn.)
+
+The state might be using systems that were built by Avendor. Avendor has seen a lot of growth lately, and are starting to offer more services and products. They're trying to talk the state into using their new in-house system, but you and the state hold firm: you want the data to be on open systems, on systems owned/paid for by the state, but accessed/managed by the vendor. It's hard, but Avendor would rather hold on to the contract than lose the state as a customer, and after months of back-and-forth, they agree. 
+
+No doubt, there's lots more process involved here; this story is not about the acquisitions process, or security and ATO, or any number of other things that should/could be considered at this point. This story is *only* about the data migration. So, skipping a bunch of things, the state decides to look into three cloud providers:
+
+* FutureSee-er
+* Minicushy
+* Nile
+
+All three of these vendors are reasonably well known in their space, and offer various kinds of services, whether it is fully managed database systems, or virtual machines that the vendor and state can use to build databases on. Note that the assumption we're making is that the state will "own" the machines and databases, not the vendor. There is more to be said here (and were it oh so simple in reality), but for simplicity, we're going to pretend that the data is not living on systems wholly owned and managed by the vendor. Instead, we're going to pretend that this kind of migration is a moment where the state can begin to "gain control" or "keep control" of **their** data.
+
+If the databases underlying the system are standard/open source, then all three cloud providers will work. If the vendor has built their systems using proprietary technologies (for example, FutureSee-er has custom extensions to otherwise common database systems that are a kind of "lock-in"), then this might be a moment where the state asks the vendor to first to an incremental migration from a proprietary database system to a free-and-open database system. Then, the second step would be to migrate the content from the free-and-open system owned/managed by the vendor to the same system owned/managed by the state.
+
+Once these two systems are up-and-running, we have a [classic blue/green configuration](https://martinfowler.com/bliki/BlueGreenDeployment.html). With minimal (or eve zero) downtime, the vendor should be able to flip their system from using their internal systems to the cloud-provided databases now owned by the state.
+
+This kind of migration is, in some ways, simpler than an incremental migration. The reason is that the structure of the data does not change. As a result, making sure that tests are carried out for correctness (always), security, performance (because we're now running the database in a new place, on new systems), and new failure modes (all such changes introduce new networking concerns, for example) are necessary, but the system should continue to "just work" when the switch is thrown from the old database to the new. "Should," of course, assumes a lot of good testing and engineering, but it's doable.
+ 
 # Questions Regarding Migration
 
-These questions start to get... specific. However, we're now talking about the data that upholds a complex system. And if those systems (and the care and feeding of the data in those systems) are not designed and implemented well, the implications are that the taxpayer will suffer when changes are made and upgrades need to happen. Or worse, the system will so difficult to upgrade that we will be locked in with aging technology and have no clear path forward. 
+There's a lot of detail in database migrations. Here, we looked at incremental and geographic migrations.
+
+The questions we might ask of states about these kinds of changes can get... specific. However, we're now talking about the data that upholds a complex system. And if those systems (and the care and feeding of the data in those systems) are not designed and implemented well, the implications are that the taxpayer will suffer when changes are made and upgrades need to happen. Or worse, the system will so difficult to upgrade that we will be locked in with aging technology and have no clear path forward. 
 
 This is where we are often find ourselves today. Many systems are bound up in proprietary, aging mainframe systems that are extremely difficult to upgrade and maintain. The questions here scratch the surface of what should be being considered to develop software and systems that are robust in the face of aging and change.
 

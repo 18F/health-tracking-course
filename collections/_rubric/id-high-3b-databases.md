@@ -50,9 +50,9 @@ It is true that changing something as fundamental as a name can be invasive and 
 
 ## Questions about Databases (10m, solo)
 
-This contextualize example regarding names might help you appreciate the complexity of the data that is being managed by these systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
+This contextualized example regarding names might help you appreciate the complexity of the data that is being managed by our systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
 
-We asked a few questions about bits and bytes earlier. You can now ask a few other questions that start to target the databases themselves.
+The following questions begin to get at the heart of some of the challenges that large, complex information systems might have. There is definitely more you could ask, but these might serve as a starting point for conversation regarding data and the work that needs to be done to represent data as a living, changing thing.
 
 * Who "owns" the systems where the data is stored? The state, or the vendor? (Note: in a cloud context, "owns" might mean that they are using an Amazon cloud service, but the state has full control and access.)
 * Who manages the systems where the data is stored? The state, or the vendor?
@@ -67,7 +67,7 @@ We asked a few questions about bits and bytes earlier. You can now ask a few oth
 * What is the underlying database system being used to store the state's data? Is it closed, or open? Why?
 * How difficult would be it be migrate the data from a closed system to an open system?
 
-This second set of questions will make people nervous, and very, *very* likely to uncover some very, *very* disturbing truths about the systems being run by states.
+This second set of questions will make people nervous, and very, *very* likely to uncover some very, *very* disturbing truths about the systems in place.
 
 ## Pause and Reflect (20m, solo)
 
