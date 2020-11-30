@@ -16,7 +16,6 @@ permalink: /rubric/
             <div class="grid-row">
                 <div class="grid-col-12">
                     <h1 style="font-variant: small-caps; padding-left: 1.5em;">{{section.header}}</h1>
-
                     <h2 style="padding-left: 2em; width: 90%;">{{section.question}}</h2>
                 </div> <!-- question --> 
             </div> <!-- row -->
@@ -34,14 +33,15 @@ permalink: /rubric/
             <div class="grid-row">
 {% for dimension in priority.dimensions %}
                 <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
-                    {% if forloop.first == true %}<p class="priority">{{priority.label | replace: " ", "<br>"}}</p>{% endif%}
+                    {% if forloop.first == true %}<p class="priority">{{priority.label | strip | replace: " ", "<br>"}}</p>{% endif %}
+                    <p class="priority" >{%- include rubrictopagelink.html id=dimension.id -%}</p>
                 </div>
                 <div class="grid-col-10">
                     {% if forloop.first == true %}<hr>{% endif %}
                     <div class="grid-row grid-gap tiprow">
 {% for tip in dimension.tips %}
                         <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip" {% if mod == 0 %}style="background: #eaeaea;"{% endif %} >
-                            {{tip}}
+                            {{tip}} 
                         </div>
                         {% if dimension.tips.size == 1%}
                         <div class="grid-col-1 blanktip"> &nbsp; </div>
