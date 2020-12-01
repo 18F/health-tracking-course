@@ -1,22 +1,16 @@
 ---
 layout: widepage
 title: Reading the Map
-lesson: 1
-indicator: outcomes
-priority: high
-visible: true
-date: October 15, 2020
-course: 1
+dimension: oo1.1
 overview: |
     Software project roadmaps are a powerful tool for orienting an outsider to the current state of affairs in the life of a service. Here, "orienting" is in the "orienteering" sense, meaning "which way is it pointing?" 
-dimension: oo1.1
 ---
 
 # {{ page.title }}
 
 *This lesson is about roadmaps, as shown in the first row of the health tracking rubric. Roadmaps are one of the top priorities in the outcomes-orientation primary indicator.*
 
-{% include rubric dimension="oo1.1" %}
+{% include rubric dimension=page.dimension %}
 
 Roadmaps are a tricky thing. They are a space where development teams can lie to leadership, vendor leadership can lie to states, states can lie to SOs, and everything can look like it is perfectly on track.
 

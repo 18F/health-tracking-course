@@ -1,13 +1,7 @@
 ---
 layout: widepage
 title: Measuring and Metrics
-lesson: 1
-indicator: outcomes
 dimension: oo1.2
-priority: high
-visible: true
-date: October 27, 2020
-course: 2
 overview: |
     Understanding outcomes involves measuring progress, which can be notoriously difficult with software development. Here, we explore what it means to assess progress, and whether a team can demonstrate progress against a set of reasonable metrics and baselines.
 metrics:
@@ -48,7 +42,7 @@ experts:
 
 *This lesson is about measuring progress and the metrics used. Understanding progress measurement is a high priority in the outcomes-orientation primary indicator.*
 
-{% include rubric dimension="oo1.2" %}
+{% include rubric dimension=page.dimension %}
 
 At *some* level, measuring progress on a large, long-running software project is an impossible task. 
 

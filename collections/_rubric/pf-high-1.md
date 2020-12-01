@@ -1,12 +1,9 @@
 ---
 layout: widepage
 title: "Progress and Risks"
-course: 1
-lesson: 3
-indicator: procurement
-priority: high
-visible: true
-date: October 8, 2020
+dimension: pf1.1
+overview: |
+    Procurement flexibility is where the money meets the work. And, to understand that, we need to track progress. How are deadlines chosen? Who chooses them? Why? What stories are told when deadlines are hit, and what stories are told when deadlines are missed?
 releaseQuestions:
     -   What are the three things he thinks developers are trying to balance?
     - Which two qualities does he and his team focus on?
@@ -16,9 +13,6 @@ releaseQuestions:
     - How long do engineers have to make sure their features are ready for release?
     - Is there ever any question about when new versions will be released?
     - Chuck talks about *beta* and *alpha* versions; how often do they release these versions to people?
-overview: |
-    Procurement flexibility is where the money meets the work. And, to understand that, we need to track progress. How are deadlines chosen? Who chooses them? Why? What stories are told when deadlines are hit, and what stories are told when deadlines are missed?
-dimension: pf1.1
 ---
 
 
@@ -26,7 +20,7 @@ dimension: pf1.1
 
 *This lesson explores the highest priority dimension of the Procurement Flexibility indicator of the health tracking rubric.*
 
-{% include rubric dimension="pf1.1" %}
+{% include rubric dimension=page.dimension %}
 
 * TOC
 {:toc}

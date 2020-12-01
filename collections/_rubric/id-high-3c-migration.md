@@ -10,7 +10,7 @@ overview: |
 
 *This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into multiple lessons. This is the second of two on data*.
 
-{% include rubric dimension="id1.3" %}
+{% include rubric dimension=page.dimension %}
 
 In this lesson, we're going to talk about how pieces of data get organized into systems that can be searched and organized: databases. We'll start here to understand just WHAT we're testing when we talk about security, performance, and migration testing -- since it's usually DATABASES.
 # The Question

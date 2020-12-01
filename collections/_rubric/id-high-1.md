@@ -1,22 +1,16 @@
 ---
 layout: widepage
 title: "Demos not Memos"
-course: 1
-lesson: 4
-indicator: development
-priority: high
-visible: true
-date: October 8, 2020
+dimension: id1.1
 overview: |
     The most important thing you can have in a project are demos. That is, working software. If someone gives you a report about a piece of software, the software probably doesn't work. (Ask me how I know.) If someone shows you a video of a piece of software, the software may have worked once. (Ask me how I know.) If someone shows you a piece of software, but they control it, the software barely works. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
-dimension: id1.1
 ---
 
 # {{ page.title }}
 
 *This lesson explores the highest priority dimension of the Iterative Development indicator of the health tracking rubric.*
 
-{% include rubric dimension="id1.1" %}
+{% include rubric dimension=page.dimension %}
 
 It's simple: do you get to see the software in progress, or not? If not, you should call bullshit. 
 

@@ -11,7 +11,7 @@ overview: |
 
 *This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into multiple lessons.
 
-{% include rubric dimension="id1.3" %}
+{% include rubric dimension=page.dimension %}
 ## Databases (20m, solo)
 
 A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. In the databases that state systems use, there will likely be text (names, phone numbers, etc.) and possibly some images (scans of identification, paperwork). The important question, though, is less *what kind* of data is in a state's databases, and more *how is it organized*. Ultimately, our questions will lead us to the space of *how movable is that data*, but not quite yet...

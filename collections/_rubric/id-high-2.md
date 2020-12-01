@@ -1,22 +1,16 @@
 ---
 layout: widepage
 title: Consider the User
-lesson: 4
-indicator: development
-priority: high
-visible: true
-date: October 30, 2020
-course: 2
+dimension: id1.2
 overview: |
     Testing is a sometimes misunderstood and, yet, critical aspect of a long-lived software project. This is especially true if you are trying to produce high-quality software in an iterative manner. This lesson will speak to the role that actual users play in the ongoing testing of a major software project.
-dimension: id1.2
 ---
 
 # {{ page.title }}
 
 *This lesson is about measuring progress and the metrics used. Understanding progress measurement is a high priority in the outcomes-orientation primary indicator.*
 
-{% include rubric dimension="id1.2" %}
+{% include rubric dimension=page.dimension %}
 
 If something is hard or frustrating to use, it just won’t get used the way we intend or at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
 

@@ -1,15 +1,9 @@
 ---
 layout: widepage
 title: "Managing Data"
-course: 3
-lesson: 3
-indicator: procurement
-priority: high
-visible: true
-date: November 3, 2020
+dimension: pf2.1
 overview: |
     Data is big business. Many contractors have learned that if they build a system that "locks in" the government, they not only "own" the data (potentially tying the government to them as a vendor in-perpetuity), but the data itself becomes a valuable commodity to be resold on the open market. Neither of these outcomes (necessarily) serves the people.
-dimension: pf2.1
 ---
 
 # {{page.title}}

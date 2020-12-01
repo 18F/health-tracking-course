@@ -10,7 +10,7 @@ overview: |
 
 *This dimension of iterative development involves multiple notions of "security," with specific focuses on data and testing. We've broken this up into two lessons; the first lesson&mdash;this one&mdash;focuses on data.*
 
-{% include rubric dimension="id1.3" %}
+{% include rubric dimension=page.dimension %}
 
 ### Roadmap
 

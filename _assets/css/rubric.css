@@ -4,6 +4,12 @@
     
 }
 
+/*
+.tiprow:hover{
+    background: rgba(106, 106, 185, 0.623);
+}
+*/
+
 .section:nth-of-type(odd) {
     background: #eaeaea;
 }

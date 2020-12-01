@@ -1,22 +1,16 @@
 ---
 layout: widepage
 title: Questioning the Teams
-course: 3
-lesson: 2
-indicator: capacity
-priority: medium
-visible: true
-date: November 13, 2020
+dimension: sc2.2
 overview: |
     To have a functioning software team, you gotta get folks on the same page. This lesson helps you figure out whether everyone on the team knows the story and how well they know it.
 
-dimension: sc2.2
 ---
 # Lesson {{ page.lesson }} - {{ page.title }}
 
 *This lesson is about a medium priority "State capacity" indicator in the health rubric.* 
 
-{% include rubric dimension="sc2.2" %}
+{% include rubric dimension=page.dimension %}
 
 To have a functioning software team, you gotta get folks on the same page. This lesson helps you figure out whether everyone on the team knows the story and how well they know it.
 
