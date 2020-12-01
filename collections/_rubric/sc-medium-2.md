@@ -19,7 +19,7 @@ To have a functioning software team, you gotta get folks on the same page. This 
 
 ## Reflection: What makes a team work? (15m, pair)
 
-**Timer**: {% include countdowntimer id="rpvp" minutes=15 %}
+**Timer**: {% include countdowntimer minutes=15 %}
 
 First, take some time to think through what makes a good functioning team. Grab a colleague and brainstorm some good signs on teams. 
 
@@ -81,14 +81,14 @@ The point is that you can feel comfortable asking someone to back up and explain
 
 To close out this lesson, come together with your learning cohort. 
 
-1. **Checkin**. {% include countdowntimer id="checkin" minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards throguh the year.
-2. **Prep**. {% include countdowntimer id="prep" minutes=3 %} Now divide the group, so that part of the group is people who are on the State side &mdash; a developer, a procurement officer, and a project manager for the State. The other half the group represents the SO asking questions of the group. The State group should put themselves in the place of their state's project, and imagine themselves as a program manager (or procurement officer, or developer) for that project. The SO group should take this time and imagine they are prepping for a conversation with these state team members to work on assessing project health. Take three minutes to prep for the roleplay.
-3. **Breakout I**. {% include countdowntimer id="uam" minutes=5 %} Break into groups. Each pair should have one state officer and each of the state team members. Have the state officer talking each of the team members, working to understand the health of the project and asking the team members to explain the project. 
+1. **Checkin**. {% include countdowntimer minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards throguh the year.
+2. **Prep**. {% include countdowntimer minutes=3 %} Now divide the group, so that part of the group is people who are on the State side &mdash; a developer, a procurement officer, and a project manager for the State. The other half the group represents the SO asking questions of the group. The State group should put themselves in the place of their state's project, and imagine themselves as a program manager (or procurement officer, or developer) for that project. The SO group should take this time and imagine they are prepping for a conversation with these state team members to work on assessing project health. Take three minutes to prep for the roleplay.
+3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into groups. Each pair should have one state officer and each of the state team members. Have the state officer talking each of the team members, working to understand the health of the project and asking the team members to explain the project. 
 If it helps, feel free to choose questions to ask from the two guides mentioned earlier: [Asking Questions of Software Project Teams](https://federalist-eb7b399c-56d9-4c6b-b524-27e0627cdd86.app.cloud.gov/preview/jadudm/cms-htmd/staging/questioning/) & [Ask Technical Questions of Agencies](https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies) 
-4. **Debrief I**. {% include countdowntimer id="uam" minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
+4. **Debrief I**. {% include countdowntimer minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
    * For the SOs: What questions were particularly useful? What words/behaviors did you note from the state team members that were encouraging or inspired confidence? 
    * For the State Team Members: How did getting into the state's head shape your thinking about how the state may explain projects to you? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
-5. **Wrap**. {% include countdowntimer id="wrap" minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
+5. **Wrap**. {% include countdowntimer minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
 
 {% alert no-icon Regarding Roleplays %}

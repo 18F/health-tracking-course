@@ -1,0 +1,40 @@
+{% comment %}
+The precision on the nanoseconds date representation appears
+to be microseconds, which means that a straight modulus of 16
+will yield 0, 4, 8 as the only values. Some division and multiplication by
+primes is necessary to get the "random" values massaged into something that 
+starts to look "random." There is no universe where this should be used for anything
+that a collision would cause problems, or in any security context whatsoever.
+It's OK for generating a pseudorandom ID that might be used as part of an HTML element,
+as long as you don't care about the potential consequences of duplication.
+{% endcomment %}
+{%- assign uuid = "" -%}
+{%- assign charset = "0123456789ABCDEF" -%}
+{%- for group in (1..4) -%}
+    {%- case group -%}
+    {%- when 1 -%}
+        {%- for n in (1..8) -%}
+            {%- assign rnd = "now" | date: "%N" | divided_by: 101 | times: 191 | divided_by: 227 -%}
+            {%- assign ndx = rnd | modulo: 16 -%}
+            {%- assign char = charset | slice: ndx -%}
+            {%- assign uuid = uuid | append: char -%}
+        {%- endfor -%}
+        {%- assign uuid = uuid | append: "-" -%}
+    {%- when 4 -%}
+        {%- for n in (1..16) -%}
+            {%- assign rnd = "now" | date: "%N" | divided_by: 101 | times: 349 | divided_by: 641  -%}
+            {%- assign ndx = rnd | modulo: 16 -%}
+            {%- assign char = charset | slice: ndx -%}
+            {%- assign uuid = uuid | append: char -%}
+        {%- endfor -%}
+    {%- else -%}
+        {%- for n in (1..4) -%}
+            {%- assign rnd = "now" | date: "%N" | divided_by: 101 | times: 557 | divided_by: 839 -%}
+            {%- assign ndx = rnd | modulo: 16 -%}
+            {%- assign char = charset | slice: ndx -%}
+            {%- assign uuid = uuid | append: char -%}
+        {%- endfor -%}
+        {%- assign uuid = uuid | append: "-" -%}
+    {%- endcase -%}
+{%- endfor -%}
+{{ uuid }}

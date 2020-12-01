@@ -130,7 +130,7 @@ We don't want to bury you in material, so if you have time, give it a go. If not
 
 ## Understanding a Map (30m, solo)
 
-**Timer**: {% include countdowntimer id="uam" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 You've seen roadmaps as parts of projects before.
 
@@ -169,7 +169,7 @@ These are fairly common roadmap questions.
 
 ## Reflecting on a Map (30m, solo)
 
-**Timer**: {% include countdowntimer id="roam" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 These questions are of a different nature. The previous set of questions asked you to make some judgements... but, really, they're questions that a good roadmap should almost answer for you.
 
@@ -191,9 +191,9 @@ Come together with your colleagues for a conversation.
 
 You can click on the timers below to help keep yourselves on track.
 
-1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
-2.  **Understand**. {% include countdowntimer id="understand" minutes=20 %} Next, take some time to  discuss points where you were confused or questioned your material. That is, did you find yourself questioning or wanting to challenge the authors at any point? Did you want to call "bullshit" on what they were saying based on your own personal experience? This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
-3.  **Reflecting**. {% include countdowntimer id="reflecting" minutes=20 %} You each had your own roadmaps you investigated and questioned; take a few minutes each to share the roadmaps you scrutinized. Focus on two things: areas where you thought the roadmap was excellent or clear, and areas where you were concerned. For each roadmap, as a group, offer suggestions for how you would like to see the state and/or vendor improve the roadmap in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations.
-4.  **Questioning**. {% include countdowntimer id="questioning" minutes=10 %} For the last few minutes, take some time to expand the questions that we asked about roadmaps. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking of each new roadmap that you see? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to  discuss points where you were confused or questioned your material. That is, did you find yourself questioning or wanting to challenge the authors at any point? Did you want to call "bullshit" on what they were saying based on your own personal experience? This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} You each had your own roadmaps you investigated and questioned; take a few minutes each to share the roadmaps you scrutinized. Focus on two things: areas where you thought the roadmap was excellent or clear, and areas where you were concerned. For each roadmap, as a group, offer suggestions for how you would like to see the state and/or vendor improve the roadmap in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations.
+4.  **Questioning**. {% include countdowntimer minutes=10 %} For the last few minutes, take some time to expand the questions that we asked about roadmaps. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking of each new roadmap that you see? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
 
 {% include airtable-post.html %}

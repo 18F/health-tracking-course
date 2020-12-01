@@ -17,7 +17,7 @@ overview: |
 
 ## An Experiment in Data Access (40m, solo)
 
-**Timer**: {% include countdowntimer id="eida" minutes=20 %} 
+**Timer**: {% include countdowntimer minutes=20 %} 
 
 *This is an interactive lesson. Read, reflect, and **do** as you make your way through.*
 
@@ -111,7 +111,7 @@ Let's break that down a bit further, though. What is true about the data stored 
  
 ## Data in your State (40m, solo)
 
-**Timer**: {% include countdowntimer id="diys" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 In the section above, you were introduced to Trello, a web-based tool for organizing data into lists and cards. It is widely used by software and product management teams for organizing the work that takes place on software projects. We then wrote a short web application that 1) accesses a Trello board and 2) counts the cards in each of the lists, 3) presenting that data back to you, the end-user.
 
@@ -149,10 +149,10 @@ In your group conversation, you fundamentally have two questions to explore:
 
 For #2 and #3, below, you'll want someone to take notes. Whomever has a birthday closest to Veteran's Day (after, not before) is encouraged to step up.
 
-1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
-2.  **Catalog**. {% include countdowntimer id="catalog" minutes=10 %} The first question asked above asks us how data might be "locked away" from a state. As a group, catalog the ways you see your states' health data locked away from them. In the event that you feel a state is *not* "locked in," share that, and why. Your goal is to come up with a catalog of the ways you see your states constrained (or not) by their vendors.
-3.  **Deconstruct**.  {% include countdowntimer id="catalog" minutes=25 %} Once you have a catalog, start working through it. As a group, think about the second question posed above: how could you, given where you sit, help states "break free?" What would be the ideal situation for states when it comes to their health data? How can you help them get there?
-4. **Reflect and Vote**.  {% include countdowntimer id="catalog" minutes=5 %} Take a pause from your conversation, and let the notetaker reflect back what you've said so far. Assuming you have multiple strategies, each of you should pick *two* that you think are of potential interest to explore further. Spend your **+1**s, and after voting, see which two ideas have the most votes. 
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Catalog**. {% include countdowntimer minutes=10 %} The first question asked above asks us how data might be "locked away" from a state. As a group, catalog the ways you see your states' health data locked away from them. In the event that you feel a state is *not* "locked in," share that, and why. Your goal is to come up with a catalog of the ways you see your states constrained (or not) by their vendors.
+3.  **Deconstruct**.  {% include countdowntimer minutes=25 %} Once you have a catalog, start working through it. As a group, think about the second question posed above: how could you, given where you sit, help states "break free?" What would be the ideal situation for states when it comes to their health data? How can you help them get there?
+4. **Reflect and Vote**.  {% include countdowntimer minutes=5 %} Take a pause from your conversation, and let the notetaker reflect back what you've said so far. Assuming you have multiple strategies, each of you should pick *two* that you think are of potential interest to explore further. Spend your **+1**s, and after voting, see which two ideas have the most votes. 
 
 At your next full team meeting, the note taker should share out a brief summary of your conversation, and highlight the two ideas/strategies for "freeing" state data with the rest of the group. Our hope is that this will be the beginning of a conversational space for potential work amongst the larger group to shift data management/ownership practices.
 

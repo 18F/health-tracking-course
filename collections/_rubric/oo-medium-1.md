@@ -21,7 +21,7 @@ When we learned about user experience in the iterative development primary indic
 
 ## Mapping users to outcomes (15m, solo)
 
-**Timer**: {% include countdowntimer id="muto" minutes=15 %} 
+**Timer**: {% include countdowntimer minutes=15 %} 
 
 Let’s get into how we connect users to outcomes. Maybe you’ve thought a bit about how a good project should focus on outcomes instead of just outputs. It’s not about how many new features a software project can put out, but rather how these features work for their intended audience. It’s helpful to start by mapping out what users need and want from a project at the beginning, before any actual development work happens. It’s important to know where you’re going before you start, and usability is just another outcome we want to track towards.
 
@@ -31,7 +31,7 @@ Think of areas in your own state's projects that address current user's issues a
 
 ## Outcomes, not outputs (10 min, solo)
 
-**Timer**: {% include countdowntimer id="ono" minutes=10 %} 
+**Timer**: {% include countdowntimer minutes=10 %} 
 
 When you think about it, a good experience for someone using a software tool is just another outcome or a goal that we want to track toward in development work. There's a whole field of practice, called user experience (UX), dedicated to ensuring that users have a smooth and enjoyable time using a software tool. 
 
@@ -41,7 +41,7 @@ After you read this, go back to your notes on your projects. Have you seen any o
 
 ## Viewing: Tools of the UX trade (45m, group)
 
-**Timer**: {% include countdowntimer id="vtotuxt" minutes=45 %} 
+**Timer**: {% include countdowntimer minutes=45 %} 
 
 Once you get the ball rolling on a software project, it can be easy to get caught up in hitting project milestones without starting from a place where users want or need them. To avoid this, a team will start out with considering the user at the beginning of the development process. Usually a UX designer or someone with a similar title does this work of investigating user needs, but a person doing this work doesn't necessarily need to have that particular title.
 
@@ -86,7 +86,7 @@ Now take the time to consider the following questions, writing notes in your not
 
 ## Viewing: Acessibility (45m, friend)
 
-**Timer**: {% include countdowntimer id="access" minutes=45 %} 
+**Timer**: {% include countdowntimer minutes=45 %} 
 
 {% alert no-icon Small Group Notice %}
 <p>

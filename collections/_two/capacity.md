@@ -21,7 +21,7 @@ Software projects are complex, creative projects that involve the orchestration 
 
 ## Reflection: Products vs. Projects (15m, pair)
 
-**Timer**: {% include countdowntimer id="rpvp" minutes=15 %}
+**Timer**: {% include countdowntimer minutes=15 %}
 
 Before you dive into the learning material for this module, grab a friend. Your challenge is to think about all of the work that goes into managing large, long-lived products/projects. 
 
@@ -47,7 +47,7 @@ As you watch these two videos, take notes. In particular, think about what kinds
 
 ### Reflect: Program Management (15m, solo)
 
-**Timer**: {% include countdowntimer id="rpm" minutes=15 %}
+**Timer**: {% include countdowntimer minutes=15 %}
 
 Before going on, pause. *Breathe*. 
 
@@ -91,14 +91,14 @@ We chose Kristyn's video because it is relevant in multiple ways. Recorded at th
 
 To close out this lesson, come together with your learning cohort. 
 
-1. **Checkin**. {% include countdowntimer id="checkin" minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards throguh the year.
-2. **Prep**. {% include countdowntimer id="prep" minutes=3 %} Now, count off, so that half of the group is an "Green" group and half the group is "Purple." The green group should put themselves in the place of their state's project, and imagine themselves as a program manager for that project. The purple group should take this time and imagine they are prepping for a conversation with the program manager to work on assessing project health. Take three minutes to prep for the roleplay.
-3. **Breakout I**. {% include countdowntimer id="uam" minutes=5 %} Break into pairs. The purple group should be playing the role of a state officer talking to the project's program manager, working to understand the health of the project. The green group should be playing the role of a program manager working on their state's software.
-4. **Debrief I**. {% include countdowntimer id="uam" minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
+1. **Checkin**. {% include countdowntimer minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards throguh the year.
+2. **Prep**. {% include countdowntimer minutes=3 %} Now, count off, so that half of the group is an "Green" group and half the group is "Purple." The green group should put themselves in the place of their state's project, and imagine themselves as a program manager for that project. The purple group should take this time and imagine they are prepping for a conversation with the program manager to work on assessing project health. Take three minutes to prep for the roleplay.
+3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into pairs. The purple group should be playing the role of a state officer talking to the project's program manager, working to understand the health of the project. The green group should be playing the role of a program manager working on their state's software.
+4. **Debrief I**. {% include countdowntimer minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
    * For the purple group: What questions were particularly useful? What words/behaviors did you note from the program managers that were encouraging or inspired confidence? 
    * For the green group: How did getting into the program manager's head shape your thinking about the role of the SO? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
 5. **Repeat**. Repeat steps 2, 3, and 4, but switching roles.
-6. **Wrap**. {% include countdowntimer id="wrap" minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
+6. **Wrap**. {% include countdowntimer minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
 
 {% alert no-icon Regarding Roleplays %}

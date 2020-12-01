@@ -21,7 +21,7 @@ If we create a piece of software or new feature and only stop to get feedback wh
 
 ## Consider the end user (5m, solo)
 
-**Timer**: {% include countdowntimer id="cteu" minutes=5 %} 
+**Timer**: {% include countdowntimer minutes=5 %} 
 
 First, let’s consider the end user -- the person who uses the product or software that we’re building. Who are they? What type of person are they? What are their needs and how does what you’re building solve them? To capture these questions, user experience (UX) designers create “personas” that sort of act like characters in the story of making the software. This centers the user at the start of the development process and helps keep who you’re building for in focus throughout the process.
 
@@ -33,7 +33,7 @@ You may have heard terms like user-centered design, human-centered design, or UX
 
 ## Reflect (30m, solo)
 
-**Timer**: {% include countdowntimer id="refl1" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 Let's take a short moment to write down some notes about the topics in the video. Empathy isn't something you usually hear about in software development, but it's an important tool in building something that works for users.
 
@@ -104,7 +104,7 @@ Here we're going to go a little deeper into human-centered design with two video
  
 ## How do you know if your state is doing this? (30m, solo)
 
-**Timer**: {% include countdowntimer id="hdykifsidt" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 There are certain “tools of the trade” in user-centered design that you can look for. At the beginning of the process, there is gathering information on the users through data, surveys, and interviews. This can look like taking a look at current systems and how they are used, and then interviewing a few people who use them to discover pain points. 
 
@@ -129,9 +129,9 @@ Come together with your colleagues for a conversation.
 
 You can click on the timers below to help keep yourselves on track.
 
-1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
-2.  **Understand**. {% include countdowntimer id="understand" minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
-3.  **Reflecting**. {% include countdowntimer id="reflecting" minutes=20 %} Bring examples from your own states on how they currently incorporate users. Bring questions for your state’s projects if how and when they consider the end user are unclear. As a group, offer suggestions for how you would like to see the state and/or vendor improve in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations. Imagine and discuss how the state might respond to those questions or recommendations.
-4.  **Questioning**. {% include countdowntimer id="questioning" minutes=10 %} For the last few minutes, take some time to expand on how state project engage end users in their development process. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} Bring examples from your own states on how they currently incorporate users. Bring questions for your state’s projects if how and when they consider the end user are unclear. As a group, offer suggestions for how you would like to see the state and/or vendor improve in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations. Imagine and discuss how the state might respond to those questions or recommendations.
+4.  **Questioning**. {% include countdowntimer minutes=10 %} For the last few minutes, take some time to expand on how state project engage end users in their development process. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
 
 {% include airtable-post.html %}

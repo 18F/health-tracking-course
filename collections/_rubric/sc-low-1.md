@@ -74,7 +74,7 @@ As we're thinking through all of these, let's think through some direct qestions
 
 ## Questioning the team (30m, with a colleague)
 
-**Timer**: {% include countdowntimer id="uam" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay asking your project team some of the  questions below. These are just a starting point -- feel free to come up with your own in conversation. Be ready to talk through these questions or suggest your own additions with the group. 
 
@@ -87,7 +87,7 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 
 ## Reflecting on the team dynamics (30m, solo)
 
-**Timer**: {% include countdowntimer id="roam" minutes=30 %} 
+**Timer**: {% include countdowntimer minutes=30 %} 
 
 1. How do the teams make decisions? Who is empowered and who is not? 
 2. Are team roles clearly defined? Do the team members seem to know their roles and responsibilities or are they less defined?
@@ -100,10 +100,10 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 
 Come together with your colleagues for a conversation.
 
-1.  **Check in**. {% include countdowntimer id="checkin" minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
-2.  **Understand**. {% include countdowntimer id="understand" minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. That is, did you find yourself questioning or wanting to challenge the authors at any point? Did you want to call "bullshit" on what they were saying based on your own personal experience? This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
-3.  **Reflecting**. {% include countdowntimer id="reflecting" minutes=20 %} Go around and have everyone share the projects they picked and what stage of development they are in (Tuckman's model). Discuss how the project phase affects the work. Also, take time to talk through the team dynamics you wrote down. How can these map onto project health? What would need to change to make things better for the team?
-4. **Questioning**{% include countdowntimer id="reflecting" minutes=20 %} Talk through the questions you would ask the team to probe at team dynamics. After your discussions with your colleagues, you may have more to add to the list. Share those and discuss how effective they might be at getting at team health. 
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. That is, did you find yourself questioning or wanting to challenge the authors at any point? Did you want to call "bullshit" on what they were saying based on your own personal experience? This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} Go around and have everyone share the projects they picked and what stage of development they are in (Tuckman's model). Discuss how the project phase affects the work. Also, take time to talk through the team dynamics you wrote down. How can these map onto project health? What would need to change to make things better for the team?
+4. **Questioning**{% include countdowntimer minutes=20 %} Talk through the questions you would ask the team to probe at team dynamics. After your discussions with your colleagues, you may have more to add to the list. Share those and discuss how effective they might be at getting at team health. 
 
 
 {% include airtable-post.html %}
