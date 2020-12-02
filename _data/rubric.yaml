@@ -123,9 +123,9 @@
         - id: pf3.2
           tips:
             - Ask team leads and contract owners how they monitor vendor budget.
-          red: The state has little of no regular visibility into how the vendor is billing.
+          red: The state has little or no regular visibility into how the vendor is billing.
           yellow: The state has visibility into how the vendor is billing but is uncertain how to manage if a vendor is burning too hot.
-          green: The state has regular converstion with vendor about burn rate.
+          green: The state has regular conversations with vendor about burn rate.
 - header: Iterative Development
   question: Does the state use iterative, secure development practices?
   wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
