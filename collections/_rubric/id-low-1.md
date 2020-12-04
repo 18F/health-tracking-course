@@ -54,25 +54,34 @@ The website you are reading *right now* is free and open content. This content w
 
 Almost everything that 18F does is free and open. Let's look at the LICENSE that is associated with this content:
 
-<code>
-# License
+<div style="background: #cccccc;">
+    <h1>
+        License
+    </h1>
+    <p>
+        As a work of the [United States government](https://www.usa.gov/), this project is in the public domain within the United States of America.
+    </p>
+    <p>
+        Additionally, we waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
+    </p>
+    <h2>
+        CC0 1.0 Universal Summary
+    </h2>
+    <p>
+        This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
+    </p>
+    <h3>
+        No Copyright
+    </h3>
+    <p>
+        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+    </p>
+    <p>
+        You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
+    </p>
+</div>
 
-As a work of the [United States government](https://www.usa.gov/), this project is in the public domain within the United States of America.
-
-Additionally, we waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
-
-## CC0 1.0 Universal Summary
-
-This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
-
-### No Copyright
-
-The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
-
-You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
-</code>
-
-From a legal perspective, that's pretty serious stuff. It isn't that this is free to use (but you can't modify it). This license lets anyone in the world, *anywhere*, at *any time*, use this content in *any way they want*. 
+From a legal perspective, that's pretty serious stuff. It isn't that this is *just* free to use (but you can't modify it). This license lets anyone in the world, *anywhere*, at *any time*, use this content in *any way they want*. 
 
 Why?
 
@@ -82,17 +91,34 @@ There are many things that could happen with this content. It could be repackage
 
 Or, it might be that SOs at CMS are the only people to ever use this content. And that would be wonderful, because that is who this content was developed for. But it is important to note that the work belongs to you (and the rest of the world), and no one can take it away from you.
 
-## A Smattering of Open
+## A Smattering of Open (10m, solo)
 
 There are many open tools in many spaces. We're going to close this unit by highlighting a few so that you are aware of the breadth and depth of open software, and what the implications are for different market segments (and the work that you do) when states are considering technologies for their IT implementations.
 
 | Category | Tool | Notes |
-| Documents | Libre Office | Many processes in government require work to be completed using proprietary/closed software. This means that, in order to interact with those processes, someone *must* purchase and license a software product. There are free and open word processors, spreadsheets, and presentation tools; Libre Office is an example. Question: Why should someone have to pay a private company for software to interact with public services? |
-| Documents | ? | Many forms are delivered as PDFs. The PDF standard is not free and open; nor are there good, free and open tools for working with PDFs on all major operating systems. Why do we have critical forms and processes that rely on closed infrastructure? | 
-| Content Management | Wordpress, Drupal, [**Federalist**]() | When we talk about "content management," we are typically referring to tools that let some people write content, others edit, and yet another group manage the workflow from inception to publication (often online). Fortunately, there are many free-and-open solutions in this space, and they are often widely used in government. Federalist is an example of a GSA-hosted solution for content that is used by many agencies. |
+| Documents | [Libre Office](https://www.libreoffice.org/) | Many processes in government require work to be completed using proprietary/closed software. This means that, in order to interact with those processes, someone *must* purchase and license a software product. There are free and open word processors, spreadsheets, and presentation tools; Libre Office is an example. Question: Why should someone have to pay a private company for software to interact with public services? |
+| Forms | ? | Many forms are delivered as PDFs. The PDF standard is not free and open; nor are there good, free and open tools for working with PDFs on all major operating systems. Why do we have critical forms and processes that rely on closed infrastructure? | 
+| Content Management | [Drupal](https://www.drupal.org/), [Django](https://www.djangoproject.com/), [**Federalist**](https://federalist.18f.gov/) | When we talk about "content management," we are typically referring to tools that let some people write content, others edit, and yet another group manage the workflow from inception to publication (often online). Fortunately, there are many free-and-open solutions in this space, and they are often widely used in government. Federalist is an example of a GSA-hosted solution for content that is used by many agencies. |
 | Image Manipulation | The Gimp | Designers often use graphics programs to create and edit images for brochures, websites, and so on. The Gimp (which stands for the GNU Image Manipulation Program) is a free-and-open tool that supports this kind of work. It is often used in place of tools that cost thousands of dollars (or can cost hundreds of dollars per-user-per-month). |
 | Web Hosting | Nginx, Apache | Most of the web is already delivered by free and open webservers. There are proprietary solutions, but the web was built on free and open standards, and the servers that power it have been around for decades. The site you are viewing now is served by free software. |
-| Server Hosting | Linux | It is possible to set up servers on proprietary operating systems. However, many "cloud infrastructure" providers are actually selling provisioned access to Linux servers. They take a free operating system (Linux) and sell the services and support around making it easy to use virtually and at a distance. (This is the common business model around free and open software: the software is free, and you sell support and services.) Red Hat, as a company, grew from a few people to a multi-billion dollar company (and was acquired subsequently by IBM) using exactly this model. |
-| Case Management | Camunda | There are several providers of case management solutions in the world. Many of them will charge large sums of money for customization and their services, and at the end of the process, your data is owned by the provider and locked away in a proprietary database. There are free-and-open case management tools that use open standards for managing and storing information. And, there are vendors and service providers who can help customize and stand up these tools. Yet, many states still choose to go with vendors who leverage closed, proprietary systems and services. |
-| Databases | MySQL, PostreSQL, MongoDB, CockroachDB, MinIO | There are ways to store data that are closed and proprietary. However, databases (as a technology) have been around for... 50 years? Free and open database servers are not just commonplace, they are what large cloud providers have built their business on. (For example, if you use  GovCloud to create a database, it will be a free and open database system that you are paying for support and services around). In the year 2020 and beyond, there is little reason to contract for proprietary database technologies, when so many options, and so much expertise, exists around free and open tooling. |
-| 
+| Case Management | [Camunda](https://camunda.com/download/) | There are several providers of case management solutions in the world. Many of them will charge large sums of money for customization and their services, and at the end of the process, your data is owned by the provider and locked away in a proprietary database. There are free-and-open case management tools that use open standards for managing and storing information. And, there are vendors and service providers who can help customize and stand up these tools. Yet, many states still choose to go with vendors who leverage closed, proprietary systems and services. |
+| Content Hosting | Linux, [**cloud.gov**](https://cloud.gov/) | It is possible to set up servers on proprietary operating systems. However, many "cloud infrastructure" providers are actually selling provisioned access to Linux servers. They take a free operating system (Linux) and sell the services and support around making it easy to use virtually and at a distance. (This is the common business model around free and open software: the software is free, and you sell support and services.) Red Hat, as a company, grew from a few people to a multi-billion dollar company (and was acquired subsequently by IBM) using exactly this model. |
+| APIs and Protocols | REST, HTTP, etc. | When we want one piece of code to talk to another piece of code, we use an API ("application program interface") or protocol of some sort. The important thing to make sure of regarding APIs and protocols is that they are open and well documented. An example might be a case management system that provides an API for adding, removing, and updating client records. When an application has an open API, it lets future programmers more easily extend, improve, and integrate with the software or service. It is possible for vendors to make an APIs and protocols closed and proprietary, in which case they make it more difficult for future improvements and integrations to take place (unless, of course, the vendor is the one to do it). Proprietary protocols and APIs are a common way to "lock in" a state. |
+| Databases | [MariaDB](https://mariadb.org/), [PostreSQL](https://www.postgresql.org/), [MongoDB](https://www.mongodb.com/), [CockroachDB](https://www.cockroachlabs.com/), [MinIO](https://min.io/) | There are ways to store data that are closed and proprietary. However, databases (as a technology) have been around for... 50 years? Free and open database servers are not just commonplace, they are what large cloud providers have built their business on. (For example, if you use  GovCloud to create a database, it will be a free and open database system that you are paying for support and services around). In the year 2020 and beyond, there is little reason to contract for proprietary database technologies, when so many options, and so much expertise, exists around free and open tooling. |
+
+# Discussion (45m, group)
+
+These questions are all meant to help you get at this one dimension of the rubric:
+
+{% include rubric dimension=page.dimension %}
+
+Come together with your colleagues for a conversation.
+
+You can click on the timers below to help keep yourselves on track.
+
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. Do you feel you have a good understanding of what it means for a piece of software or system to be "free and open?"
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} Requiring open licensing can be a fraught process in government work, as there may be legal hurdles in the way. That particular set of challenges aside, what do you see as benefits to moving towards open vs. proprietary? What drawbacks and challenges could you foresee? From the perspective of users and consumers of these services, how might openness benefit them? Likewise, are there benefits to The People when systems are closed or proprietary?
+4.  **Questioning**. {% include countdowntimer minutes=10 %} Closing out your conversation, the question becomes one of action: what can you do? In terms of ongoing projects, is it possible to encourage a move to open? As new contracts are developed, what steps might you take?  
+
+{% include airtable-post.html %}
