@@ -85,7 +85,7 @@ This suggests that we might be looking at a *theme-based roadmap* or a *feature-
 
 ### Theme-Based Mapping
 
-The first half of Janna Bastow's slide deck on Agile Product Roadmaps ({% link capreu %}) is a really good read. 
+The first half of Janna Bastow's slide deck on Agile Product Roadmaps ({% include link id="capreu" %}) is a really good read. 
 
 You can either read through the deck, or if you like, you can watch Janna present it.
 
@@ -100,7 +100,7 @@ As Janna says, a good theme-based roadmap is going to communicate:
 
  Where I think her deck tells a little lie is in the second half; that is, it suggests or implies that you can start with vision, get to goals, and somehow (from there) work your way down. 
 
-Done right, the team **starts with user stories**, and works their way up to the product vision. David Hawks has a nice article ({% link hawks %}) that captures how a team should generally go about building up a story map.
+Done right, the team **starts with user stories**, and works their way up to the product vision. David Hawks has a nice article ({% include link id="hawks" %}) that captures how a team should generally go about building up a story map.
 
 To sum up, a story map will generally suggest this kind of thinking:
 
@@ -120,14 +120,14 @@ I highlight this because we're going to be talking about **how the states and ve
 
 A more mature product is going to be more focused on features and feature delivery. This makes sense once a team is well-gelled, communicating openly with the partner, and continuously delivering features and product on a bi-weekly basis. (This is the essence of agile software development.) 
 
-A feature-based map may look a bit more like either a goal-oriented product map (a GO map) or a now/next/later map. Robbin Schuurman has a nice overview of both of these kinds of maps ({% link schuurman %}) that describes these; again, give this a read, and then come back.
+A feature-based map may look a bit more like either a goal-oriented product map (a GO map) or a now/next/later map. Robbin Schuurman has a nice overview of both of these kinds of maps ({% include link id="schuurman %}) that describes these; again, give this a read, and then come back.
 
 ### All The Details
 
 Storymapping and product management is a whole set of subjects unto themselves. If you want to read more, you might browse:
 
 * Atlassian's *Agile Coach* website
-* Bree Davies has a nice article on roadmaps ({% link davies %}) that provides some additional context and background. 
+* Bree Davies has a nice article on roadmaps ({% include link id="davies" %}) that provides some additional context and background. 
 
 We don't want to bury you in material, so if you have time, give it a go. If not, go ahead and move on. This learning will require you to revisit sources from time-to-time as you encounter new situations and challenges, so fear not... there is more to be learned than can ever be learned...
 

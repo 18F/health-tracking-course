@@ -12,7 +12,7 @@ However, you can actually have "agile fatigue" at the **exact same time** as you
 
 We have two resources for you. Nothing we do can help you with agile fatigue, but we can *definitely* help you with understanding what agile is.
 
-The video embedded below, [Foundations of Agile](https://digital.gov/event/2019/11/04/foundations-agile-i/), is based directly on the {% link agileprinciples %} guide. You could watch the video (for context), and later come back and read the guide. Or, perhaps you prefer reading to viewing, and you'd rather just read the guide. 
+The video embedded below, [Foundations of Agile](https://digital.gov/event/2019/11/04/foundations-agile-i/), is based directly on the {% include link id="agileprinciples" %} guide. You could watch the video (for context), and later come back and read the guide. Or, perhaps you prefer reading to viewing, and you'd rather just read the guide. 
 
 These resources care both intended for people who are new to agile.
 
@@ -24,7 +24,7 @@ The video below features Alan Atlas and Alan Brouilette of 18F, presenting on th
 
 ## Agile Principles and 18F Practices
 
-If you prefer reading, you can hit {% link agileprinciples %}, a guide developed by 18F staff. The presentation by Alan and Alan draws directly from this guide, so don't be surprised if they seem like the same content. 
+If you prefer reading, you can hit {% include link id="agileprinciples" %}, a guide developed by 18F staff. The presentation by Alan and Alan draws directly from this guide, so don't be surprised if they seem like the same content. 
 
 ### Giving Back
 
