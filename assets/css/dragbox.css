@@ -1,0 +1,37 @@
+/* This CSS GPL 3.0 from 
+   https://github.com/wolffe/DragonflyJS/blob/master/test.html
+   */
+   
+.drag-container {
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    width: 400px;
+    padding: 8px;
+    margin: 0 auto;
+}
+.drag-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+.drag-box:hover {
+    background-color: #ffff99;
+}
+
+.drag-helper {
+    box-sizing: border-box;
+    position: absolute;
+    display: none;
+    top: auto;
+    left: auto;
+}
+.drag-box-dragging .drag-box {
+    background-color: #ff99cc;
+    opacity: 0.5;
+    transform: scale(1.5);
+}
