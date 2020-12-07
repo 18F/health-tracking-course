@@ -10,7 +10,7 @@ Long ago, during the era of *blogs*, there was a program manager at Microsoft na
 
 Joel wrote a test. More than 20 years later, people still talk about the "Joel Test," and for good reason: it spoke to simple, fundamental things that good software teams do. So, even though his test did not go viral as a 10 second video made by cool kids on the internet, it did help shape how we talk about and practice developing software in teams.
 
-{% link thejoeltest text="The original blog is still up and on the internet." %}  Right at the top, it lays out twelve simple rules to determine if a software team is going about developing software in a sane way. When reading it, you can hear it as if Joel is asking the questions of another program manager about the software development practices of their team.
+{% include link id="thejoeltest" text="The original blog is still up and on the internet." %}  Right at the top, it lays out twelve simple rules to determine if a software team is going about developing software in a sane way. When reading it, you can hear it as if Joel is asking the questions of another program manager about the software development practices of their team.
 
 1. Do you use source control?
 2. Can you make a build in one step?
@@ -182,7 +182,7 @@ A vendor who cannot, or otherwise will not, develop comprehensive tests for thei
 
 ### 10c. Are demos carried out at the end of every sprint?
 
-The {% link deriskingguide text="18F Derisking Guide" %} has, in its [State Field Guide](https://derisking-guide.18f.gov/state-field-guide/) section, some words on [demos not memos](https://derisking-guide.18f.gov/state-field-guide/#require-demos-not-memos).
+The {% include link id="deriskingguide" text="18F Derisking Guide" %} has, in its [State Field Guide](https://derisking-guide.18f.gov/state-field-guide/) section, some words on [demos not memos](https://derisking-guide.18f.gov/state-field-guide/#require-demos-not-memos).
 
 If the state, and for that matter, the SO, can actually use the software at the end of every sprint to explore and try things, then that's a good final "check" that the vendor, in conjunction with the state, are developing high-quality software. 10a and 10b, as methods, will help the developers get to a point (along with #1, #2, #3, and #4) where they are confident that the software will work, and work well. 
 
@@ -200,13 +200,13 @@ This final bullet in Joel's test has not aged well. "Hallway usability testing" 
 
 Are *actual users* involved in the design and testing of the software? This does not mean some VP at the vendor says "I like this." It means that The People of the United States are involved in the ongoing testing of the software. If the software is intended to support SNAP enrollment, then people who need to enroll in SNAP should be *paid*, *by the vendor*, to be part of their user testing pool.
 
-There's a lot more to say about the modern design and testing of software. {% link methodsguide %} has an entire section on how we [validate software products](https://methods.18f.gov/validate/). If you only read about those methods ([card sorting](https://methods.18f.gov/card-sorting), [multivariate testing](https://methods.18f.gov/multivariate-testing), [usability testing](https://methods.18f.gov/usability-testing), and [visual preference testing](https://methods.18f.gov/visual-preference-testing)), you'll be a long way towards having an understanding of what it means for a state or vendor to take ongoing testing and validation of the software product seriously. 
+There's a lot more to say about the modern design and testing of software. {% include link id="methodsguide" %} has an entire section on how we [validate software products](https://methods.18f.gov/validate/). If you only read about those methods ([card sorting](https://methods.18f.gov/card-sorting), [multivariate testing](https://methods.18f.gov/multivariate-testing), [usability testing](https://methods.18f.gov/usability-testing), and [visual preference testing](https://methods.18f.gov/visual-preference-testing)), you'll be a long way towards having an understanding of what it means for a state or vendor to take ongoing testing and validation of the software product seriously. 
 
 Fundamentally, if the state and vendor have a 1) clearly articulated process to 2) involve real users 3) on an ongoing basis, then they're in a pretty good place. From there, it's a question of how well the feedback from those tests are rolled back into the development process. 
 
 # In Conclusion
 
-The {% link statefieldguide %} portion of the {% link deriskingguide %} recommends that you [ask technical questions](https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies). 
+The {% include link id="statefieldguide" %} portion of the {% include link id="deriskingguide" %} recommends that you [ask technical questions](https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies). 
 
 The Joel Test is a set of 12 questions that you can ask about a software project that starts to shed light on the daily practices of a vendor, and their relationship with a state. (Ultimately, the State Field Guide recommends that states develop their own expertise, in house, to oversee and ultimately deliver software.) You can use these questions as a starting point for digging into the technical aspects of software projects, and (in keeping with the [learning goals for this course]({{ "/rubric/" | prepend: site.baseurl }})), become more expert yourself in:
 

@@ -35,7 +35,7 @@ Think of areas in your own state's projects that address current user's issues a
 
 When you think about it, a good experience for someone using a software tool is just another outcome or a goal that we want to track toward in development work. There's a whole field of practice, called user experience (UX), dedicated to ensuring that users have a smooth and enjoyable time using a software tool. 
 
-Even so, it can be easy to put a business outcome or goal in place of a user outcome.  Read through {% link sotgtbuxo %}, which discusses this in depth. 
+Even so, it can be easy to put a business outcome or goal in place of a user outcome.  Read through {% include link id="sotgtbuxo" %}, which discusses this in depth. 
 
 After you read this, go back to your notes on your projects. Have you seen any of them tracking business outcomes instead of user outcomes? Write down how they might improve.
 
@@ -55,8 +55,7 @@ Watch the video below as Anissa Deanna gives us a glimpse into this process and 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fw98L-kcRpc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% alert no-icon Take Note %}
-
+{% capture body %}
 <p>
    A <i>user story</i>:
 </p>
@@ -68,14 +67,15 @@ Watch the video below as Anissa Deanna gives us a glimpse into this process and 
 </pre>
 
 <p>
-<i>Epics</i> are bigger, goal-orientated statements about the feature. They are broken down into little user stories to get more specific.
+<i>Epics</i> are bigger, goal-orientated statements about the feature. Broken down into little user stories to get more specific.
 </p>
 
 <p>
-Personas are the characters in the user stories who have a goal that your software can help them solve.
+Personas are the characters in the user stories who have a goal that is solved by your software tool.
 </p>
+{% endcapture %}
+{% include alert level="no-icon" heading="Take Note" body=body %}
 
-{% endalert %}
 
 Now take the time to consider the following questions, writing notes in your notebook and then grabbing a colleague to discuss and trade stories and answers:
 
@@ -88,11 +88,14 @@ Now take the time to consider the following questions, writing notes in your not
 
 **Timer**: {% include countdowntimer minutes=45 %} 
 
-{% alert no-icon Small Group Notice %}
+
+{% capture body %}
 <p>
     This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say "hi," do some breathing, report out something positive from the past week), and then break into pairs for this work.
 </p>
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Small Group Notice" body=body %}
+
 
 When building these user stories, personas, and epics, we have to make sure we're as inclusive as possible&mdash;of those with disabilities and of those with other accessibility concerns. Making sure there are multiple ways to access a tool often has the great side effect of making the tool more usable for everyone. For example, captions on a video help not only those who are unable to hear the video, but those watching in a quiet area where they can't turn on sound. Watch the video below from W3C, an organization that sets web standards, on accessibility on the web.
 

@@ -1,0 +1,19 @@
+<div class="usa-alert usa-alert--{{include.level}}">
+    <div class="usa-alert__body">
+    {%- if include.heading -%}<h3>{{include.heading}}</h3>{%- endif -%}
+    <p class="usa-alert__text">
+        {{include.body}}
+    </p>
+    </div>
+</div>
+{% comment %}
+        mkup = "#{@markup}".split(" ")
+        output = "<div class=\"usa-alert usa-alert--#{mkup[0]}\"><div class=\"usa-alert__body\">"
+        output += "<h3 class=\"usa-alert__heading\">"
+        mkup.shift()
+        output += mkup.join(" ")
+        output += "</h3>"
+        output += "<p class=\"usa-alert__text\">"
+        output += content.strip
+        output += "</p></div></div>"
+{% endcomment %}

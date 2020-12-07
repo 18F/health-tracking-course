@@ -55,7 +55,7 @@ This lesson looks at some frameworks for assessing the health of a program, and 
 
 ## Ordering: What Do You Think? (15m, solo)
 
-Jama Software has {% link nbmtmstp text="nine metrics that they think relate to software team speed and productivity" %}. We offer these as food for thought, and are not suggesting that they are "the best" or "the only" ways to think about software team productivity.
+Jama Software has {% include link id="nbmtmstp" text="nine metrics that they think relate to software team speed and productivity" %}. We offer these as food for thought, and are not suggesting that they are "the best" or "the only" ways to think about software team productivity.
 
 Give the article a skim. Make sure to note questions you have about these metrics as you read; we have to admit, it's not a very... *verbose*... article. Then, come back, and re-order the metrics (by dragging-and-dropping) so that the metric that you think would tell you the **most** about a team's product quality is at the **top**, and the metric that you think would tell you the **least** is at the **bottom**.
 
@@ -73,7 +73,7 @@ Note your top two and bottom two in your notebook for later discussion, as well 
 
 ## Reading: What The Experts Say (30m, solo)
 
-Stackify's blog has {% link dlrbmfmsdp text="an interesting set of interviews" %} with experts in software development and the management of software projects. 
+Stackify's blog has {% include link id="dlrbmfmsdp" text="an interesting set of interviews" %} with experts in software development and the management of software projects. 
 
 Below are two random experts from the article. (<a href="#/" onclick="getTwoExperts()">Click to generate two new names!</a>) Jot these down.
 
@@ -115,21 +115,23 @@ Now, read what those two experts have to say in the Stackify article. After you'
 
 Record your thoughts in your notebook. We're going to come back together to report out on what you gathered from these experts, and also share out what you thought would actually be useful to you in your context. 
 
-{% alert no-icon Always Questioning %}
-
+{% capture body%}
 <p>
     As always, you should also be noting anything that you have questions about. There are no "dumb" questions, there are no questions that you should "already know the answer to." Sometimes we can see things in a new way, and it makes us wonder. Make sure you keep track of those questions so you can bring them to the group to discuss, and for everyone to learn from.
 </p>
-
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Always Questioning" body=body %}
 
 ## Viewing: Counterpoint on Measurement (45m, friend)
 
-{% alert no-icon Small Group Notice %}
+
+{% capture body %}
 <p>
     This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say "hi," do some breathing, report out something positive from the past week), and then break into pairs for this work.
 </p>
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Small Group Notice" body=body %}
+
 
 You began by taking a very terse list of success metrics, and ordering them by importance. Then, you read the statements of two experts, and compared and contrasted what they had to say about software quality and measuring the progress of software teams. Now, we're going to critique one developer's (PM's?) view on measuring software quality.
 

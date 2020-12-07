@@ -55,8 +55,9 @@ Buried in that phrase is *massive* culture change. It represents change for vend
 
 Your conversation today may end up a little wide-ranging, but the question is this:
 
-{% alert no-icon Move The Needle %}
+{% capture body %}
 What concrete steps can you take, as State Officers, to begin moving the needle on our projects from <b>memos</b> to <b>demos</b>?
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Move The Needle" body=body %}
 
 When you're done, see if you can come up with a list of steps or ideas that you could share out with colleagues. 

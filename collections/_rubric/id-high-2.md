@@ -29,7 +29,7 @@ You may have heard terms like user-centered design, human-centered design, or UX
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UahMFILt304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
-{% link hcdin60 text="This short video" duration %} helps illustrate this process and shows that its a cycle&mdash;it doesn’t just mean asking users for feedback once and being done with it. Designing for humans means continually checking in as features come to life, testing with real people, gathering their feedback, and making changes to do it all again to get the most useful product for them at the end.
+{% include link id="hcdin60" text="This short video" attr="duration" %} helps illustrate this process and shows that its a cycle&mdash;it doesn’t just mean asking users for feedback once and being done with it. Designing for humans means continually checking in as features come to life, testing with real people, gathering their feedback, and making changes to do it all again to get the most useful product for them at the end.
 
 ## Reflect (30m, solo)
 
@@ -37,7 +37,7 @@ You may have heard terms like user-centered design, human-centered design, or UX
 
 Let's take a short moment to write down some notes about the topics in the video. Empathy isn't something you usually hear about in software development, but it's an important tool in building something that works for users.
 
-{% alert no-icon Always Questioning %}
+{% capture body %}
 <p>
     The 4 main phases of human-centered design that are outlined in the video:
     <ul>
@@ -55,9 +55,9 @@ Let's take a short moment to write down some notes about the topics in the video
         </li>
     </ul>
 </p>
-<p>
-</p>
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Always Questioning" body=body %}
+
 
 ### Questions
 
@@ -77,8 +77,7 @@ Here we're going to go a little deeper into human-centered design with two video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rmM0kRf8Dbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% alert no-icon Always Questioning %}
-
+{% capture body %}
 <p>
     Human-centered design:
 </p>
@@ -93,7 +92,9 @@ Here we're going to go a little deeper into human-centered design with two video
         Helps an approach with questions, instead of solutions
     </li>
 </ul>
-{% endalert %}
+{% endcapture%}
+{% include alert level="no-icon" heading="Always Questioning" %}
+
 
 ### Questions
 

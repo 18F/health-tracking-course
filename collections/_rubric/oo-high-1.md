@@ -23,8 +23,7 @@ As you engage in your reading and viewing, **remember to make note of questions 
 * TOC
 {:toc}
 
-{% alert no-icon Two Quick Notes %}
-
+{% capture body %}
 <p>
     Before you get started, two quick, hot takes.
 </p>
@@ -36,8 +35,8 @@ As you engage in your reading and viewing, **remember to make note of questions 
 <p>
     <b>Leverage your colleagues</b>. You're doing this work in a cohort for many reasons. In part, it is to build community&mdash;you're engaged in learning together, and that's powerful. Many of these lessons will suggest "solo" work. You are, however, welcome to schedule time with a colleague to do that learning together if you like. <b>Yes, you can have "study buddies."</b> It might be easier to hold yourself (and each-other) accountable, it might make the learning more fun, and it will certainly help you get to know your colleagues better. So, don't be afraid to chat with each-other in whatever way makes sense as you're engaged in your learning.
 </p>
-
-{% endalert %}
+{% endcapture %}
+{% include alert level="no-icon" heading="Two Quick Notes" body=body %}
 
 ## Conceptual: What Kind, When? (1h, solo)
 
@@ -82,7 +81,7 @@ This suggests that we might be looking at a *theme-based roadmap* or a *feature-
 
 ### Theme-Based Mapping
 
-The first half of Janna Bastow's slide deck on Agile Product Roadmaps ({% link capreu %}) is a really good read. 
+The first half of Janna Bastow's slide deck on Agile Product Roadmaps ({% include link id="capreu" %}) is a really good read. 
 
 You can either read through the deck, or if you like, you can watch Janna present it.
 
@@ -97,7 +96,7 @@ As Janna says, a good theme-based roadmap is going to communicate:
 
  Where I think her deck tells a little lie is in the second half; that is, it suggests or implies that you can start with vision, get to goals, and somehow (from there) work your way down. 
 
-Done right, the team **starts with user stories**, and works their way up to the product vision. David Hawks has a nice article ({% link hawks %}) that captures how a team should generally go about building up a story map.
+Done right, the team **starts with user stories**, and works their way up to the product vision. David Hawks has a nice article ({% include link id="hawks" %}) that captures how a team should generally go about building up a story map.
 
 To sum up, a story map will generally suggest this kind of thinking:
 
@@ -117,14 +116,14 @@ I highlight this because we're going to be talking about **how the states and ve
 
 A more mature product is going to be more focused on features and feature delivery. This makes sense once a team is well-gelled, communicating openly with the partner, and continuously delivering features and product on a bi-weekly basis. (This is the essence of agile software development.) 
 
-A feature-based map may look a bit more like either a goal-oriented product map (a GO map) or a now/next/later map. Robbin Schuurman has a nice overview of both of these kinds of maps ({% link schuurman %}) that describes these; again, give this a read, and then come back.
+A feature-based map may look a bit more like either a goal-oriented product map (a GO map) or a now/next/later map. Robbin Schuurman has a nice overview of both of these kinds of maps ({% include link id="schuurman" %}) that describes these; again, give this a read, and then come back.
 
 ### All The Details
 
 Storymapping and product management is a whole set of subjects unto themselves. If you want to read more, you might browse:
 
 * Atlassian's *Agile Coach* website
-* Bree Davies has a nice article on roadmaps ({% link davies %}) that provides some additional context and background. 
+* Bree Davies has a nice article on roadmaps ({% include link id="davies" %}) that provides some additional context and background. 
 
 We don't want to bury you in material, so if you have time, give it a go. If not, go ahead and move on. This learning will require you to revisit sources from time-to-time as you encounter new situations and challenges, so fear not... there is more to be learned than can ever be learned...
 
@@ -153,7 +152,7 @@ Pull one. Go back to a recent roadmap from one of your projects, and look at it.
 
 These are fairly common roadmap questions. 
 
-{% alert warning What if I don't have a map? %}
+{% capture body %}
 <p>
     It might be that you don't have a roadmap to hand. Perhaps your state doesn't have one in their reported materials. Perhaps you're new, and you don't have have material that has accumulated from past projects.
 </p>
@@ -165,7 +164,8 @@ These are fairly common roadmap questions.
 <p>
     So, drop a friend a note. See if anyone has a roadmap they'd be willing to share, or perhaps just schedule some time for coffee, and talk your way through these questions together. Either/both are absolutely excellent ways to engage in your learning.
 </p>
-{% endalert %}
+{% endcapture %}
+{% include alert level="warning" heading="What if I don't have a map?" body=body %}
 
 ## Reflecting on a Map (30m, solo)
 

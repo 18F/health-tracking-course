@@ -32,11 +32,11 @@ If finding time to work with a colleague is difficult, take 15 minutes to do thi
 
 In the previous activity, we blended *project* and *product* together. Now, it's time to start pulling those apart.
 
-Let's start with *product ownership*, or *product management*. The first video we'll watch, {% link wdpmd attribution duration %}, is short, and provides a high-level overview of a product manager's role.
+Let's start with *product ownership*, or *product management*. The first video we'll watch, {% include link id="wdpmd" attr="attribution duration" %}, is short, and provides a high-level overview of a product manager's role.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yUOC-Y0f5ZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The second video is a bit more in depth... it is, essentially, a *story*. In this video, {% link kniberg attribution duration %}, we are walked through the life of a well run, agile product being developed by a vendor (and delivered to a state). 
+The second video is a bit more in depth... it is, essentially, a *story*. In this video, {% include link id="kniberg" attr="attribution duration" %}, we are walked through the life of a well run, agile product being developed by a vendor (and delivered to a state). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/502ILHjX9EE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -64,11 +64,11 @@ These are the kinds of questions you also want to keep in mind when thinking abo
 
 ### Read: Project Management (10m, solo)
 
-The Project Management Institute is a source for learning and training around the practice of project management. Therefore, it seems like a good place to start if we're going to ask the question *what is project management?* The article ({% link wipm %}) is short.
+The Project Management Institute is a source for learning and training around the practice of project management. Therefore, it seems like a good place to start if we're going to ask the question *what is project management?* The article ({% include link id="wipm" %}) is short.
 
 ### Watch: Unpacking the Jargon (15m, solo)
 
-As a short list of terms, the PMI article leaves things to be desired. Mike Clayton goes a bit deeper, unpacking 12 terms that you'll hear thrown around (in conversation, in reports) regarding project management. This video ({% link ttpmjtpmu %}) is basically 12 one-minute videos back-to-back.
+As a short list of terms, the PMI article leaves things to be desired. Mike Clayton goes a bit deeper, unpacking 12 terms that you'll hear thrown around (in conversation, in reports) regarding project management. This video ({% include link id="ttpmjtpmu" %}) is basically 12 one-minute videos back-to-back.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F25BGXAlaG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -98,8 +98,7 @@ To close out this lesson, come together with your learning cohort.
 6. **Wrap**. {% include countdowntimer minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
 
-{% alert no-icon Regarding Roleplays %}
-
+{% capture body %}
 <p>
     Roleplays are fun.
 </p>
@@ -115,8 +114,9 @@ To close out this lesson, come together with your learning cohort.
 <p>
    The point being: regardless of which role you are in, you're developing a powerful set of skills and habits of mind that are intended to improve your ability to imagine and detect bullshit (Learning Goal #2) as well as improve your confidence in digging into the work of your states and their vendors (Learning Goal #4). And at the risk of being redundant, let's be honest... <em>roleplays are fun</em>. <pre>:)</pre>  
 </p>
+{% endcapture %}
+{% include alert level="no-icon" heading="Regarding Roleplays" body=body %}
 
-{% endalert %}
 
 ## Reflection (15-30m, solo)
 

@@ -91,8 +91,8 @@ This is a professional engineer at the top of his craft talking about his work i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nffzkkdq7GM?start=989" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{% alert warning Building Confidence %}
 
+{% capture body %}
 <p>
     It is possible that this video bothered you in some way.
 </p>
@@ -116,8 +116,9 @@ This is a professional engineer at the top of his craft talking about his work i
 <p>
     The reason to revisit the video is to build some confidence. You know a lot about this stuff, and when you give yourself time and space (which is rare, I know...) to pause and reflect, you know more than you think. It's sometimes hard to track in the moment, but that's OK. Keep that in mind that while you're in meetings and working with teams you can always give yourself time and space to think about things after a meeting or conversation, talk to colleagues, and circle back around to better understand what is going on with your states and vendors.
 </p>
+{% endcapture %}
+{% include alert level="warning" heading="Building Confidence" body=body %}
 
-{% endalert %}
 
 ## In Conversation: Release Cycles (1h)
 
