@@ -1,8 +1,78 @@
 {% comment %}
-To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
-where we provide an easy way to manage your navigation system
+The primary and secondary navigation are defined in _data/navigation.yaml
 {% endcomment %}
 
+<header class="usa-header usa-header--extended">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+      <em class="usa-logo__text"><a href="/" title="Home" aria-label="Home">{{ site.title }}</a></em>
+    </div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="{{ '/assets/uswds-2.9.0/img/close.svg' | prepend: site.baseurl }}" role="img" alt="close">
+      </button>
+      {% if site.data.navigation.primary_navigation %}
+      <ul class="usa-nav__primary usa-accordion">
+        {% for top in site.data.navigation.primary_navigation %}
+          {% comment %} add `usa-current` to the button if this is the current section {% endcomment %}
+          {% comment %} If there are children, render a submenu. Otherwise, it is a simple link. {% endcomment %}
+          {% if top.children %}
+            <li class="usa-nav__primary-item">
+              <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-{{ forloop.index0 }}">
+                <span>{{ top.name }}</span>
+              </button>
+              <ul id="extended-nav-section-{{ forloop.index0 }}" class="usa-nav__submenu">
+                {% for child in top.children %}
+                  <li class="usa-nav__submenu-item">
+                  {% comment %} May want to replace this with an explict `external:` tag in the structure? {% endcomment %}
+                  {% if ((top.url contains "http://") or (top.url contains "https://")) %}
+                    <a href="{{ child.url }} " class=""><span>{{ child.name }}</span></a>
+                  {% else %}
+                    <a href="{{ child.url | prepend: site.baseurl }}" class=""><span>{{ child.name }}</span></a>
+                  {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+            <li class="usa-nav__primary-item">
+              {% comment %} If this is an external url, render directly. Otherwise, prepend the site baseurl. {% endcomment %}
+              {% if ((top.url contains "http://") or (top.url contains "https://")) %}
+                <a class="usa-nav__link" href="{{ top.url }}"><span>{{ top.name }}</span></a>
+              {% else %}
+              <a class="usa-nav__link" href="{{ top.url | prepend: site.baseurl }}"><span>{{ top.name }}</span></a>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}        
+      </ul>
+      {% endif %} {% comment %} END PRIMARY NAV {% endcomment %}
+      {% if site.data.navigation.secondary_navigation %}
+        <div class="usa-nav__secondary">
+          <ul class="usa-nav__secondary-links">
+            {% for elem in site.data.navigation.secondary_navigation %}
+              <li class="usa-nav__secondary-item">
+                {% if ((elem.url contains "http://") or (elem.url contains "https://")) %}
+                  <a href="{{ elem.url }}"><span>{{ elem.name }}</span></a>
+                {% else %}
+                  <a href="{{ elem.url | prepend: site.baseurl }}"><span>{{ elem.name }}</span></a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %} {% comment %} END SECONDARY NAV {% endcomment %}
+    </div>
+  </nav>
+</header>
+
+
+
+{% comment %}
+<!-- THIS IS THE ORIGINAL HTML FROM JEKYLL-USWDS -->
 <header class="usa-header usa-header--extended" role="banner">
   <div class="usa-navbar">
     {% include logo.html %}
@@ -10,12 +80,12 @@ where we provide an easy way to manage your navigation system
   </div>
   <nav role="navigation" class="usa-nav">
     <div class="usa-nav__inner">
-      <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in site.data.navigation.primary_navigation %}
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        <button class="usa-nav__close"><img src="{{ '/assets/uswds-2.9.0/img/close.svg' | prepend: site.baseurl }}" alt="close" %}</button>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
@@ -50,3 +120,4 @@ where we provide an easy way to manage your navigation system
     </div>
   </nav>
 </header>
+{% endcomment %}
