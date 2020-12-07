@@ -1,16 +1,12 @@
 ---
-layout: base
+layout: default
 ---
-
-{% comment %}
-This template is for a single page that does not have a date associated with it. For example, an about page.
-{% endcomment %}
 
 <div id="main-content" class="usa-layout-docs usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       {% if page.sidenav == true %}
-      {% include sidenav.html %}
+        {% include sidenav.html %}
       {% endif %}
       {% if page.pagenav %} 
         {% include rendernav.html nav=page.pagenav %}
