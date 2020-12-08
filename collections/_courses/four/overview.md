@@ -8,7 +8,10 @@ priority: high
 visible: false
 date: November 4, 2020
 lessons:
+    - oo3.1
+    - oo3.2
     - sc3.1
+    - id2.1
 ---
 
 # {{ page.title }}

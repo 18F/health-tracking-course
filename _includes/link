@@ -1,0 +1,31 @@
+{%- assign html = "" -%}
+{%- assign res = "" -%}
+{%- for section in site.data.resources -%}
+    {%- for r in section[1].resources -%}
+        {% assign lowerauthor = r.author | downcase %}
+        {%- if ((r.uid contains include.id) 
+                or (lowerauthor contains include.id))  -%}
+            {% assign res = r %}
+            {%- if include.attr -%}
+                {% assign attrs = include.attr | split: " " %}
+                {% assign attrres = "" %}
+                {% for attr in attrs %}
+                    {% case attr %}
+                        {% when "attribution" %}
+                            {% capture attrres %}{{ attrres }}, {{ res.author }}{% endcapture %} 
+                        {% when "duration" %}
+                            {% capture attrres %}{{ attrres }}, {{ res.duration }}{% endcapture %} 
+                    {% endcase %}
+                {% endfor %}
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endfor -%}
+
+{%- capture html -%}<a href="{{ res.url }}">{%- if include.text -%}{{include.text}}{%- else -%}{{ res.title }}{%- endif -%}</a>{%- endcapture -%}
+{%- assign len = attrres | size -%}{{ html }} 
+{%- if include.attr -%}
+    {%- if len > 1 -%}
+        &nbsp;({{ attrres | remove_first: "," | strip}})
+    {%- endif -%}
+{%- endif-%}
