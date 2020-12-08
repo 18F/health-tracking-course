@@ -93,6 +93,19 @@ web:
           author: Jared M. Spool
           note: |
             When a team measures their goals using activities, they are focusing on the outputs of UX research and design efforts. Outputs are necessary, but they are not the end of the game.
+        - title: "Deploy to Production: 5 Tips to Make It Smoother"
+          uid: dtp5tps
+          url: https://rollout.io/blog/deploy-to-production-5-tips-make-smoother/
+          author: Christian Meléndez
+          note: |
+            Who hasn’t had issues when deploying a software change to production? No one.
+        - title: "A No-Nonsense DevOps Tutorial For Beginners With Examples"
+          uid: anndot
+          url: https://rollout.io/blog/a-no-nonsense-devops-tutorial-for-beginners-with-examples/
+          author: kileynichols
+          note: |
+            DevOps has become mainstream in the last decade and continues to gain in popularity. That’s why we’re providing this DevOps tutorial to help you get started quickly.
+
 
 videos:
   header: Videos
