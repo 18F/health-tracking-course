@@ -14,21 +14,34 @@
     </tr>
     
     {% assign lesson_counter = 1 %}
+    {% comment %} 
+    'visited' is for the case where a single rubric lesson 
+    handles more than one rubric dimension 
+    {% endcomment %}
+    {% assign visited = '' | split: '' %}
+
     {% for id in include.lessons %}
         {% assign lesson = 0 %}
         {% comment %} See if we're referencing a rubric dimension or a course. {% endcomment %}
         {% for p in site.rubric %}
-            {% if p.dimension == id %}
-                {% assign lesson = p %}
-            {% endif %}
+            {% for d in p.dimension %}
+                {% if d == id %}
+                    <!-- found {{ id }} -->
+                    {% assign lesson = p %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
         {% endfor %}
         {% comment %} If it wasn't found in the rubric, look for it in the courses. {% endcomment %}
         {% if lesson == 0 %}
             {% for p in site.courses %}
-                {% if p.dimension == id %}
-                    <!-- found {{ id }} -->
-                    {% assign lesson = p %}
-                {% endif %}
+                {% for d in p.dimension %}
+                    {% if d == id %}
+                        <!-- found {{ id }} -->
+                        {% assign lesson = p %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
         {% endif %}
         {% if lesson != 0 %}
@@ -56,23 +69,30 @@
                 </tr>
             {% else %}
                 {% for lesson in site.rubric %}
-                    {% if lesson.dimension == id %}
-                        <tr>
-                            <td>
-                                <span class="courseslug" style="background: {{ color }};">
-                                    {% include indicator slug=lesson.id %}
-                                </span> 
-                            </td>
-                            <td> 
-                                <a href="{{ lesson.url | prepend: site.baseurl }}">
-                                    {% if lesson.indicator != "admin" %}
-                                        Lesson {{ lesson_counter }} - 
-                                    {% endif %}{{ lesson.title }}
-                                </a>
-                            </td>
-                        </tr>
-                        {% assign lesson_counter = lesson_counter | plus: 1 %}
-                    {% endif %}
+                    {% for ld in lesson.dimension %}
+                        <!-- visited: {{ visited }} -->
+                        <!-- thing: {{lesson.slug}} -->
+                        {% unless visited contains lesson.slug %}
+                            {% if ld == id %}
+                                {% assign visited = visited | push: lesson.slug %}
+                                <tr>
+                                    <td>
+                                        <span class="courseslug" style="background: {{ color }};">
+                                            {% include indicator slug=lesson.id %}
+                                        </span> 
+                                    </td>
+                                    <td> 
+                                        <a href="{{ lesson.url | prepend: site.baseurl }}">
+                                            {% if lesson.indicator != "admin" %}
+                                                Lesson {{ lesson_counter }} - 
+                                            {% endif %}{{ lesson.title }}
+                                        </a>
+                                    </td>
+                                </tr>
+                                {% assign lesson_counter = lesson_counter | plus: 1 %}
+                            {% endif %}
+                        {% endunless %}
+                    {% endfor %}
                 {% endfor %}
             {% endif %} {% comment %} is_course {% endcomment %}
         {% endif %}
