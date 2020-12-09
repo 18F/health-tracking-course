@@ -25,24 +25,27 @@ This last module is a chance to reflect and report out. **Reflection is a critic
 
 ## Things I Learned (30m, solo)
 
-Divide a page in your notebook into four sections. Title each section with one of the goals above ("Assessing Health," "Questioning and Listening," etc.).
+Take a free page in your notebook where you've been keeping track of your lesson notes for this course.
 
-Take a half hour and go back through your notebook from this course sequence. As you do, make notes on this partitioned page about the things you learned or reflected on that you think advanced you in terms of your ability to (for example) question and listening states and vendors. What things did we read, view, and discuss that helped you advance your ability to ask (and assess) whether you are being bullshitted?
+Take a half hour and go back through your notebook from this course sequence. As you do, make a list of things you learned or reflected on what helped you question and to listen to states and vendors. What things did we read, view, and discuss that helped you advance your ability to ask (and assess) whether you are being bullshitted? Make a note for each of the 4 lessons.
 
-## Discuss (1h, group)
+What was most surprising? What did you find most valuable? What practices or next steps do you hope to take as a state officer based on the material you've learned and discussed as a group?
 
-In this discussion, one of you should agree to take notes. Again, divide a page into four categories as above. If you're uncertain as to who should take notes, choose the person whose birthday is in or closest to October.
 
-With your learning cohort, come back together to discuss your lessons learned. What was most surprising? What did you find most valuable? What practices or next steps do you hope to take as a state officer based on the material you've learned and discussed as a group?
+## Discuss and Report Out (1h, pair or in group)
 
-As you're having this conversation, attempt to distill some of your learning down. If you could only share one thing with your colleagues from each dimension, what would it be? 
+To celebrate the completion of the first course, find time together to report out.
 
-After you have captured these four lessons learned, go back through the list as a group. To each "lesson learned," attach an action. That is, what behavior, process, question, or next step can you take in your practice as a state officer that puts that lesson learned into practice?
+With your learning cohort, come back together to discuss your lessons learned and what you wrote down. You can do this in pairs or in small groups.
 
-When you're done, you'll have four "lessons learned" and four actionable "next steps" you can take. The note taker should write this up in a short document (or slide deck) that is able to be shared with a broader audience.
+As you're having this conversation, attempt to distill some of your learning down. If you could only share one thing with your colleagues from this course?
 
-## Report Out (?m, team)
+After you have captured these lessons learned, go back through the list. To each "lesson learned," attach an action. That is, what behavior, process, question, or next step can you take in your practice as a state officer that puts that lesson learned into practice?
 
-To celebrate the completion of the first course, find time in a team huddle to report out on this first course. The core of your presentation should be the four lessons learned and the actionable next steps. It is likely that you won't have much time, but this is an opportunity for your colleagues to lift you up for having undertaken this learning, and a chance for you to share out how you hope to advance and grow as a state officer.
+When you're done, you'll have "lessons learned" and actionable "next steps" you can take. You'll have notes that you can use in a short document (or slide deck) that is able to be shared with a broader audience, like your fellow state officers.
 
-Congratulations. You've completed course one. :tada:
+## Congratulations! (?m, team)
+
+Take time to celebrate your lessons learned and the actionable next steps. You've covered a top priority row from every Primary Indicator in the Health Rubric. Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a state officer. 
+
+Congratulations. You've completed course one. :tada: Look forward to course 2, where you'll complete all the top priority rows of the Rubric. 
