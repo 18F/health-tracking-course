@@ -46,6 +46,8 @@ When you're done, you'll have "lessons learned" and actionable "next steps" you 
 
 ## Congratulations! (?m, team)
 
-Take time to celebrate your lessons learned and the actionable next steps. You've covered a top priority row from every Primary Indicator in the Health Rubric. Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a state officer. 
+Take time to celebrate your lessons learned and the actionable next steps. You've covered a top priority row from every Primary Indicator in the Health Rubric! 
 
-Congratulations. You've completed course one. :tada: Look forward to course 2, where you'll complete all the top priority rows of the Rubric. 
+Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a state officer. 
+
+Congratulations. You've completed course one. :tada: Look forward to course two, where you'll complete all the top priority rows of the Rubric. 
