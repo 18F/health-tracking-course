@@ -32,11 +32,11 @@ Take a half hour and go back through your notebook from this course sequence. As
 What was most surprising? What did you find most valuable? What practices or next steps do you hope to take as a state officer based on the material you've learned and discussed as a group?
 
 
-## Discuss and Report Out (1h, pair or in group)
+## Discuss and Report Out (1h, in group)
 
 To celebrate the completion of the first course, find time together to report out.
 
-With your learning cohort, come back together to discuss your lessons learned and what you wrote down. You can do this in pairs or in small groups.
+With your learning cohort, come back together to discuss your lessons learned and what you wrote down. You can do this in small groups.
 
 As you're having this conversation, attempt to distill some of your learning down. If you could only share one thing with your colleagues from this course?
 
