@@ -7,12 +7,9 @@ dimension:
 date: December 4, 2020
 overview: |
     Priorities. We all have them. But are they all aligned? For a team to do its best work, that has to be the case. In this lesson, we'll learn what to look for when asking individual team memebers about their roles and current priorities. 
-<<<<<<< HEAD
 dimension:
     - oo3.1
     - oo3.2
-=======
->>>>>>> staging
 ---
 
 # {{ page.title }}
