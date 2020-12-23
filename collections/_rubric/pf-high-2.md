@@ -49,14 +49,15 @@ There are seven dimensions to a basic QASP discussed in this conversation:
 
 In the conversation, these are called out pretty clearly. 
 
-As you're listening:
+Listen or read this conversation *actively*:
 * Keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." 
 * Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. 
-Some possible examples:
+* Reflect and take notes on the themes and ideas discussed to share with your group. In an active listening/reading process, it is this reflection, not the content itself, that is most valuable.
+    Some possible examples:
     * A feature that has taken forever to come into reality. 
     * A criterion for delivery that you thought was impossible, or even easy to achieve without delivering value. 
     * How a better QASP would have avoided a particular problem that you're seeing. 
-    * How your own projects are working similarly to this, and doing  well  (We don't *always* have to be critical, after all.)
+    * How your own projects are working similarly to this, and doing well  (We don't *always* have to be critical, after all.)
 
 The process of listening actively takes time. You can listen closely on a first pass or have a first listen on a walk, then sit down and do a second listen where you take some notes. Do what works best for you.
 
