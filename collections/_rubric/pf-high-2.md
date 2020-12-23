@@ -38,6 +38,7 @@ There are two things that are important to keep in mind about the assurance of q
 </div>
 
 ### Dimensions to a QASP
+
 There are seven dimensions to a basic QASP discussed in this conversation:
 
 1. Tested code
@@ -51,6 +52,7 @@ There are seven dimensions to a basic QASP discussed in this conversation:
 In the conversation, these are called out pretty clearly. 
 
 ### Listen actively
+
 Listen or read this conversation *actively*:
 * Keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." 
 * Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. 
@@ -64,6 +66,7 @@ Listen or read this conversation *actively*:
 The process of listening actively takes time. You can listen closely on a first pass or have a first listen on a walk, then sit down and do a second listen where you take some notes. Do what works best for you.
 
 ### A conversation on QASPs
+
 | Matt | Good morning. This is Matt Jadud, I'm an Innovation Specialist at 18F, and the topic today is QASPS... or is it "KASPS?" I mean, how do you pronounce that? It's Q-A-S-P. So, I've asked my colleague Randy Hart to share his experience with costs or "quality assessment surveillance plans," and their role in the procurement and contracting process. So, Randy, could you tell us a little bit about who you are and what you do at 18F? |
 | Randy | Sure. I, my name is Randy Hart. I'm a former contracting officer, and I've been with the federal government since 2002. I joined 18F about five years ago, after having lived through a number of nightmare contracts that I was the contracting officer for. And I just wanted to see if there's a different way of approaching contracting, when it comes to it and digital services for the government. And so for the last five years, we've been tinkering with ways of approaching contracting differently. Holding contractors accountable for delivery versus documentation. And it's been a lot of fun. And I'll say it's its **quality assurance surveillance plan**. |
 | Matt | What did I say? assessment? I said, *assessment*? Well, we're not gonna be able to edit that out. So: quality **assurance**. It's noted for the future, and it's recorded in the past! I spent a short time in defense contracting, and I think part of what I've started to come to see in reading about and working in this space from the engineering side, as an engineer at 18F, is how this really can become more of a dialogue and a collaboration with the contracting officer. So I'm personally I'm excited about it from so many different dimensions. <br>&nbsp;<br> As part of your work at 18F you've collaborated Robin Carnahan and Waldo Jaquith on the {% link statefieldguide text="State Field Guide" %}. Could you say a bit about that document and we'll, we'll throw a URL somewhere so that people listening can look it up. |

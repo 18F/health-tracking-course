@@ -11,9 +11,11 @@ overview: |
 
 # {{page.title}}
 
-*This lesson explores a high priority dimension of the Iterative Development indicator.*
+*This lesson explores a high priority dimension of the Iterative Development primary indicator. It is also applicable to a medium priority dimension of the ID primary indicator. *
 
-{% include rubric dimension=page.dimension %}
+{% include rubric dimension="id1.3-1" %}
+
+{% include rubric dimension="id2.3" %}
 
 | Matt | Good morning, my name is Matt Jadud. I’m an innovation specialist at 18F. I work in the Engineering Chapter and I'm here with two colleagues, in particular my co-conspirator on the SO, MD course. Princess, would you mind introducting yourself? |
 | Princess | Hello, I'm Princess Ojiaku and I’m also an innovation specialist here at 18F in the Content Chapter...Design Chapter. I want to introduce our special guest. I'll have her say hello.  |
