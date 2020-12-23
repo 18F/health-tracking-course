@@ -12,7 +12,7 @@ overview: |
 
 *This lesson explores a high priority dimension of the Iterative Development primary indicator. It is also applicable to a medium priority dimension of the ID primary indicator.*
 
-{% include rubric dimension="id1.3-1" %}
+{% include rubric dimension="id1.3" %}
 
 {% include rubric dimension="id2.3" %}
 
