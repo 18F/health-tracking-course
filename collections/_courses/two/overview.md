@@ -12,7 +12,7 @@ lessons:
     - sc2.1
     - pf1.2
     - id1.2
-    - id1.3
+    - id1.3-course2
 ---
 
 # {{ page.title }}

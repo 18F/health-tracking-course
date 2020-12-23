@@ -1,7 +1,8 @@
 ---
 layout: widepage
-title: "Testing, testing, 1-2-3"
+title: "Testing, Testing, 1-2-3"
 dimension: 
+    - id1.3-course2
     - id1.3
     - id2.3
 overview: |
