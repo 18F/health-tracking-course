@@ -18,7 +18,7 @@ There are two things that are important to keep in mind about the assurance of q
 * TOC
 {:toc}
 
-## Active Listening: A Conversation on QASPs (~60m (30m + 30m), solo)
+## Active Listening: A Conversation on QASPs (~1h, solo)
 
 
 <div class="grid-row grid-gap">

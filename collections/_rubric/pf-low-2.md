@@ -10,7 +10,7 @@ overview: |
 
 *This lesson explores a lower priority dimension of the Procurement Flexibility indicator.*
 
-{% include rubric dimension=page.dimension %}
+{% include rubric dimension="pf3.2" %}
 
 
 * TOC
@@ -35,8 +35,16 @@ overview: |
     </div>
 </div>
 
-As with previous conversations, you will want to listen *actively*. The process of listening actively takes time. One strategy is to listen closely on a first pass. Another would be to listen (perhaps while on a walk?) and then sit down and do a second listen where you engage in the active note-taking process. Do what works best for you. Your goal is not only to capture content, but more importantly, to take the themes and ideas being discussed, and reflect on them with respect to your own work and practices as they related to states and vendors. In an active listening/reading process, it is this reflection, not the content itself, that is most valuable.
+### Listen actively
 
+As with previous conversations, listen or read *actively*:
+* Keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." 
+* Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. 
+* Reflect and take notes on the themes and ideas discussed to share with your group. In an active listening/reading process, it is this reflection, not the content itself, that is most valuable.
+
+The process of listening actively takes time. You can listen closely on a first pass or have a first listen on a walk, then sit down and do a second listen where you take some notes. Do what works best for you.
+
+### A conversation on vendor management
 
 | Princess | Good morning, my name is Princess Ojiaku, and I’m an innovation specialist at 18F. Today we're going to be talking about vendor contracts and budgets and how they can go right or maybe even wrong. I've asked my colleage, Carrie Feher, to share her experience with us so we know what we can look for when we're asking states about their vendors. So Carrie, can you tell us a little bit about what you do at 18F and your background and who you are? |
 | Carrie | Sure! Hello, my name is Carrie Feher and I've been at 18F for almost 2 years now. and I'm an account manager at 18F. And that basically means I am the liason for our partners, so I do a lot of business development initally with our partners to bring them on board. And I work with with them really closely to work on scope of work and get our agreements going and set the teams up and do some staffing for the teams. And make sure that even during the projects that the internal team health of 18F is healthy and that the partner team health is healthy and that if we do an assisted aquistion (or acq consulting/aquistion consulting) that all the different internal teams of the vendors and all of that is really healthy. So I'm not necessarily part of the internal team to build something but I'm part of the team that works with each separate team to make sure team health is really good. Before that, I worked at CMS in Medicaid for 8 years. So I've actually been a federal employee for 10 years as of December 2nd. SO I'm really proud of that -- I love being a federal employee. I feel like I can make a lot of connections between the role of a state officer and the role of an account managet at 18F. So that's why I cwas really excited to do this. There's a lot of comparison between what I do as an account manager and what someone would do as a state officer as far as partnernships and bringing people along where they need to be to really make some significant changes and difference in how they do their work, to really see value. I feel like my experience both at Medicaid and in having managed some state officers for awhile as the deputy director for some time and then also being an account manager for a couple of years now -- y'know I can draw on some of those experiences. So hopefully some of that can come out today. (2:29) |
@@ -54,8 +62,6 @@ As with previous conversations, you will want to listen *actively*. The process 
 | Carrie |  Yes! I would just like to mention that state officers have a very difficult job. I have seen it first hand. I worked in Medicaid for 8 years. I worked with the state officers. I know the struggle is real, as they say. Mediciad is political, I understand that. It is difficult to have these conversations. It is difficult to do this job for so many reasons. It is so unique. You do have to meet the states where they are. They do have their own challenges, both from a fiscal standpoint to their own resource limitations. So having said all of that, even if you can just take some small, incremental changes --tiny, tiny improvments can make a big difference over time. And I think that is the message I want to get across -- meet the states where they are but then try to build off of that. Small changes are better than no changes. I think it can be really rewarding. State officers have a big lift and they have really important jobs.  Sometimes it can feel really thankless if you're in an enviroment that is state-run and is politcal and can be really un-resourced. But finding those small wins can feel really really good and seeing the bigger picture in how you're part of that is really powerful. So thank you for letting me do this with you I really appreciate it. |
 | Princess |  Thank you so much Carrie! It remind me of -- here at 18F we like to say that "We're doing the best we can with what we've got" and it sounds like that's what we close with. Thank you.|
 | Carrie | Absolutely. That's great.|
-
-
 
 ## Discuss In Community (1h, group)
 
