@@ -1,10 +1,10 @@
 ---
 layout: widepage
-title: "Testing, Testing, 1-2-3"
+title: "Testing, testing, 1-2-3"
 dimension: 
-    - id1.3-course2
     - id1.3
-    - id2.3
+    - id1.3-course2
+    - id2.2
 overview: |
     What types of testing should a software project undergo and what does testing a project even mean? In this conversation, Princess Ojiaku, Matt Jadud, and Heather Battaglia talk about what kinds of tests are important and when they should happen. This conversation includes a guest appearance by SHOUTYBOX, the screen reader that lost its way.
 ---
@@ -15,7 +15,7 @@ overview: |
 
 {% include rubric dimension="id1.3" %}
 
-{% include rubric dimension="id2.3" %}
+{% include rubric dimension="id2.2" %}
 
 * TOC
 {:toc}
