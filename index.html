@@ -3,11 +3,19 @@ permalink: /
 layout: wide
 title: Home
 ---
-{% comment %}
-bundle exec jekyll serve 3>&1 1>&2 2>&3 | grep -v deprecated | grep -v warning
-{% endcomment %}
 
-{% include tagline.html %}
-{% comment %}
-{% include highlights.html %}
-{% endcomment %}
+<section class="grid-container usa-section usa-prose">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-4">
+        <img src="{{ '/assets/images/small-health-rubric.png' | prepend: site.baseurl }}" alt="Small version of the rubric."/>
+      </div>
+      <div class="tablet:grid-col-8 usa-prose">
+        <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">
+          Med School for State Officers
+        </h2>
+        <p>When you get down to it, doctors just want you to be healthy.</p>
+        <p>This course will help you develop tactics and strategies for getting your patients (states, vendors, and their projects) to come in for checkups more often, so you can help keep them healthy, on track, and delivering success.</p>
+      </div>
+    </div>
+  </section>
+  

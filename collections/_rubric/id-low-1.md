@@ -44,7 +44,7 @@ This conversation is part of your preparation for coming together as a larger gr
 
 You've had a conversation. You've possibly ranted about Stallman. Perhaps you agreed in places. We do want to highlight an idea here, however, as a takeaway that we think you should carry with you. You might agree, you might not, but we believe (at the least) you should continue to wrestle with this idea.
 
-{% asset "keystones.png" %}
+<img src="{{ '/assets/images/keystones.png' | prepend: site.baseurl }}" alt="A picture of a stone arch, depicting free software as a keystone of fundamental rights, comparable to freedom of speech." />
 
 Stallman suggests that free software&mdash;software for which we have access to the source, and can modify/use in perpetuity without paying a licensing fee for the privilege&mdash;is a fundamental right in the world we live in today. *How do we feel about that?*
 
