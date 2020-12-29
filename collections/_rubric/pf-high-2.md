@@ -18,7 +18,7 @@ There are two things that are important to keep in mind about the assurance of q
 * TOC
 {:toc}
 
-## Active Listening: A Conversation on QASPs (~60m (30m + 30m), solo)
+## Active Listening: A Conversation on QASPs (~1h, solo)
 
 
 <div class="grid-row grid-gap">
@@ -37,6 +37,8 @@ There are two things that are important to keep in mind about the assurance of q
     </div>
 </div>
 
+### Dimensions to a QASP
+
 There are seven dimensions to a basic QASP discussed in this conversation:
 
 1. Tested code
@@ -47,12 +49,23 @@ There are seven dimensions to a basic QASP discussed in this conversation:
 6. Security
 7. User research
 
-In the conversation, these are called out pretty clearly. As you're listening, keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. Perhaps its a feature that has taken forever to come into reality. Perhaps its a criterion for delivery that you thought was impossible, or (thinking the other way) easy to achieve without delivering value. Possibly you're thinking about how a better QASP would have avoided a particular problem (or raft of problems) that you're seeing. Or maybe you're hearing something in the conversation that makes you think about something that is similarly working well in your own projects. (We don't *always* have to be critical, after all.)
+In the conversation, these are called out pretty clearly. 
 
-The process of listening actively takes time. One strategy is to listen closely on a first pass. Another would be to listen (perhaps while on a walk?) and then sit down and do a second listen where you engage in the active note-taking process. Do what works best for you.
+### Listen actively
 
+Listen or read this conversation *actively*:
+* Keep a thread running in the back of your mind regarding your own projects, and turn up your "bullshit filter." 
+* Pause the conversation at any point that you hear something that makes you think about some aspect of a project you're working with that makes you... *wonder*. 
+* Reflect and take notes on the themes and ideas discussed to share with your group. In an active listening/reading process, it is this reflection, not the content itself, that is most valuable.
+    Some possible examples:
+    * A feature that has taken forever to come into reality. 
+    * A criterion for delivery that you thought was impossible, or even easy to achieve without delivering value. 
+    * How a better QASP would have avoided a particular problem that you're seeing. 
+    * How your own projects are working similarly to this, and doing well  (We don't *always* have to be critical, after all.)
 
-### A Conversation about QASPs
+The process of listening actively takes time. You can listen closely on a first pass or have a first listen on a walk, then sit down and do a second listen where you take some notes. Do what works best for you.
+
+### A conversation on QASPs
 
 | Matt | Good morning. This is Matt Jadud, I'm an Innovation Specialist at 18F, and the topic today is QASPS... or is it "KASPS?" I mean, how do you pronounce that? It's Q-A-S-P. So, I've asked my colleague Randy Hart to share his experience with costs or "quality assessment surveillance plans," and their role in the procurement and contracting process. So, Randy, could you tell us a little bit about who you are and what you do at 18F? |
 | Randy | Sure. I, my name is Randy Hart. I'm a former contracting officer, and I've been with the federal government since 2002. I joined 18F about five years ago, after having lived through a number of nightmare contracts that I was the contracting officer for. And I just wanted to see if there's a different way of approaching contracting, when it comes to it and digital services for the government. And so for the last five years, we've been tinkering with ways of approaching contracting differently. Holding contractors accountable for delivery versus documentation. And it's been a lot of fun. And I'll say it's its **quality assurance surveillance plan**. |

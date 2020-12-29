@@ -13,6 +13,8 @@ primary_navigation:
           url: /courses/three/overview/
         - name: Course Four
           url: /courses/four/overview/
+        - name: Course Five
+          url: /courses/five/overview/
         - name: Course Six
           url: /courses/six/overview/
     - name: Resources

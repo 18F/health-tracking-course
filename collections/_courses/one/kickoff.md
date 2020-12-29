@@ -24,7 +24,7 @@ dimension: ko1
                 <code>audio</code> element.
         </audio>
         <br>
-        <small>Intro music CC BY-NC-ND by <a href="https://freemusicarchive.org/music/BJ_Block__Dawn_Pemberton/II_1060">BJ Block and Dawn Pemberton</a>.</small>
+        <small>Intro music CC0 by <a href="https://loyaltyfreakmusic.com/about/">Rrrrrose/LoyaltyFreakMusic</a>.</small>
     </div>
 </div>
 
