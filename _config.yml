@@ -27,6 +27,12 @@ baseurl: ""
 # url: "https://example.gov"
 twitter: 18F
 
+# This is used in meta.html to choose the version of USWDS from
+# the assets directory. It becomes
+# /assets/css/uswds-{{ uswds_version }} 
+# Therefore, the full version number is required.
+uswds_version: 2.10.0
+
 collections_dir: collections
 collections:
   rubric:
@@ -84,9 +90,9 @@ markdown: kramdown
 plugins:
   # - jekyll-feed
   # - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  # - jekyll-redirect-from
+  # - jekyll-sitemap
+  # - jekyll-seo-tag
 
 exclude:
   - package.json

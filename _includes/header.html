@@ -9,7 +9,7 @@ This appears at the top of the page letting the user know it's an official gover
       <header class="usa-banner__header">
         <div class="usa-banner__inner">
           <div class="grid-col-auto">
-            <img src="{{ '/assets/uswds-2.9.0/img/us_flag_small.png' | prepend: site.baseurl }}" 
+            <img src="{{ '/assets/uswds-' | append: site.uswds_version | append: '/img/us_flag_small.png' | prepend: site.baseurl }}" 
                  class="usa-banner__header-flag" alt="U.S. flag">
           </div>
           <div class="grid-col-fill tablet:grid-col-auto">
@@ -24,7 +24,7 @@ This appears at the top of the page letting the user know it's an official gover
       <div class="usa-banner__content usa-accordion__content" id="gov-banner">
         <div class="grid-row grid-gap-lg">
           <div class="usa-banner__guidance tablet:grid-col-6">
-            <img src="{{ '/assets/uswds-2.9.0/img/icon-dot-gov.svg' | prepend: site.baseurl }}" 
+            <img src="{{ '/assets/uswds-' | append: site.uswds_version | append: '/img/icon-dot-gov.svg' | prepend: site.baseurl }}" 
                  class="usa-banner__icon usa-media-block__img" alt="Dot gov">
             <div class="usa-media-block__body">
               <p>
@@ -36,7 +36,7 @@ This appears at the top of the page letting the user know it's an official gover
             </div>
           </div>
           <div class="usa-banner__guidance tablet:grid-col-6">
-            <img src=" {{ '/assets/uswds-2.9.0/img/icon-https.svg' | prepend: site.baseurl }}" 
+            <img src=" {{ '/assets/uswds-' | append: site.uswds_version | append: '/img/icon-https.svg' | prepend: site.baseurl }}" 
                  class="usa-banner__icon usa-media-block__img" alt="Https">
             <div class="usa-media-block__body">
               <p>

@@ -35,9 +35,9 @@ title: Rubric
             <h4>{{ tip }}</h4> 
         {% endfor %}
             <ul>
-                <li><b class="danger-text">Badness</b>: {{dimension.red}} </li>
-                <li><b class="warning-text">Not So Good</b>: {{dimension.yellow}} </li>
-                <li><b class="ok-text">Groovy</b>: {{dimension.green}} </li>
+                <li><b class="danger-text">Bad</b>: {{dimension.red}} </li>
+                <li><b class="warning-text">Meh</b>: {{dimension.yellow}} </li>
+                <li><b class="ok-text">Good</b>: {{dimension.green}} </li>
             </ul>
             Lessons: {%- include rubrictopagelink.html id=dimension.id -%}
             {% unless forloop.last %}<hr noshade width="20%">{% endunless %}

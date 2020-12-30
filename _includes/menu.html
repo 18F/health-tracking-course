@@ -12,7 +12,7 @@ The primary and secondary navigation are defined in _data/navigation.yaml
   <nav aria-label="Primary navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">
-        <img src="{{ '/assets/uswds-2.9.0/img/close.svg' | prepend: site.baseurl }}" role="img" alt="close">
+        <img src="{{ '/assets/uswds-' | append: site.uswds_version | append: '/img/close.svg' | prepend: site.baseurl }}" role="img" alt="close">
       </button>
       {% if site.data.navigation.primary_navigation %}
       <ul class="usa-nav__primary usa-accordion">
@@ -85,7 +85,7 @@ The primary and secondary navigation are defined in _data/navigation.yaml
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
-        <button class="usa-nav__close"><img src="{{ '/assets/uswds-2.9.0/img/close.svg' | prepend: site.baseurl }}" alt="close" %}</button>
+        <button class="usa-nav__close"><img src="{{ '/assets/uswds-{{ site.uswds_version }}/img/close.svg' | prepend: site.baseurl }}" alt="close" %}</button>
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
             href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
