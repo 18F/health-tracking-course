@@ -4,11 +4,12 @@ title: Rubric
 ---
 
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
+    <em>You can also view this rubric in <a href="{{ '/rubric' | prepend: site.baseurl }}">tabular form</a>.</em>
+</div>
+
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
+
 {% for section in site.data.rubric %}
-    {% comment %}
-    Need to know, deep in the iteration, whether this is even or odd.
-    CSS rules for even/oddness won't cut it.
-    {% endcomment %}
     {% assign mod = forloop.index | modulo: 2 %}
         <h1>{{section.header}}</h1>
         <b>{{section.question}}</b>
@@ -25,23 +26,23 @@ title: Rubric
         </div>
 {% for priority in section.priorities %}
 {% for dimension in priority.dimensions %}
+    <div class="grid-row"> 
     {% if forloop.first == true %}<h3>{{ priority.label }}</h3>{% endif %}
-    {% comment %}
-        {% if forloop.first == true %}<p class="priority">{{priority.label | strip | replace: " ", "<br>"}}</p>{% endif %}
-        <p class="priority" >{%- include rubrictopagelink.html id=dimension.id -%}</p>
-    {% endcomment %}
-    <h4>Considerations</h4>
-    <ul>
-{% for tip in dimension.tips %}
-    <li>{{ tip }}</li> 
-{% endfor %}
-    </ul>
-    <h4>Status</h4>
-    <ul>
-        <li><b>Danger</b>: {{dimension.red}} </li>
-        <li><b>Warning</b>: {{dimension.yellow}} </li>
-        <li><b>Groovy</b>: {{dimension.green}} </li>
-    </ul>
+    </div>
+    <div class="grid-row">
+        <div class="grid-col-8 grid-offset-1">
+        {% for tip in dimension.tips %}
+            <h4>{{ tip }}</h4> 
+        {% endfor %}
+            <ul>
+                <li><b class="danger-text">Badness</b>: {{dimension.red}} </li>
+                <li><b class="warning-text">Not So Good</b>: {{dimension.yellow}} </li>
+                <li><b class="ok-text">Groovy</b>: {{dimension.green}} </li>
+            </ul>
+            Lessons: {%- include rubrictopagelink.html id=dimension.id -%}
+            {% unless forloop.last %}<hr noshade width="20%">{% endunless %}
+        </div>
+    </div>
 {% endfor %}
 {% endfor %}
 {% endfor %}

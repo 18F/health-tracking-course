@@ -1,4 +1,22 @@
 
+:root {
+    --danger-color: #F65235;
+    --warning-color: #FFDF00;
+    --ok-color: #57F41C;
+}
+
+.danger-text {
+    color: var(--danger-color)
+}
+
+.warning-text {
+    color: var(--warning-color)
+}
+
+.ok-text {
+    color: var(--ok-color)
+}
+
 .tiprow {
     margin-top: 1em;
     
@@ -34,7 +52,7 @@
 .green {
     margin: 0.5em;
     padding: .9em;
-    background: #57F41C;
+    background: var(--ok-color);
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -43,7 +61,7 @@
 .yellow {
     margin: 0.5em;
     padding: 0.9em;
-    background: #FFDF00;
+    background: var(--warning-color);
     color: black;
     font-size: 80%;
     border-radius: 10px;
@@ -52,7 +70,7 @@
 .red {
     margin: 0.5em;
     padding: 0.9em;
-    background: #F65235;
+    background: var(--danger-color);
     color: black;
     font-size: 80%;
     border-radius: 10px;

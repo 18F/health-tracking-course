@@ -5,6 +5,12 @@ permalink: /rubric/
 ---
 
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
+    <em>If you're using a screen reader, we recommend using the <a href="{{ '/rubrictxt' | prepend: site.baseurl }}">plain text</a> version of this rubric.</em>
+</div>
+
+
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
+
 {% for section in site.data.rubric %}
     {% comment %}
     Need to know, deep in the iteration, whether this is even or odd.
