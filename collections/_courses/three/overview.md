@@ -1,12 +1,6 @@
 ---
 layout: widepage
 title: Course Three Overview
-course: 3
-lesson: 0
-indicator: admin
-priority: high
-visible: false
-date: November 4, 2020
 lessons:
     - oo2.1
     - sc2.2

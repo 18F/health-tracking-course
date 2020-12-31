@@ -1,9 +1,6 @@
 ---
 layout: widepage
 title: Course Six Overview
-course: 6
-visible: true
-date: November 30, 2020
 lessons:
     - id3.1
 ---

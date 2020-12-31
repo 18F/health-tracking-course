@@ -1,12 +1,6 @@
 ---
 layout: widepage
 title: Course Four Overview
-course: 4
-lesson: 0
-indicator: admin
-priority: high
-visible: false
-date: November 4, 2020
 lessons:
     - oo3.1
     - oo3.2

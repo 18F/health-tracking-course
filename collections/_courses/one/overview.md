@@ -1,9 +1,6 @@
 ---
 layout: widepage
 title: Course One Overview
-course: 1
-lesson: 0
-date: October 20, 2020
 lessons:   
     - ko1
     - oo1.1

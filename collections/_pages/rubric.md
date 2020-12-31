@@ -40,7 +40,7 @@ permalink: /rubric/
 {% for dimension in priority.dimensions %}
                 <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
                     {% if forloop.first == true %}<p class="priority">{{priority.label | strip | replace: " ", "<br>"}}</p>{% endif %}
-                    <p class="priority" >{%- include rubrictopagelink.html id=dimension.id -%}</p>
+                    <p class="priority" >{%- include rubrictopagelink.html id=dimension.id sep=",<br>"-%}</p>
                 </div>
                 <div class="grid-col-10">
                     {% if forloop.first == true %}<hr>{% endif %}

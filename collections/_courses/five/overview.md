@@ -1,12 +1,6 @@
 ---
 layout: widepage
 title: Course Five Overview
-course: 5
-lesson: 0
-indicator: admin
-priority: low
-visible: false
-date: December 17, 2020
 lessons:
     - pf3.2
     - id2.3

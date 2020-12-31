@@ -1,12 +1,6 @@
 ---
 layout: widepage
 title: Course Two Overview
-course: 2
-lesson: 0
-indicator: admin
-priority: high
-visible: false
-date: October 20, 2020
 lessons:
     - oo1.2
     - sc2.1

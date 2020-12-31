@@ -1,7 +1,7 @@
 {% comment %} passes in the id {% endcomment %}
 {% assign urls = '' | split: ',' %}
 {% for page in site.rubric %}
-    {% if page.dimension == include.id %}
+    {% if page.dimension contains include.id %}
         {% assign urls = urls | push: page.url %}
     {% endif %}
 {% endfor %}
@@ -10,7 +10,7 @@
 {%- if length > 0 -%}
     {% for url in urls %}
         <small><a href="{{ url | prepend: site.baseurl }}">{{ dimension.id }}{%- if length > 1 -%}-{{ forloop.index }}{%- endif -%}</a></small>
-        {%- unless forloop.last -%},<br>{%- endunless -%}
+        {%- unless forloop.last -%}{{ include.sep }}{%- endunless -%}
     {% endfor %}
 {%- else -%}
     <small>{{ dimension.id }}</small>
