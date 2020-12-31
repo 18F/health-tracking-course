@@ -1,16 +1,10 @@
 ---
-layout: widepage
+layout: lesson
 title: Reading the Map
 dimension: oo1.1
 overview: |
     Software project roadmaps are a powerful tool for orienting an outsider to the current state of affairs in the life of a service. Here, "orienting" is in the "orienteering" sense, meaning "which way is it pointing?" 
 ---
-
-# {{ page.title }}
-
-*This lesson is about roadmaps, as shown in the first row of the health tracking rubric. Roadmaps are one of the top priorities in the outcomes-orientation primary indicator.*
-
-{% include rubric dimension=page.dimension %}
 
 Roadmaps are a tricky thing. They are a space where development teams can lie to leadership, vendor leadership can lie to states, states can lie to SOs, and everything can look like it is perfectly on track.
 
@@ -20,20 +14,15 @@ There are many kinds of roadmaps, many ways they might be implemented, and there
 
 As you engage in your reading and viewing, **remember to make note of questions that you have about the material**.
 
-* TOC
-{:toc}
-
 {% capture body %}
 <p>
-    Before you get started, two quick, hot takes.
+Before you get started, two quick, hot takes.
 </p>
-
 <p>
-    <b>Work with what you got</b>. If a lesson suggests you look at material from states, and you don't have it... <i>you do not need to go asking for it</i>. Instead, use it as an opportunity to reach out to your learning cohort, and see if anyone else has materials you might look at. The spirit of using authentic materials is to keep the learning authentic. You'll have plenty of time later to ask questions of your states and their vendors; for now, this learning is for you and your colleagues.
+<b>Work with what you got</b>. If a lesson suggests you look at material from states, and you don't have it... <i>you do not need to go asking for it</i>. Instead, use it as an opportunity to reach out to your learning cohort, and see if anyone else has materials you might look at. The spirit of using authentic materials is to keep the learning authentic. You'll have plenty of time later to ask questions of your states and their vendors; for now, this learning is for you and your colleagues.
 </p>
-
 <p>
-    <b>Leverage your colleagues</b>. You're doing this work in a cohort for many reasons. In part, it is to build community&mdash;you're engaged in learning together, and that's powerful. Many of these lessons will suggest "solo" work. You are, however, welcome to schedule time with a colleague to do that learning together if you like. <b>Yes, you can have "study buddies."</b> It might be easier to hold yourself (and each-other) accountable, it might make the learning more fun, and it will certainly help you get to know your colleagues better. So, don't be afraid to chat with each-other in whatever way makes sense as you're engaged in your learning.
+<b>Leverage your colleagues</b>. You're doing this work in a cohort for many reasons. In part, it is to build community&mdash;you're engaged in learning together, and that's powerful. Many of these lessons will suggest "solo" work. You are, however, welcome to schedule time with a colleague to do that learning together if you like. <b>Yes, you can have "study buddies."</b> It might be easier to hold yourself (and each-other) accountable, it might make the learning more fun, and it will certainly help you get to know your colleagues better. So, don't be afraid to chat with each-other in whatever way makes sense as you're engaged in your learning.
 </p>
 {% endcapture %}
 {% include alert level="no-icon" heading="Two Quick Notes" body=body %}
@@ -195,5 +184,3 @@ You can click on the timers below to help keep yourselves on track.
 2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to  discuss points where you were confused or questioned your material. That is, did you find yourself questioning or wanting to challenge the authors at any point? Did you want to call "bullshit" on what they were saying based on your own personal experience? This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
 3.  **Reflecting**. {% include countdowntimer minutes=20 %} You each had your own roadmaps you investigated and questioned; take a few minutes each to share the roadmaps you scrutinized. Focus on two things: areas where you thought the roadmap was excellent or clear, and areas where you were concerned. For each roadmap, as a group, offer suggestions for how you would like to see the state and/or vendor improve the roadmap in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations.
 4.  **Questioning**. {% include countdowntimer minutes=10 %} For the last few minutes, take some time to expand the questions that we asked about roadmaps. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking of each new roadmap that you see? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
-
-{% include airtable-post.html %}

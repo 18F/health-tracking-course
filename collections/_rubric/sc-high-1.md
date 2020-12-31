@@ -1,20 +1,12 @@
 ---
-layout: widepage
+layout: lesson
 title: Tech and Product Management
 dimension: sc1.1
 overview: |
-   What role do people play on the state and vendor teams, and how do those roles can (and cannot) contribute to project success?
+   Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
+
 ---
-# Lesson {{ page.lesson }} - {{ page.title }}
 
-*This lesson is about a top priority for the "State capacity" primary indicator in the health rubric.* 
-
-{% include rubric dimension=page.dimension %}
-
-Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
-
-* TOC
-{:toc}
 
 ## Reflection: Managing Projects (20m, solo)
 
@@ -74,4 +66,3 @@ By the end of an hour, you should have a shared understanding of each-other's pr
 
 Try and leave a few minutes to go back through, with your partner, and "flag" things as red, yellow, or green. That is, given your knowledge so far, identify things you think are good ("green light"), things that might be cause for concern or to pay more attention to ("yellow light"), and those aspects of your teams that you think are going to be a space of focus and potential intervention in the future ("red light"). We'll come back to those "red light" concerns in future modules.
 
-{% include airtable-post.html %}

@@ -7,7 +7,7 @@
     {% endif %}
 {% endfor %}
 {% if lesson.overview %}
-<h3>{% include indicator slug=lesson.indicator %}</h3>
+<h3>{% include indicator slug=lesson.dimension %}</h3>
 <p>{{ lesson.overview }}</p>
 {% include rubric dimension=lesson.dimension %}
 {% endif %}

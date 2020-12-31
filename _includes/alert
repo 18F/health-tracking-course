@@ -1,10 +1,10 @@
 <div class="usa-alert usa-alert--{{include.level}}">
-    <div class="usa-alert__body">
-    {%- if include.heading -%}<h3>{{include.heading}}</h3>{%- endif -%}
-    <p class="usa-alert__text">
-        {{include.body}}
-    </p>
-    </div>
+<div class="usa-alert__body">
+{%- if include.heading -%}<h3>{{include.heading}}</h3>{%- endif -%}
+<p class="usa-alert__text">
+{{include.body}}
+</p>
+</div>
 </div>
 {% comment %}
         mkup = "#{@markup}".split(" ")
