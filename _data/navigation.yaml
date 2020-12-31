@@ -24,7 +24,12 @@ primary_navigation:
         - name: Asking Technical Questions
           url: /questioning/
         - name: Course References
-          url: /resources/      
+          url: /resources/
+    - name: Admin
+      children:
+        - name: Learning Cohorts
+          url: /admin/learningcohorts/
+
 
 secondary_navigation:
     - name: Rubric

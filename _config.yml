@@ -44,6 +44,9 @@ collections:
   pages:
     output: true
     permalink: /:name/
+  admin:
+    output: true
+    permalink: /admin/:name/
 
 permalink: pretty
 
