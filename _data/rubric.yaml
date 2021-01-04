@@ -44,7 +44,7 @@
           green: IT, program, finance, etc. priorities are aligned around end-user outcomes.
 - header: State Capacity
   question: Does the state have the skills and capacity to to manage the work?
-  wtm: Without some familiarityt with software development, an agency is not well equipped to evaluate vendor work and lead a dvelopment project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
+  wtm: Without some familiarity with software development, an agency is not well equipped to evaluate vendor work and lead a dvelopment project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
   priorities:
     - label: Top Priority
       priority: high
@@ -61,7 +61,7 @@
       dimensions:
         - id: sc2.1
           tips:
-            - Ask how and when the team utilitizes different types of expertise.
+            - Ask how and when the team utilizes different types of expertise.
           red: Teams are not able to be staffed, are only staffed with one skill set/perspective (ex. only a PM), and/or do not include program expertise.
           yellow: Teams are staffed with project and program expertise, able to pull in other experts when needed.
           green: Teams are staffed with project, program, technical, and other expertise.

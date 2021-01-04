@@ -1,3 +1,33 @@
+/* From https://accessibility.18f.gov/hidden-content/ */
+/* This is used on the rubric to *hide* the div-based version
+   from screen readers, and a plain-text version will be presented instead.
+   The plain text version is *just text*, and uses semantic layout to provide
+   context/navigation. The "pretty" version is just that... it is more suitable
+   for "print layout" than what a screen reader would enjoy.
+*/
+.sr-only {
+    border: 0; 
+    clip: rect(0 0 0 0); 
+    height: 1px; 
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+/* From https://css-tricks.com/inclusively-hidden/ */
+/* 
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+*/
 
 :root {
     --danger-color: #F65235;

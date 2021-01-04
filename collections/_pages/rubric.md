@@ -5,12 +5,52 @@ permalink: /rubric/
 ---
 
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
-    <em>If you're using a screen reader, we recommend using the <a href="{{ '/rubrictxt' | prepend: site.baseurl }}">plain text</a> version of this rubric.</em>
+    <em>We also have a <a href="{{ '/rubrictxt' | prepend: site.baseurl }}">plain text</a> version of this rubric.</em>
 </div>
 
+<!-- This is the "text layout" version of the rubric. It should only be visible to screen readers. -->
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;" class="sr-only">
+{% for section in site.data.rubric %}
+    {% assign mod = forloop.index | modulo: 2 %}
+        <h1>{{section.header}}</h1>
+        <b>{{section.question}}</b>
+        <hr noshade>
+        <div class="usa-summary-box" role="complementary">
+            <div class="usa-summary-box__body">
+                <h2 class="usa-summary-box__heading">
+                    Why this matters...
+                </h2>
+                <div class="usa-summary-box__text">
+                    {{section.wtm}}
+                </div>
+            </div>
+        </div>
+{% for priority in section.priorities %}
+{% for dimension in priority.dimensions %}
+    <div class="grid-row"> 
+    {% if forloop.first == true %}<h3>{{ priority.label }}</h3>{% endif %}
+    </div>
+    <div class="grid-row">
+        <div class="grid-col-8 grid-offset-1">
+        {% for tip in dimension.tips %}
+            <h4>{{ tip }}</h4> 
+        {% endfor %}
+            <ul>
+                <li><b class="danger-text">Bad</b>: {{dimension.red}} </li>
+                <li><b class="warning-text">Meh</b>: {{dimension.yellow}} </li>
+                <li><b class="ok-text">Good</b>: {{dimension.green}} </li>
+            </ul>
+            Lessons: {%- include rubrictopagelink.html id=dimension.id sep=", "-%}
+            {% unless forloop.last %}<hr noshade width="20%">{% endunless %}
+        </div>
+    </div>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</div>
 
-<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
-
+<!-- This is the "print layout" version of the rubric. It should be hidden to screen readers. -->
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;" aria-hidden="true">
 {% for section in site.data.rubric %}
     {% comment %}
     Need to know, deep in the iteration, whether this is even or odd.
@@ -73,69 +113,3 @@ permalink: /rubric/
 </div>
 
 <br> &nbsp; <br>
-
-<!--
-<div style="width: 90%; margin: auto;">
-    <div class="grid-row darkgrey">
-        <h1 style="font-variant: small-caps;">Outcomes / Orientation</h1>
-    </div>
-    <div class="grid-row darkgrey">
-        <div class="grid-col-3">
-            <div class="grid-row">
-                <div class="grid-col-12">
-                    <h2>Are efforts clearly connected to intended outcomes and end users?</h2>
-                </div>                
-            </div>
-            <div class="grid-row">
-                <div class="grid-col-8 grid-offset-2">
-                    <h3>Why this matters...</h3>
-                    <p>
-                        Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work.
-                    </p>        
-                </div>
-            </div>
-        </div>
-        <div class="grid-col-9">
-            <div class="grid-row">
-                <div class="grid-col-2" >
-                    <h3 class="priority">Top Priority</h3>
-                </div>
-                <div class="grid-col-10">
-                    <div class="grid-row grid-gap">
-                        <div class="grid-col-2 tip">
-                            Ask to see the product roadmap and the overall roadmap.
-                        </div>
-                        <div class="grid-col-2 tip">
-                            Ask how the state ensures services are accessible for all.
-                        </div>
-                        <div class="grid-col-2 red">
-                            There is no roadmap for the product / service or enterprise.
-                        </div>
-                        <div class="grid-col-2 yellow">
-                            There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-                        </div>
-                        <div class="grid-col-2 green">
-                            The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
-                        </div>
-                    </div>
-                    <div class="grid-row grid-gap tiprow">
-                        <div class="grid-col-3 tip">
-                            Ask to see the product roadmap and the overall roadmap.
-                        </div>
-                        <div class="grid-col-1 blanktip"> &nbsp; </div>
-                        <div class="grid-col-2 red">
-                            There is no roadmap for the product / service or enterprise.
-                        </div>
-                        <div class="grid-col-2 yellow">
-                            There is a roadmap but it is unclear when value will be delivered, product or enterprise roadmaps conflict.
-                        </div>
-                        <div class="grid-col-2 green">
-                            The roadmap captures how the product / service will evolve and demonstrates value to end users within 12 months, aligns with the enterprise roadmap.
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </div>
-</div>
--->

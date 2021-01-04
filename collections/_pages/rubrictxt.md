@@ -6,15 +6,13 @@ title: Rubric
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
     <em>You can also view this rubric in <a href="{{ '/rubric' | prepend: site.baseurl }}">tabular form</a>.</em>
 </div>
-
 <div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
-
 {% for section in site.data.rubric %}
     {% assign mod = forloop.index | modulo: 2 %}
         <h1>{{section.header}}</h1>
         <b>{{section.question}}</b>
-        <hr noshade>
-        <div class="usa-summary-box" role="complementary">
+        <hr noshade aria-hidden="true">
+        <div class="usa-summary-box">
             <div class="usa-summary-box__body">
                 <h2 class="usa-summary-box__heading">
                     Why this matters...
@@ -39,10 +37,11 @@ title: Rubric
                 <li><b class="warning-text">Meh</b>: {{dimension.yellow}} </li>
                 <li><b class="ok-text">Good</b>: {{dimension.green}} </li>
             </ul>
-            Lessons: {%- include rubrictopagelink.html id=dimension.id sep=", "-%}
-            {% unless forloop.last %}<hr noshade width="20%">{% endunless %}
+            Related course lessons: {%- include rubrictopagelink.html id=dimension.id sep=", "-%}
+            {% unless forloop.last %}<hr noshade width="20%" aria-hidden="true">{% endunless %}
         </div>
     </div>
 {% endfor %}
 {% endfor %}
 {% endfor %}
+</div>
