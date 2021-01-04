@@ -1,0 +1,62 @@
+<!-- This is the "print layout" version of the rubric. It should be hidden to screen readers. -->
+<div style="width: 90%; margin: auto; margin-top: 2em; margin-bottom: 2em;">
+    {% for section in site.data.rubric %}
+        {% comment %}
+        Need to know, deep in the iteration, whether this is even or odd.
+        CSS rules for even/oddness won't cut it.
+        {% endcomment %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        <div class="grid-row section">
+            <div class="grid-col-3">
+                <div class="grid-row">
+                    <div class="grid-col-12">
+                        <h1 style="font-variant: small-caps; padding-left: 1.5em;">{{section.header}}</h1>
+                        <h2 style="padding-left: 2em; width: 90%;">{{section.question}}</h2>
+                    </div> <!-- question --> 
+                </div> <!-- row -->
+                <div class="grid-row">
+                    <div class="grid-col-8 grid-offset-2">
+                        <h3>Why this matters...</h3>
+                        <p>
+                            {{section.wtm}}
+                        </p>        
+                    </div> <!-- wtm -->
+                </div> <!-- row --> 
+            </div> <!-- col-3 -->
+            <div class="grid-col-9">
+    {% for priority in section.priorities %}
+                <div class="grid-row">
+    {% for dimension in priority.dimensions %}
+                    <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
+                        {% if forloop.first == true %}<p class="priority">{{priority.label | strip | replace: " ", "<br>"}}</p>{% endif %}
+                        <p class="priority" >{%- include rubrictopagelink.html id=dimension.id sep=",<br>"-%}</p>
+                    </div>
+                    <div class="grid-col-10">
+                        {% if forloop.first == true %}<hr>{% endif %}
+                        <div class="grid-row grid-gap tiprow">
+    {% for tip in dimension.tips %}
+                            <div class="{% if dimension.tips.size == 1%}grid-col-3{% else %}grid-col-2{% endif %} tip" {% if mod == 0 %}style="background: #eaeaea;"{% endif %} >
+                                {{tip}} 
+                            </div>
+                            {% if dimension.tips.size == 1%}
+                            <div class="grid-col-1 blanktip"> &nbsp; </div>
+                            {% endif %}
+    {% endfor %}
+                            <div class="grid-col-2 red">
+                            {{dimension.red}}
+                            </div>
+                            <div class="grid-col-2 yellow">
+                            {{dimension.yellow}}
+                            </div>
+                            <div class="grid-col-2 green">
+                            {{dimension.green}}
+                            </div>
+                        </div> <!-- row --> 
+                    </div> <!-- col-10 -->
+    {% endfor %}
+            </div> <!-- row priority group -->
+    {% endfor %}
+            </div> <!-- col-9 -->
+        </div> <!-- row darkgrey -->
+    {% endfor %}
+    </div>
