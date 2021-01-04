@@ -16,19 +16,9 @@
     width: 1px;
   }
 
-/* From https://css-tricks.com/inclusively-hidden/ */
-/* 
-.sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap; 
-  width: 1px;
-}
-*/
-
+/* Injecting rubric colors globally so they can
+   be referenced as variables. Also... may need to 
+   change to accommodate vision differences. */
 :root {
     --danger-color: #F65235;
     --warning-color: #FFDF00;
