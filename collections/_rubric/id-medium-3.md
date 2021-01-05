@@ -12,7 +12,7 @@ This lesson will take roughly 5 hours to complete, making it one of the longer l
 
 **NOTE**: As with all of our viewing/listening choices, we are not attempting to endorse or otherwise promote any product or business. 
 
-# The Art of Monitoring (1h, solo)
+## The Art of Monitoring (1h, solo)
 
 The first conversation in this lesson is [The Art of Monitoring](https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ). It comes from the [Software Engineering Daily](https://softwareengineeringdaily.com/) podcast, and was recorded back in 2016. James Turnbull is the author of a book on monitoring (called *The Art of Monitoring*), and this podcast does a good job of providing a high-level view of 1) what is monitoring, 2) why it is important, and 3) how it can be used to create good business benefit.
 
@@ -20,7 +20,7 @@ As systems deployed by the state for The People, we want 1) those systems to be 
 
 It is possible that none of the systems running in your states have any modern monitoring in place. If they do, you should be able to see the information dashboards and get *plain language explanations* of what those dashboards are saying. If they don't exist, it means that a state is running software for hundreds of thousands (in a state like Maine) to many millions (like California or New York) of users without knowing anything about what their systems are doing or why. This is... *probably* a *big* problem.
 
-## Note and Reflect (1h, solo)
+### Note and Reflect (1h, solo)
 
 When you're done, sit down for 30m to 1h. Bring the podcast back up if you need to, and make some notes in your notebook.
 
@@ -30,7 +30,7 @@ When you're done, sit down for 30m to 1h. Bring the podcast back up if you need 
 
 Be prepared to share your questions with the larger group later.
 
-# Security Monitoring (1h, solo)
+## Security Monitoring (1h, solo)
 
 As we write this lesson, the [SolarWinds hack](https://www.theverge.com/2021/1/2/22210667/solarwinds-hack-worse-government-microsoft-cybersecurity) has been big in the news. This hack involves security monitoring software that was, itself, compromised. This means state and government systems trusted SolarWinds to provide software that would monitor the safety of their systems... but, instead, SolarWinds shipped software that was explicitly compromised by state actors. (As of this writing, the rumormill suggests that it was a Russian government hacking team.) This kind of threat is *extremely* difficult to protect against, but it is not impossible... and, good monitoring and alerting on the part of more government systems might have helped us learn about the hack sooner.
 
@@ -38,7 +38,7 @@ The second podcast in our lesson is titled [Security Monitoring](https://podcast
 
 Again, go for a walk. Jeff talks about how we build software (which involves using software that is built on top of software which is built on top of software...), and raises the question of how we monitor or otherwise keep track of the *security* of all of the layers of that stack.
 
-## Note and Reflect (1h, solo)
+### Note and Reflect (1h, solo)
 
 When you're done, again, sit down and reflect. *You should, at this point, be pooing your pants.* I would claim that someone with a security mindset begins with the premise that **everything is bad**. The question is then "how can I make things less bad, and keep track of it along the way?" 
 
