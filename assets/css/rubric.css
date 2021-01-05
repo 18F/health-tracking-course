@@ -16,6 +16,15 @@
     width: 1px;
   }
 
+@media print
+{  
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+
 /* Injecting rubric colors globally so they can
    be referenced as variables. Also... may need to 
    change to accommodate vision differences. */

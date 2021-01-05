@@ -6,7 +6,7 @@
         CSS rules for even/oddness won't cut it.
         {% endcomment %}
         {% assign mod = forloop.index | modulo: 2 %}
-        <div class="grid-row section">
+        <div class="grid-row section" style="page-break-after: always;">
             <div class="grid-col-3">
                 <div class="grid-row">
                     <div class="grid-col-12">
@@ -25,7 +25,7 @@
             </div> <!-- col-3 -->
             <div class="grid-col-9">
     {% for priority in section.priorities %}
-                <div class="grid-row">
+                <div class="grid-row" >
     {% for dimension in priority.dimensions %}
                     <div class="grid-col-2" style="display: inline-block; vertical-align: top;">
                         {% if forloop.first == true %}<p class="priority">{{priority.label | strip | replace: " ", "<br>"}}</p>{% endif %}
