@@ -159,24 +159,24 @@ Have fun, call bullshit, and if you need to, take some time to ask "why?" There'
 
 When you're done, spend 10 minutes making notes in your journal. Specifically, make note of two or three things from your "calling bullshit" session where you note what you were particularly concerned about during the presentation, and why. 
 
+{% include shared-experience-prompt.html %}
 
-## Share your own stories (30m, small group)
+## Discuss in Community (1h, group)
 
-Meet with your small group and connect what you learned in this lesson to situations you've seen with your state projects. Consult the notes you took throughout the lesson and try to link them to a story that you can tell about a particular project. It's probably useful to do some brainstorming on this before you meet with your small group to trade stories. 
+These questions are all meant to help you get at this one dimension of the rubric:
 
-When you get together with your small group:
+{% include rubric dimension=page.dimension %}
 
-1. Share your stories with each other.
-2. Figure out which ones are the best candidates for a case study or use case that would be helpful to share with other state officers. 
-3. As a group, choose useful stories and write notes on how they link up with the concepts shared.
-    * Include in your notes:
-        * When did this story take place? 
-        * What were the events or background leading up to this story?
-        * How did this story demonstrate an ideal or non-ideal situation? 
-        * What specific principles from the lesson does this story illustrate?
-        * If the story shows an ideal, what were the conditions that made it work? How did it fit with the principles shared in the lesson?
-        * If the story shows a non-ideal, what could have changed to make it better?
-4. Share these notes with the larger group when you meet.
-5. After discussion with the larger group, document these stories and their connections to the lesson to help other state officers understand how this lesson's concepts apply to their work.
+Come together with your colleagues for a conversation.
+
+You can click on the timers below to help keep yourselves on track.
+
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **RapidShare&trade; Prep** {% include countdowntimer minutes=1 %} Take one minute to prepare what you want to say about your small group conversation. Specifically, note two things: **a single word**, and **a single sentence**. 
+3.  **RapidShare&trade; Word**. {% include countdowntimer minutes=2 %} Next, take three minutes to slowly go around the group, and share out the one word that captured your reflections and thoughts from your small group activity. What one word captured your learning/insights?
+4.  **RapidShare&trade; Sentence**: {% include countdowntimer minutes=8 %} Now, go around the group again. Use the template "My one-word summary was ____, and my one sentence summary would be ____," inserting your one word and one sentence in the template.
+5.  **Reflecting**. {% include countdowntimer minutes=2 %} Now, pause. For two minutes, make notes on your own. Specifically, brainstorm one, possibly two questions you might want to ask the group about the learning of this lesson in light of what everyone shared. Perhaps you want to probe deeper into one person's comments, or perhaps you have a larger/"big picture" question for the group against the overall backdrop. 
+6.  **Discuss**. {% include countdowntimer minutes=30 %} Let the conversation go where it does. Explore each-other's questions. Make sure everyone has a chance to join in the conversation, through questions and comments. If you have to, use [cards or popsicle sticks](https://www.educationworld.com/a_admin/columnists/bell/bell010.shtml#:~:text=Popsicle%20sticks.&text=With%20this%20strategy%2C%20the%20teacher,teacher%20might%20call%20on%20them.) with everyone's name on them to make sure everyone takes part.
+7.  **Wrap Up**. {% include countdowntimer minutes=5 %}  
 
 {% include airtable-post.html %}
