@@ -32,7 +32,7 @@ Consider one of your state's projects and answer the following question in your 
 2. Does the team set their priorities based on consideration of user outcomes? What indicators of that are there? If you don't think they set them based on users, what factors are in competition with that goal? What priorities seem more pressing to them?
 3. Who was in the room when they made these priorities? How do they make sure everyone on the team knows what they are?
 
-###  Everybody in the room (30m, solo)
+##  Everybody in the room (30m, solo)
 
 To gain a bit more insight into the prioritization process, we'll take a look at the following video. It's a bit of a plug for this company's product managment tool and it a little business-y. But the speaker gives a good overview of the steps to a good product prioritization process. As you watch the video, think about who would be involved in each of these steps.
 
@@ -70,11 +70,11 @@ Some things you might ponder here (again, write down answers for your project):
 * Is the team aligned on these priorities from enterprise-level to the project level? If not, what's the reason for the misalignment?
 
 
-As we're thinking through all of these, let's think through some direct qestions we can ask of these teams to get at things we may not be able to observe directly.
+As we're thinking through all of these, let's think through some direct questions we can ask of these teams to get at things we may not be able to observe directly. We'll use these later in the roleplay we'll do in our group meeting.
 
 {% include shared-experience-prompt.html %}
 
-## Roleplay (1h, group)
+## Roleplay and Discuss in Community (1h, group)
 
 You've thought about your state projects and its team members' sense of their priorities. You've talked about it with your small group and traded stories. Now it's time to roleplay asking your team questions about their current priorities, roles, and alignment. You'll do this in the larger group discussion. 
 
