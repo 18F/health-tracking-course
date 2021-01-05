@@ -117,36 +117,36 @@ web:
           author: 18F
           note: |
             Our guide on validating software products.
-        - title: 
+        - title: Card Sorting
           uid: cs18f
           url: https://methods.18f.gov/card-sorting
-          author: 
+          author: 18F
           note: |
-            
-        - title: 
-          uid: 
+            From the 18F methods guide.
+        - title: Multivariate Testing
+          uid: mvt18f
           url: https://methods.18f.gov/multivariate-testing
-          author: 
+          author: 18F
           note: |
-            
-        - title: 
-          uid: 
+            From the 18F methods guide.
+        - title: Usability Testing
+          uid: ut18f
           url: https://methods.18f.gov/usability-testing
-          author: 
+          author: 18F
           note: |
-            
-        - title: 
-          uid: 
+            From the 18F methods guide.
+        - title: Visual Preference Testing
+          uid: vpt18f
           url: https://methods.18f.gov/visual-preference-testing
-          author: 
+          author: 18F
           note: |
-            
-        - title: 
-          uid: 
-          url: 
-          author: 
+            From the 18F methods guide.
+        - title: "Etymology of the word 'bullshit'"
+          uid: bullhistory
+          url: https://www.etymonline.com/word/bull?ref=etymonline_crossreference#etymonline_v_18053
+          author: Etymonline
           note: |
-            
+            If we're going to use a word in a technical sense, it helps to know where it comes from.
         - title: 
           uid: 
           url: 

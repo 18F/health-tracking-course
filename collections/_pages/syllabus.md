@@ -33,7 +33,7 @@ Our goals are the "big picture." They are framed as questions that you should be
 3. **Process and Action**. What steps can I take to improve project outcomes?
 4. **Self and Community**. Am I confident in my work?
 
-The word "bullshit" has a [long, rich history](https://www.etymonline.com/word/bull?ref=etymonline_crossreference#etymonline_v_18053). It's root, *bull*, comes potentially from the Old French (*bole*) or Icelandic (*bull*), generally meaning to deceive or trick, or in the Icelandic, "nonsense." In 1600's English, it might mean "a ludicrous blunder involving a contradiction in terms," with evidence of its use in the English language going back to the 14th century. 
+The word "bullshit" has a {% include link id="bullhistory" text="long, rich history" %}. It's root, *bull*, comes potentially from the Old French (*bole*) or Icelandic (*bull*), generally meaning to deceive or trick, or in the Icelandic, "nonsense." In 1600's English, it might mean "a ludicrous blunder involving a contradiction in terms," with evidence of its use in the English language going back to the 14th century. 
 
 {% comment %}
 It is the long and rich history of the word "bullshit" that inspires us to use it in the course goals. The purpose of this course is to learn strategies and tactics that will help you:
