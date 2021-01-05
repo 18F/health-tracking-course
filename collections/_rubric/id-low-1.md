@@ -48,31 +48,31 @@ The website you are reading *right now* is free and open content. This content w
 
 Almost everything that 18F does is free and open. Let's look at the LICENSE that is associated with this content:
 
-<div style="background: #cccccc;">
-    <h1>
-        License
-    </h1>
-    <p>
-        As a work of the [United States government](https://www.usa.gov/), this project is in the public domain within the United States of America.
-    </p>
-    <p>
-        Additionally, we waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
-    </p>
-    <h2>
-        CC0 1.0 Universal Summary
-    </h2>
-    <p>
-        This is a human-readable summary of the [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode).
-    </p>
-    <h3>
-        No Copyright
-    </h3>
-    <p>
-        The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
-    </p>
-    <p>
-        You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
-    </p>
+<div style="background: #cccccc; padding: 2em; margin: 1em;">
+<h1>
+    License
+</h1>
+<p>
+    As a work of the <a href="https://www.usa.gov/">United States government</a>, this project is in the public domain within the United States of America.
+</p>
+<p>
+    Additionally, we waive copyright and related rights in the work worldwide through the CC0 1.0 Universal public domain dedication.
+</p>
+<h2>
+    CC0 1.0 Universal Summary
+</h2>
+<p>
+    This is a human-readable summary of the <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Legal Code (read the full text)</a>.
+</p>
+<h3>
+    No Copyright
+</h3>
+<p>
+    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+</p>
+<p>
+    You can copy, modify, distribute, and perform the work, even for commercial purposes, all without asking permission.
+</p>
 </div>
 
 From a legal perspective, that's pretty serious stuff. It isn't that this is *just* free to use (but you can't modify it). This license lets anyone in the world, *anywhere*, at *any time*, use this content in *any way they want*. 

@@ -12,7 +12,7 @@ However, you can actually have "agile fatigue" at the **exact same time** as you
 
 We have two resources for you. Nothing we do can help you with agile fatigue, but we can *definitely* help you with understanding what agile is.
 
-The video embedded below, [Foundations of Agile](https://digital.gov/event/2019/11/04/foundations-agile-i/), is based directly on the {% include link id="agileprinciples" %} guide. You could watch the video (for context), and later come back and read the guide. Or, perhaps you prefer reading to viewing, and you'd rather just read the guide. 
+The video embedded below, {% include link id="foundationsagile" text="Foundations of Agile" %}, is based directly on the {% include link id="agileprinciples" %} guide. You could watch the video (for context), and later come back and read the guide. Or, perhaps you prefer reading to viewing, and you'd rather just read the guide. 
 
 These resources care both intended for people who are new to agile.
 
@@ -28,5 +28,5 @@ If you prefer reading, you can hit {% include link id="agileprinciples" %}, a gu
 
 ### Giving Back
 
-If, as you read this guide, you found things that you think could be improved, expanded upon, or better explained, we'd love to hear from you. You can [visit the agile guide source repository](https://github.com/18F/agile), click on "Issues," and submit your thoughts. If you do that, the 18F team will hear what you have to say! And, in doing this, you'll be participating in a free and open source project by and for the US Government and, therefore, the people of the United States. That's kinda cool!
+If, as you read this guide, you found things that you think could be improved, expanded upon, or better explained, we'd love to hear from you. You can {% include link text="visit the agile guide source repository" id="apghrepo" %}, click on "Issues," and submit your thoughts. If you do that, the 18F team will hear what you have to say! And, in doing this, you'll be participating in a free and open source project by and for the US Government and, therefore, the people of the United States. That's kinda cool!
 

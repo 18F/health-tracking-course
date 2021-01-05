@@ -105,7 +105,54 @@ web:
           author: kileynichols
           note: |
             DevOps has become mainstream in the last decade and continues to gain in popularity. That’s why we’re providing this DevOps tutorial to help you get started quickly.
-
+        - title: Agile Practices Github Repository
+          uid: apghrepo
+          url: https://github.com/18F/agile
+          author: 18F
+          note: |
+            The source for the 18F agile practices guide.
+        - title: Validating Software Products
+          uid: vsp18f
+          url: https://methods.18f.gov/validate/
+          author: 18F
+          note: |
+            Our guide on validating software products.
+        - title: 
+          uid: cs18f
+          url: https://methods.18f.gov/card-sorting
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: https://methods.18f.gov/multivariate-testing
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: https://methods.18f.gov/usability-testing
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: https://methods.18f.gov/visual-preference-testing
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: 
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: 
+          author: 
+          note: |
+            
 
 videos:
   header: Videos
@@ -198,6 +245,12 @@ videos:
         duration: 7m36s
         note: |
           Web accessibility: essential for some, useful for all.
+      - title: Foundations of Agile
+        uid: foundationsagile
+        url: https://digital.gov/event/2019/11/04/foundations-agile-i/
+        duration: 1h
+        note: |
+          An overview of agile practices by the 18F Alans.
 
 slidedecks:
   header: Slide Decks

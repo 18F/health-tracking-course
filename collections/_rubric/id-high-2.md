@@ -114,10 +114,6 @@ Pick a couple of examples of this in your state’s current projects&mdash;maybe
 {% include shared-experience-prompt.html %}
 ## Discuss in Community (1h, group)
 
-These questions are all meant to help you get at this one dimension of the rubric:
-
-{% include rubric dimension="id1.2" %}
-
 Come together with your colleagues for a conversation.
 
 You can click on the timers below to help keep yourselves on track.

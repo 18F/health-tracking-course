@@ -200,7 +200,9 @@ This final bullet in Joel's test has not aged well. "Hallway usability testing" 
 
 Are *actual users* involved in the design and testing of the software? This does not mean some VP at the vendor says "I like this." It means that The People of the United States are involved in the ongoing testing of the software. If the software is intended to support SNAP enrollment, then people who need to enroll in SNAP should be *paid*, *by the vendor*, to be part of their user testing pool.
 
-There's a lot more to say about the modern design and testing of software. {% include link id="methodsguide" %} has an entire section on how we [validate software products](https://methods.18f.gov/validate/). If you only read about those methods ([card sorting](https://methods.18f.gov/card-sorting), [multivariate testing](https://methods.18f.gov/multivariate-testing), [usability testing](https://methods.18f.gov/usability-testing), and [visual preference testing](https://methods.18f.gov/visual-preference-testing)), you'll be a long way towards having an understanding of what it means for a state or vendor to take ongoing testing and validation of the software product seriously. 
+{% comment %}{% include link id="" text="" %}{% endcomment %}
+
+There's a lot more to say about the modern design and testing of software. {% include link id="methodsguide" %} has an entire section on how we {% include link id="vsp18f" text="validate software products" %}. If you only read about those methods ({% include link id="cs18f" text="card sorting" %}, {% include link id="mvt18f" text="multivariate testing" %}, {% include link id="ut18f" text="usability testing" %}, and {% include link id="vpt18f" text="visual preference testing" %}), you'll be a long way towards having an understanding of what it means for a state or vendor to take ongoing testing and validation of the software product seriously. 
 
 Fundamentally, if the state and vendor have a 1) clearly articulated process to 2) involve real users 3) on an ongoing basis, then they're in a pretty good place. From there, it's a question of how well the feedback from those tests are rolled back into the development process. 
 
