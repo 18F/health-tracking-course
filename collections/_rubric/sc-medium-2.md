@@ -1,21 +1,11 @@
 ---
-layout: widepage
+layout: lesson
 title: Questioning the Teams
 dimension: sc2.2
 overview: |
     To have a functioning software team, you gotta get folks on the same page. This lesson helps you figure out whether everyone on the team knows the story and how well they know it.
 
 ---
-# Lesson {{ page.lesson }} - {{ page.title }}
-
-*This lesson is about a medium priority "State capacity" indicator in the health rubric.* 
-
-{% include rubric dimension=page.dimension %}
-
-To have a functioning software team, you gotta get folks on the same page. This lesson helps you figure out whether everyone on the team knows the story and how well they know it.
-
-* TOC
-{:toc}
 
 ## Reflection: What makes a team work? (15m, pair)
 

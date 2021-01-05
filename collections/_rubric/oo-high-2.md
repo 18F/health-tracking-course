@@ -1,5 +1,5 @@
 ---
-layout: widepage
+layout: lesson
 title: Measuring and Metrics
 dimension: oo1.2
 overview: |
@@ -38,20 +38,11 @@ experts:
     - Steve Mezak
 ---
 
-# {{ page.title }}
-
-*This lesson is about measuring progress and the metrics used. Understanding progress measurement is a high priority in the outcomes-orientation primary indicator.*
-
-{% include rubric dimension=page.dimension %}
-
 At *some* level, measuring progress on a large, long-running software project is an impossible task. 
 
 Given that, it means that is is a *huge* space for vendors and states to *claim* that progress is being made *even if progress is not being made*.
 
 This lesson looks at some frameworks for assessing the health of a program, and encourages you to develop a "questioning state of mind" when it comes to evaluating how states and vendors measure progress and success. 
-
-* TOC
-{:toc}
 
 ## Ordering: What Do You Think? (15m, solo)
 

@@ -1,6 +1,6 @@
 ---
-layout: widepage
-title: "Testing, testing, 1-2-3"
+layout: lesson
+title: "Testing, Testing, 1-2-3"
 dimension: 
     - id1.3
     - id1.3-course2
@@ -9,16 +9,6 @@ overview: |
     What types of testing should a software project undergo and what does testing a project even mean? In this conversation, Princess Ojiaku, Matt Jadud, and Heather Battaglia talk about what kinds of tests are important and when they should happen. This conversation includes a guest appearance by SHOUTYBOX, the screen reader that lost its way.
 ---
 
-# {{page.title}}
-
-*This lesson explores a high priority dimension of the Iterative Development primary indicator. It is also applicable to a medium priority dimension of the ID primary indicator.*
-
-{% include rubric dimension="id1.3" %}
-
-{% include rubric dimension="id2.2" %}
-
-* TOC
-{:toc}
 
 ## Active Listening: A Conversation on Software Testing (~1h, solo)
 

@@ -1,23 +1,15 @@
 ---
-layout: widepage
+layout: lesson
 title: User Outcomes
 dimension: oo2.1
 overview: |
    In this lesson, we’ll shift our focus from considering user experience as an testing metric to considering user experience as an outcome. We’ll learn why it’s just as important to think about users at the beginning of a project as it is throughout the project’s development. We'll also discuss accessibility concerns and how to ensure that what we're building is as inclusive as possible.
 ---
 
-# {{ page.title }}
 
-*This lesson takes a look at user experience as a project outcome. This is a medium priority in the outcomes-orientation primary indicator.*
-
-{% include rubric dimension=page.dimension %}
 
 When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/id-high-2/" | prepend: site.baseurl }}), we saw user experience as iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
 
-{{ page.overview }}
-
-* TOC
-{:toc}
 
 ## Mapping users to outcomes (15m, solo)
 

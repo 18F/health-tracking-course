@@ -1,23 +1,15 @@
 ---
-layout: widepage
+layout: lesson
 title: Consider the User
 dimension: id1.2
 overview: |
     Testing is a sometimes misunderstood and, yet, critical aspect of a long-lived software project. This is especially true if you are trying to produce high-quality software in an iterative manner. This lesson will speak to the role that actual users play in the ongoing testing of a major software project.
 ---
 
-# {{ page.title }}
-
-*This lesson is about measuring progress and the metrics used. Understanding progress measurement is a high priority in the outcomes-orientation primary indicator.*
-
-{% include rubric dimension=page.dimension %}
 
 If something is hard or frustrating to use, it just won’t get used the way we intend or at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
 
 If we create a piece of software or new feature and only stop to get feedback when all the work of making it is done, the entire effort might be wasted if it’s not useful to the intended audience. That’s why it’s important to check in with users at the beginning, middle, and end of the development process so that their feedback can steer the work toward a great product for them. Ideally, the user input should be as continuous as possible, and so this row in the Rubric  is a top priority in the iterative development process.
-
-* TOC
-{:toc}
 
 ## Consider the end user (5m, solo)
 
@@ -134,5 +126,3 @@ You can click on the timers below to help keep yourselves on track.
 2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. This would be a great place to probe ideas; help each-other unpack why you feel this way about the readings.
 3.  **Reflecting**. {% include countdowntimer minutes=20 %} Bring examples from your own states on how they currently incorporate users. Bring questions for your state’s projects if how and when they consider the end user are unclear. As a group, offer suggestions for how you would like to see the state and/or vendor improve in the next iteration. This could be in the form of questions that you want to ask, or it can be recommendations. Imagine and discuss how the state might respond to those questions or recommendations.
 4.  **Questioning**. {% include countdowntimer minutes=10 %} For the last few minutes, take some time to expand on how state project engage end users in their development process. You have your own experiences as SOs, and those experiences should inform your inquiry. What questions (in addition to the ones asked as part of your solo work) do you think you should be asking? Make sure to share those questions back, so they might be incorporated into future versions of these learning materials!
-
-{% include airtable-post.html %}

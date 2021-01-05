@@ -7,7 +7,9 @@ layout: widepage
 
 {% include toc.html html=content h_max=2 %}
 
-{% include rubric dimension=page.dimension %}
+{% for dim in page.dimension %}
+    {% include rubric dimension=dim %}
+{% endfor %}
 
 {{ content }}
 

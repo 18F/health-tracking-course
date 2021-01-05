@@ -1,22 +1,12 @@
 ---
-layout: widepage
+layout: lesson
 title: "Assuring Quality"
 dimension: pf1.2
 overview: |
     Quality monitoring is an integral part of government contracting. For quality monitoring to be truly effective, it should speak to the behaviors that will lead to a successful delivery. This is a critical step towards acknowledging that software is not a product one buys, but an ongoing service that must be shaped and supported on an ongoing basis.
 ---
 
-
-# {{page.title}}
-
-*This lesson explores a high priority dimension of the Procurement Flexibility indicator.*
-
-{% include rubric dimension=page.dimension %}
-
 There are two things that are important to keep in mind about the assurance of quality in the production of software products. First, in the context of government work contracted out to vendors, the metrics and guidelines for quality should have been baked into the contract. If those are absent, it may be difficult to hold the vendor accountable. Second, quality assurance is a many-dimensional concern, involving technologies, practices, processes, and an overall mindset towards producing something that works and is maintainable long-term.
-
-* TOC
-{:toc}
 
 ## Active Listening: A Conversation on QASPs (~1h, solo)
 

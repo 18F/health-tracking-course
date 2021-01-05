@@ -1,5 +1,5 @@
 ---
-layout: widepage
+layout: lesson
 title: "Everbody's Priorities"
 dimension:
     - oo3.1
@@ -12,20 +12,11 @@ dimension:
     - oo3.2
 ---
 
-# {{ page.title }}
 
-*This lesson is about project priorities, a lower priority in the outcomes orientation primary indicator.*
-
-{% include rubric dimension="oo3.1" %}
-{% include rubric dimension="oo3.2" %}
 
 It can be difficult to determine priorities in a team setting, but it's important that all team members share the same sense of what's important to the project. [One of the top priorities in the outcomes orientation primary indicator is the roadmap.]({{ "/rubric/oo-high-1/" | prepend: site.baseurl }}), because building alignment and a shared vision helps a team set their priorities and next steps. While looking at a team's roadmap can give you the big picture vision, asking a team's members about their roles, priorities, and how they stay on track can give you a more insight into how their work is going on a day-to-day basis. In this lesson, we'll take a bit of a deeper dive into what it means for a team to speak to their priorities and be aligned on them.
 
 As always, **remember to make note of questions that you have about the material** as you go through this lesson.
-
-* TOC
-{:toc}
-
 
 ## Conceptual: Setting the priorities (20m, solo)
 

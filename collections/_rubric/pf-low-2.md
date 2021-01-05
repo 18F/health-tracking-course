@@ -1,20 +1,10 @@
 ---
-layout: widepage
+layout: lesson
 title: "Vendor Management, One Step Removed"
 dimension: pf3.2
 overview: |
     What makes up a good contract between a vendor and a state? In this conversation, Princess Ojiaku and Carrie Feher talk about how to steer the vendor-state relationship toward a good place and how to get it back on track when it's not. 
 ---
-
-# {{page.title}}
-
-*This lesson explores a lower priority dimension of the Procurement Flexibility indicator.*
-
-{% include rubric dimension="pf3.2" %}
-
-
-* TOC
-{:toc}
 
 ## Active Listening: A Conversation on Vendor Management (~1h, solo)
 

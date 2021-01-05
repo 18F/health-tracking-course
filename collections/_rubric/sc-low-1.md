@@ -1,23 +1,15 @@
 ---
-layout: widepage
+layout: lesson
 title: "Scope out the team"
 dimension: sc3.1
 overview: |
     Observing a team's dynamics can help you figure out the "why" behind successes or failures. This module helps you learn what to look for when observing team meetings to get a sense of how the team works together. 
 ---
 
-# {{ page.title }}
-
-*This lesson is about team dynamics, a low priority in the state capacity primary indicator.*
-
-{% include rubric dimension=page.dimension %}
 
 Team dynamics are tricky things. It can be hard to really get a handle on what's going on behind the flashy smiles and presentations that a team might roll out for your arrival. Since you're acting as an outside observer rather than a full-fledged member of the team, you're going to have to know what to look for and what questions to ask to get behind the veil and see how the team works. This lesson gives you a few frameworks to help your observations.  
 
 As you engage in your reading and viewing, **remember to make note of questions that you have about the material**.
-
-* TOC
-{:toc}
 
 
 ## Conceptual: Team development (1h, solo)

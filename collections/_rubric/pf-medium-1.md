@@ -1,19 +1,10 @@
 ---
-layout: widepage
+layout: lesson
 title: "Managing Data"
 dimension: pf2.1
 overview: |
     Data is big business. Many contractors have learned that if they build a system that "locks in" the government, they not only "own" the data (potentially tying the government to them as a vendor in-perpetuity), but the data itself becomes a valuable commodity to be resold on the open market. Neither of these outcomes (necessarily) serves the people.
 ---
-
-# {{page.title}}
-
-*This lesson explores a medium priority dimension of the Procurement Flexibility indicator.*
-
-{% include rubric dimension=page.dimension %}
-
-* TOC
-{:toc}
 
 ## An Experiment in Data Access (40m, solo)
 

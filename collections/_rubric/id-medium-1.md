@@ -1,16 +1,11 @@
 ---
-layout: widepage
+layout: lesson
 title: "Putting Software Into Production"
 dimension: id2.1
 overview: |
     It's one thing to write a piece of software. It's another for people to use it. That involves "putting the software into production" or "shipping the software." Many terms are used, but at the end of the day, it means that people will find ways to break what you thought was ready for prime time... 
 ---
 
-# {{ page.title }}
-
-*{{ page.overview }}*
-
-{% include rubric dimension=page.dimension %}
 
 # Once Upon a Time
 

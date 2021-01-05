@@ -1,20 +1,10 @@
 ---
-layout: widepage
+layout: lesson
 title: "Owning Strategy and Outcomes"
 dimension: pf3.1
 overview: |
     What happens when you lose ownership of your mission? In this conversation, Princess Ojiaku and Nikki Lee talk about the challenges of driving towards desired outcomes and the ownership of strategy and mission in Medicare and Medicaid IT projects. 
 ---
-
-# {{page.title}}
-
-*This lesson explores a lower priority dimension of the Procurement Flexibility primary indicator.*
-
-{% include rubric dimension="pf3.1" %}
-
-
-* TOC
-{:toc}
 
 ## Active Listening: A Conversation on Vendor Management (~1h, solo)
 

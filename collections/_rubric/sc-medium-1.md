@@ -1,20 +1,12 @@
 ---
-layout: widepage
+layout: lesson
 title: All The Managements
 dimension: sc2.1
 overview: |
    A successful software project will have many people involved, and those people will generally play different roles. In this lesson, we explore the kinds of management we might see in a long-running software project, and how people in those roles can contribute (or take away from) the success of a project.
 ---
-# Lesson {{ page.lesson }} - {{ page.title }}
-
-*This lesson is about a medium priority "State capacity" indicator in the health rubric.* 
-
-{% include rubric dimension=page.dimension %}
 
 Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
-
-* TOC
-{:toc}
 
 ## Reflection: Products vs. Projects (15m, pair)
 
