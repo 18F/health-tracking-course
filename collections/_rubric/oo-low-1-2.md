@@ -13,7 +13,6 @@ dimension:
 ---
 
 
-
 It can be difficult to determine priorities in a team setting, but it's important that all team members share the same sense of what's important to the project. [One of the top priorities in the outcomes orientation primary indicator is the roadmap.]({{ "/rubric/oo-high-1/" | prepend: site.baseurl }}), because building alignment and a shared vision helps a team set their priorities and next steps. While looking at a team's roadmap can give you the big picture vision, asking a team's members about their roles, priorities, and how they stay on track can give you a more insight into how their work is going on a day-to-day basis. In this lesson, we'll take a bit of a deeper dive into what it means for a team to speak to their priorities and be aligned on them.
 
 As always, **remember to make note of questions that you have about the material** as you go through this lesson.
@@ -75,33 +74,19 @@ As we're thinking through all of these, let's think through some direct qestions
 
 {% include shared-experience-prompt.html %}
 
-FIXME FIXME FIXME
-## Questioning the team (30m, with a colleague)
+## Roleplay (1h, group)
 
-**STILL NEED TO WRITE THESE QUETIONS!!!!!! ROLEPLAY DIFFERENT DEPTS**
+You've thought about your state projects and its team members' sense of their priorities. You've talked about it with your small group and traded stories. Now it's time to roleplay asking your team questions about their current priorities, roles, and alignment. You'll do this in the larger group discussion. 
 
+Below are a few questions to get you started, but you should come up with some on your own. It's best to do this roleplay in pairs, so pair with someone who isn't in your small group. One person should ask the questions and the other should answer from the perspective of their chosen state project. Take turns having different pairs roleplay the questioning in front of the large group, then take some time at the end to discuss how the question-asking went and how you might use some of the questions with your state.
 
-
-**Timer**: {% include countdowntimer id="uam" minutes=30 %} 
-
-Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay asking your project team some of the  questions below. These are just a starting point -- feel free to come up with your own in conversation. Be ready to talk through these questions or suggest your own additions with the group. 
-
-1. What regular team meetings do you have? How do you communicate about the work?
-2. How do you check in with each other about the project?
-3. How do you overcome difficult moments as a team?
-4. How do you celebrate your wins as a team?
-5. How are tasks assigned to team members?
-
-
-## Reflecting on the team dynamics (30m, solo)
-
-**Timer**: {% include countdowntimer id="roam" minutes=30 %} 
-
-1. How do the teams make decisions? Who is empowered and who is not? 
-2. Are team roles clearly defined? Do the team members seem to know their roles and responsibilities or are they less defined?
-3. How does this affect how the team works?
-4. How does leadership talk to the teams? What sort of communication style and relationship do they seem to have? 
-5. Are team members acting autonomously or do they check in with leadership before doing most of their actions?
-6. How are team members held accountable or rewarded for their work? Do you see any signs of team member recognition, either positive or negative? 
+1. How do you decide on team priorities?
+2. What's the most important thing you're working on right now?
+3. What's the next big thing the team will work on after this?
+4. Can you help me understand how your work fits into the bigger picture?
+5. How do you keep track of what you should be working on as an individual and as a team?
+6. How do other departments help you with your work and help you accomplish these priorities? 
+7. Do other departments (like IT, procurement, etc) share these priorities?
+8. If not, what priorities are those departments tracking toward?
 
 
