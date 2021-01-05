@@ -6,7 +6,7 @@ dimension:
     - id1.3-course2
     - id2.2
 overview: |
-    What types of testing should a software project undergo and what does testing a project even mean? In this conversation, Princess Ojiaku, Matt Jadud, and Heather Battaglia talk about what kinds of tests are important and when they should happen. This conversation includes a guest appearance by SHOUTYBOX, the screen reader that lost its way.
+    What types of testing should a software project undergo and what does testing a project even mean? In this conversation, Princess Ojiaku, Matt Jadud, and Heather Battaglia talk about what kinds of tests are important and when they should happen. This conversation includes a guest appearance by SHOUTYBOX, the screen reader that lost its way. Bonus: watch this video of someone using a screen reader.
 ---
 
 
@@ -76,6 +76,12 @@ The process of listening actively takes time. You can listen closely on a first 
 | Princess | Thank you, that was awesome! Thank you so much for sharing your expertise with us and the State Officers. This will be really helpful, helping them to know what to look for when they’re talking to (hopefully) a tech lead, or someone about testing in their state’s projects. |
 | Matt | Thank you. This was great. |
 | Heather | Thank you so much. I’m really excited that I was able to join you for this. |
+
+## Bonus viewing: Screen Readers (5m, solo)
+
+If you're curious and want to see a screen reader in action, this 5-minute video gives a good overview of how its used and issues that can crop up.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dEbl5jvLKGQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include shared-experience-prompt.html %}
 
