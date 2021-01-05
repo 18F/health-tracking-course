@@ -14,7 +14,7 @@ This lesson will take roughly 5 hours to complete, making it one of the longer l
 
 # The Art of Monitoring (1h, solo)
 
-The first conversation in this lesson is [The Art of Monitoring](https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ). It comes from the [Software Engineering Daily]() podcast, and was recorded back in 2016. James Turnbull is the author of a book on monitoring (called *The Art of Monitoring*), and this podcast does a good job of providing a high-level view of 1) what is monitoring, 2) why it is important, and 3) how it can be used to create good business benefit.
+The first conversation in this lesson is [The Art of Monitoring](https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ). It comes from the [Software Engineering Daily](https://softwareengineeringdaily.com/) podcast, and was recorded back in 2016. James Turnbull is the author of a book on monitoring (called *The Art of Monitoring*), and this podcast does a good job of providing a high-level view of 1) what is monitoring, 2) why it is important, and 3) how it can be used to create good business benefit.
 
 As systems deployed by the state for The People, we want 1) those systems to be reliable, 2) robust, and 3) we want to know where and when they can be improved. Good monitoring gives us the information we need to know if #1 and  #2 are true, as well as inform whether or not there are spaces where we can improve the software or stack as a whole. 
 
