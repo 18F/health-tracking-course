@@ -96,6 +96,9 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 5. Are team members acting autonomously or do they check in with leadership before doing most of their actions?
 6. How are team members held accountable or rewarded for their work? Do you see any signs of team member recognition, either positive or negative? 
 
+{% include shared-experience-prompt.html %}
+
+
 ## Discuss in Community (1h, group)
 
 Come together with your colleagues for a conversation.
@@ -106,4 +109,3 @@ Come together with your colleagues for a conversation.
 4. **Questioning**{% include countdowntimer minutes=20 %} Talk through the questions you would ask the team to probe at team dynamics. After your discussions with your colleagues, you may have more to add to the list. Share those and discuss how effective they might be at getting at team health. 
 
 
-{% include airtable-post.html %}

@@ -131,4 +131,6 @@ Take some time to reflect on the roleplay, and the thoughts it inspired regardin
 
 Those questions are offered as starting points only. You are welcome to take your reflection in whatever direction is best for you.
 
-{% include airtable-post.html %}
+{% include shared-experience-prompt.html %}
+
+*There is no full-group discussion for this lesson.*

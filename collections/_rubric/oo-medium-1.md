@@ -39,7 +39,7 @@ Even so, it can be easy to put a business outcome or goal in place of a user out
 
 After you read this, go back to your notes on your projects. Have you seen any of them tracking business outcomes instead of user outcomes? Write down how they might improve.
 
-## Viewing: Tools of the UX trade (45m, group)
+## Viewing: Tools of the UX trade (45m, solo/friend)
 
 **Timer**: {% include countdowntimer minutes=45 %} 
 
@@ -84,7 +84,7 @@ Now take the time to consider the following questions, writing notes in your not
 2. Think of who might do this work on your projects. They might not always have the title “UX designer,” as Anisse mentions in the video, she has had to play multiple roles on her projects. Can you think of specific people who do this? What are their titles? How does the team split the work?
 3. What personas could work well in your projects? Brainstorm some with a friend and write them down to share when we meet as a larger group.
 
-## Viewing: Acessibility (45m, friend)
+## Viewing: Acessibility (45m, small group)
 
 **Timer**: {% include countdowntimer minutes=45 %} 
 
@@ -102,20 +102,3 @@ When building these user stories, personas, and epics, we have to make sure we'r
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3f31oufqFSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Write some questions down about your projects. Do they address these issues? How could they be improved?
-
-{% comment %}
-<!-- FIXME: Is there a full group conversation, or not? -->
-
-## Discuss in Community (1h, group)
-
-These questions are all meant to help you get at this one dimension of the rubric:
-
-{% include rubric dimension="oo2.1" %}
-
-1. Discuss the personas you wrote down as a group. What sorts of projects do they work best in?
-2. What do you think is at the heart of UX and starting the project off this way?
-3. Discuss your states' projects and how they consider the user. Do they start work from a user perspective? Who on the team is responsible for this?
-We're going to use an accessibility tool together as a group. We'll guide you through the process -- it may be fun to try it on a current iteration of one of your state's projects. When we're done, we'll discuss how did it felt and our thoughts on accessing web tools from this perspective.
-{% endcomment %}
-
-{% include airtable-post.html %}

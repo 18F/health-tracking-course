@@ -82,6 +82,9 @@ Some things you might ponder here (again, write down answers for your project):
 
 As we're thinking through all of these, let's think through some direct qestions we can ask of these teams to get at things we may not be able to observe directly.
 
+{% include shared-experience-prompt.html %}
+
+FIXME FIXME FIXME
 ## Questioning the team (30m, with a colleague)
 
 **STILL NEED TO WRITE THESE QUETIONS!!!!!! ROLEPLAY DIFFERENT DEPTS**
@@ -111,5 +114,3 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 6. How are team members held accountable or rewarded for their work? Do you see any signs of team member recognition, either positive or negative? 
 
 
-
-{% include airtable-post.html %}

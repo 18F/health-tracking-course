@@ -102,6 +102,8 @@ Don't push on this for more than 30 minutes. You'll have time to come back aroun
 
 Do this in a word processor of some sort, and use a two-column table for your QASP element (so it looks just like the table above). This will make it easier for your colleagues when you come back together.
 
+{% include shared-experience-prompt.html %}
+
 # Your Mini-QASP (1h30m, group)
 
 **Timer**: {% include countdowntimer minutes=90 %} 
@@ -118,6 +120,3 @@ Before you get started, remember that **the best contract is one you never need 
     1.  What surprised you about this process? Was it easier in places than you expected? Harder?
     2.  What was familiar about this process? Was the act of writing the QASP familiar? Was it the process of imagining how things might go well, or go wrong?
     3.  What will you take away from this process? As you visit future contracts, what do you hope to carry forward as part of your practice or mindset?
-
-
-{% include airtable-post.html %}

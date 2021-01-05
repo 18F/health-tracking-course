@@ -132,6 +132,8 @@ Once you have answered these questions (some of which might have the answer "I d
 
 A state who has answers to all of these questions, and (in particular) can extract and validate an archive of all of their data in a single command, is in an excellent position to potentially reuse or otherwise migrate their data to new systems. A state whose data is "locked away" or unreachable to them is potentially locked in to a single vendor and has no way to consider new vendors or systems without a lengthy, expensive, and possibly contentious process of first extracting their data from one vendor before moving to another.
 
+{% include shared-experience-prompt.html %}
+
 ## Vendor Lock-In (1h, group)
 
 Come together with your colleagues for a conversation.
@@ -156,7 +158,6 @@ For #2 and #3, below, you'll want someone to take notes. Whomever has a birthday
 
 At your next full team meeting, the note taker should share out a brief summary of your conversation, and highlight the two ideas/strategies for "freeing" state data with the rest of the group. Our hope is that this will be the beginning of a conversational space for potential work amongst the larger group to shift data management/ownership practices.
 
-{% include airtable-post.html %}
 
 
 

@@ -110,7 +110,7 @@ This is a professional engineer at the top of his craft talking about his work i
 {% include alert level="warning" heading="Building Confidence" body=body %}
 
 
-## In Conversation: Release Cycles (1h)
+## In Conversation: Release Cycles (1h, small group)
 
 This dimension of the rubric asks you to think about the way projects are being developed and released. Understanding the release model (or the *lack* of a release model) will help you understand some fundamentals of how the vendors are working on and releasing product to the states. And, how the states interact with and manage that cycle will, ultimately, impact how services are delivered to end-users.
 
@@ -133,3 +133,14 @@ If you need to/want to, pick 2-3 questions to focus on. Don't be afraid to focus
 ## Final Reflection (20m, solo)
 
 When you're done, write up one of the questions in your journal -- what did you learn? What challenged you? What new things are you going to look for in your projects? And, which of these questions do you think you will be coming back to as you look at and evaluate projects along this dimension?
+
+## Discuss in Community (1h, group)
+
+Come together with your colleagues for a conversation.
+
+You can click on the timers below to help keep yourselves on track.
+
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. The process of developing and releasing software is not straight forward.
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} Some of you may work with states that release quarterly; some annually. This video talks about extremely widely used software products that are released daily, weekly, and bi-weekly. Start with the claim that shorter release cycles are *good*, and ask yourselves (as a group) what you might need to do in order to shift your states' practices to more regular, transparent release processes. 
+4.  **Questioning**. {% include countdowntimer minutes=10 %} For the last few minutes, write down the questions that you might use to guide your states into thinking about how and why they release the way they do. Is it driven by the vendor? Budget? See if you can come up with a working set of 10-15 questions that could be used to both start and probe deeply regarding the role of regular releases in the healthcare IT software development lifecycle.

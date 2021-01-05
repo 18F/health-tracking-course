@@ -78,3 +78,7 @@ In your notebook, work through the questions from the section above. Assuming yo
 Once you have taken stock, add some additional notes. Asking these questions directly, while fun, might set people unnecessarily on edge. Who might you have some conversation with at the state level who would have some insights in this space? What questions could you probe gently, so that you have a fuller picture of what is going on "on the ground?" 
 
 Reflecting on these questions will prepare you for the next lesson, where we talk about the *migration* of data, and ultimately come together in a group to talk all-things-data.
+
+{% include shared-experience-prompt.html %}
+
+*There is no full-group discussion on databases (yet), as this is the first of a two-part lesson.*

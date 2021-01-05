@@ -179,4 +179,3 @@ You can click on the timers below to help keep yourselves on track.
 6.  **Discuss**. {% include countdowntimer minutes=30 %} Let the conversation go where it does. Explore each-other's questions. Make sure everyone has a chance to join in the conversation, through questions and comments. If you have to, use [cards or popsicle sticks](https://www.educationworld.com/a_admin/columnists/bell/bell010.shtml#:~:text=Popsicle%20sticks.&text=With%20this%20strategy%2C%20the%20teacher,teacher%20might%20call%20on%20them.) with everyone's name on them to make sure everyone takes part.
 7.  **Wrap Up**. {% include countdowntimer minutes=5 %}  
 
-{% include airtable-post.html %}

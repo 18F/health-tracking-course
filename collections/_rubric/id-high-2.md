@@ -119,7 +119,7 @@ Think if they include in their plans for the projects:
 
 Pick a couple of examples of this in your state’s current projects&mdash;maybe one that looked good and one that didn’t. We’ll discuss these when we gather as a group.
 
-
+{% include shared-experience-prompt.html %}
 ## Discuss in Community (1h, group)
 
 These questions are all meant to help you get at this one dimension of the rubric:

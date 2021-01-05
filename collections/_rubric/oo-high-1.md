@@ -170,6 +170,8 @@ Your job as a State Officer, M.D. is to probe deeper. If you have a healthy rela
 4. Does the roadmap include places where users will have input, and that input might shift the direction of the product as a result?
 5. Is there any indication that all of the critical stakeholders (developers, product team, the partner state or agency, and end-users) were consulted as the roadmap was brought together?
 
+{% include shared-experience-prompt.html %}
+
 ## Discuss in Community (1h, group)
 
 These questions are all meant to help you get at this one dimension of the rubric:

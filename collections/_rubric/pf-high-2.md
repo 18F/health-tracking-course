@@ -98,6 +98,8 @@ The process of listening actively takes time. You can listen closely on a first 
 | Matt | I think that's a great spot to end. Randy, I want to say thank you. We recorded this on a Thursday, October 29th, 2020. You're coming to us live from (Randy: Fredericksburg, Virginia). And, to hear you tell it, it's one of the best places on earth. I'm recording here out of Lewiston, Maine. Again, thank you so much.|
 | Randy | I enjoyed it.|
 
+{% include shared-experience-prompt.html %}
+
 ## Discuss In Community (1h, group)
 
 You will need someone to volunteer to take some notes. Whomever was born after (but closest to) January 20th should be the note taker today.
@@ -108,4 +110,3 @@ You will need someone to volunteer to take some notes. Whomever was born after (
 4.  **The Seven Dimensions**. {% include countdowntimer minutes=30 %} As a group, first share out which dimension(s) you found to be most interesting in your reflections. Then, after you share out which dimensions of the QASP inspired thought, go back around and take a minute or two each (round-robin) to share *why* that dimension triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
 5.  **Transformation**. {% include countdowntimer minutes=15 %} Were there themes that you saw emerge from your insights? Commonalities across projects? Identify what you saw as a group. Then (and more importantly), do you have any thoughts about your process with states, and how you might transform your process so as to improve outcomes? The note taker should try and capture the group's thoughts regarding themes and process transformation for sharing back out to the group/community.
 
-{% include airtable-post.html %}

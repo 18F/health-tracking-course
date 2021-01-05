@@ -35,6 +35,7 @@ Instead of solo writing in your journal after watching this video, talk with a c
 
 If you can, try and brainstorm together some ideas about how you, as a State Officer, can start to nudge the system so that, instead of long-running, memo-laden software development processes, you start to see actual software being developed as part of your health tracking process.
 
+{% include shared-experience-prompt.html %}
 ## Discussion: No Memos (1h, group)
 
 It's such a simple phrase: **demos not memos**.

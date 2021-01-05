@@ -35,6 +35,9 @@ While this content is fresh, pick (at least) two people you work with on your pr
 
 Jot down a few bullets for each. We're not diving deep here; the goal is to reflect some of the learning you've just done back into your own project work.
 
+{% include shared-experience-prompt.html %}
+
+
 ## Discussion: Team Function (1h, group)
 
 With a colleague, find a time to have some conversation about your projects. For this conversation, roughly follow the script below. You might work your way through each set of questions, building up a shared understanding of each-other's projects.
