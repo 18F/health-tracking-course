@@ -3,7 +3,7 @@ layout: lesson
 title: "Constant Vigilance!"
 dimension: id2.3
 overview: |
-    In the Harry Potter universe, "Mad Eye" Moody has a magical eyeball that can swivel around in his head to constantly watch in all directions.  With software systems, we use *monitoring* to watch not only how our software is operating, but also how the servers that are providing that software, and the network that is delivering the bits, and... and... *and*. In other words, excellent monitoring **is** constantly vigilant, and we have tools that help us make sense of the deluge of data. This lesson explores monitoring (broadly) and the importance of monitoring in the name of security (specifically).
+    In the Harry Potter universe, "Mad Eye" Moody has a magical eyeball that can swivel around in his head to constantly watch in all directions.  With software systems, we use <em>monitoring</em> to watch not only how our software is operating, but also how the servers that are providing that software, and the network that is delivering the bits, and... and... <em>and</em>. In other words, excellent monitoring <b>is</b> constantly vigilant, and we have tools that help us make sense of the deluge of data. This lesson explores monitoring (broadly) and the importance of monitoring in the name of security (specifically).
 ---
 
 This lesson involves two, hour-long listens. You should go ahead and get your podcast player out, and get ready to go for some walks. An hour-long walk is a great health benefit to you, and hopefully gives you a headspace to concentrate while enjoying some fresh air.
