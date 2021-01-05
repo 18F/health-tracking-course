@@ -4,11 +4,12 @@ title: Course Five Overview
 lessons:
     - pf3.2
     - id2.3
+    - id3.1
 ---
 
 # {{ page.title }}
 
-In this course sequence, the *simpler* things come *earlier*. We are getting to some of the lower priority things, but that doesn't mean they aren't still helpful and important.
+You've made it to the last set of  lessons!
 
 {% include course_lesson_list.html lessons=page.lessons %}
 

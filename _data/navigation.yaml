@@ -15,8 +15,6 @@ primary_navigation:
           url: /courses/four/overview/
         - name: Course Five
           url: /courses/five/overview/
-        - name: Course Six
-          url: /courses/six/overview/
     - name: Resources
       children:
         - name: Agile Practices
