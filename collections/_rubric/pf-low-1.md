@@ -16,7 +16,7 @@ overview: |
     <div class="grid-col-4">
         <audio
             controls
-            src="{{ '/audio/princess-ojiaku-nikki-lee-project-ownership.mp3.mp3' | prepend: site.baseurl }}">
+            src="{{ '/assets/audio/princess-ojiaku-nikki-lee-project-ownership.mp3' | prepend: site.baseurl }}">
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>

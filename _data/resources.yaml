@@ -147,6 +147,24 @@ web:
           author: Etymonline
           note: |
             If we're going to use a word in a technical sense, it helps to know where it comes from.
+        - title: "Demos not Memos"
+          uid: demosnotmemo
+          url: https://derisking-guide.18f.gov/state-field-guide/budgeting-tech/#require-demos-not-memos
+          author: 18F
+          note: |
+            "The golden rule."
+        - title: 
+          uid: 
+          url: 
+          author: 
+          note: |
+            
+        - title: 
+          uid: 
+          url: 
+          author: 
+          note: |
+            
         - title: 
           uid: 
           url: 
@@ -251,6 +269,30 @@ videos:
         duration: 1h
         note: |
           An overview of agile practices by the 18F Alans.
+      - title: Calming, Centering Breath - Here Now
+        uid: ccb
+        url: https://www.youtube.com/watch?v=eLRI4HV9h-o
+        duration: 4m20s
+        note: |
+          Julia guides us in a simple breathing practice designed to calm and relax the nervous system. We explore breathing into the belly, rib cage, and collarbones. You will feel more centered, peaceful, and grounded.        
+      - title: 
+        uid: 
+        url: 
+        duration: 
+        note: |
+              
+      - title: 
+        uid: 
+        url: 
+        duration: 
+        note: |
+              
+      - title: 
+        uid: 
+        url: 
+        duration: 
+        note: |
+              
 
 slidedecks:
   header: Slide Decks
@@ -259,3 +301,5 @@ slidedecks:
       uid: capreu
       author: Janna Bastow
       url: https://www.slideshare.net/uxpin/creating-agile-product-roadmaps-everyone-understands/18
+
+

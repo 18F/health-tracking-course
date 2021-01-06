@@ -21,7 +21,7 @@ As part of this, Waldo talks about "demos not memos." However, all six recommend
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/g-h6CtSwk30?start=48" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If you like having something to read and refer back to, you can also have a look at the [demos not memos portion](https://agilebudgeting.org/plays/demos/) of the de-risking custom technology projects handbook that Robin, Randy, and Waldo wrote in 2019. It's around 4-5 paragraphs.
+If you like having something to read and refer back to, you can also have a look at the {% include link id="demosnotmemos" text="demos not memos portion" %} of the de-risking custom technology projects handbook that Robin, Randy, and Waldo wrote in 2019. It's around 4-5 paragraphs.
 
 ## Reflection (30m, friend)
 
