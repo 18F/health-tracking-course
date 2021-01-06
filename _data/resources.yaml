@@ -210,18 +210,11 @@ web:
           author: Loren B. Belker, Jim McCormick, and Gary S. Topchik
           note: |
             If you really want your team to succeed and perform at the highest levels possible, you need to build a team dynamic. A team dynamic is the willingness and the ability to work in an interdependent fashion where team members need to rely on other team members to accomplish their work or to achieve the goals of the team.
-
-        - title: 
-          uid: 
-          url: 
-          author: 
-          note:
-        - title: 
-          uid: 
-          url: 
-          author: 
-          note:
-
+        - title: Asking Technical Questions of Agencies
+          uid: atqoa
+          url: https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies
+          author: 18F
+          note: Part of the derisking guide.
 
 videos:
   header: Videos
@@ -343,17 +336,6 @@ videos:
         url: https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ
         duration: 1h 
         note: A podcast about systems monitoring; covers the topic at a high level.
-      - title: 
-        uid: 
-        url: 
-        duration: 
-        note:
-      - title: 
-        uid: 
-        url: 
-        duration: 
-        note:
-  
 
 slidedecks:
   header: Slide Decks
