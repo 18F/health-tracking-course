@@ -14,7 +14,7 @@ This lesson will take roughly 5 hours to complete, making it one of the longer l
 
 ## The Art of Monitoring (1h, solo)
 
-The first conversation in this lesson is [The Art of Monitoring](https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ). It comes from the [Software Engineering Daily](https://softwareengineeringdaily.com/) podcast and was recorded back in 2016. James Turnbull is the author of a book on monitoring (called *The Art of Monitoring*), and this podcast does a good job of providing a high-level view of what monitoring is, why it's important, and how it can be used to create good business benefit.
+The first conversation in this lesson is {% include link id="taomwjt" text="The Art of Monitoring" %}. It comes from the {% include link id="sed" text="Software Engineering Daily" %} podcast and was recorded back in 2016. James Turnbull is the author of a book on monitoring (called *The Art of Monitoring*), and this podcast does a good job of providing a high-level view of what monitoring is, why it's important, and how it can be used to create good business benefit.
 
 We want systems deployed by the state for The People to be #1) reliable and #2) robust. In addition, we want to know where and when they can be improved. Good monitoring gives us the information we need to know if #1 and #2 are true, as well as inform whether or not there are spaces where we can improve the software or stack as a whole. 
 
@@ -32,9 +32,9 @@ Be prepared to share your questions with the larger group later.
 
 ## Security Monitoring (1h, solo)
 
-As we write this lesson, the [SolarWinds hack](https://www.theverge.com/2021/1/2/22210667/solarwinds-hack-worse-government-microsoft-cybersecurity) has been big in the news. This hack involves security monitoring software that was, itself, compromised. This means state and government systems trusted SolarWinds to provide software that would monitor the safety of their systems, but instead SolarWinds shipped software that was explicitly compromised by state actors. (As of this writing, the rumormill suggests that it was a Russian government hacking team.) This kind of threat is *extremely* difficult to protect against, but it is not impossible and good monitoring and alerting on the part of more government systems might have helped us learn about the hack sooner.
+As we write this lesson, the {% include link id="solarwinds" text="SolarWinds hack" %} has been big in the news. This hack involves security monitoring software that was, itself, compromised. This means state and government systems trusted SolarWinds to provide software that would monitor the safety of their systems, but instead SolarWinds shipped software that was explicitly compromised by state actors. This kind of threat is *extremely* difficult to protect against, but it is not impossible and good monitoring and alerting on the part of more government systems might have helped us learn about the hack sooner.
 
-The second podcast in our lesson is titled [Security Monitoring](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vU0VENDg0Mzk4MTQwMQ/episode/NW5z?sa=X&ved=0CAcQuIEEahgKEwiQ_Muj_oTuAhUAAAAAHQAAAAAQrgI). It involves a conversation with Jeff Williams, the CTO of a firm that produces security monitoring software. 
+The second podcast in our lesson is titled {% include link id="smwjw" text="Security Monitoring" %} It involves a conversation with Jeff Williams, the CTO of a firm that produces security monitoring software. 
 
 Again, go for a walk. Jeff talks about how we build software (which involves using software that is built on top of software which is built on top of software...) and raises the question of how we monitor or otherwise keep track of the *security* of all of the layers of that stack.
 

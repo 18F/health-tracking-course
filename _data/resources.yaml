@@ -153,24 +153,75 @@ web:
           author: 18F
           note: |
             "The golden rule."
+        - title: Spanish Naming Traditions
+          uid: sntrad
+          url: https://en.wikipedia.org/wiki/Spanish_naming_customs
+          author: Wikipedia
+          note: When thinking about names in DB systems, think globally and inclusively.            
+        - title: Native American Naming Traditions
+          uid: nantrad
+          url: https://www.npr.org/templates/story/story.php?storyId=5079630
+          author: NPR
+          note: When thinking about names in DB systems, think globally and inclusively.
+        - title: The Surname I Do Not Have
+          uid: thesurname
+          url: https://www.bmj.com/content/324/7349/1307
+          author: Radhika
+          note: When thinking about names in DB systems, think globally and inclusively.
+        - title: Blue/Green Deployments
+          uid: bluegreen
+          url: https://martinfowler.com/bliki/BlueGreenDeployment.html
+          author: Martin Fowler
+          note: A brief look at blue/green deployments, which means "how to safely roll forward and back from a push to production."
+        - title: SolarWinds hack may be much worse than originally feared
+          uid: solarwinds
+          url: https://www.theverge.com/2021/1/2/22210667/solarwinds-hack-worse-government-microsoft-cybersecurity
+          author: Kim Lyons
+          note: A recent (as of Dec 2020) hack of as-of-yet unknown scope and impact.
+        - title: Software Engineering Daily
+          uid: sed
+          url: https://softwareengineeringdaily.com/
+          author: Jeff Meyerson
+          note: A podcast about contemporary topics in software engineering.
+        - title: "Daily Participation: One Key to Raising Achievement"
+          uid: dpoktra
+          url: https://www.educationworld.com/a_admin/columnists/bell/bell010.shtml#:~:text=Popsicle%20sticks.&text=With%20this%20strategy%2C%20the%20teacher,teacher%20might%20call%20on%20them.
+          author: Larry Bell
+          note: |
+            This strategy for improving student achievement on state tests is one that Larry Bell includes in his "Closing the Achievement Gap Workshop -- Part 1." It is also included in his Educational Leadership article "Ten Strategies That Close the Achievement Gap."
+        - title: Section 508
+          uid: section508
+          url: https://www.section508.gov/
+          author: US Government
+          note: Section 508. 'Nuff said.
+        - title: The Americans with Disabilities Act
+          uid: adagov
+          url: https://www.ada.gov/
+          author: US Government
+          note:
+        - title: Web Content Accessibility Guidelines
+          uid: wcag
+          url: https://www.w3.org/WAI/standards-guidelines/wcag/
+          author: WCAG
+          note: 
+        - title: "American Management Association re: Team Dynamics"
+          uid: amatd
+          url: https://www.amanet.org/articles/team-dynamics/
+          author: Loren B. Belker, Jim McCormick, and Gary S. Topchik
+          note: |
+            If you really want your team to succeed and perform at the highest levels possible, you need to build a team dynamic. A team dynamic is the willingness and the ability to work in an interdependent fashion where team members need to rely on other team members to accomplish their work or to achieve the goals of the team.
+
         - title: 
           uid: 
           url: 
           author: 
-          note: |
-            
+          note:
         - title: 
           uid: 
           url: 
           author: 
-          note: |
-            
-        - title: 
-          uid: 
-          url: 
-          author: 
-          note: |
-            
+          note:
+
 
 videos:
   header: Videos
@@ -275,24 +326,34 @@ videos:
         duration: 4m20s
         note: |
           Julia guides us in a simple breathing practice designed to calm and relax the nervous system. We explore breathing into the belly, rib cage, and collarbones. You will feel more centered, peaceful, and grounded.        
+      - title: "Ed's Redeeming Qualities - Bob"
+        uid: nameisbob
+        url: https://www.youtube.com/watch?v=5ozrXNRAUas
+        duration: 1m58s
+        note: |
+          A silly song about the name Bob by the band <em>Ed's Redeeming Qualities</em>. For levity only.
+      - title: Security Monitoring with Jeff Williams
+        uid: smwjw
+        url: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5tZWdhcGhvbmUuZm0vU0VENDg0Mzk4MTQwMQ/episode/NW5z?sa=X&ved=0CAcQuIEEahgKEwiQ_Muj_oTuAhUAAAAAHQAAAAAQrgI
+        duration: 1h
+        note: A podcast conversation about systems monitoring for security.
+              
+      - title: The Art of Monitoring with James Turnbull
+        uid: taomwjt
+        url: https://podcasts.google.com/feed/aHR0cHM6Ly9zb2Z0d2FyZWVuZ2luZWVyaW5nZGFpbHkuY29tL2NhdGVnb3J5L2Nsb3VkLWVuZ2luZWVyaW5nL2ZlZWQv/episode/aHR0cDovL3NvZnR3YXJlZW5naW5lZXJpbmdkYWlseS5jb20vP3A9MjczOQ
+        duration: 1h 
+        note: A podcast about systems monitoring; covers the topic at a high level.
       - title: 
         uid: 
         url: 
         duration: 
-        note: |
-              
+        note:
       - title: 
         uid: 
         url: 
         duration: 
-        note: |
-              
-      - title: 
-        uid: 
-        url: 
-        duration: 
-        note: |
-              
+        note:
+  
 
 slidedecks:
   header: Slide Decks

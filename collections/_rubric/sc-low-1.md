@@ -35,7 +35,7 @@ After watching, ask yourself what phase of development your projects are in. Mak
 
 Besides the stage of development, think about team dynamics. We'll do a reading here from the American Management Association to highlight some things to look for.
 
-[AMA's Team Dynamics](https://www.amanet.org/articles/team-dynamics/)
+{% include link id="amatd" text="AMA's Team Dynamics" %}
 
 As a quick summary, the AMA article says to look for:
 
