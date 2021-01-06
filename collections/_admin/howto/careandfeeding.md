@@ -73,16 +73,22 @@ overview: |
 
 ### /collections/_pages/
 
- `/_pages/` are other static pages on the site. For example, the Joel Test content and Agile practices overview are both examples of static pages.
+ The `/_pages/` folder holds other static pages on the site. For example, the Joel Test content and Agile practices overview are both examples of static pages.
+
+ ### /collections/_admin/
+
+This folder houses information about the course and the website itself.
+
+ * `learningcohorts.md` is the rational behind the learning cohort set up for the course
+ * `/howto/careandfeeding.md` is the document you're reading right now!
 
 ## assets
 
-All images, CSS, Javascript, and the like live here.
+All images, audio, CSS, and Javascript for the site live here.
 
 ## _includes
 
-Includes define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same pieces in the course and lesson pages.
-
+"Includes" define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. 
 * `airtable-post` and `airtable-pre` generate the includes for linking to the Airtable pre-content and post-learning surveys.
 * `alert` is used to generate pop-out alerts on lesson pages.
 * `breadcrumbs` is used to generate a breadcrumb element that shows up in some lessons.
@@ -92,7 +98,23 @@ Includes define text/HTML/code once and then re-use it throughout the site. Thes
 * `indicator` is used in the course content overview.
 * `link` is used to reach into `resources.yaml` and extract links. This is used everywhere. Change cautiously.
 * `resources` is used to render out sections of the resources page.
-* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator from `rubric.yaml` file that lives in _data
+* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator from `rubric.yaml` file that lives in `/_data/`
+* `shared-experience-prompt.html` is the text of the small group prompt that appears in lessons throughout the site.
+
+You'll see references to them in the body of those pages like so:
+
+~~~
+
+{% include shared-experience-prompt.html %}
+
+~~~
+
+~~~
+
+{% include course_lesson_list.html lessons=page.lessons %}
+
+~~~
+
 
 Changing any of these will change content all over the site. Be careful when doing so.
 
@@ -110,20 +132,6 @@ This is where you should put the DNS entry that the site will "live" at. It sugg
 ## LICENSE
 
 Our work, as employees of the federal government, is free for all. Any future contributions should be made under the same license. This includes individuals as well as vendors; all contributions, edits, etc. will become CC0/public domain upon offering.
-
-# How to update lessons
-
-TKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTK
-
-If you want to add new content, do this.
-* Step 1
-* Step 2
-
-## How to incorporate SO feedback
-
-    TKTKTKTKTKTKTKTKTK
-
-
 
 
 # That's It.
