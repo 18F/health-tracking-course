@@ -10,26 +10,28 @@ The entire site is [a Jekyll site](https://jekyllrb.com/). This is a commonly-us
 
 This section tells you how the site is structured, just in case you need to find something for an edit.
 
-## _data
+## /_data/
 
-In the `_data` folder are three critical YAML files, which operate like data storage units.
+In the `/_data/` folder are three critical YAML files, which operate like data storage units.
 
 * `navigation.yaml` builds the drop-down menus at the top of every page. Editing this file will let you add or remove menu links.
 * `resources.yaml` is a list of all the resources used throughout the courses. There is an include that we then use to pull data out of this file. Think of this as a "link database."
 * `rubric.yaml` builds the Health Rubric. It is used everywhere rubric dimensions are rendered.
     * Pay attention to the `id:` row -- this reappears when referencing the lessons in the course overview pages.
 
-## collections
+## /collections/
 
-There are three Jekyll collections in this site, which are all housed in the `collections` folder.
+There are three Jekyll collections in this site that are housed in the `/collections/` folder. Most of what you'll need to edit content on the site is housed here.
 
-### _courses 
+### /collections/_courses/ 
 
-The `_courses` folder has one subfolder for each course on the site (one - five). In each subfolder, you'll find an `overview.md` file which is the course overview page. This pages consist of a short description and a link to the lesson pages. This file is what you would edit to change what's on the course overview pages.
+The `/_courses/` folder has one subfolder for each course on the site (one - five). In each subfolder, you'll find an `overview.md` file which is the course overview page. This pages consist of a short description and a link to the lesson pages. This file is what you would edit to change what's on the course overview pages.
 
-#### Editing a course page 
+#### Editing a course page (overview.md)
 
-To change the title or the lessons that appear on the page, you'll have to edit the header in the `overview.md` for that course.
+Header:
+
+To change the title or the lessons that appear on the page, you'll have to edit the *header* in the `overview.md` for that course.
 
 For example, if I wanted to edit which lessons appear in course 2, I would navigate to `/collection/_courses/two/overview.md` and find this in the header of the file:
 ~~~
@@ -47,11 +49,31 @@ lessons:
 
 To add or remove a lesson from a course page, add or remove it from the `lessons:` list. You can find which row of the Rubric to add or remove from looking at the corresponding `id:` row in `/_data/rubric.yaml` 
 
-* `_rubric` is where all of the lessons live. Each dimension of the rubric has one or more lessons associated with it. Those lessons are then woven together to form courses.
-    *This is where you'll save new markdown files to add lessons*
+Body of `overview.md`: 
+ * contains "includes" that pull from the `_includes` folder to build lesson lists and summaries on the page
+ * has text on the page for each course overiew blurb
 
+### /collections/_rubric/
 
-* `_pages` are other static pages on the site. For example, the Joel Test content and Agile practices overview are both examples of static pages.
+The `/_rubric/` folder contains all of lesson pages on the site as markdown files. Each row of the rubric has one or more lessons associated with it, so each lesson page is tagged with the corresponding `id:` dimension in `/_data/rubric.yaml`. 
+
+* If you need to edit a lesson, you'd look for its markdown file here. 
+* If you need to add a lesson, you'd save a new markdown file here.
+
+For example, in the header of the lesson page `id-high-1.md` (pasted below), you'll see the tag `dimension: id1.1`. This `id1.1` corresponds to its id in `/_data/rubric.yaml`. You'd add this same id to the course page if you wanted this lesson to appear there.
+~~~
+
+layout: lesson
+title: "Demos not Memos"
+dimension: id1.1
+overview: |
+    The most important thing you can have in a project are demos. That is, working software. If someone gives you a report about a piece of software, the software probably doesn't work. (Ask me how I know.) If someone shows you a video of a piece of software, the software may have worked once. (Ask me how I know.) If someone shows you a piece of software, but they control it, the software barely works. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+
+~~~
+
+### /collections/_pages/
+
+ `/_pages/` are other static pages on the site. For example, the Joel Test content and Agile practices overview are both examples of static pages.
 
 ## assets
 
