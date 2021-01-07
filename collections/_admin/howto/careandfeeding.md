@@ -3,7 +3,7 @@ layout: widepage
 title: Care and Feeding
 --- 
 
-The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for easy future editing and maintanence in the future.
+The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for easy future editing and maintenance.
 
 # About the site
 
@@ -19,10 +19,10 @@ This section walks you through the site's main directories, just in case you nee
 
 ## /_data/
 
-In the `/_data/` folder are three critical YAML files, which operate like data storage units.
+In the `/_data/` folder are three critical YAML files which operate like data storage units.
 
 * `navigation.yaml` builds the drop-down menus at the top of every page. Editing this file will let you add or remove menu links.
-* `resources.yaml` is a list of all the resources used throughout the courses. There is an include that we then use to pull data out of this file. Think of this as a "link database."
+* `resources.yaml` is a list of all the resources used throughout the courses. There is an "include" (more on this below) that we then use to pull data out of this file. Think of this as a "link database."
 * `rubric.yaml` builds the Health Rubric. It is used everywhere rubric dimensions are rendered.
     * Pay attention to the `id:` row -- this reappears when referencing the lessons in the course overview pages.
 
@@ -34,14 +34,14 @@ In the `/_data/` folder are three critical YAML files, which operate like data s
 * `breadcrumbs` is used to generate a breadcrumb element that shows up in some lessons.
 * `countdowntimer` is used throughout the lessons to create the cute Javascript countdown timers.
 * `course_lesson_list` generates the list of lessons for a course overview page.
-* `course_lesson_summaries` then embeds the overviews from each rubric lesson, and the dimensions themselves. Used on course overview pages.
+* `course_lesson_summaries` then embeds the summaries from each rubric lesson and the dimension rows themselves. Used on course overview pages.
 * `indicator` is used in the course content overview.
 * `link` is used to reach into `resources.yaml` and extract links. This is used everywhere. Change cautiously.
 * `resources` is used to render out sections of the resources page.
-* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator from `rubric.yaml` file that lives in `/_data/`
+* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator (`id:`) in the `rubric.yaml` file that lives in `/_data/`
 * `shared-experience-prompt.html` is the text of the small group prompt that appears in lessons throughout the site.
 
-You'll see references to them in the body of those pages like so:
+You'll see references to these includes in the body of those pages like so:
 
 ~~~
 
@@ -74,7 +74,7 @@ There are three Jekyll collections in this site that are housed in the `/collect
 
 This folder houses information about the course and the website itself.
 
- * `learningcohorts.md` is the rational behind the learning cohort set up for the course
+ * `learningcohorts.md` is the rationale behind the learning cohort and the course.
  * `/howto/careandfeeding.md` is the document you're reading right now!
 
 ### /collections/_courses/ 
@@ -113,7 +113,7 @@ Body of `overview.md`:
 
 ### /collections/_rubric/
 
-The `/_rubric/` folder contains all of lesson pages on the site as markdown files. Each row of the rubric has one or more lessons associated with it, so each lesson page is tagged with the corresponding `id:` dimension in `/_data/rubric.yaml`. 
+The `/_rubric/` folder contains all of lesson pages on the site. Each lesson has one or more row/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension in `/_data/rubric.yaml`. 
 
 * If you need to edit a lesson, you'd look for its markdown file here. 
 * If you need to add a lesson, you'd save a new markdown file here.
