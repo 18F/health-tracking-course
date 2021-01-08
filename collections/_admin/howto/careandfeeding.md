@@ -5,6 +5,8 @@ title: Care and Feeding
 
 The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for easy future editing and maintenance.
 
+{% include toc.html html=content h_max=2 %}
+
 # About the site
 
 ## How it's built
@@ -14,8 +16,6 @@ The entire site is [a Jekyll site](https://jekyllrb.com/). This is a commonly-us
 ## Site structure 
 
 This section walks you through the site's main directories, just in case you need to find something for an edit. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
-
-{:toc}
 
 ## /_data/
 
