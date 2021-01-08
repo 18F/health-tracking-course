@@ -85,7 +85,7 @@ The `/_courses/` folder has one subfolder for each course on the site (one - fiv
 
 #### Editing a course page (overview.md)
 
-Header:
+Header of `overview.md`:
 
 To change the title or the lessons that appear on the page, you'll have to edit the *header* in the `overview.md` for that course.
 
@@ -109,7 +109,7 @@ You can also make up your own tags if you want a certain course to appear on the
 
 Body of `overview.md`: 
  * contains "includes" that pull from the `_includes` folder to build lesson lists and summaries on the page
- * has text on the page for each course overiew blurb
+ * has text on the page for each course overview blurb
 
 ### /collections/_pages/
 
@@ -119,14 +119,14 @@ Body of `overview.md`:
 
 The `/_rubric/` folder contains all of lesson pages on the site. 
 
-**If you need to edit a lesson, you'd look for its markdown file in the `/_rubric/` folder. **
+**If you need to edit a lesson, you'd look for its markdown file in the `/_rubric/` folder.**
 
 #### Naming and numbering convention for lesson pages
 
  * Each lesson page has a markdown file named with the Rubric primary indicator, priority level, and position in the full Rubric.
     * For example, the very first row of the Health Rubric is part of the "outcomes orientation" (oo) primary indicator, marked as "top priority," (high) and is the first (1) top priority row. So the lesson page for this row is named `oo-high-1.md`
-    * The numbering restarts by primary indicator, then by priority level. So for 2 rows in the state capacity primary indicator tht are medium priority, the files are `sc-medium-1.md` and `sc-medium-2.md`
-* Each lesson has one or more rows/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubricv page, `oo-high-1.md` is tagged with `oo1.1`.
+    * The numbering restarts by primary indicator, then by priority level. So for 2 rows in the state capacity primary indicator that are medium priority, the files are `sc-medium-1.md` and `sc-medium-2.md`
+* Each lesson has one or more rows/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubric page, `oo-high-1.md` is tagged with `oo1.1`.
     * These id tags are in the header of the lesson pages. So if you went to the header for `oo-high-1.md`, you'd find `dimension: oo1.1` that links it throughout the site.
     
     For another example, in the header of the lesson page `id-high-1.md` (pasted below), you'll see the tag `dimension: id1.1`. This `id1.1` corresponds to its id in `/_data/rubric.yaml`. You'd add this same id to the course page if you wanted this lesson to appear there.
@@ -144,11 +144,6 @@ The `/_rubric/` folder contains all of lesson pages on the site.
 ## /assets/
 
 All images, audio, CSS, and Javascript for the site live here.
-
-## CNAME
-
-This is where you should put the DNS entry that the site will "live" at. It suggests that a CNAME entry has been created on the appropriate DNS server and it redirects to `state-officer-md.github.io`. The [github documentation on this should be considered authoritative](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site).
-
 
 ## LICENSE
 
