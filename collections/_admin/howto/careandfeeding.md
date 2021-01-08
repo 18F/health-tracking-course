@@ -105,7 +105,7 @@ lessons:
 
 To add or remove a lesson from a course page, add or remove it from the `lessons:` list. You can find which row of the Rubric to add or remove from looking at the corresponding `id:` row in `/_data/rubric.yaml`. 
 
-You can also make up your own tags if you want a certain course to appear on the lesson page. In the example above, `id1.3-course2` is a tag we created to get `id-high-3.md` to be on the Course 2 page. Just be sure to tag in in both the header of the course page and the lesson page itself. If you peek at both, you'll see we've done this. More on this is in the [naming and number section below](#Naming and numbering convention for lesson pages).
+You can also make up your own tags if you want a certain course to appear on the lesson page. In the example above, `id1.3-course2` is a tag we created to get `id-high-3.md` to be on the Course 2 page. Just be sure to tag in in both the header of the course page and the lesson page itself. If you peek at both, you'll see we've done this. More on this is in the [naming and number section below](#naming-and-numbering-convention-for-lesson-pages).
 
 Body of `overview.md`: 
  * contains "includes" that pull from the `_includes` folder to build lesson lists and summaries on the page
