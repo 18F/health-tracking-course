@@ -102,13 +102,13 @@ Below are two random experts from the article. (<a href="#/" onclick="getTwoExpe
     getTwoExperts();
 </script>
 
-Now, read what those two experts have to say in the Stackify article. After you've read and noted the highlights of what they have to say, compare and contrast. If you were approaching the evaluation of your state's projects, which of these experts do you think are offering you better advice? Why? Which do you think would not be useful to you? Again, why?
+Read what those two experts have to say in the Stackify article. After you've read and noted the highlights of what they have to say, compare and contrast. If you were approaching the evaluation of your state's projects, which of these experts do you think are offering you better advice? Why? Which do you think would not be useful to you? Again, why?
 
-Record your thoughts in your notebook. We're going to come back together to report out on what you gathered from these experts, and also share out what you thought would actually be useful to you in your context. 
+Record your thoughts in your notebook. We're going to come back together to report out on what you gathered from these experts and also share out what you thought would actually be useful to you in your context. 
 
 {% capture body%}
 <p>
-    As always, you should also be noting anything that you have questions about. There are no "dumb" questions, there are no questions that you should "already know the answer to." Sometimes we can see things in a new way, and it makes us wonder. Make sure you keep track of those questions so you can bring them to the group to discuss, and for everyone to learn from.
+    As always, you should also be noting anything that you have questions about. There are no "dumb" questions. There are no questions that you should "already know the answer to." Sometimes we can see things in a new way and it makes us wonder. Make sure you keep track of those questions so you can bring them to the group to discuss and learn.
 </p>
 {% endcapture %}
 {% include alert level="no-icon" heading="Always Questioning" body=body %}
@@ -118,17 +118,17 @@ Record your thoughts in your notebook. We're going to come back together to repo
 
 {% capture body %}
 <p>
-    This lesson does not have a full-group reflection. If you are engaging in this material with a learning cohort, it is reasonable to use your cohort time to engage in this activity. Come together as a group, do some centering activity (say "hi," do some breathing, report out something positive from the past week), and then break into pairs for this work.
+    If you are engaging in this material with a learning cohort, it is reasonable to use your small group time to engage in this activity. 
 </p>
 {% endcapture %}
 {% include alert level="no-icon" heading="Small Group Notice" body=body %}
 
 
-You began by taking a very terse list of success metrics, and ordering them by importance. Then, you read the statements of two experts, and compared and contrasted what they had to say about software quality and measuring the progress of software teams. Now, we're going to critique one developer's (PM's?) view on measuring software quality.
+You began by taking a very terse list of success metrics, and ordering them by importance. Then you read the statements of two experts and compared and contrasted what they had to say about software quality and measuring the progress of software teams. Now we're going to critique one developer's (PM's?) view on measuring software quality.
 
 Or: *there's nothing like a little bit of devil's advocacy to spice things up*.
 
-First, schedule 30m that you can get together with a colleague. Then, in preparation for that meeting, watch this video once. This way, you're familiar with the content before diving into discussion.
+First, schedule 30m that you can get together with a colleague. In preparation for that meeting, watch this video once. This way, you're familiar with the content before diving into discussion.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0yxfb-drlE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -136,9 +136,9 @@ Now, when you get together with your colleague, have a **viewing party**. This i
 
 This video was chosen because:
 
-1. It is short (8m long)
-2. It is debateable
-3. Claims made are likely representative of vendor claims
+1. It is short (8m long).
+2. It is debateable.
+3. Claims made are likely representative of vendor claims.
 
 This is an exercise in calling bullshit. Imagine this is a vendor describing their software quality measurement process. You and your colleague were unable to make the presentation, so it was recorded for you to watch later. Therefore, you have the opportunity to comment and critique without having to respond in real-time to the vendor.
 
