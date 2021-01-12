@@ -122,7 +122,3 @@ Take some time to reflect on the roleplay, and the thoughts it inspired regardin
 * Are there more things you feel you need to learn to tackle this space better? 
 
 Those questions are offered as starting points only. You are welcome to take your reflection in whatever direction is best for you.
-
-{% include shared-experience-prompt.html %}
-
-*There is no full-group discussion for this lesson.*

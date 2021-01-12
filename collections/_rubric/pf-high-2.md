@@ -88,8 +88,6 @@ The process of listening actively takes time. You can listen closely on a first 
 | Matt | I think that's a great spot to end. Randy, I want to say thank you. We recorded this on a Thursday, October 29th, 2020. You're coming to us live from (Randy: Fredericksburg, Virginia). And, to hear you tell it, it's one of the best places on earth. I'm recording here out of Lewiston, Maine. Again, thank you so much.|
 | Randy | I enjoyed it.|
 
-{% include shared-experience-prompt.html %}
-
 ## Discuss In Community (1h, group)
 
 You will need someone to volunteer to take some notes. Whomever was born after (but closest to) January 20th should be the note taker today.
