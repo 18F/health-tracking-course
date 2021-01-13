@@ -18,7 +18,7 @@ There are two things that are important to keep in mind about the assurance of q
     <div class="grid-col-4">
         <audio
             controls
-            src="{{ '/assets/audio/all-about-qasps-rh-mj-20201029.mp3' | prepend: site.baseurl }}">
+            src="{{ '/assets/audio/mj-rh-all-about-qasps-20210113.mp3' | prepend: site.baseurl }}">
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
