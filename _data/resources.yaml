@@ -215,6 +215,23 @@ web:
           url: https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies
           author: 18F
           note: Part of the derisking guide.
+        - title: "An Exploration of Communities of Practice: From Lave and Wenger’s Seminal Work to a U.S. Government Agency’s Knowledge Sharing Program"
+          uid: eocpnasa
+          url: https://files.eric.ed.gov/fulltext/ED492437.pdf
+          author: Tina M. Chindgren
+          note: |
+            The communities of practice model for knowledge sharing is examined in this conceptual paper. Key themes reflected in the literature – the linkage between knowledge and activity and the importance of relationships - are explored within the context of programs and practices within the National Aeronautics and Aerospace Agency (NASA) learning environment. 
+        - title: Social Learning Theory
+          uid: abslt
+          url: https://www.instructionaldesign.org/theories/social-learning/
+          author: instructionaldesign.org
+          note: |
+            This is an overview page at instructionaldesign.org. 
+        - title: 
+          uid: 
+          url: 
+          author: 
+          note: 
 
 videos:
   header: Videos
