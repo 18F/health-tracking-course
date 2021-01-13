@@ -23,7 +23,7 @@ There are two things that are important to keep in mind about the assurance of q
                 <code>audio</code> element.
         </audio>
         <br>
-        <small>This clip does not yet have groovy intro music.</small>
+        <small>A funky conversation about quality assurance. Transcript below.</small>
     </div>
 </div>
 
