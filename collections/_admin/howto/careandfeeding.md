@@ -63,7 +63,7 @@ Changing any of these will change content all over the site. Be careful when doi
 These are the templates or basic elements that control different catergories of pages on the site. Content is flowed into these categories. Changing these can change the look and feel of the entire site. We've highlighted the most relevant ones below.
 
 * `widepage.html` is used throughout the site for many of the pages as a standard format.
-* `lesson.html` is a template for the repeatable elements of the lesson page. This file controls what order the lesson page titles, Rubric dimension, Table of Contents/Lesson Overview, and airtable feeback form appear in for each lesson page. Change the order of these elements here to make things appear in a different order for every lesson page on the site.
+* `lesson.html` is a template for the repeatable elements of the lesson page. This file controls what order the lesson page title, Rubric dimension row, table of contents/lesson overview, and Airtable feedback form appear in for each lesson page. Change the order of these elements here to make things appear in a different order for every lesson page on the site.
 
 ## /collections/
 
