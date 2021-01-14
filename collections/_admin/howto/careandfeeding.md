@@ -3,7 +3,7 @@ layout: widepage
 title: Care and Feeding
 --- 
 
-The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for easy future editing and maintenance.
+The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for future content maintenance, content editing, and new content creation needs.
 
 {% include toc.html html=content h_max=2 %}
 
@@ -60,9 +60,10 @@ Changing any of these will change content all over the site. Be careful when doi
 
 ## /_layouts/
 
-These are the scaffolds for every page on the site. Content is flowed into them. Changing these can change the look and feel of the entire site.
+These are the templates or basic elements that control different catergories of pages on the site. Content is flowed into these categories. Changing these can change the look and feel of the entire site. We've highlighted the most relevant ones below.
 
-`widepage` is used throughout the site for many of the pages.
+* `widepage.html` is used throughout the site for many of the pages as a standard format.
+* `lesson.html` is a template for the repeatable elements of the lesson page. This file controls what order the lesson page titles, Rubric dimension, Table of Contents/Lesson Overview, and airtable feeback form appear in for each lesson page. Change the order of these elements here to make things appear in a different order for every lesson page on the site.
 
 ## /collections/
 
@@ -149,21 +150,6 @@ All images, audio, CSS, and Javascript for the site live here.
 
 Our work, as employees of the federal government, is free for all. Any future contributions should be made under the same license. This includes individuals as well as vendors; all contributions, edits, etc. will become CC0/public domain upon offering.
 
-# Building, Maintaining, Publishing
-
-
-## Updating the Gemfile
-If you change the Gemfile, you will need to regenerate the lockfile.
-
-1. Remove Gemfile.lock. 
-2. docker-compose up
-3. Exit docker when complete.
-
-As part of the compose file, `bundle install` will execute. This is the easiest way to regenerate the lockfile after a change to the Gemfile.
-
-## Building content only
-
-`docker run -v $(PWD):/site bretfisher/jekyll-serve build`
 
 # C/O, etc
 
