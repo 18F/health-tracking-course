@@ -149,6 +149,21 @@ All images, audio, CSS, and Javascript for the site live here.
 
 Our work, as employees of the federal government, is free for all. Any future contributions should be made under the same license. This includes individuals as well as vendors; all contributions, edits, etc. will become CC0/public domain upon offering.
 
+# Building, Maintaining, Publishing
+
+
+## Updating the Gemfile
+If you change the Gemfile, you will need to regenerate the lockfile.
+
+1. Remove Gemfile.lock. 
+2. docker-compose up
+3. Exit docker when complete.
+
+As part of the compose file, `bundle install` will execute. This is the easiest way to regenerate the lockfile after a change to the Gemfile.
+
+## Building content only
+
+`docker run -v $(PWD):/site bretfisher/jekyll-serve build`
 
 # C/O, etc
 

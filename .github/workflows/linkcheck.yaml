@@ -1,0 +1,25 @@
+# on:
+#   - push
+
+# jobs:
+#   linkcheck:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout linkcheck
+#         uses: actions/checkout@v2
+#         with: 
+#           repository: jadudm/linkcheck
+#           path: lc
+#       - name: Checkout the SOMD site
+#         uses: actions/checkout@v2
+#         with:
+#           repository: jadudm/cms-htmd
+#           path: somd
+#       - name: Install Racket
+#         uses: Bogdanp/setup-racket@v0.13
+#         with:
+#           architecture: 'x64'
+#           distribution: 'full'
+#           version: '7.9'
+#       - name: Run Tests
+#         run: raco test main.rkt
