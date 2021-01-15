@@ -3,7 +3,7 @@ layout: lesson
 title: "Scope out the team"
 dimension: sc3.1
 overview: |
-	Observing a team's dynamics can help you figure out the "why" behind successes or failures. This module helps you learn what to look for when observing team meetings to get a sense of how the team works together. 
+    Observing a team's dynamics can help you figure out the "why" behind successes or failures. This module helps you learn what to look for when observing team meetings to get a sense of how the team works together. 
 federal:
     - building
     - scoping

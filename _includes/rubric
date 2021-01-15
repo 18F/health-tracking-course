@@ -1,3 +1,32 @@
+
+<!-- This is for the screenreader. It replaces the DIVified rubric row below. -->
+
+<div class="sr-only">
+{% for section in site.data.rubric %}
+{% assign mod = forloop.index | modulo: 2 %}
+{% for priority in section.priorities %}
+{% for dimension in priority.dimensions %}
+{% if dimension.id == include.dimension %}
+<div class="grid-row">
+    <div class="grid-col-8 grid-offset-1">
+    {% for tip in dimension.tips %}
+        <h4>{{ tip }}</h4> 
+    {% endfor %}
+        <ul>
+            <li><b class="danger-text">Bad</b>: {{dimension.red}} </li>
+            <li><b class="warning-text">Meh</b>: {{dimension.yellow}} </li>
+            <li><b class="ok-text">Good</b>: {{dimension.green}} </li>
+        </ul>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</div>
+
+<!-- This is the version that displays on the page. It is hidden from the screen reader. -->
+<div aria-hidden="true">
 {% for section in site.data.rubric %}
 {% assign mod = forloop.index | modulo: 2 %}
 {% for priority in section.priorities %}
@@ -26,3 +55,6 @@
     </div>
 </div>
 </div>{% endif %}{% endfor %}{% endfor %}{% endfor %}
+
+</div>
+
