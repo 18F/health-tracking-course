@@ -1,16 +1,23 @@
 ---
 layout: widepage
 ---
-<h1> {{ page.title }} </h1>
-<p>{{ page.overview }}</p>
-<h2>Lesson Outline</h2> 
 
-{% include toc.html html=content h_max=2 %}
+<h1> {{ page.title }} </h1>
 
 {% for dim in page.dimension %}
     {% include rubric dimension=dim %}
 {% endfor %}
 
+<h2>What's This About?</h2>
+
+<p>{{ page.overview }}</p>
+
+<h2>Lesson Outline</h2> 
+
+{% include toc.html html=content h_max=2 %}
+
 {{ content }}
+
+{% include derisking.html %}
 
 {% include airtable-post.html %}

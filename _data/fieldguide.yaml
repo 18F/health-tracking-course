@@ -1,0 +1,141 @@
+root: "https://derisking-guide.18f.gov/"
+federal:
+  base: "federal-field-guide/"
+  usercentereddesign:
+    title: User Centered Design
+    url: basic-principles/#user-centered-design
+  agilesoftwaredev:
+    title: Agile Software Development
+    url: basic-principles/#agile-software-development
+  productownership:
+    title: Product Ownership
+    url: basic-principles/#product-ownership
+  devops:
+    title: DevOps
+    url: basic-principles/#devops
+  building:
+    title: Building with Loosely Coupled Parts
+    url: basic-principles/#building-with-loosely-coupled-parts
+  modular:
+    title: Modular Contracting
+    url: basic-principles/#modular-contracting
+  empoweredowner: 
+    title: Empowered Product Owner
+    url: planning/#assign-dedicated-and-empowered-product-owners-to-lead-development-efforts
+  constantfeedback:
+    title: Seek Constant User Feedback
+    url: planning/#involve-end-users-early-and-often-in-software-development-efforts
+  buildorbuy:
+    title: Tradeoffs in Build-or-Buy
+    url: planning/#consider-tradeoffs-in-build-or-buy-decisions-taking-all-factors-into-consideration
+  defaultopen:
+    title: Default to Open
+    url: planning/#default-to-open
+  infraascode:
+    title: Infrastructure as Code
+    url: planning/#require-infrastructure-as-code-single-command-deployment-and--per-sprint-government-verification-offunctionality
+  leadership:
+    title: Leadership Empowering Teams
+    url: planning/#leadership-should-set-direction-and-empower-teams
+  scoping:
+    title: Tightly Scoped Software Development
+    url: planning/#software-development-efforts-should-be-tightly-scoped-to-reduce-risk-and-avoid-overspending
+  path2prod:
+    title: Path to Production
+    url: planning/#clear-path-to-production-before-awarding-a-contact
+  remotecollab:
+    title: Remote Collaboration Tools
+    url: planning/#give-teams-access-to-the-remote-collaboration-tools-that-they-need-to-be-successful
+  techbudget:
+    title: Invest in Tech Incrementally
+    url: planning/#invest-in-technology-incrementally-and-budget-for-risk-mitigation-prototyping
+  marketresearch:
+    title: Conduct Modern Market Research
+    url: deciding-what-to-buy/#conduct-modern-market-research
+  agilecontractformat:
+    title: Agile Contracts for Agile Procurement
+    url: deciding-what-to-buy/#use-the-agile-contract-format-to-procure-agile-software-development-services
+  contracttype:
+    title: Time and Materials for Agile Software/Services
+    url: deciding-what-to-buy/#use-time-and-material-contract-types-for-custom-agile-software-development-services
+  evalproposals:
+    title: Evaluate Proposals based on Best Practices
+    url: deciding-what-to-buy/#evaluate-contractor-proposals-based-on-industry-best-practices
+  kickoff:
+    title: Host Effective Post-Award Kickoffs
+    url: doing-the-work/#host-an-effective-post-award-kick-off-meeting-to-energize-folks-for-the-work-to-come
+  oversight:
+    title: Oversight of Outcomes
+    url: doing-the-work/#oversee-agile-projects-by-measuring-end-user-outcomes-instead-of-requiring-project-teams-to-perform-tasks-by-specific-dates
+  postadmin:
+    title: Post-Award Contract Administration
+    url: doing-the-work/#post-award-contract-administration-looks-different-in-agile
+  quaspmon:
+    title: QASP Monitoring Sprint-by-Sprint
+    url: doing-the-work/#monitor-conformance-with-the-qasp-at-the-end-of-every-sprint
+
+state:
+  base: "state-field-guide/"
+  usercentereddesign:
+    title: User Centered Design
+    url: basic-principles/#user-centered-design
+  agilesoftwaredev:
+    title: Agile Software Development
+    url: basic-principles/#agile-software-development
+  productownership:
+    title: Product Ownership
+    url: basic-principles/#product-ownership
+  devops:
+    title: DevOps
+    url: basic-principles/#devops
+  building:
+    title: Building with Loosely Coupled Parts
+    url: basic-principles/#building-with-loosely-coupled-parts
+  modular:
+    title: Modular Contracting
+    url: basic-principles/#modular-contracting
+  risk:
+    title: Thinking about Risk (in new ways)
+    url: budgeting-tech/#think-about-risk-in-a-new-way
+  servicesnotsoftware:
+    title: Procure Services, Not Software
+    url: budgeting-tech/#procure-services-not-software
+  bewarecustomized:
+    title: Beware Customized Commercial Software
+    url: budgeting-tech/#beware-the-customized-commercial-software-trap
+  demosnotmemos: 
+    title: Demos, Not Memos
+    url: budgeting-tech/#require-demos-not-memos
+  hireinhouse:
+    title: Hire in House
+    url: budgeting-tech/#hire-tech-talent-in-house
+  costofchange:
+    title: Cost of Change
+    url: budgeting-tech/#minimize-the-cost-of-change
+  measuring:
+    title: Measure Success Iteratively
+    url: budgeting-tech/#measure-success-based-on-iterative-outcomes-not-project-milestones
+  limitspending:
+    title: Limit Total Spending
+    url: budgeting-tech/#limit-total-spending
+  limitcontracts:
+    title: Limit Contract Sizes
+    url: budgeting-tech/#limit-contract-sizes
+  fundsystems:
+    title: Fund Systems, Not Monoliths
+    url: budgeting-tech/#fund-systems-not-monoliths
+  expandpool:
+    title: Expand your Vendor Pool
+    url: budgeting-tech/#expand-your-vendor-pool
+  sharesoftware:
+    title: Share your Software
+    url: budgeting-tech/#share-your-software
+  operationalexpense:
+    title: Budget Software as an Operational Expense
+    url: budgeting-tech/#budget-for-software-as-an-operational-expense
+  asktechnical:
+    title: Ask Technical Questions
+    url: budgeting-tech/#ask-technical-questions-of-agencies
+  questionstoask:
+    title: Questions to Ask
+    url: questions-to-ask/

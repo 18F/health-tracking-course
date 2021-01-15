@@ -122,7 +122,7 @@ Because these questions are getting specific, we will include a *why* with each.
 9. **Is the system backed up and/or preserved with every migration?**
    <br>WHY: If something goes *catastrophically* wrong, there should never be any question that the data and system still exist. Backups should automatically be made (and their integrity tested) as part of all update/migration processes. Today, it is more likely that systems will have a staging/test/production lifecycle whereby the "live" system is never updated until it is proved out on several other systems (the staging/test systems). Regardless, there should be a "snapshot," or some kind of backup, that is made as a routine part of these processes always.
 
-## Discuss in Community (1h, group)
+# Discuss in Community (1h, group)
 
 1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
 2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. You might make a point of leveraging your small-group conversation here, and focusing your questions on things related to the projects you are responsible for.

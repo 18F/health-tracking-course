@@ -6,8 +6,7 @@ overview: |
     What happens when you lose ownership of your mission? In this conversation, Princess Ojiaku and Nikki Lee talk about the challenges of driving towards desired outcomes and the ownership of strategy and mission in Medicare and Medicaid IT projects. 
 ---
 
-## Active Listening: A Conversation on Vendor Management (~1h, solo)
-
+## Active Listening: A Conversation on Owning Strategy (~1h, solo)
 
 <div class="grid-row grid-gap">
     <div class="grid-col-8"> 

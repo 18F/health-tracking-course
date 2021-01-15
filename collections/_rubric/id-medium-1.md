@@ -35,9 +35,9 @@ To deploy software into production, there's a few things people can do. In his b
 
 You can read the article (and should), as it's pretty plain-language and short. When you're done, pull out the notebook. For each one of these statements, *write down some questions*. In particular, you should be thinking about your ongoing conversations with the state and its vendors. What questions could you be asking of the state that would allow you to begin to understand (for example) how much of their deployment system is automated? What questions might begin to help you understand if things are deployed in a consistent way week after week and month after month?
 
-## A DevOps Primer (1h, group)
+## A DevOps Primer (45m solo, 30m small group)
 
-**Timer**: {% include countdowntimer minutes=60 %} 
+**Timer**: {% include countdowntimer minutes=45 %} 
 
 {% include link id="kileynichols" text="Kiley Nichols provides a primer on DevOps" %} that answers some key questions (what is it?) and then summarizes the value of devops practices in five ways:
 
@@ -67,7 +67,9 @@ At this point, **this should look very, very familiar**. If you have been workin
 
 For each resource you find, add it to a document, and make a few notes about why that link/resource is of interest.
 
-When you are done, come back together as a group. Open a shared document, and paste your resources in, and take turns presenting what you found. What will result is a catalog of resources and tools that you might expect to see states and their vendors putting into practice when they are engaged in a healthy devops cycle.
+**Timer**: {% include countdowntimer minutes=30 %} 
+
+**When you are done, come back together as a group**. Open a shared document, and paste your resources in, and take turns presenting what you found. What will result is a catalog of resources and tools that you might expect to see states and their vendors putting into practice when they are engaged in a healthy devops cycle.
 
 # Contractualizing DevOps (30m, solo)
 
@@ -96,10 +98,7 @@ Take a few minutes to try writing a draft QASP element that would capture what y
 Don't push on this for more than 30 minutes. You'll have time to come back around with your peers to wrestle with this. For now, do your best to see what you come up with under time pressure. 
 
 Do this in a word processor of some sort, and use a two-column table for your QASP element (so it looks just like the table above). This will make it easier for your colleagues when you come back together.
-
-{% include shared-experience-prompt.html %}
-
-# Your Mini-QASP (1h30m, group)
+# Your Mini-QASP (1h, group)
 
 **Timer**: {% include countdowntimer minutes=90 %} 
 
@@ -108,10 +107,10 @@ Finally, it's time to come back together with your learning cohort. *This sessio
 Before you get started, remember that **the best contract is one you never need to use**. So, when we talk about an "adversarial perspective" on your QASP elements, we're asking you to imagine a situation where you're now falling back on the QASP. This is rarely "good times," so you are imagining what you're trying to capture (succinctly) that provides the state (not the vendor) with protection in the case that things are no longer being delivered in a high-quality manner.
 
 1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
-2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. Before diving in, it's good to start with questions where things might still be unclear.
+2.  **Understand**. {% include countdowntimer minutes=10 %} Next, take some time to discuss points where you were confused or questioned your material. Before diving in, it's good to start with questions where things might still be unclear.
 3.  **Consolidate**. {% include countdowntimer minutes=10 %} Open a shared document, and everyone should paste their QASP elements into the shared document. Then, take a few minutes to read through everyone's QASP elements.
 4.  **Questioning**. {% include countdowntimer minutes=30 %} Now that you've read through everything, take 3-5 minutes on each element. First, have the author present the QASP element - just take one minute to highlight what you were aspiring to with the element. Then, as a group, *revise* the element. This does not mean *tear apart* or *denegrate*, but instead look at it from an adversarial perspective. What if someone didn't want to do the work, and was looking for a way to get out of it? See if you think the dimension needs cleanup/simplification/etc. Remember that *more* is not necessarily *better*.
-5.  **Reflect**. {% include countdowntimer minutes=20 %} When you're done&mdash;and you may need to force yourself to move on so that you get to spend some time on everyone's QASP elements&mdash;take some time to reflect on the process. 
+5.  **Reflect**. {% include countdowntimer minutes=15 %} When you're done&mdash;and you may need to force yourself to move on so that you get to spend some time on everyone's QASP elements&mdash;take some time to reflect on the process. 
     1.  What surprised you about this process? Was it easier in places than you expected? Harder?
     2.  What was familiar about this process? Was the act of writing the QASP familiar? Was it the process of imagining how things might go well, or go wrong?
     3.  What will you take away from this process? As you visit future contracts, what do you hope to carry forward as part of your practice or mindset?

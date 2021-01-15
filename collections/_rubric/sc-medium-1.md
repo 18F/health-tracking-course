@@ -112,7 +112,7 @@ To close out this lesson, come together with your learning cohort.
 
 ## Reflection (15-30m, small group)
 
-*Meet with your partner or small group to do the following activity.*
+*After the full group activity, meet with your partner or small group to do the following activity.*
 
 CMS oversees large, complex projects that involve many people, lots of dollars, over a long period of time. The program and project managers on those projects are critical stakeholders in the process; they have leadership roles in the design and delivery of the software, and they are not without hopes, biases, and faults. As a SO, it is up to you to understand not only the projects they are overseeing, but these people and the roles they inhabit, so that you can better work with them and understand the progress being made on delivering excellent tools to the people.
 

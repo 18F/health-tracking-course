@@ -16,7 +16,7 @@ Let's start with a 5m video.
 
 This is an overview, and provides context. We don't anticipate that you will need to make a lot of notes here, but you might jot down words that sound like good vocabulary to have and words/phrases/concepts that you might want to follow up on and ask questions about later.
 
-## The Politics of Open Source (1h, pair)
+## The Politics of Open Source (30m solo, 30m pair)
 
 Did we mention law and politics? 
 
@@ -26,7 +26,9 @@ This is a video of Richard Stallman speaking on open source software at a TEDx e
 
 Put another way: he unapologetically believes firmly in truly free and open access to *everything* in his technology.
 
-Find a partner, and find a 1h block of time that the two of you can get together to watch and chat. Start your call, say hi, and then "hang up" to watch the video. In 20m (after the video is done), come back together.
+{% include countdowntimer minutes=30 %}
+
+Find a partner, and find a 30m block of time that the two of you can get together to watch and chat.
 
 1. Initial impressions?
 2. What things did Stallman say that you found yourself agreeing with? Disagreeing with?
@@ -102,7 +104,7 @@ There are many open tools in many spaces. We're going to close this unit by high
 
 {% include shared-experience-prompt.html %}
 
-# Discussion (45m, group)
+# Discussion (1h, group)
 
 These questions are all meant to help you get at this one dimension of the rubric:
 

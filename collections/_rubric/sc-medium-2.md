@@ -67,7 +67,7 @@ Another way to get around jargon is to ask the person speaking to explain it to 
 The point is that you can feel comfortable asking someone to back up and explain things back simply. if they can't use plain language to talk about the work, question why or if they're possibly trying to hide something behind a lot of jargon.
 
 
-## Roleplay: Play the Part (45m, group)
+## Roleplay: Play the Part (1h, full group)
 
 To close out this lesson, come together with your learning cohort. 
 
@@ -100,8 +100,9 @@ If it helps, feel free to choose questions to ask from the two guides mentioned 
 {% endcapture %}
 {% include alert level="no-icon" heading="Regarding Roleplays" body=body %}
 
+## Reflecting in Community (30m, small group)
 
-## Reflection (15-30m, solo)
+In the full group, you ran the roleplays. Take time after the roleplay to come back and reflect with a partner.
 
 CMS oversees large, complex projects that involve many people, lots of dollars, over a long period of time. The program and project managers on those projects are critical stakeholders in the process; they have leadership roles in the design and delivery of the software, and they are not without hopes, biases, and faults. As a SO, it is up to you to understand not only the projects they are overseeing, but these people and the roles they inhabit, so that you can better work with them and understand the progress being made on delivering excellent tools to the people.
 
@@ -113,7 +114,3 @@ Take some time to reflect on the roleplay, and the thoughts it inspired regardin
 * Are there more things you feel you need to learn to tackle this space better? 
 
 Those questions are offered as starting points only. You are welcome to take your reflection in whatever direction is best for you.
-
-{% include shared-experience-prompt.html %}
-
-*There is no full-group discussion for this lesson.*

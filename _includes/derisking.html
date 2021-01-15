@@ -1,0 +1,34 @@
+{% if page.federal or page.state %}
+<h3>In the Guides</h3>
+<p>
+This lesson is the beginning of a journey. If you're interested in learning more, there's material in the <a href="{{ site.data.fieldguide.root }}">18F Derisking Guide has</a> that you'll want to check out.
+</p>
+{% endif %}
+
+{% if page.federal %}
+{% assign base = site.data.fieldguide.root | append: site.data.fieldguide.ffg.base %}
+
+<p>
+    From the <a href="{{ base }}">Federal Field Guide</a>:
+</p>
+
+<ul>
+    {% for e in page.federal %}
+        <li><a href="{{ base }}{{ site.data.fieldguide.federal[e].url }}">{{ site.data.fieldguide.federal[e].title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% if page.state %}
+{% assign base = "{{site.data.fieldguide.root}}{{ site.data.fieldguide.state.base }}" %}
+
+<p>
+    From the <a href="{{ base }}">State Software Budgeting Handbook</a>:
+</p>
+
+<ul>
+    {% for e in page.state %}
+        <li><a href="{{ base }}{{ site.data.fieldguide.state[e].url }}">{{ site.data.fieldguide.state[e].title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
