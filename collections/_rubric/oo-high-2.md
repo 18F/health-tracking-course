@@ -36,6 +36,16 @@ experts:
     - Hristo Stalev
     - Andrew Haller
     - Steve Mezak
+federal:
+    - scoping
+    - techbudget
+    - evalproposals
+    - oversight
+state: 
+    - demosnotmemos
+    - measuring
+    - fundsystems
+    - asktechnical
 ---
 
 At *some* level, measuring progress on a large, long-running software project is an impossible task. 

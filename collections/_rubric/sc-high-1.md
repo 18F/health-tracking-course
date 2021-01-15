@@ -4,7 +4,16 @@ title: Tech and Product Management
 dimension: sc1.1
 overview: |
    Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.
-
+federal:
+    - agilesoftwaredev
+    - productownership
+    - building
+    - leadership
+    - scoping
+state: 
+    - servicesnotsoftware
+    - bewarecustomized
+    - measuring
 ---
 
 

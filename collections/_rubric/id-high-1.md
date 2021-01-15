@@ -4,6 +4,13 @@ title: "Demos not Memos"
 dimension: id1.1
 overview: |
     The most important thing you can have in a project are demos. That is, working software. If someone gives you a report about a piece of software, the software probably doesn't work. (Ask me how I know.) If someone shows you a video of a piece of software, the software may have worked once. (Ask me how I know.) If someone shows you a piece of software, but they control it, the software barely works. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+federal:
+    - building
+    - constantfeedback
+    - infraascode
+    - quaspmon
+state: 
+    - demosnotmemos
 ---
 ## Reflection (10m, solo)
 

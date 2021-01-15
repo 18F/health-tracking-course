@@ -4,6 +4,16 @@ title: "Constant Vigilance!"
 dimension: id2.3
 overview: |
     In the Harry Potter universe, "Mad Eye" Moody has a magical eyeball that can swivel around in his head to constantly watch in all directions. With software systems, we use the term <em>monitoring</em> to watch not only how our software is operating, but also how the servers provide that software, and how the network delivers the bits, and... and... <em>and</em>. In other words, excellent monitoring <b>is</b> constantly vigilant and we have tools that help us make sense of the deluge of data. This lesson broadly explores monitoring and speficially explores the importance of monitoring for security.
+federal:
+    - devops
+    - defaultopen
+    - infraascode
+    - postadmin
+state:
+    - devops
+    - fundsystems
+    - expandpool
+    - operationalexpense
 ---
 
 This lesson involves two, hour-long listens. You should go ahead and get your podcast player out and get ready to go for some walks. An hour-long walk is a great health benefit to you and hopefully gives you a headspace to concentrate while enjoying some fresh air.

@@ -13,6 +13,16 @@ releaseQuestions:
     - How long do engineers have to make sure their features are ready for release?
     - Is there ever any question about when new versions will be released?
     - Chuck talks about *beta* and *alpha* versions; how often do they release these versions to people?
+federal:
+    - agilecontractformat
+    - buildorbuy
+    - defaultopen
+    - techbudget
+state: 
+    - costofchange
+    - measuring
+    - limitspending
+    - limitcontracts
 ---
 
 ## Progress and Risks

@@ -3,7 +3,18 @@ layout: lesson
 title: "Vendor Management, One Step Removed"
 dimension: pf3.2
 overview: |
-    What makes up a good contract between a vendor and a state? In this conversation, Princess Ojiaku and Carrie Feher talk about how to steer the vendor-state relationship toward a good place and how to get it back on track when it's not. 
+    What makes up a good contract between a vendor and a state? In this conversation, Princess Ojiaku and Carrie Feher talk about how to steer the vendor-state relationship toward a good place and how to get it back on track when it's not.
+federal:
+    - productownership
+    - modular
+    - empoweredowner
+    - agilecontractformat
+    - contracttype
+state:
+    -  servicesnotsoftware
+    -  bewarecustomized
+    -  costofchange
+    -  limitcontracts
 ---
 
 ## Active Listening: A Conversation on Vendor Management (~1h, solo)

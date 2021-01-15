@@ -4,7 +4,16 @@ title: Questioning the Teams
 dimension: sc2.2
 overview: |
     To have a functioning software team, you gotta get folks on the same page. This lesson helps you figure out whether everyone on the team knows the story and how well they know it.
-
+federal:
+    - empoweredowner
+    - defaultopen
+    - leadership
+    - remotecollab
+state:
+    - servicesnotsoftware
+    - hireinhouse
+    - fundsystems
+    - expandpool
 ---
 
 ## Reflection: What makes a team work? (15m, pair)

@@ -4,6 +4,16 @@ title: "Selecting Open Source"
 dimension: id3.1
 overview: |
     Open source software is software for which the code is freely available. That is, the "source" is "open." Systems built for the state with taxpayer dollars, so states should own and have access to the software they have paid for. This lesson is about how decisions are made in selecting software systems and provides examples of free and open software that you might keep your eyes open for.
+federal:
+    - agilesoftwaredev
+    - productownership
+    - modular
+    - defaultopen
+state:
+    - productownership
+    - servicesnotsoftware
+    - bewarecustomized
+    - limitspending
 ---
 
 ## What is Open Source? (5m, solo)

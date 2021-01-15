@@ -4,6 +4,16 @@ title: All The Managements
 dimension: sc2.1
 overview: |
    A successful software project will have many people involved, and those people will generally play different roles. In this lesson, we explore the kinds of management we might see in a long-running software project, and how people in those roles can contribute (or take away from) the success of a project.
+federal:
+    - productownership
+    - empoweredowner
+    - marketresearch
+    - contracttype
+state:
+    - devops
+    - modular
+    - asktechnical
+    - questionstoask
 ---
 
 Software projects are complex, creative projects that involve the orchestration of complex systems of hardware and software. The objective of this module is to lay foundations regarding the kinds of skills and capacities states should have for managing these projects. This will help you, as an SO, better support and evaluate the projects you are responsible for.

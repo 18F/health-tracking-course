@@ -6,8 +6,10 @@ overview: |
     Software project roadmaps are a powerful tool for orienting an outsider to the current state of affairs in the life of a service. Here, "orienting" is in the "orienteering" sense, meaning "which way is it pointing?" 
 federal:
     - productownership
+    - empoweredowner
 state:
     - productownership
+    - bewarecustomized
 ---
 
 Roadmaps are a tricky thing. They are a space where development teams can lie to leadership, vendor leadership can lie to states, states can lie to SOs, and everything can look like it is perfectly on track.

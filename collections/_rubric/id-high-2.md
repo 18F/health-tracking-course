@@ -4,6 +4,12 @@ title: Consider the User
 dimension: id1.2
 overview: |
     Testing is a sometimes misunderstood and, yet, critical aspect of a long-lived software project. This is especially true if you are trying to produce high-quality software in an iterative manner. This lesson will speak to the role that actual users play in the ongoing testing of a major software project.
+federal:
+    - agilesoftwaredev
+    - infraascode
+state:
+    - remotecollab
+    - oversight
 ---
 
 

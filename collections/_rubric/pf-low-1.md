@@ -4,6 +4,16 @@ title: "Owning Strategy and Outcomes"
 dimension: pf3.1
 overview: |
     What happens when you lose ownership of your mission? In this conversation, Princess Ojiaku and Nikki Lee talk about the challenges of driving towards desired outcomes and the ownership of strategy and mission in Medicare and Medicaid IT projects. 
+federal:
+    - empoweredowner
+    - path2prod
+    - evalproposals
+    - oversight
+state:
+    - hireinhouse
+    - measuring
+    - sharesoftware
+    - operationalexpense
 ---
 
 ## Active Listening: A Conversation on Owning Strategy (~1h, solo)
