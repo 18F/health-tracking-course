@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Kickoff
+title: SOMD Overview
 course: 1
 lesson: 0
 indicator: admin
