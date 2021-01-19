@@ -49,12 +49,3 @@ The second indicator has to do with **state capacity** to manage the project on 
 ### Iterative development
 
 The final primary indicator we will talk about in this course has to do with **iterative development**. In a nutshell, this means building and delivering software bit-by-bit, in small pieces instead of all at once. We'll say this all again. Point being: demos not memos.
-
-
-## Pause to reflect
-
-Once you have listened to the intro (or read through the syllabus), you can revisit the [scoring rubric]({{ '/rubric/' | prepend: site.baseurl }}) that is used in the Health Tracker. The course centers around these rows and primary indicators.
-
-Pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous, and it will help us as we shape the course and the conversations we have over the coming weeks.
-
-{% include airtable-pre.html %}

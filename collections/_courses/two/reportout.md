@@ -1,25 +1,18 @@
 ---
 layout: widepage
-title: "Course One Report Out"
-course: 1
+title: "Course Two Report Out"
+course: 2
 lesson: 5
 indicator: admin
 priority: high
 visible: true
 date: October 20, 2020
-dimension: ro1
+dimension: ro2
 ---
 
 # {{ page.title }}
 
-The first course touches on the highest priority dimension of each indicator in the [health tracking rubric](/rubric/).
-
-The content of this first course was guided by four broad, guiding questions:
-
-1. **Assessing Health**. Is my state is on track for success?
-2. **Questioning and Listening**. Is a state or vendor bullshitting me?
-3. **Process and Action**. What steps can I take to improve project outcomes?
-4. **Self and Community**. Am I confident in my work?
+The second course touches on the highest priority dimension of each indicator in the [health tracking rubric](/rubric/).
 
 This last module is a chance to reflect and report out. **Reflection is a critical part of the learning process**.
 
@@ -34,7 +27,7 @@ What was most surprising? What did you find most valuable? What practices or nex
 
 ## Discuss and Report Out (1h, in group)
 
-To celebrate the completion of the first course, find time together to report out.
+To celebrate the completion of this second course, find time together to report out.
 
 With your learning cohort, come back together to discuss your lessons learned and what you wrote down. You can do this in small groups.
 
@@ -56,4 +49,4 @@ Take time to celebrate your lessons learned and the actionable next steps. You'v
 
 Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a state officer. 
 
-Congratulations. You've completed course one. :tada: Look forward to course two, where you'll complete all the top priority rows of the Rubric. 
+Congratulations. You've completed all the top priority rows of the Rubric! 
