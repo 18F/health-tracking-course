@@ -7,6 +7,7 @@ lessons:
     - pf1.2
     - id1.2
     - id1.3-course2
+    - ro2
 ---
 
 # {{ page.title }}
