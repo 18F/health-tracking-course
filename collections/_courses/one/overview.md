@@ -2,7 +2,6 @@
 layout: widepage
 title: Course One Overview
 lessons:   
-    - ko1
     - oo1.1
     - sc1.1
     - pf1.1
