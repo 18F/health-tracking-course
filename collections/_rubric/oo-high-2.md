@@ -36,6 +36,16 @@ experts:
     - Hristo Stalev
     - Andrew Haller
     - Steve Mezak
+federal:	
+    - scoping	
+    - techbudget	
+    - evalproposals	
+    - oversight	
+state: 	
+    - demosnotmemos	
+    - measuring	
+    - fundsystems	
+    - asktechnical
 ---
 
 At *some* level, measuring progress on a large, long-running software project is an impossible task. 
@@ -50,7 +60,7 @@ Jama Software has {% include link id="nbmtmstp" text="nine metrics that they thi
 
 Give the article a skim. Make sure to note questions you have about these metrics as you read; we have to admit, it's not a very... *verbose*... article. Then, come back, and re-order the metrics (by dragging-and-dropping) so that the metric that you think would tell you the **most** about a team's product quality is at the **top**, and the metric that you think would tell you the **least** is at the **bottom**.
 
-{% asset dragonfly.js %}
+<script type="text/javascript" src="{{ '/assets/js/dragonfly.js' | prepend: site.baseurl }}"></script>
 <div class="drag-container">
 {% for elem in page.metrics %}
     {% assign arr = elem | split: "|" %}
