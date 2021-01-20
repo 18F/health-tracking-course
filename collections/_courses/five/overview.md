@@ -5,6 +5,7 @@ lessons:
     - pf3.2
     - id2.3
     - id3.1
+    - ro5
 ---
 
 # {{ page.title }}
@@ -13,14 +14,8 @@ You've made it to the last set of lessons!
 
 {% include course_lesson_list.html lessons=page.lessons %}
 
-## What This Course Covers
+## What this course covers
 
-In the fifth course, we begin our exploration of **BLAH BLAAH**. 
+In the fifth and final course, we'll look at three subjects that paint a more nuanced picture of an ideal state for software projects $mdash; taking on vendors, monitoring system health, and using open source and resuable code as a gold standard for streamlined, repeatable processes. 
 
 {% include course_lesson_summaries.html lessons=page.lessons %}
-
-## Pause to Reflect
-
- Check in! How are you feeling about the rubric and the idea of using the Health Tracker to assess projects you are part of? Please pause to reflect on where you are confident at this moment, and where you have concerns. This is anonymous.
-
-{% include airtable-pre.html %}

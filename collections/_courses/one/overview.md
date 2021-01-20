@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Course One Overview
+title: Course one overview
 lessons:   
     - oo1.1
     - sc1.1
@@ -13,7 +13,7 @@ lessons:
 
 {% include course_lesson_list.html lessons=page.lessons %}
 
-## What This Course Covers
+## What this course covers
 
 In the first course, you will get a chance to engage with the highest priority elements of the project Health Tracker. The goal of this course is to build familiarity. When you are done, you'll have a holistic sense for how the Health Tracker, as a tool, is really just the *reporting* stage of a *process*. 
 

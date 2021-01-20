@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: "Course Two Report Out"
+title: "Course two report out"
 course: 2
 lesson: 5
 indicator: admin
@@ -12,11 +12,11 @@ dimension: ro2
 
 # {{ page.title }}
 
-The second course touches on the highest priority dimension of each indicator in the [health tracking rubric](/rubric/).
+The second course touches on the highest priority dimension of each indicator in the [health rubric](/rubric/).
 
-This last module is a chance to reflect and report out. **Reflection is a critical part of the learning process**.
+This last module is a chance to reflect and report out. We'll do this at the end of every course. **Reflection is a critical part of the learning process**.
 
-## Things I Learned (30m, solo)
+## Things I learned (30m, solo)
 
 Take a free page in your notebook where you've been keeping track of your lesson notes for this course.
 
@@ -25,7 +25,7 @@ Take a half hour and go back through your notebook from this course sequence. As
 What was most surprising? What did you find most valuable? What practices or next steps do you hope to take as a state officer based on the material you've learned and discussed as a group?
 
 
-## Discuss and Report Out (1h, in group)
+## Discuss and report out (1h, in group)
 
 To celebrate the completion of this second course, find time together to report out.
 
@@ -43,7 +43,7 @@ Now that you've completed this course, pause to reflect on the material, where y
 
 {% include airtable-pre.html %}
 
-## Congratulations! (?m, team)
+## Congratulations! (team huddle)
 
 Take time to celebrate your lessons learned and the actionable next steps. You've covered a top priority row from every Primary Indicator in the Health Rubric! 
 
