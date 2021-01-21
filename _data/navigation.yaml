@@ -1,11 +1,12 @@
 primary_navigation:
     - name: Home
       url: /
-    - name: Syllabus
-      url: /syllabus/
+    - name: About SOMD
       children:
           - name: Course overview
-            url: /courses/one/kickoff/ 
+            url: /courses/one/kickoff/
+         - name: Syllabus
+            url: /syllabus/     
     - name: Courses
       children:
         - name: Course one

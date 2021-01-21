@@ -7,17 +7,17 @@ permalink: /syllabus/
 * TOC
 {:toc}
 
-## Why Become a State Officer, M.D.?
+## Why become a state officer, M.D.?
 
 You may not realize it, but our doctors don’t like it when we only come to them when we’re sick. If they had their way, most doctors would love to see us 1) more often, 2) for less time, and 3) help us make sure we take better care of ourselves so that 4) we wouldn’t get sick in the first place! As an SO, which kind of doctor would you rather be? We suspect you’d prefer more checkups, for less time, and avoid the need for major heart surgery when an improved diet and a short walk every day would do the same job!
 
 This course is intended to help you apply your existing expertise as a State Officer in new ways. It will help you think about how to apply your expertise on a continuous basis instead of annually or bi-annually. This will help more projects succeed, and yield better and more robust services for the people that we serve.
 
-## How Will This Course Help You Succeed?
+## How will this course help you succeed?
 
 There are three ways this course will help you improve your practices as an SO.
 
-**Confidence in Community**. The SOs are a team. As you engage in this learning, the most important thing you can leave with is the knowledge that you are not alone. You have a community of people to ask questions of and ask for advice as you learn new ways of thinking and new practices. 
+**Confidence in community**. The SOs are a team. As you engage in this learning, the most important thing you can leave with is the knowledge that you are not alone. You have a community of people to ask questions of and ask for advice as you learn new ways of thinking and new practices. 
  
 **Strategy**. The “Doctor SO” needs to be thinking long term. We’ll lay a foundation for strategic approaches to managing the “long term care” of CMS projects going on in your state. These practices will give you a shared foundation with your fellow SOs and, over time, with your states and vendors, so that the entire community can move to a place of sustained health and well-being.
  
@@ -28,10 +28,10 @@ There are three ways this course will help you improve your practices as an SO.
 
 Our goals are the "big picture." They are framed as questions that you should be asking yourself now and years from now as you engage in the work of improving how we serve the public.
 
-1. **Assessing Health**. Is my state is on track for success?
-2. **Questioning and Listening**. Is a state or vendor bullshitting me?
-3. **Process and Action**. What steps can I take to improve project outcomes?
-4. **Self and Community**. Am I confident in my work?
+1. **Assessing health**. Is my state is on track for success?
+2. **Questioning and listening**. Is a state or vendor bullshitting me?
+3. **Process and action**. What steps can I take to improve project outcomes?
+4. **Self and community**. Am I confident in my work?
 
 The word "bullshit" has a {% include link id="bullhistory" text="long, rich history" %}. It's root, *bull*, comes potentially from the Old French (*bole*) or Icelandic (*bull*), generally meaning to deceive or trick, or in the Icelandic, "nonsense." In 1600's English, it might mean "a ludicrous blunder involving a contradiction in terms," with evidence of its use in the English language going back to the 14th century. 
 
@@ -44,13 +44,13 @@ It is the long and rich history of the word "bullshit" that inspires us to use i
 {% endcomment %}
 
 
-## Learning Objectives
+## Learning objectives
 
 Learning objectives are the specific, measurable things we will learn through this course. The outcomes are explicitly structured around the [MES Health Rubric]({{ "/rubric/" | prepend: site.baseurl }}). 
 
 Engaging with this course should increase your confidence in the 4 primary indicators of the MES Health Rubric:
 
-### Outcomes orientation
+### Outcomes-orientation
 
 1. Describe short-term project value proposition and long-term alignment.
 2. Appraise process and progress to appropriate baselines and metrics.
