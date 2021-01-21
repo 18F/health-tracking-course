@@ -1,33 +1,35 @@
 primary_navigation:
     - name: Home
       url: /
-    - name: Syllabus
-      url: /syllabus/
+    - name: Begin
+      children:
+        - name: Course overview
+            url: /courses/one/kickoff/
+        - name: Syllabus
+            url: /syllabus/     
     - name: Courses
       children:
-        - name: Overview
-          url: /courses/overview/
-        - name: Course One
+        - name: Course one
           url: /courses/one/overview/
-        - name: Course Two
+        - name: Course two
           url: /courses/two/overview/
-        - name: Course Three
+        - name: Course three
           url: /courses/three/overview/
-        - name: Course Four
+        - name: Course four
           url: /courses/four/overview/
-        - name: Course Five
+        - name: Course five
           url: /courses/five/overview/
     - name: Resources
       children:
-        - name: Agile Practices
+        - name: Agile practices
           url: /agile/
-        - name: Asking Technical Questions
+        - name: Asking technical questions
           url: /questioning/
-        - name: Course References
+        - name: Course references
           url: /resources/
-    - name: Admin
+    - name: About
       children:
-        - name: Learning Cohorts
+        - name: Learning cohorts
           url: /admin/learningcohorts/
 
 

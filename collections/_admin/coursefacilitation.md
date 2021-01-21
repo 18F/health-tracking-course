@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Course Facilitation
+title: Course facilitation
 ---
 
 It is not possible, in one page, to lay out how to facilitate the State Officer, M.D. course. Being an effective educator is the work of years of study, practice, and reflection. To say or suggest otherwise is disrespectful to those who have made education their vocation and career. 
@@ -47,6 +47,6 @@ The work of Lave and Wenger regarding communities of practice and situated learn
 
 Health should be a fundamental right. In the United States, it is not---we must find healthcare through a capitalist marketplace. One in five people in the United States rely on Medicaid and CHIP, and therefore on the systems that support those programs. The work of supporting the State Officers is fundamentally human rights work, and about addressing what we view as unjust and inequitable access to healthcare in the United States. Bringing a justice-oriented mindset to the work, and supporting SOs in seeing their work as potentially transformative for a significant percentage of the US population, is something we view as critical to this work.
 
-## High-Impact Practices
+## High-impact practices
 
 In education, we typically talk about "high-impact practices." These are activities, structures, or educational engagements that have, through years of qualitative and quantitative research, been demonstrated to improve the students' learning experience. That might mean improving retention of content, or it might mean growing self-efficacy and notions of self-worth as it relates to the course and its goals/outcomes.

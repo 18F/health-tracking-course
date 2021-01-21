@@ -1,11 +1,11 @@
 {% if include.slug contains "admin" %}
     Admin
 {% elsif include.slug contains "oo" %}
-    Outcomes & Orientation
+    Outcomes-orientation
 {% elsif include.slug contains "sc" %}
-    State Capacity
+    State capacity
 {% elsif include.slug contains "pf" %}
-    Procurement Flexibility
+    Procurement flexibility
 {% elsif include.slug contains "id" %}
-    Iterative Development
+    Iterative development
 {% endif %}

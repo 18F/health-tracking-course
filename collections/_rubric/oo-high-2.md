@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Measuring and Metrics
+title: Measuring and metrics
 dimension: oo1.2
 overview: |
     Understanding outcomes involves measuring progress, which can be notoriously difficult with software development. Here, we explore what it means to assess progress, and whether a team can demonstrate progress against a set of reasonable metrics and baselines.
@@ -36,15 +36,15 @@ experts:
     - Hristo Stalev
     - Andrew Haller
     - Steve Mezak
-federal:
-    - scoping
-    - techbudget
-    - evalproposals
-    - oversight
-state: 
-    - demosnotmemos
-    - measuring
-    - fundsystems
+federal:	
+    - scoping	
+    - techbudget	
+    - evalproposals	
+    - oversight	
+state: 	
+    - demosnotmemos	
+    - measuring	
+    - fundsystems	
     - asktechnical
 ---
 
@@ -152,7 +152,7 @@ This video was chosen because:
 
 This is an exercise in calling bullshit. Imagine this is a vendor describing their software quality measurement process. You and your colleague were unable to make the presentation, so it was recorded for you to watch later. Therefore, you have the opportunity to comment and critique without having to respond in real-time to the vendor.
 
-It is easy to have "pretender syndrome," where you wonder if you don't know enough about software projects to comment meaningfully. One way to overcome that is to develop foundational skills and knowledge (we're doing that in this course). However, talking about doing things is not the same as *doing things*, and this roleplay activity is just that: instead of talking about riding a bike, we're actually getting up on a bike and practicing. 
+It is easy to have "pretender syndrome," where you wonder if you don't know enough about software projects to comment meaningfully. One way to overcome that is to develop foundational skills and knowledge (we're doing that in this course). However, talking about doing things is not the same as *doing things*. This roleplay activity is just that: instead of talking about riding a bike, we're actually getting up on a bike and practicing. 
 
 Have fun, call bullshit, and if you need to, take some time to ask "why?" There's learning in exploring why a colleague thinks something has a smell. And, there's learning in your own explanations.
 

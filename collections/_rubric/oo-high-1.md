@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: Reading the Map
+title: Reading the map
 dimension: oo1.1
 overview: |
     Software project roadmaps are a powerful tool for orienting an outsider to the current state of affairs in the life of a service. Here, "orienting" is in the "orienteering" sense, meaning "which way is it pointing?" 
