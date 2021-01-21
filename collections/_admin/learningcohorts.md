@@ -91,7 +91,7 @@ Put simply: the right instructional methods will achieve desired learning outcom
 * Instructional Design Strategies and Tactics,  Leshin, Pollock, & Reigeluth
 * [Effect of Instructional Design Strategies on Self-Regulation of Learning](https://www.ou.ac.lk/home/images/Faculty_and_institute/Edu/Pathways_to_OEP_eBook.pdf#page=107), Perera, Pathways to Open Educational Practices. (This entire text is Creative Commons licensed, was published within the last year, and an excellent resource.) 
 
-## Developing a Lesson 
+## Developing a lesson 
 As with any design process, the product—the lessons and learning experiences themselves—are the last thing to be generated.
 
 In the case of the SOMD course, the design and development process behind the Health Rubric, the development of the Health Tracker, and the many interconnected efforts between the MES team and 18F deeply informed the work that went into the course.
@@ -127,7 +127,7 @@ The initial learning cohort did not emphasize the delivery of products from the 
 * [Designing Criterion Referenced Assessment](https://files.eric.ed.gov/fulltext/EJ1066490.pdf) provides an overview of an alternative approach to traditional modes of assessment known as criterion-referencing, whereby clear, measurable criteria are used to set transparent and achievable learning outcomes in concert with the learner.
 * [Instructional Strategies: The Ultimate Guide](https://tophat.com/blog/instructional-strategies/), Persaud, Top Hat Blog.
 
-## Equity and Justice in Education
+## Equity and justice in education
 Teaching and learning are fundamentally human acts: we engage in learning from the moment we are born and we pass our knowledge from generation-to-generation, through all that we do. It takes explicit work on the part of the instructional team to create learning spaces that are fundamentally empowering and inclusive. How we frame our instruction can include or exclude.
 
 There is more to be said on equitable and just instructional design than can be hinted at here. Materials must support all learners, which means being conscious and attentive to how bias and discrimination casually creep into an educator’s practices. Learners must ask questions of the course material itself as well as the reality of racism, sexism, and their work as agents of the US government. This questioning should occur constructively and critically, on an ongoing basis. State Officers should be lifted up during this process, as these questions and their work thread a difficult needle—they are worthy of all of our support and respect as they work to transform the systems that make up our nation’s healthcare safety net.
