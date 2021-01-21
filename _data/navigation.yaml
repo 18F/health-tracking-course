@@ -1,7 +1,7 @@
 primary_navigation:
     - name: Home
       url: /
-    - name: About SOMD
+    - name: Starting out
       children:
           - name: Course overview
             url: /courses/one/kickoff/
@@ -27,7 +27,7 @@ primary_navigation:
           url: /questioning/
         - name: Course references
           url: /resources/
-    - name: Admin
+    - name: Developing SOMD
       children:
         - name: Learning cohorts
           url: /admin/learningcohorts/
