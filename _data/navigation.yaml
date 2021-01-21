@@ -4,9 +4,9 @@ primary_navigation:
     - name: Begin
       children:
         - name: Course overview
-            url: /courses/one/kickoff/
+          url: /courses/one/kickoff/
         - name: Syllabus
-            url: /syllabus/     
+          url: /syllabus/     
     - name: Courses
       children:
         - name: Course one
