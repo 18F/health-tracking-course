@@ -37,7 +37,7 @@ When you're done, you'll have "lessons learned" and actionable "next steps" you 
 
 ## Pause to reflect
 
-Three courses in is most of the rubric! A good time to check in.
+Four courses means you're just about to complete the rubric! A good time to check in.
 
 Now that you've completed this course, pause to reflect on the material, where you are confident at this moment, and where you have concerns. This form is anonymous, and it will help us as we shape the course and the conversations we have throughout the courses.
 

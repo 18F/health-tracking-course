@@ -12,7 +12,7 @@ dimension: ro5
 
 # {{ page.title }}
 
-This last module is a chance to reflect and report out. We'll do this at the end of every course.  **Reflection is a critical part of the learning process**.
+This last module is a final chance to reflect and report out. Congratulations on making it through the whole rubric!
 
 ## Things I learned (30m, solo)
 
@@ -37,7 +37,7 @@ When you're done, you'll have "lessons learned" and actionable "next steps" you 
 
 ## Pause to reflect
 
-You've finished the whole course!
+You've finished all the courses!
 
 Pause to reflect on the material, where you are confident at this moment, and where you have concerns. This form is anonymous, and it will help us as we shape the course and the conversations we have throughout the courses.
 
@@ -47,4 +47,4 @@ Pause to reflect on the material, where you are confident at this moment, and wh
 
 Take time to celebrate your lessons learned and the actionable next steps. Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a state officer. 
 
-Congratulations. You've learned about every part of the Rubric!
+Congratulations. You've learned about every part of the rubric!
