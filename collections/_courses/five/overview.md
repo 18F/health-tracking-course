@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Course Five Overview
+title: Course five overview
 lessons:
     - pf3.2
     - id2.3

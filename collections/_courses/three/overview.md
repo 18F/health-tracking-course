@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: Course Three Overview
+title: Course three overview
 lessons:
     - oo2.1
     - sc2.2
