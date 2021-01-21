@@ -11,7 +11,7 @@
     {% endfor %}
     {% if lesson != 0 %}
 {% for d in lesson.dimension %}
-<h3>{% include indicator slug=d %}</h3>
+<h3>{% include indicator slug=d %} - {{ lesson.title }}</h3>
     {% break %}
 {% endfor %}
 <p>{{ lesson.overview }}</p>
