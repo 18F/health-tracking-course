@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: "Course three report out"
+title: "Course three- Report out"
 course: 3
 lesson: 5
 indicator: admin
