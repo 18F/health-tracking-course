@@ -3,6 +3,7 @@ title: Syllabus
 layout: widepage
 permalink: /syllabus/
 ---
+# {{ page.title }}
 
 * TOC
 {:toc}
