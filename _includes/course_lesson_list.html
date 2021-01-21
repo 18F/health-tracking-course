@@ -12,7 +12,7 @@
         <td><b>Health indicator</b></td>
         <td><b>Lesson</b></td>
     </tr>
-    
+    {% assign words = "zero,one,two,three,four,five,six,seven" | split: "," %}
     {% assign lesson_counter = 1 %}
     {% comment %} 
     'visited' is for the case where a single rubric lesson 
@@ -84,7 +84,7 @@
                                     <td> 
                                         <a href="{{ lesson.url | prepend: site.baseurl }}">
                                             {% if lesson.indicator != "admin" %}
-                                                Lesson {{ lesson_counter }} - 
+                                                Lesson {{ words[lesson_counter] }} - 
                                             {% endif %}{{ lesson.title }}
                                         </a>
                                     </td>
