@@ -16,6 +16,6 @@ You've made it to the last set of lessons!
 
 ## What this course covers
 
-In the fifth and final course, we'll look at three subjects that paint a more nuanced picture of an ideal state for software projects $mdash; taking on vendors, monitoring system health, and using open source and resuable code as a gold standard for streamlined, repeatable processes. 
+In the fifth and final course, we'll look at three subjects that paint a more nuanced picture of an ideal state for software projects &mdash; taking on vendors, monitoring system health, and using open source and resuable code as a gold standard for streamlined, repeatable processes. 
 
 {% include course_lesson_summaries.html lessons=page.lessons %}

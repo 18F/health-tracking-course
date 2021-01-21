@@ -18,6 +18,6 @@ In this course sequence, the *simpler* things come *earlier*. We are getting to 
 
 ## What this course covers
 
-In the fourth course, we'll go further into what makes a healthy and thriving team and how to recognize indicators of health. 
+In the fourth course, we'll go further into what makes a healthy and thriving team and how to recognize more complex indicators of team health. 
 
 {% include course_lesson_summaries.html lessons=page.lessons %}

@@ -17,6 +17,6 @@ lessons:
 
 ## What this course covers
 
-In the third course, we begin our exploration of the nuances of contracting and some of the more subtle aspects of thinking about software as an ongoing service obligation (as opposed to a one-and-done product purchase). We also get into some data-related information that will help you recognize practices that set software projects on the right path.
+In the third course, we begin our exploration of the nuances of contracting and some of the more subtle aspects of thinking about software as an ongoing service obligation (as opposed to a one-and-done product purchase). We also learn a little about data to help you recognize best data management practices in software projects.
 
 {% include course_lesson_summaries.html lessons=page.lessons %}
