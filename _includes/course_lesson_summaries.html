@@ -1,14 +1,23 @@
-
 {% for id in include.lessons %}
-{% assign lesson = 0 %}
-{% for p in site.rubric %}
-    {% if p.dimension == id %}
-        {% assign lesson = p %}
-    {% endif %}
+    {% assign lesson = 0 %}
+    {% for p in site.rubric %}
+        {% for d in p.dimension %}
+            {% if d == id %}
+<!-- found {{ id }} -->
+                {% assign lesson = p %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+    {% if lesson != 0 %}
+{% for d in lesson.dimension %}
+<h3>{% include indicator slug=d %}</h3>
+    {% break %}
 {% endfor %}
-{% if lesson.overview %}
-<h3>{% include indicator slug=lesson.dimension %}</h3>
 <p>{{ lesson.overview }}</p>
-{% include rubric dimension=lesson.dimension %}
-{% endif %}
+{% for d in lesson.dimension %}
+{% include rubric dimension=d %}
+    {% break %}
+{% endfor %}
+    {% endif %}
 {% endfor %}

@@ -5,6 +5,8 @@ primary_navigation:
       url: /syllabus/
     - name: Courses
       children:
+        - name: Overview
+          url: /courses/overview/
         - name: Course One
           url: /courses/one/overview/
         - name: Course Two

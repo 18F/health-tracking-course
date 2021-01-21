@@ -1,7 +1,9 @@
 ---
 layout: lesson
 title: "Data: Migration"
-dimension: id1.3-course3
+dimension: 
+   - id1.3
+   - id1.3-course3b
 overview: |
     Security in applications for federal agencies is absolutely critical; our work is held in the public's trust, and it is up to us, and our vendors, to make sure that trust is not broken. Likewise, having migration strategies and practices in place means that we know how an application will grow, change, and accommodate the needs of users over time---another kind of security, in short.
 federal:
