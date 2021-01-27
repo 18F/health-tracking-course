@@ -11,6 +11,8 @@ lessons:
 
 # {{ page.title }}
 
+Welcome to the course! We'll start with the highest priority rows of the Rubric and work our way through to the medium and lower priority rows. In this first course, you'll touch on one lesson from each of the primary indicators &mdash; outcomes-orientation, state capacity, procurement flexiblity, and iterative development.
+
 {% include course_lesson_list.html lessons=page.lessons %}
 
 ## What this course covers

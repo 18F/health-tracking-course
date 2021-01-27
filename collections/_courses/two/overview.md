@@ -12,6 +12,8 @@ lessons:
 
 # {{ page.title }}
 
+You made it to course two! We'll learn about all of the highest priority rows of the Rubric by the end of this course.
+
 {% include course_lesson_list.html lessons=page.lessons %}
 
 ## What this course covers

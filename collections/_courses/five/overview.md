@@ -10,7 +10,7 @@ lessons:
 
 # {{ page.title }}
 
-You've made it to the last set of lessons!
+You've made it to the last set of lessons! Do a little dance.
 
 {% include course_lesson_list.html lessons=page.lessons %}
 
