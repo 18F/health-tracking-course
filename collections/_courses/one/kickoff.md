@@ -12,25 +12,9 @@ dimension: ko1
 
 # {{ page.title }}
 
-<div class="grid-row grid-gap">
-    <div class="grid-col-8"> 
-    There's two ways you can get yourself pumped for this course. One is to listen to the intro material linked at right. You can do that here, or you can download the audio to a device of your choosing, and <b>go for a walk</b> while you listen.
-    </div>
-    <div class="grid-col-4">
-        <audio
-            controls
-            src="{{ '/audio/kickoff.mp3' | prepend: site.baseurl }}">
-                Your browser does not support the
-                <code>audio</code> element.
-        </audio>
-        <br>
-        <small>Intro music CC0 by <a href="https://loyaltyfreakmusic.com/about/">Rrrrrose/LoyaltyFreakMusic</a>.</small>
-    </div>
-</div>
+To get yourself into the course material, we recommend you give [the syllabus a read]({{ '/syllabus/' | prepend: site.baseurl }}) while listening to some tunes you enjoy. (Or in quiet. Whatever works best for you. We're fans of funk.)
 
-Another way to get yourself into the course material would be to [read the syllabus]({{ '/syllabus/' | prepend: site.baseurl }}) while listening to some tunes you enjoy. (Or in quiet. Whatever works best for you.)
-
-## What this course covers
+## What this first course covers
 
 This course will cover four dimensions of the Health Tracker, one for each primary indicator.
 

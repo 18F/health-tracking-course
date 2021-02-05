@@ -15,14 +15,13 @@ state:
 ---
 
 
-Team dynamics are tricky things. It can be hard to really get a handle on what's going on behind the flashy smiles and presentations that a team might roll out for your arrival. Since you're acting as an outside observer rather than a full-fledged member of the team, you're going to have to know what to look for and what questions to ask to get behind the veil and see how the team works. This lesson gives you a few frameworks to help your observations.  
+Team dynamics are tricky things. It can be hard to get past the flashy smiles and presentations that a team might roll out for your arrival. Since you're acting as an outside observer rather than a full-fledged member of the team, you're goinget behind the veil and see how the team works. This lesson gives you a few frameworks to help you in your questioning.  
 
-As you engage in your reading and viewing, **remember to make note of questions that you have about the material**.
-
+As you engage in your reading and viewing, **remember to make note of questions that you have about the material**. Perhaps more importantly, **think about questions you could ask a team to better understand their efforts and deliverables**.
 
 ## Conceptual: Team development (1h, solo)
 
-The teams for your state may have a lot of different divisions that have to work together. They also may be in various stages of development -- they could be just starting out, well on their way through the project, or wrapping up. Each of these phases in the project can affect how they work together as a team. It can be helpful to view the phases of team development through the five phases of Tuckman's model, a psychologist who studied group dynamics. He recognized that teams often don't hit the ground running, but rather go through a few different phases or stages as they move through the prohject. 
+The teams for your state may have a lot of different divisions that have to work together. Each team may be in various stages of development -- they could be just starting out, well on their way through the project, or wrapping up. Each of these phases in the project can affect how a team works together. It can be helpful to view the phases of team development through the five phases of Tuckman's model, a psychologist who studied group dynamics. He recognized that teams often don't hit the ground running, but rather go through a few different phases or stages as they move through the project. 
 
 The stages of Tuckman's model are:
 1. Forming
@@ -37,7 +36,7 @@ As you watch the video, think through some of your projects. This framework is g
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lu1WUe35QEs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-After watching, ask yourself what phase of development your projects are in. Make a list and name each one. How does their stage affect their work and progress? Make a note to share one or a couple of these examples for discussion with your group later. Leave space to write more in the next exercise.
+After watching, ask yourself what phase of development your projects are in. Make a list and name each one. How does their stage affect their work and progress? Make a note to share one of these examples with the group.
 
 ### Team dynamics (30m, solo)
 
@@ -54,15 +53,17 @@ As a quick summary, the AMA article says to look for:
 5. An effective leader
 6. A reward and accountability system for both individual team members and the entire team
 
-Again, think of your team's projects and where you see (or don't see) these things displayed. Make a note next to them where you had the Tuckman's stages. Be prepared to discuss this too!
+Again, think of your team's projects and where you see (or don't see) these things displayed. Make a note next to them where you had the Tuckman's stages. 
+
+As you think about your own project teams, consider that a team does not *necessarily* go through these phases. It typically takes good management and intentional mentoring of a team and its members to move from "storming" to open and empowered communications. Do you see that in your teams?
 
 ### Why is this important?
 
-These two models provide a framework to think through how your state's team relate to each other. They help answer questions like:
+These two models provide a framework to think through how your state's teams relate to each other. They help answer questions like:
 
-* Are they all aligned and working to the same goal? 
+* Are team members all aligned and working to the same goal? 
 * Do they talk to each other? 
-* Can they describe what the other one is doing in plain language? 
+* Can they describe what other team members are doing in plain language? 
 * Do they have a meeting or other regular check-in structure that keeps everyone informed (like stand-ups, weekly meetings, etc).
 
 But why is this important?  Generally,
@@ -70,7 +71,7 @@ But why is this important?  Generally,
 	- Communication is good
 	- It really does make a difference if a team likes each other and gets along. 
 
-As we're thinking through all of these, let's think through some direct qestions we can ask of these teams to get at things we may not be able to observe directly.
+As we're thinking through all of these, let's think through some direct questions we can ask of these teams to get at things we may not be able to observe directly.
 
 ## Questioning the team (30m, with a colleague)
 
@@ -95,11 +96,6 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 4. How does leadership talk to the teams? What sort of communication style and relationship do they seem to have? 
 5. Are team members acting autonomously or do they check in with leadership before doing most of their actions?
 6. How are team members held accountable or rewarded for their work? Do you see any signs of team member recognition, either positive or negative? 
-
-{% comment %}
-<!-- Already included. -->
-{% include shared-experience-prompt.html %}
-{% endcomment %}
 
 ## Discuss in Community (1h, group)
 
