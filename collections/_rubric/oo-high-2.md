@@ -3,7 +3,7 @@ layout: lesson
 title: Measuring and metrics
 dimension: oo1.2
 overview: |
-    Understanding outcomes involves measuring progress, which can be notoriously difficult with software development. Here, we explore what it means to assess progress, and whether a team can demonstrate progress against a set of reasonable metrics and baselines.
+    Understanding outcomes involves measuring progress, which can be notoriously difficult with software development. In this lesson, we explore what it means to assess progress, and whether a team can demonstrate progress against a set of reasonable metrics and baselines.
 metrics:
     - Cycle Time|time spent on each issue?
     - Release Cycle Time|time between releases?
@@ -52,13 +52,13 @@ At *some* level, measuring progress on a large, long-running software project is
 
 Given that, it means that is is a *huge* space for vendors and states to *claim* that progress is being made *even if progress is not being made*.
 
-This lesson looks at some frameworks for assessing the health of a program, and encourages you to develop a "questioning state of mind" when it comes to evaluating how states and vendors measure progress and success. 
+This lesson looks at some frameworks for assessing the health of a program and encourages you to develop a "questioning state of mind" when it comes to evaluating how states and vendors measure progress and success. 
 
-## Ordering: What Do You Think? (15m, solo)
+## Ordering: What do you think? (15m, solo)
 
 Jama Software has {% include link id="nbmtmstp" text="nine metrics that they think relate to software team speed and productivity" %}. We offer these as food for thought, and are not suggesting that they are "the best" or "the only" ways to think about software team productivity.
 
-Give the article a skim. Make sure to note questions you have about these metrics as you read; we have to admit, it's not a very... *verbose*... article. Then, come back, and re-order the metrics (by dragging-and-dropping) so that the metric that you think would tell you the **most** about a team's product quality is at the **top**, and the metric that you think would tell you the **least** is at the **bottom**.
+Give the article a skim. Make sure to note questions you have about these metrics as you read; we have to admit, it's not a very... *verbose*... article. Then come back and re-order the metrics (by dragging-and-dropping) so that the metric that you think would tell you the **most** about a team's product quality is at the **top** and the metric that you think would tell you the **least** is at the **bottom**.
 
 <script type="text/javascript" src="{{ '/assets/js/dragonfly.js' | prepend: site.baseurl }}"></script>
 <div class="drag-container">
@@ -72,7 +72,7 @@ Give the article a skim. Make sure to note questions you have about these metric
 
 Note your top two and bottom two in your notebook for later discussion, as well as *why* you thought these were the top two and bottom two.
 
-## Reading: What The Experts Say (30m, solo)
+## Reading: What the experts say (30m, solo)
 
 Stackify's blog has {% include link id="dlrbmfmsdp" text="an interesting set of interviews" %} with experts in software development and the management of software projects. 
 
@@ -123,7 +123,7 @@ Record your thoughts in your notebook. We're going to come back together to repo
 {% endcapture %}
 {% include alert level="no-icon" heading="Always Questioning" body=body %}
 
-## Viewing: Counterpoint on Measurement (45m, friend)
+## Viewing: Counterpoint on measurement (45m, small group)
 
 
 {% capture body %}
@@ -162,7 +162,7 @@ When you're done, spend 10 minutes making notes in your journal. Specifically, m
 
 {% include shared-experience-prompt.html %}
 
-## Discuss in Community (1h, group)
+## Discuss in community (1h, group)
 
 These questions are all meant to help you get at this one dimension of the rubric:
 
@@ -178,5 +178,5 @@ You can click on the timers below to help keep yourselves on track.
 4.  **RapidShare&trade; Sentence**: {% include countdowntimer minutes=8 %} Now, go around the group again. Use the template "My one-word summary was ____, and my one sentence summary would be ____," inserting your one word and one sentence in the template.
 5.  **Reflecting**. {% include countdowntimer minutes=2 %} Now, pause. For two minutes, make notes on your own. Specifically, brainstorm one, possibly two questions you might want to ask the group about the learning of this lesson in light of what everyone shared. Perhaps you want to probe deeper into one person's comments, or perhaps you have a larger/"big picture" question for the group against the overall backdrop. 
 6.  **Discuss**. {% include countdowntimer minutes=30 %} Let the conversation go where it does. Explore each-other's questions. Make sure everyone has a chance to join in the conversation, through questions and comments. If you have to, use {% include link id="dpoktra" text="cards or popsicle sticks" %} with everyone's name on them to make sure everyone takes part.
-7.  **Wrap Up**. {% include countdowntimer minutes=5 %}  
+7.  **Wrap up**. {% include countdowntimer minutes=5 %}  
 
