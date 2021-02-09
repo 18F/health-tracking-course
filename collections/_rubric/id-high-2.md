@@ -7,9 +7,10 @@ overview: |
 federal:
     - agilesoftwaredev
     - infraascode
-state:
-    - remotecollab
     - oversight
+state:
+    - usercentereddesign
+    - measuring
 ---
 
 
