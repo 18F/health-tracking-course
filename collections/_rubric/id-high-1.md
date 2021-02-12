@@ -53,6 +53,6 @@ Your conversation today may end up a little wide-ranging, but the question is th
 {% capture body %}
 What concrete steps can you take, as State Officers, to begin moving the needle on our projects from <b>memos</b> to <b>demos</b>?
 {% endcapture %}
-{% include alert level="no-icon" heading="Move The Needle" body=body %}
+{% include alert level="no-icon" heading="Move the needle" body=body %}
 
 When you're done, see if you can come up with a list of steps or ideas that you could share out with colleagues. 

@@ -68,74 +68,74 @@ federal:
     title: Oversight of Outcomes
     url: doing-the-work/#oversee-agile-projects-by-measuring-end-user-outcomes-instead-of-requiring-project-teams-to-perform-tasks-by-specific-dates
   postadmin:
-    title: Post-Award Contract Administration
+    title: Post-award contract administration
     url: doing-the-work/#post-award-contract-administration-looks-different-in-agile
   quaspmon:
-    title: QASP Monitoring Sprint-by-Sprint
+    title: QASP monitoring sprint-by-sprint
     url: doing-the-work/#monitor-conformance-with-the-qasp-at-the-end-of-every-sprint
 
 state:
   base: "state-field-guide/"
   usercentereddesign:
-    title: User Centered Design
+    title: User-centered design
     url: basic-principles/#user-centered-design
   agilesoftwaredev:
-    title: Agile Software Development
+    title: Agile software development
     url: basic-principles/#agile-software-development
   productownership:
-    title: Product Ownership
+    title: Product ownership
     url: basic-principles/#product-ownership
   devops:
     title: DevOps
     url: basic-principles/#devops
   building:
-    title: Building with Loosely Coupled Parts
+    title: Building with loosely coupled parts
     url: basic-principles/#building-with-loosely-coupled-parts
   modular:
-    title: Modular Contracting
+    title: Modular contracting
     url: basic-principles/#modular-contracting
   risk:
-    title: Thinking about Risk (in new ways)
+    title: Thinking about risk in a new way
     url: budgeting-tech/#think-about-risk-in-a-new-way
   servicesnotsoftware:
-    title: Procure Services, Not Software
+    title: Procure services, not software
     url: budgeting-tech/#procure-services-not-software
   bewarecustomized:
-    title: Beware Customized Commercial Software
+    title: Beware customized commercial software
     url: budgeting-tech/#beware-the-customized-commercial-software-trap
   demosnotmemos: 
-    title: Demos, Not Memos
+    title: Demos, not memos
     url: budgeting-tech/#require-demos-not-memos
   hireinhouse:
-    title: Hire in House
+    title: Hire in-house
     url: budgeting-tech/#hire-tech-talent-in-house
   costofchange:
-    title: Cost of Change
+    title: Cost of change
     url: budgeting-tech/#minimize-the-cost-of-change
   measuring:
-    title: Measure Success Iteratively
+    title: Measure success =iteratively
     url: budgeting-tech/#measure-success-based-on-iterative-outcomes-not-project-milestones
   limitspending:
-    title: Limit Total Spending
+    title: Limit total spending
     url: budgeting-tech/#limit-total-spending
   limitcontracts:
-    title: Limit Contract Sizes
+    title: Limit contract sizes
     url: budgeting-tech/#limit-contract-sizes
   fundsystems:
-    title: Fund Systems, Not Monoliths
+    title: Fund systems, not monoliths
     url: budgeting-tech/#fund-systems-not-monoliths
   expandpool:
-    title: Expand your Vendor Pool
+    title: Expand your vendor pool
     url: budgeting-tech/#expand-your-vendor-pool
   sharesoftware:
-    title: Share your Software
+    title: Share your software
     url: budgeting-tech/#share-your-software
   operationalexpense:
-    title: Budget Software as an Operational Expense
+    title: Budget software as an operational expense
     url: budgeting-tech/#budget-for-software-as-an-operational-expense
   asktechnical:
-    title: Ask Technical Questions
+    title: Ask technical questions
     url: budgeting-tech/#ask-technical-questions-of-agencies
   questionstoask:
-    title: Questions to Ask
+    title: Questions to ask
     url: questions-to-ask/
