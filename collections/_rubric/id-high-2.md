@@ -1,9 +1,9 @@
 ---
 layout: lesson
-title: Consider the User
+title: Consider the user
 dimension: id1.2
 overview: |
-    Testing is a sometimes misunderstood and, yet, critical aspect of a long-lived software project. This is especially true if you are trying to produce high-quality software in an iterative manner. This lesson will speak to the role that actual users play in the ongoing testing of a major software project.
+    Testing is a sometimes misunderstood, yet critical aspect of a long-lived software project. This is especially true if you are trying to produce high-quality software in an iterative manner. This lesson will speak to the role that actual users play in the ongoing testing of a major software project.
 federal:
     - agilesoftwaredev
     - infraascode
@@ -16,25 +16,25 @@ state:
 
 If something is hard or frustrating to use, it just won’t get used the way we intend or at all. Without careful thought and planning, it’s easy for a development team to get caught up in hitting goals or milestones of the software without considering the needs of the people who use it.
 
-If we create a piece of software or new feature and only stop to get feedback when all the work of making it is done, the entire effort might be wasted if it’s not useful to the intended audience. That’s why it’s important to check in with users at the beginning, middle, and end of the development process so that their feedback can steer the work toward a great product for them. Ideally, the user input should be as continuous as possible, and so this row in the Rubric  is a top priority in the iterative development process.
+If we create a piece of software or new feature and only stop to get feedback when all the work of making it is done, the entire effort might be wasted if it’s not useful to the intended audience. That’s why it’s important to check in with users at the beginning, middle, and end of the development process so that their feedback can steer the work toward a great product for them. Ideally, the user input should be as continuous as possible, and so this row in the Rubric is a top priority in the iterative development process.
 
 ## Consider the end user (5m, solo)
 
 **Timer**: {% include countdowntimer minutes=5 %} 
 
-First, let’s consider the end user -- the person who uses the product or software that we’re building. Who are they? What type of person are they? What are their needs and how does what you’re building solve them? To capture these questions, user experience (UX) designers create “personas” that sort of act like characters in the story of making the software. This centers the user at the start of the development process and helps keep who you’re building for in focus throughout the process.
+First, let’s consider the end user &mdash; the person who uses the product or software that we’re building. Who are they? What type of person are they? What are their needs and how does what you’re building solve them? To capture these questions, user experience (UX) designers create “personas” that sort of act like characters in the story of making the software. This centers the user at the start of the development process and helps keep who you’re building for in focus throughout the process.
 
 You may have heard terms like user-centered design, human-centered design, or UX. These all refer to part of this process of centering the end user and their experience with the software.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UahMFILt304" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
-{% include link id="hcdin60" text="This short video" attr="duration" %} helps illustrate this process and shows that its a cycle&mdash;it doesn’t just mean asking users for feedback once and being done with it. Designing for humans means continually checking in as features come to life, testing with real people, gathering their feedback, and making changes to do it all again to get the most useful product for them at the end.
+{% include link id="hcdin60" text="This short video" attr="duration" %} helps illustrate this process and shows that it's a cycle &mdash; it doesn’t just mean asking users for feedback once and being done with it. Designing for humans means continually checking in as features come to life, testing with real people, gathering their feedback, and making changes to do it all again to get the most useful product for them at the end.
 
 ## Reflect (30m, solo)
 
 **Timer**: {% include countdowntimer minutes=30 %} 
 
-Let's take a short moment to write down some notes about the topics in the video. Empathy isn't something you usually hear about in software development, but it's an important tool in building something that works for users.
+Let's take a short moment to write down some notes about the topics in the video. Empathy may not be something you usually hear about in software development, but it's an important tool in building something that works for users.
 
 {% capture body %}
 <p>
@@ -60,7 +60,7 @@ Let's take a short moment to write down some notes about the topics in the video
 
 ### Questions
 
-1. The video explores four phases of HCD (above). Where have you seen this cycle in our own state's projects?
+1. The video explores four phases of HCD (above). Where have you seen this cycle in your own state's projects?
 2. The video shows a text-to-speech failure. What are other examples of times when users' needs were not considered in projects?
 3. At which point in the process do you think that empathy is the most critical?
 4. How do you know when enough iterations are done with user testing, feedback, and implementation? 
@@ -69,7 +69,7 @@ When reflecting on these questions, it may be useful to think of situations in y
 
 ## Viewing: Designing for people, not problems (20m, video)
 
-Here we're going to go a little deeper into human-centered design with two videos. Watch these two videos and at the end we'll answer a few more questions.
+Here we're going to go a little deeper into human-centered design with two videos. Watch these two videos &mdash; at the end we'll answer a few more questions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0bxtEqM2TQU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -77,22 +77,24 @@ Here we're going to go a little deeper into human-centered design with two video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rmM0kRf8Dbk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% capture body %}
+
 <p>
     Human-centered design:
 </p>
 <ul>
     <li>
-        Tests assumptions&mdash;what users say often surprise you! 
+        Tests assumptions &mdash; what users say often surprise you! 
     </li>
     <li>
-        Cuts waste&mdash;instead of building something and having it fail spectacularly, you invest a bit of time in a prototype and get feedback on those results
+        Cuts waste &mdash; instead of building something and having it fail spectacularly, you invest a bit of time in a prototype and get feedback on those results
     </li>
     <li>
         Helps an approach with questions, instead of solutions
     </li>
 </ul>
+
 {% endcapture%}
-{% include alert level="no-icon" heading="Always Questioning" %}
+{% include alert level="no-icon" heading="Always questioning" %}
 
 
 ### Questions
