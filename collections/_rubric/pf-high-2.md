@@ -21,7 +21,7 @@ There are two things that are important to keep in mind about the assurance of q
 
 <div class="grid-row grid-gap">
     <div class="grid-col-8"> 
-    This lesson's material is a conversation between Randy Hart and Matt Jadud. In this 30m conversation, we explore what a QASP (Quality Assurance Surveillance Plan) is and why a plan that accounts for change and agility matters in the context of government contracting. A full transcript is (with a few "ums," "ahs," and flubs removed) is provided below, if you'd rather read the conversation.
+    This lesson's material is a conversation between Randy Hart and Matt Jadud. In this 30 minute conversation, we explore what a QASP (Quality Assurance Surveillance Plan) is and why a plan that accounts for change and agility matters in the context of government contracting. A full transcript is (with a few "ums," "ahs," and flubs removed) is provided below, if you'd rather read the conversation.
     </div>
     <div class="grid-col-4">
         <audio
@@ -96,13 +96,13 @@ The process of listening actively takes time. You can listen closely on a first 
 | Matt | I think that's a great spot to end. Randy, I want to say thank you. We recorded this on a Thursday, October 29th, 2020. You're coming to us live from (Randy: Fredericksburg, Virginia). And, to hear you tell it, it's one of the best places on earth. I'm recording here out of Lewiston, Maine. Again, thank you so much.|
 | Randy | I enjoyed it.|
 
-## Discuss In Community (1h, group)
+## Discuss in community (1h, group)
 
 You will need someone to volunteer to take some notes. Whomever was born after (but closest to) January 20th should be the note taker today.
 
 1.  **Check in**. {% include countdowntimer minutes=5 %} While people are arriving, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
 2.  **Centering**. {% include countdowntimer minutes=3 %} We jump from meeting-to-meeting and there's nothing healthy about that. You will get more from the next hour if you're *here*. A simple breathing exercise (breathe in on 4, hold 4, exhale 4, hold 4) is a good way to clear your mind and body. {% include link id="ccb" text="There's lots of resources online" attr="duration" %} regarding simple centering exercises that you could investigate and use at the start of group conversation.
 3.  **Focus**. {% include countdowntimer minutes=1 %} Take one minute to identify one or two insights this conversation led you to. Make a note or two in your notebook so you can be focused when you share out. 
-4.  **The Seven Dimensions**. {% include countdowntimer minutes=30 %} As a group, first share out which dimension(s) you found to be most interesting in your reflections. Then, after you share out which dimensions of the QASP inspired thought, go back around and take a minute or two each (round-robin) to share *why* that dimension triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
+4.  **The seven dimensions**. {% include countdowntimer minutes=30 %} As a group, first share out which dimension(s) you found to be most interesting in your reflections. Then, after you share out which dimensions of the QASP inspired thought, go back around and take a minute or two each (round-robin) to share *why* that dimension triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
 5.  **Transformation**. {% include countdowntimer minutes=15 %} Were there themes that you saw emerge from your insights? Commonalities across projects? Identify what you saw as a group. Then (and more importantly), do you have any thoughts about your process with states, and how you might transform your process so as to improve outcomes? The note taker should try and capture the group's thoughts regarding themes and process transformation for sharing back out to the group/community.
 
