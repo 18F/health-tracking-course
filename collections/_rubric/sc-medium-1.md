@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: All The managements
+title: All the managements
 dimension: sc2.1
 overview: |
    A successful software project will have many people involved and those people will generally play different roles. In this lesson, we explore the kinds of management we might see in a long-running software project and how people in those roles can contribute (or take away from) the success of a project.
