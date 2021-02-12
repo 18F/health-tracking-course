@@ -94,8 +94,7 @@ Here we're going to go a little deeper into human-centered design with two video
 </ul>
 
 {% endcapture%}
-{% include alert level="no-icon" heading="Always questioning" %}
-
+{% include alert level="no-icon" heading="Always questioning" body=body %}
 
 ### Questions
 
