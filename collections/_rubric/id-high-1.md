@@ -1,9 +1,9 @@
 ---
 layout: lesson
-title: "Demos not Memos"
+title: "Demos not memos"
 dimension: id1.1
 overview: |
-    The most important thing you can have in a project are demos. That is, working software. If someone gives you a report about a piece of software, the software probably doesn't work. (Ask me how I know.) If someone shows you a video of a piece of software, the software may have worked once. (Ask me how I know.) If someone shows you a piece of software, but they control it, the software barely works. (Ask me how I know.) If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+    The most important thing you can have in a project are demos, meaning working software. If someone gives you a report about a piece of software, the software probably doesn't work (ask me how I know). If someone shows you a video of a piece of software, the software may have worked once (ask me how I know). If someone shows you a piece of software, but they control it, the software barely works (ask me how I know). If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
 federal:
     - building
     - constantfeedback
@@ -14,13 +14,13 @@ state:
 ---
 ## Reflection (10m, solo)
 
-You've seen a lot of projects over your time. You've seen successful projects, and unsuccessful projects.
+You've seen a lot of projects over your time. You've seen successful projects and unsuccessful projects.
 
-When it comes to how the software was developed, did the vendor share the work in progress? Did the state get to see incremental improvements step-by-step? Or was the software developed in the dark, with reports written on schedule (such *beautiful* reports), and then when the deadline came for delivery, there were problems? 
+When it comes to how the software was developed, did the vendor share the work in progress? Did the state get to see incremental improvements step-by-step? Or was the software developed in the dark with *beautiful* reports written on schedule, but when the deadline came for delivery, there were problems? 
 
 In your journal, make some notes about the projects you've seen, focusing on how the software was discovered.
 
-## Six Rules (25m, solo)
+## Six rules (25m, solo)
 
 This video is from February 26, 2020. Waldo Jaquith (then 18F) testified to the Michigan Senate Appropriations Committee on how 18F recommends appropriation of funds for software projects. This is the whole 18F guide in roughly 15 minutes.
 
@@ -30,7 +30,7 @@ As part of this, Waldo talks about "demos not memos." However, all six recommend
 
 If you like having something to read and refer back to, you can also have a look at the {% include link id="demosnotmemos" text="demos not memos portion" %} of the de-risking custom technology projects handbook that Robin, Randy, and Waldo wrote in 2019. It's around 4-5 paragraphs.
 
-## Reflection (30m, friend)
+## Reflection (30m, small group)
 
 Grab a coffee with a friend.
 
@@ -38,12 +38,11 @@ Well, a co-worker.
 
 But... hopefully, a co-worker who is a friend.
 
-Instead of solo writing in your journal after watching this video, talk with a colleague about how you do (or do not) have visibility into software delivery on the projects you're overseeing. What do you see as opportunities in the space of "demos not memos?" What do you see as challenges? 
+Instead of solo writing in your journal after watching this video, talk with a colleague or a few colleagues together about how you do (or do not) have visibility into software delivery on the projects you're overseeing. What do you see as opportunities in the space of "demos not memos?" What do you see as challenges? 
 
-If you can, try and brainstorm together some ideas about how you, as a State Officer, can start to nudge the system so that, instead of long-running, memo-laden software development processes, you start to see actual software being developed as part of your health tracking process.
+If you can, try and brainstorm together some ideas about how you, as a State Officer, can start to nudge the system so that instead of long-running, memo-laden software development processes, you start to see actual software being developed as part of your health tracking process.
 
-{% include shared-experience-prompt.html %}
-## Discussion: No Memos (1h, group)
+## Discussion: No memos (1h, group)
 
 It's such a simple phrase: **demos not memos**.
 
