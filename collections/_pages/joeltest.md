@@ -4,7 +4,7 @@ layout: widepage
 permalink: /questioning/
 ---
 
-# Asking Questions of Software Project Teams
+# Asking questions of software project teams
 
 Long ago, during the era of *blogs*, there was a program manager at Microsoft named Joel. He came up with a test. Actually, at the time he came up with the test, he may have already left Microsoft and founded Frog Creek Software. The details of Joel's life and his business dealings are not critical to the story.
 
@@ -27,7 +27,7 @@ Joel wrote a test. More than 20 years later, people still talk about the "Joel T
 
 This list has been updated over the years. This article will talk you through the test, and explain (briefly) why each is critical. If your states and vendors can't pass the Joel Test, the project is probably in trouble.
 
-## 1. Do You Use Source Control?
+## 1. Do you use source control?
 
 You may have heard of [Github](https://github.com/). It is a company that stores source code for people. That's it. It's... like MySpace, but for code. Programmers can put their code there, and others can look at it, download it, comment on it, and suggest improvements. 
 
@@ -133,7 +133,7 @@ We might want to ask two or three other questions, instead.
 
 If the team is developing a plan at the start of an epic, and new code is going to be written, then the best thing they can do is write tests for that code before they write the code itself. Why?
 
-#### An Example: Multiplication instead of Addition
+#### An example: Multiplication instead of addition
 
 Imagine you are writing a piece of code that adds two numbers. You might write this:
 
@@ -166,7 +166,7 @@ Zero multipled by zero is zero. Zero added to zero is zero. So, if the developer
 
 However, we wrote enough tests to demonstrate both 1) our understanding of the code we're trying to write as well as 2) to catch errors in our implementation. If we change the `*` to a `+`, the code will now run correctly.
 
-#### Wrapping Up the Example
+#### Wrapping up the example
 
 The moral of this story: a team that writes tests before they write code is demonstrating, *in code*, that they understand what their code is supposed to do. And, those tests become part of the code, so if a future developer makes changes, the tests will make sure that everything *still* works correctly.
 
@@ -206,7 +206,7 @@ There's a lot more to say about the modern design and testing of software. {% in
 
 Fundamentally, if the state and vendor have a 1) clearly articulated process to 2) involve real users 3) on an ongoing basis, then they're in a pretty good place. From there, it's a question of how well the feedback from those tests are rolled back into the development process. 
 
-# In Conclusion
+# In conclusion
 
 The {% include link id="statefieldguide" %} portion of the {% include link id="deriskingguide" %} recommends that you [ask technical questions](https://derisking-guide.18f.gov/state-field-guide/#ask-technical-questions-of-agencies). 
 
