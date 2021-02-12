@@ -116,12 +116,12 @@ Think about projects in your own state. Where are they getting this right or wro
 Think if they include in their plans for the projects:
 - User research&mdash;like surveys, testing, or interviews with users
 - Evaluation&mdash;compiling data from actual users, via web traffic, tests, or surveys and interviews
-- Feedback&mdash;Using evidence from their users to make revisions to their tool based on evidence and user feedback
+- Feedback&mdash;using evidence from their users to make revisions to their tool based on evidence and user feedback
 
 Pick a couple of examples of this in your state’s current projects&mdash;maybe one that looked good and one that didn’t. We’ll discuss these when we gather as a group.
 
 {% include shared-experience-prompt.html %}
-## Discuss in Community (1h, group)
+## Discuss in community (1h, group)
 
 Come together with your colleagues for a conversation.
 
