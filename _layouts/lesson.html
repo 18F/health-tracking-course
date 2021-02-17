@@ -5,8 +5,11 @@ layout: widepage
 <h1> {{ page.title }} </h1>
 
 {% for dim in page.dimension %}
+    {% include indicator slug=lesson.id %}
     {% include rubric dimension=dim %}
 {% endfor %}
+
+
 
 <h2>What's this about?</h2>
 
