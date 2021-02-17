@@ -12,13 +12,13 @@ layout: widepage
 </style>    
 
 <h1> {{ page.title }} </h1>
+<br>
 
 {% for dim in page.dimension %}
 <span class="courseslug" style="background: #1d3557;">
-    <br>
     {% include indicator slug=dim %}
-    <br>
 </span>
+<br>
     {% include rubric dimension=dim %}
 {% endfor %}
 
