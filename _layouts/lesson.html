@@ -1,11 +1,22 @@
 ---
 layout: widepage
 ---
+style>
+    .courseslug {
+        color: white; 
+        padding-left: 1em; 
+        padding-right: 1em;
+        padding-top: 0.2em; 
+        padding-bottom: 0.2em; 
+    }
+</style>    
 
 <h1> {{ page.title }} </h1>
 
 {% for dim in page.dimension %}
+<span class="courseslug" style="background: {{ color }};">
     {% include indicator slug=dim %}
+</span>
     {% include rubric dimension=dim %}
 {% endfor %}
 
