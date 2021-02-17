@@ -15,7 +15,9 @@ layout: widepage
 
 {% for dim in page.dimension %}
 <span class="courseslug" style="background: #1d3557;">
+    <br>
     {% include indicator slug=dim %}
+    <br>
 </span>
     {% include rubric dimension=dim %}
 {% endfor %}
