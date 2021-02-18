@@ -86,9 +86,9 @@ The process of listening actively takes time. You can listen closely on a first 
 | Matt | Thank you. This was great. |
 | Heather | Thank you so much. I’m really excited that I was able to join you for this. |
 
-## Bonus viewing: Screen Readers (5m, solo)
+## Bonus viewing: Screen readers (5m, solo)
 
-If you're curious and want to see a screen reader in action, this 5-minute video gives a good overview of how its used and issues that can crop up.
+If you're curious and want to see a screen reader in action, this 5-minute video gives a good overview of how it's used and issues that can crop up.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dEbl5jvLKGQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
