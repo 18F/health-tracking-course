@@ -6,7 +6,6 @@ lessons:
     - sc2.1
     - pf1.2
     - id1.2
-    - id1.3-course2
     - id2.2
     - ro2
 ---
