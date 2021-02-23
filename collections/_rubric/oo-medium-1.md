@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: User Outcomes
+title: User outcomes
 dimension: oo2.1
 overview: |
    In this lesson, we’ll shift our focus from considering user experience as an testing metric to considering user experience as an outcome. We’ll learn why it’s just as important to think about users at the beginning of a project as it is throughout the project’s development. We'll also discuss accessibility concerns and how to ensure that what we're building is as inclusive as possible.
@@ -16,7 +16,7 @@ state:
 
 
 
-When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/id-high-2/" | prepend: site.baseurl }}), we saw user experience as iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. 
+When we learned about user experience in the iterative development primary indicator lesson [Consider the User]({{ "/rubric/id-high-2/" | prepend: site.baseurl }}), we saw user experience as iterative, meaning that user input is called on repeatedly throughout the process of testing and developing a software project. In this lesson, we explore how that user input factors into what the team builds.
 
 
 ## Mapping users to outcomes (15m, solo)
@@ -43,7 +43,7 @@ After you read this, go back to your notes on your projects. Have you seen any o
 
 **Timer**: {% include countdowntimer minutes=45 %} 
 
-Once you get the ball rolling on a software project, it can be easy to get caught up in hitting project milestones without starting from a place where users want or need them. To avoid this, a team will start out with considering the user at the beginning of the development process. Usually a UX designer or someone with a similar title does this work of investigating user needs, but a person doing this work doesn't necessarily need to have that particular title.
+Once you get the ball rolling on a software project, it can be easy to get caught up in hitting project milestones without starting from a place where users want or need them. To avoid this, a team will start out with considering the user at the beginning of the development process. Usually a UX designer or someone with a similar title does this work of investigating user needs, but someone doing this work doesn't necessarily need to have "UX" in their title.
 
 There are a few tools of the trade that may help you recognize this process:
 
@@ -67,11 +67,11 @@ Watch the video below as Anissa Deanna gives us a glimpse into this process and 
 </pre>
 
 <p>
-<i>Epics</i> are bigger, goal-orientated statements about the feature. Broken down into little user stories to get more specific.
+<i>Epics</i> are bigger, goal-oriented statements about the feature. These are broken down into little user stories to get more specific.
 </p>
 
 <p>
-Personas are the characters in the user stories who have a goal that is solved by your software tool.
+<i>Personas</i> are the characters in the user stories. They have a goal that is solved by your software tool.
 </p>
 {% endcapture %}
 {% include alert level="no-icon" heading="Take Note" body=body %}
