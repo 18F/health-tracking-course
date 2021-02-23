@@ -86,7 +86,7 @@ To close out this lesson, come together with your learning cohort.
 If it helps, feel free to choose questions to ask from the two guides mentioned earlier: [Asking Questions of Software Project Teams]({{ "/questioning/" | prepend: site.baseurl }}) and {% include link id="atqoa" text="Asking Technical Questions of Agencies" %} 
 4. **Debrief I**. {% include countdowntimer minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
    * For the SOs: What questions were particularly useful? What words/behaviors did you note from the state team members that were encouraging or inspired confidence? 
-   * For the State Team Members: How did getting into the state's head shape your thinking about how the state may explain projects to you? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
+   * For the State team members: How did getting into the state's head shape your thinking about how the state may explain projects to you? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?
 5. **Wrap**. {% include countdowntimer minutes=5 %} Take a moment, before leaving, to share what your favorite moments were from the learning activity. Go around the group, and offer one kudo to your roleplay partner---something they did that you thought was particularly wonderful, fun, or insightful. 
 
 

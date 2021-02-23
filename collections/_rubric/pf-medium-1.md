@@ -1,9 +1,9 @@
 ---
 layout: lesson
-title: "Managing Data"
+title: "Managing data"
 dimension: pf2.1
 overview: |
-    Data is big business. Many contractors have learned that if they build a system that "locks in" the government, they not only "own" the data (potentially tying the government to them as a vendor in-perpetuity), but the data itself becomes a valuable commodity to be resold on the open market. Neither of these outcomes (necessarily) serves the people.
+    Data is big business. Many contractors have learned that if they build a system that "locks in" the government, they not only "own" the data (potentially tying the government to them as a vendor in perpetuity), but the data itself becomes a valuable commodity to be resold on the open market. Neither of these outcomes necessarily serves the people.
 federal:
     - modular
     - agilecontractformat
@@ -16,7 +16,7 @@ state:
     - operationalexpense
 ---
 
-## An Experiment in Data Access (40m, solo)
+## An experiment in data access (40m, solo)
 
 **Timer**: {% include countdowntimer minutes=20 %} 
 
@@ -26,11 +26,11 @@ You may be famliar with [Trello](https://trello.com/), a tool for organizing ide
 
 [https://trello.com/b/WGQ0ZGKe/bucket-list](https://trello.com/b/WGQ0ZGKe/bucket-list)
 
-Now, imagine that Trello is a case management system being used by a state to manage benefits for the people of your state. The lists and cards are no longer capturing the desire to start a blog, but instead holding critical PII and information about people who have real, life-critical needs. The software was developed by a vendor, for a state, and that vendor has failed time-and-again to develop robust, usable software that meets the needs of the people. The state would like to extract the data from the system, and work with a new vendor who is committed to demonstrating excellence as measured by this rubric and the Health Tracker. 
+Now, imagine that Trello is a case management system being used by a state to manage benefits for the people of your state. The lists and cards are no longer capturing the desire to start a blog, but instead holding critical PII and information about people who have real, life-critical needs. The software was developed by a vendor for a state, and that vendor has failed time-and-again to develop robust, usable software that meets the needs of the people. The state would like to extract the data from the system, and work with a new vendor who is committed to demonstrating excellence as measured by this rubric and the Health Tracker. 
 
 **How hard is it to extract the data from Trello?**
 
-### The JSON View
+### The JSON view
 
 It turns out that we can change the URL just a *tiny* bit, and get a "data-centric" view of the Trello board.
 
@@ -40,11 +40,11 @@ We removed the name of the board, and replaced it with `.json`. Try clicking thi
 
 **YOU BROKE IT!**
 
-Just kidding. What you're looking at is JSON, or the JavaScript Object Notation format. It is probably not how a MES system would export data, but it is a common interchange format for small amounts of data on the internet. Trello makes it possible to quickly and easily see the underlying data that is used to create a board.
+Just kidding. What you're looking at is JSON (JavaScript Object Notation) format. It is probably not how a MES system would export data, but it is a common interchange format for small amounts of data on the internet. Trello makes it possible to quickly and easily see the underlying data that is used to create a board.
 
 This also means that we can write code that interacts with that data.
 
-### Listing the Lists
+### Listing the lists
 
 Given the JSON format, it is possible to 1) fetch it, 2) manipulate it, and 3) do stuff with it. We wrote a small demonstration app as part of this tutorial to show you how this works.
 
@@ -80,7 +80,7 @@ Given the JSON format, it is possible to 1) fetch it, 2) manipulate it, and 3) d
 
 You can use the "bucket list" board as an example, but you should also try looking at some other [public Trello boards](https://maybevaibhav.medium.com/best-35-trello-boards-for-you-to-see-and-get-inspired-6bf28b565616) to find out what kind of results you get.
 
-### How Did We Do That?
+### How did we do that?
 
 As "web applications" go, this was relatively straight-forward.
 
@@ -94,7 +94,7 @@ As "web applications" go, this was relatively straight-forward.
 
 There is no testing, minimal validation, and really, you should be unsurprised if it fails. It's a demo that we put together to make an educational point, not robust enterprise software intended for consumption by millions of people.
 
-### Why Did We Do That?
+### Why did we do that?
 
 This all ways to demonstrate one critical point:
 
@@ -102,21 +102,21 @@ This all ways to demonstrate one critical point:
 
 Let's break that down a bit further, though. What is true about the data stored in Trello?
 
-1. **Easily Accessible**. The data stored in a Trello board can be accessed simply by changing a URL.
-2. **Standard Formats**. The data in a Trello board is stored in an industry-standard format.
-3. **Simple Extraction API**. The data in a Trello board can be extracted with a simple HTTP-based API (Application Programmer Interface) request.
-4. **Open, Standard Tooling**. The languages and tools required to access and manipulate the data are free and open. Further, they are exceedingly common. (In this case, Javascript. We could have also used Python, Java, C, C++... really, *any* programming language.)
-5. **Well Documented**. To do this, we used documentation that was easily found on the internet. Most of the documentation needed was actually [standard docs for Javascript](https://developer.mozilla.org/en-US/docs/Web) provided by Mozilla. In other words, we were checking our knowledge of Javascript, not any special features of Trello.
-6. **Self-Documenting**. The data extracted from Trello was *self-documenting*. That means we could look at the data, and it was immediately apparent what that data represented. No additional documentation or questions to the vendor (in this case, Atlassian) were necessary.
-7. **One-Click Extraction**. It is essentially possible to extract data from Trello with a "single click." We could easily write a script that, given a collection of Trello boards, could extract (and store, backup, migrate, or otherwise manipulate) all of the data in all of the boards.
+1. **Easily accessible**. The data stored in a Trello board can be accessed simply by changing a URL.
+2. **Standard formats**. The data in a Trello board is stored in an industry-standard format.
+3. **Simple extraction API**. The data in a Trello board can be extracted with a simple HTTP-based API (Application Programmer Interface) request.
+4. **Open, standard tooling**. The languages and tools required to access and manipulate the data are free and open. Further, they are exceedingly common. (In this case, Javascript. We could have also used Python, Java, C, C++... really, *any* programming language.)
+5. **Well-documented**. To do this, we used documentation that was easily found on the internet. Most of the documentation needed was actually [standard docs for Javascript](https://developer.mozilla.org/en-US/docs/Web) provided by Mozilla. In other words, we were checking our knowledge of Javascript, not any special features of Trello.
+6. **Self-documenting**. The data extracted from Trello was *self-documenting*. That means we could look at the data, and it was immediately apparent what that data represented. No additional documentation or questions to the vendor (in this case, Atlassian) were necessary.
+7. **One-click extraction**. It is essentially possible to extract data from Trello with a "single click." We could easily write a script that, given a collection of Trello boards, could extract (and store, backup, migrate, or otherwise manipulate) all of the data in all of the boards.
  
-## Data in your State (40m, solo)
+## Data in your state (40m, solo)
 
 **Timer**: {% include countdowntimer minutes=30 %} 
 
-In the section above, you were introduced to Trello, a web-based tool for organizing data into lists and cards. It is widely used by software and product management teams for organizing the work that takes place on software projects. We then wrote a short web application that 1) accesses a Trello board and 2) counts the cards in each of the lists, 3) presenting that data back to you, the end-user.
+In the section above, you were introduced to Trello, a web-based tool for organizing data into lists and cards. It is widely used by software and product management teams for organizing the work that takes place on software projects. We then wrote a short web application that 1) accesses a Trello board and 2) counts the cards in each of the lists, 3) presents that data back to you, the end-user.
 
-Now, think about the systems that your state is paying for year-over-year. In your notebook, ask (and answer) these questions:
+Now think about the systems that your state is paying for year-over-year. In your notebook, ask (and answer) these questions:
 
 1. Is the data in your state's systems easily accessible?
 2. Is the data in your state's systems stored using open-source software (e.g. MariaDB or PostgreSQL as a database vs. a product from Oracle)? 
@@ -137,7 +137,7 @@ A state who has answers to all of these questions, and (in particular) can extra
 <!-- The previous lesson spills into this one, so we remove the shared experience prompt. -->
 {% include shared-experience-prompt.html %}
 {% endcomment%}
-## Vendor Lock-In (1h, group)
+## Vendor lock-in (1h, group)
 
 Come together with your colleagues for a conversation.
 
@@ -154,10 +154,10 @@ In your group conversation, you fundamentally have two questions to explore:
 
 For #2 and #3, below, you'll want someone to take notes. Whomever has a birthday closest to Veteran's Day (after, not before) is encouraged to step up.
 
-1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
 2.  **Catalog**. {% include countdowntimer minutes=10 %} The first question asked above asks us how data might be "locked away" from a state. As a group, catalog the ways you see your states' health data locked away from them. In the event that you feel a state is *not* "locked in," share that, and why. Your goal is to come up with a catalog of the ways you see your states constrained (or not) by their vendors.
 3.  **Deconstruct**.  {% include countdowntimer minutes=25 %} Once you have a catalog, start working through it. As a group, think about the second question posed above: how could you, given where you sit, help states "break free?" What would be the ideal situation for states when it comes to their health data? How can you help them get there?
-4. **Reflect and Vote**.  {% include countdowntimer minutes=5 %} Take a pause from your conversation, and let the notetaker reflect back what you've said so far. Assuming you have multiple strategies, each of you should pick *two* that you think are of potential interest to explore further. Spend your **+1**s, and after voting, see which two ideas have the most votes. 
+4. **Reflect and vote**.  {% include countdowntimer minutes=5 %} Take a pause from your conversation, and let the notetaker reflect back what you've said so far. Assuming you have multiple strategies, each of you should pick *two* that you think are of potential interest to explore further. Spend your **+1**s, and after voting, see which two ideas have the most votes. 
 
 At your next full team meeting, the note taker should share out a brief summary of your conversation, and highlight the two ideas/strategies for "freeing" state data with the rest of the group. Our hope is that this will be the beginning of a conversational space for potential work amongst the larger group to shift data management/ownership practices.
 
