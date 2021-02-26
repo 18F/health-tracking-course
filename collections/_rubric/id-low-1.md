@@ -1,9 +1,9 @@
 ---
 layout: lesson
-title: "Selecting Open Source"
+title: "Selecting open source"
 dimension: id3.1
 overview: |
-    Open source software is software for which the code is freely available. That is, the "source" is "open." Systems built for the state with taxpayer dollars, so states should own and have access to the software they have paid for. This lesson is about how decisions are made in selecting software systems and provides examples of free and open software that you might keep your eyes open for.
+    Open source software is software for which the code is freely available, meaning that the code or the "source" is "open". Systems are built for the state with taxpayer dollars, so states should own and have access to the software they have paid for. This lesson is about how decisions are made in selecting software systems and provides examples of free and open software that you might keep your eyes open for.
 federal:
     - agilesoftwaredev
     - productownership
@@ -16,29 +16,29 @@ state:
     - limitspending
 ---
 
-## What is Open Source? (5m, solo)
+## What is open source? (5m, solo)
 
-This is a deceivingly complex question, and one with a rich history in the space of technology, law, and politics. Some of the complexity is necessary in our case, because we deal with people and money, and despite the amount of money involved, we get law and politics *for free*! (We, the authors of this content, are neither lawyers nor politicians. You are forewarned.)
+This is a deceivingly complex question and one with a rich history in the space of technology, law, and politics. Some of the complexity is necessary in our case, because we deal with people and money. Despite the amount of money involved, we get law and politics *for free* (We, the authors of this content, are neither lawyers nor politicians. You are forewarned.)!
 
-Let's start with a 5m video.
+Let's start with a 5-minute video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a8fHgx9mE5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is an overview, and provides context. We don't anticipate that you will need to make a lot of notes here, but you might jot down words that sound like good vocabulary to have and words/phrases/concepts that you might want to follow up on and ask questions about later.
+This is an overview to provide context. We don't anticipate that you will need to make a lot of notes here, but you might jot down words that sound like good vocabulary to have and phrases or concepts that you might want to follow up on and ask questions about later.
 
-## The Politics of Open Source (30m solo, 30m pair)
+## The politics of open source (30m solo, 30m pair)
 
 Did we mention law and politics? 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ag1AKIl_2GM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a video of Richard Stallman speaking on open source software at a TEDx event in Geneva in 2014. Stallman is considered both a founding and a divisive figure in the world of free and open software; he certainly is clear and unabashed in his views and opinions. By sharing Stallman's talk with you, we are not advocating his positions so much as... challenging you with them. 
+This is a video of Richard Stallman speaking on open source software at a TEDx event in Geneva in 2014. Stallman is considered both a founding and a divisive figure in the world of free and open software &mdash; he certainly is clear and unabashed in his views and opinions. By sharing Stallman's talk with you, we are not advocating his positions so much as... challenging you with them. 
 
 Put another way: he unapologetically believes firmly in truly free and open access to *everything* in his technology.
 
 {% include countdowntimer minutes=30 %}
 
-Find a partner, and find a 30m block of time that the two of you can get together to watch and chat.
+Find a partner and find a 30m block of time that the two of you can get together to watch and chat.
 
 1. Initial impressions?
 2. What things did Stallman say that you found yourself agreeing with? Disagreeing with?
@@ -97,7 +97,7 @@ There are many things that could happen with this content. It could be repackage
 
 Or it might be that SOs at CMS are the only people to ever use this content. That would be wonderful, because that is who this content was developed for. But it is important to note that the work belongs to you (and the rest of the world) and no one can take it away from you.
 
-## A Smattering of Open (10m, solo)
+## A smattering of open (10m, solo)
 
 There are many open tools in many spaces. We're going to close this unit by highlighting a few so that you are aware of the breadth and depth of open software and what the implications are for different market segments (and the work that you do) when states are considering technologies for their IT implementations.
 
