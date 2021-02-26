@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: "Owning Strategy and Outcomes"
+title: "Owning strategy and outcomes"
 dimension: pf3.1
 overview: |
     What happens when you lose ownership of your mission? In this conversation, Princess Ojiaku and Nikki Lee talk about the challenges of driving towards desired outcomes and the ownership of strategy and mission in Medicare and Medicaid IT projects. 
@@ -16,7 +16,7 @@ state:
     - operationalexpense
 ---
 
-## Active Listening: A Conversation on Owning Strategy (~1h, solo)
+## Active listening: A conversation on owning strategy (~1h, solo)
 
 <div class="grid-row grid-gap">
     <div class="grid-col-8"> 
@@ -77,12 +77,12 @@ The process of listening actively takes time. You can listen closely on a first 
 
 {% include shared-experience-prompt.html %}
 
-## Discuss In Community (1h, group)
+## Discuss in community (1h, group)
 
 You will need someone to volunteer to take some notes. Whomever was born after (but closest to) January 20th should be the note taker today.
 
 1.  **Check in**. {% include countdowntimer minutes=5 %} While people are arriving, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
 2.  **Centering**. {% include countdowntimer minutes=3 %} We jump from meeting-to-meeting and there's nothing healthy about that. You will get more from the next hour if you're *here*. A simple breathing exercise (breathe in on 4, hold 4, exhale 4, hold 4) is a good way to clear your mind and body. {% include link id="ccb" text="There's lots of resources online" attr="duration" %} regarding simple centering exercises that you could investigate and use at the start of group conversation.
 3.  **Focus**. {% include countdowntimer minutes=1 %} Take one minute to identify one or two insights this conversation led you to. Make a note or two in your notebook so you can be focused when you share out. 
-4.  **States and Vendors**. {% include countdowntimer minutes=30 %} As a group, first share out which aspects of the conversation you found to be most interesting in your reflections. Then, after you share out which dimensions of vendor management inspired reflection on your professional practice, go back around and take a minute or two each (round-robin) to share *why* those ideas triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
+4.  **States and vendors**. {% include countdowntimer minutes=30 %} As a group, first share out which aspects of the conversation you found to be most interesting in your reflections. Then, after you share out which dimensions of vendor management inspired reflection on your professional practice, go back around and take a minute or two each (round-robin) to share *why* those ideas triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
 5.  **Transformation**. {% include countdowntimer minutes=15 %} Were there themes that you saw emerge from your insights? Commonalities across projects? Identify what you saw as a group. Then (and more importantly), do you have any thoughts about your process with states, and how you might transform your process so as to improve outcomes? The note taker should try and capture the group's thoughts regarding themes and process transformation for sharing back out to the group/community.
