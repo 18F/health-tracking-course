@@ -97,7 +97,7 @@ Pick one of the projects you wrote down earlier. Now, with a colleague, roleplay
 5. Are team members acting autonomously or do they check in with leadership before doing most of their actions?
 6. How are team members held accountable or rewarded for their work? Do you see any signs of team member recognition, either positive or negative? 
 
-## Discuss in Community (1h, group)
+## Discuss in community (1h, group)
 
 Come together with your colleagues for a conversation.
 
