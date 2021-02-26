@@ -81,7 +81,7 @@ This series of changes might take weeks to months, depending on how large and co
 
 All of these tests should allow the software team to have the live (production) system, the new system under test (staging, and the ability to syncronize/test both at the same time. Depending on the size and complexity of the system, they should then be able to move to a {% include link id="bluegreen" text="blue/green configuration" %}. This means they have two versions of the system side-by-side. If the switch to the new version doesn't work for some reason, it is possible to point things back to the original version and figure out what went wrong.
 
-### Incremental Migration: In Summary
+### Incremental Migration: In summary
 
 **This is a lot of detail, yet it still glosses over a great deal.** The important thing to remember here is that an incremental migration isn't necessarily small or simple. However, it does mean that the system is always available, and always improving. You, as the State Officer, M.D., should be on the lookout for situations where a state or vendor is claiming a system will need to be offline for several days, or that a change will take more funds, or months, or any number of things that suggest that the data and system are not being tested and managed in a way that allow for incremental change (More questions of this sort will come at the end of this lesson).
 
@@ -140,7 +140,7 @@ Because these questions are getting specific, we will include a *why* with each.
 
 1.  **Check in**. {% include countdowntimer minutes=5 %} First, check in with each other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
 2.  **Understand**. {% include countdowntimer minutes=20 %} Next, take some time to discuss points where you were confused or questioned your material. You might make a point of leveraging your small group conversation here and focusing your questions on things related to the projects you are responsible for.
-3.  **Reflecting**. {% include countdowntimer minutes=20 %} Data, and the complexity it represents, may be one of the defining challenges of our lives. These are just a handful of questions that might serve to start your conversation as a group. 
+3.  **Reflecting**. {% include countdowntimer minutes=20 %} Data, and the complexity it represents, may be one of the defining challenges of our lives. Here's a handful of questions that might serve to start your conversation as a group: 
    - What data is your state (and therefore, possibly the vendors) collecting? 
    - How is it being used? 
    - Do the states (or the US government) have access to the data it paid for? Or are we in the position of re-buying the data we already paid to collect? 
