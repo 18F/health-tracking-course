@@ -1,7 +1,9 @@
 ---
 layout: lesson
 title: "Data: The database"
-dimension: id1.3
+dimension: 
+  - id1.3
+  - id1.3-course3a
 overview: |
     An application involves both data and processes that operate over that data. Without the data, the application is nothing. As a result, how that data is organized, where it is stored, and who controls it all become critical questions in the lifecycle of a long-running software project. 
 federal:
@@ -42,24 +44,24 @@ Now that we have visions of LEGO people dancing in our heads, lets imagine we're
   * Ages
 * ...
 
-The challenge for the vendor and state is what happens to this data when it's time to update the application. There's any number of common, but painful, changes that often need to be made, but vendors will claim it is 1) too difficult or 2) to expensive to change. Consider these three examples:
+The challenge for the vendor and state is what happens to this data when it's time to update the application. There's any number of common but painful changes that often need to be made, but vendors will claim it's too difficult or to expensive to change. Consider these three examples:
 
 1. Many database systems in the US use a first, middle, and last name. This naming convention completely fails to acknowledge how people are named around the world. {% include link id="sntrad" text="Spanish naming traditions" %} might include the forename *María* or *José*, or even *José María* as a **single** forename. *José María Álvarez del Manzano y López del Hierro* has a compound forename, and two compound surnames (*Álvarez del Manzano* and *López del Hierro*). 
 2. Not everyone has a fore and surname. A colleague in the NHS wrote an article for the BMJ titled {% include link id="thesurname" text="The surname I do not have" %}. "My name (one and only name) is Radhika. Until I got married, I was called M Radhika." However, many database systems are written so that it is impossible to leave either the forename or surname blank.  
 3. {% include link id="nantrad" text="Native American naming traditions" %} do not map directly onto a first/middle/last name. Pause and consider what it means for a federally funded system to continue, in the 21st century, to continue to disrespect and demean the lives of Native Americans.
  
-**It is important to build systems that honor and respect human beings as individuals**. It takes intentionality and effort, but it can, and should, be done. A system that is incapable of honoring and respecting a person's name is unlikely to support them as human beings throughout a benefits application process (for example). And, a vendor or state that does not see that this is a problem, or claims their systems cannot be updated to capture these realities, is likely in need of substantial support and education.
+**It is important to build systems that honor and respect human beings as individuals**. It takes intentionality and effort, but it can, and should, be done. A system that is incapable of honoring and respecting a person's name is unlikely to support them as human beings throughout a benefits application process (for example). And a vendor or state that does not see that this is a problem, or claims their systems cannot be updated to capture these realities, is likely in need of substantial support and education.
 
-It is true that changing something as fundamental as a name can be invasive and require changes throughout a piece of software. However, if it was well written from the start, then changes to the data and the interface will be manageable, tests will be executed to verify the correctness of the changes, and life will go on. Poorly written systems will fail in horrific ways. This is likely a space where vendors will insist on massive, multi-year contracts to do the work... and a place where states should begin to rethink their contracting practices.
+It is true that changing something as fundamental as a name can be invasive and require changes throughout a piece of software. However, if it was well written from the start, then changes to the data and the interface will be manageable, tests will be executed to verify the correctness of the changes, and life will go on. Poorly written systems will fail in horrific ways. This is likely a space where vendors will insist on massive, multi-year contracts to do the work and a place where states should begin to rethink their contracting practices.
 
-## Questions about Databases (10m, solo)
+## Questions about databases (10m, solo)
 
 This contextualized example regarding names might help you appreciate the complexity of the data that is being managed by our systems. Unfortunately, if this data is organized and managed poorly, it becomes an excuse for lock-in. "Lock-in," in this case, can stem from intentional choices, or it can be the result of poor data management over a long period of time. Your job, as State Officer, M.D., is to begin asking questions and helping guide your state to a place where this data is *not* managed poorly. Instead, we want data that is well-organized, stored in free and open source systems, and managed such that we can backup, migrate, and manage the data in reliable and repeatable ways.
 
 The following questions begin to get at the heart of some of the challenges that large, complex information systems might have. There is definitely more you could ask, but these might serve as a starting point for conversation regarding data and the work that needs to be done to represent data as a living, changing thing.
 
 * Who "owns" the systems where the data is stored? The state, or the vendor? (Note: in a cloud context, "owns" might mean that they are using an Amazon cloud service, but the state has full control and access.)
-* Who manages the systems where the data is stored? The state, or the vendor?
+* Who manages the systems where the data is stored? The state or the vendor?
   * Here, we mean "does the state have the technical capacity to manage the database services?"
 * How are the databases in the state's systems backed up?
 * Are backups tested regularly? How often?
@@ -73,7 +75,7 @@ The following questions begin to get at the heart of some of the challenges that
 
 This second set of questions will make people nervous, and very, *very* likely to uncover some very, *very* disturbing truths about the systems in place.
 
-## Pause and Reflect (20m, solo)
+## Pause and reflect (20m, solo)
 
 This is the first of two lessons on data and databases. Before proceeding, pause. 
 
