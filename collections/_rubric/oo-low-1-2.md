@@ -1,6 +1,6 @@
 ---
 layout: lesson
-title: "Everbody's priorities"
+title: "Everybody's priorities"
 dimension:
     - oo3.1
     - oo3.2
