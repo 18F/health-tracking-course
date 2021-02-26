@@ -1,9 +1,7 @@
 ---
 layout: lesson
-title: "Data: The Database"
-dimension: 
-  - id1.3
-  - id1.3-course3a
+title: "Data: The database"
+dimension: id1.3-course3a
 overview: |
     An application involves data, and processes that operate over that data. Without the data, the application is nothing. As a result, how that data is organized, where it is stored, and who controls it all become critical questions in the lifecycle of a long-running software project. 
 federal:
