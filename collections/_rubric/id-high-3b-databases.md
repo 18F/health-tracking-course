@@ -1,9 +1,9 @@
 ---
 layout: lesson
 title: "Data: The database"
-dimension: id1.3-course3a
+dimension: id1.3
 overview: |
-    An application involves data, and processes that operate over that data. Without the data, the application is nothing. As a result, how that data is organized, where it is stored, and who controls it all become critical questions in the lifecycle of a long-running software project. 
+    An application involves both data and processes that operate over that data. Without the data, the application is nothing. As a result, how that data is organized, where it is stored, and who controls it all become critical questions in the lifecycle of a long-running software project. 
 federal:
     - agilesoftwaredev
     - empoweredowner
@@ -17,18 +17,19 @@ state:
 
 ## Databases (20m, solo)
 
-A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. In the databases that state systems use, there will likely be text (names, phone numbers, etc.) and possibly some images (scans of identification, paperwork). The important question, though, is less *what kind* of data is in a state's databases, and more *how is it organized*. Ultimately, our questions will lead us to the space of *how movable is that data*, but not quite yet...
-### The LEGO Database
+A database organizes data. Databases can contain words, numbers, images... really, any kind of digital data. In the databases that state systems use, there will likely be text (names, phone numbers, etc.) and possibly some images (scans of identification, paperwork). The important question is less *what kind* of data is in a state's databases and more *how is it organized*. Ultimately, our questions will lead us to the space of *how movable is that data*...
 
-To get a quick overview of what a database is, and how it is used, sit back, channel your inner child, and revisit the world of LEGO. Danielle Thé provides a concise overview of databases and SQL (pronounced "see-quell"), the ur-language of databases... and she does it with LEGO, in 4 minutes. 
+### The LEGO database
+
+To get a quick overview of what a database is and how it is used, sit back, channel your inner child, and revisit the world of LEGO. Danielle Thé provides a concise overview of databases and SQL (pronounced "see-quell"), the language of databases. She does it with LEGO in 4 minutes. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/27axs9dO7AE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Although short, it may be worth taking notes on terminology and the metaphors used here. If you're working with states and vendors, and they can't break down how their data is stored and organized in a simple, clear way, *there are problems*. 
+Although short, it may be worth taking notes on terminology and the metaphors used here. If you're working with states and vendors and they can't break down how their data is stored and organized in a simple, clear way, *there are problems*. 
 
-### Data, in CMS Terms
+### Data, in CMS terms
 
-Now that we have visions of LEGO people dancing in our heads, lets imagine we're building a case management system for SNAP. It is, essentially, going to be an interface on top of a database system. We're going to need to keep track of a lot of information:
+Now that we have visions of LEGO people dancing in our heads, lets imagine we're building a case management system for SNAP. Essentially, it's an interface on top of a database system. We're going to need to keep track of a lot of information:
 
 * People's names
 * SSNs
@@ -41,7 +42,7 @@ Now that we have visions of LEGO people dancing in our heads, lets imagine we're
   * Ages
 * ...
 
-The challenge for the vendor and state is what happens to this data when it is time to update the application? There's any number of common, but painful, changes that often need to be made, but vendors will claim it is 1) too difficult or 2) to expensive to change. Consider these three examples:
+The challenge for the vendor and state is what happens to this data when it's time to update the application. There's any number of common, but painful, changes that often need to be made, but vendors will claim it is 1) too difficult or 2) to expensive to change. Consider these three examples:
 
 1. Many database systems in the US use a first, middle, and last name. This naming convention completely fails to acknowledge how people are named around the world. {% include link id="sntrad" text="Spanish naming traditions" %} might include the forename *María* or *José*, or even *José María* as a **single** forename. *José María Álvarez del Manzano y López del Hierro* has a compound forename, and two compound surnames (*Álvarez del Manzano* and *López del Hierro*). 
 2. Not everyone has a fore and surname. A colleague in the NHS wrote an article for the BMJ titled {% include link id="thesurname" text="The surname I do not have" %}. "My name (one and only name) is Radhika. Until I got married, I was called M Radhika." However, many database systems are written so that it is impossible to leave either the forename or surname blank.  
