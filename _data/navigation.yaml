@@ -29,6 +29,8 @@ primary_navigation:
           url: /resources/
     - name: About
       children:
+        - name: About the site
+          url: /admin/about/
         - name: Learning cohorts
           url: /admin/learningcohorts/
 
