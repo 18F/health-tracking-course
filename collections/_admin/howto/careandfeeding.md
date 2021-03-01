@@ -146,6 +146,14 @@ The `/_rubric/` folder contains all of lesson pages on the site.
 
 All images, audio, CSS, and Javascript for the site live here.
 
+## How to link internally (to other pages on the site)
+
+you'll have to add {{ `| prepend: site.baseurl` }}to your Markdown links to link to internally on the site.
+
+Example from oo-low-1-2.md (linking to another lesson):
+
+[One of the top priorities in the outcomes orientation primary indicator is the roadmap]({{ "/rubric/oo-high-1/" | prepend: site.baseurl }})
+
 ## LICENSE
 
 Our work, as employees of the federal government, is free for all. Any future contributions should be made under the same license. This includes individuals as well as vendors; all contributions, edits, etc. will become CC0/public domain upon offering.
