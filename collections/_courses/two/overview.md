@@ -4,6 +4,7 @@ title: Course two overview
 lessons:
     - oo1.2
     - sc2.1
+    - ck2
     - pf1.2
     - id1.2
     - id2.2
