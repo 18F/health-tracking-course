@@ -24,6 +24,17 @@ The final three lessons of course two concern vendor contracts, user testing, an
 
 1. Take a minute to write out what you wish you knew about one of your state's projects that you can't necessarily tell from the materials they give you. Maybe you want to know that their next release will work as described or that they'll be able to launch without a major failure. 
 2. Think about some common artifacts you get from your state about their products &mdash; maybe they give you their roadmaps, for example. then take a minute to write out things you wish you got from them -- maybe you wish you knew more about their relationship with their vendor, so you wish you had more time to help them navigate the selection and contracting process.
-3.  Try to think about these wishes and artifacts independently of any time constraints you have on your work now. 
+3. Try to think about these wishes and artifacts independently of any time constraints you have on your work now. 
 4. Write all of these examples down and bring them to the group meeting to discuss.
+
+## Discuss in community (1h, group)
+
+Meet to discuss your solo notes. 
+
+1.  **Check in**. {% include countdowntimer minutes=5 %} While people are arriving, check in with each-other. How is everyone doing? Take a moment to share something positive from the week, either at work or at home.
+2.  **Centering**. {% include countdowntimer minutes=3 %} We jump from meeting-to-meeting and there's nothing healthy about that. You will get more from the next hour if you're *here*. A simple breathing exercise (breathe in on 4, hold 4, exhale 4, hold 4) is a good way to clear your mind and body. {% include link id="ccb" text="There's lots of resources online" attr="duration" %} regarding simple centering exercises that you could investigate and use at the start of group conversation.
+3.  **Focus**. {% include countdowntimer minutes=1 %} Take one minute to identify one or two insights from the solo activity you'd like to share. 
+4.  **Share out**. {% include countdowntimer minutes=30 %} As a group, first share out the examples and artifacts you found to be most interesting in your reflections. Then, go back around and take a minute or two each (round-robin) to share *why* those ideas triggered insight. This should take roughly 30 minutes total, and try and create space for everyone to share out.
+5.  **Transformation**. {% include countdowntimer minutes=15 %} Were there themes that you saw emerge from your insights? Commonalities across projects? Identify what you saw as a group. Then (and more importantly), do you have any thoughts about your process with states, and how you might transform your process so as to improve outcomes? The note taker should try and capture the group's thoughts regarding themes and process transformation for sharing back out to the group/community.
+
 
