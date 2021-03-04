@@ -21,9 +21,10 @@ This section walks you through the site's main directories, just in case you nee
 
 In the `/_data/` folder are three critical YAML files which operate like data storage units.
 
-* `fieldguide.yaml` controls the links to the [18F De-risking guide](https://derisking-guide.18f.gov/). Tags from this file link to specific pages from the guide. To include a page, the appropriate tag is placed in the lesson page header and built using the derisking.html [include](#_includes).
+* `fieldguide.yaml` controls the links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). Tags from this file link to specific pages from the guide. To include a page, the appropriate tag is placed in the lesson page header and built using the derisking.html [include](#_includes).
 * `navigation.yaml` builds the drop-down menus at the top of every page. Editing this file will let you add or remove menu links.
-* `resources.yaml` is a list of all the resources used throughout the courses. There is an "include" (more on this below) that we then use to pull data out of this file. Think of this as a "link database."
+* `resources.yaml` is a list of all the resources used throughout the courses. There is an [include](#_includes) that we then use to pull data out of this file. Think of this as a "link database."
+    * For example, in the oo-high-1.md lesson, you'll see `({% include link id="capreu" %})`. This tells us that the link is tagged with the id (`uid`) "capreu" in `resources.yaml`. You can find the link that appears under this tag, "Creating Agile Product Roadmaps Everyone Understands" in this yaml file. To add new resources, you'd need an `uid` and title, author, and url.
 * `rubric.yaml` builds the Health Rubric rows/dimensions. It is used everywhere rubric dimensions are rendered.
     * Pay attention to the `id:` row &mdash; this reappears when referencing the lessons in the course overview pages.
 
@@ -36,12 +37,12 @@ In the `/_data/` folder are three critical YAML files which operate like data st
 * `countdowntimer` is used throughout the lessons to create the cute Javascript countdown timers.
 * `course_lesson_list` generates the list of lessons for a course overview page.
 * `course_lesson_summaries` then embeds the summaries from each rubric lesson and the dimension rows themselves. Used on course overview pages.
-* `derisking` embeds relevant links to the [18F De-risking guide](https://derisking-guide.18f.gov/). The links are controlled by header tags in the lesson pages under "federal" and "state". The specific tags and associated pages are stored in `fieldguide.yaml` in [data](#_data).
+* `derisking` embeds relevant links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). The links are controlled by header tags in the lesson pages under "federal" and "state". The specific tags and associated pages are stored in `fieldguide.yaml` in [data](#_data).
 * `indicator` is used in the course content overview.
 * `link` is used to reach into `resources.yaml` and extract links. This is used everywhere. Change cautiously.
-* `resources` is used to render out sections of the resources page.
+* `resources` is used to render out sections of the resources page. This probably won't need editing in the future unless it is somehow malfunctioning.
 * `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator (`id:`) in the `rubric.yaml` file that lives in [data](#_data).
-* `shared-experience-prompt.html` is the text of the small group prompt that appears in lessons throughout the site.
+* `shared-experience-prompt` is the text of the small group prompt that appears in lessons throughout the site.
 
 You'll see references to these includes in the body of those pages like so:
 
@@ -69,14 +70,14 @@ These are the templates or basic elements that control different catergories of 
     * Lesson page title
     * Rubric dimension row
     * Table of contents/lesson outline
-    * Derisking Guide links
+    * De-risking Guide links
     * Airtable feedback form  
     
     Changing the order or content of the [includes](#_includes) in `lesson.html` will change these elements for every lesson page on the site.
 
 ## /collections/
 
-There are three Jekyll collections in this site that are housed in the `/collections/` folder. 
+There are four Jekyll collections ( `_admin`, `_courses`, `_pages`, `_rubric`)in this site that are housed in the `/collections/` folder. 
 
 **Most of what you'll need to edit content on the site is housed here.**
 
@@ -123,7 +124,9 @@ Body of `overview.md`:
 
 ### /collections/_pages/
 
- The `/_pages/` folder holds other static pages on the site. For example, the Joel Test content and Agile practices overview are both examples of static pages.
+ The `/_pages/` folder holds other static pages on the site. The Agile practices overview (`agile.md`) is an example of a static page.
+
+In this folder, `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [data](#_data) to populate the list on the resources pags and the rubric rows.
 
 ### /collections/_rubric/
 
