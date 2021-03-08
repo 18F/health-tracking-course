@@ -5,7 +5,7 @@ title: Care and feeding
 
 The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for future content maintenance, content editing, and new content creation needs.
 
-{% include toc.html html=content h_max=2 %}
+{% include toc.html %}
 
 # About the site
 
