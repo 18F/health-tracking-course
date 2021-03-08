@@ -3,18 +3,18 @@ layout: widepage
 title: Care and feeding
 --- 
 
-The State Officer, M.D. (SOMD) site will need some care and feeding over time. This document shows where site elements are housed for future content maintenance, content editing, and new content creation needs.
+This document shows how to maintain the State Officer, M.D. (SOMD) site. Listed below details how to manage site elements for future content addition, maintenance, editing.
 
 {% include toc.html %}
 
 # About the site
 
 ## How it's built
-The entire site is [a Jekyll site](https://jekyllrb.com/). This is a commonly-used open source framework for generating static websites. If you are not familiar with Jekyll, welcome! The Jekyll site is a great place to learn more and googling for most anything regarding jekyll will turn up lots of resources.
+The entire site run on [Jekyll](https://jekyllrb.com/). Jekyll is a commonly-used open source framework for generating static websites. The Jekyll site is a great place to learn more, but a quick interner search for most anything regarding jekyll will turn up lots of resources.
 
 ## How to edit the site
 
-Most of what you'll need to edit the site is in the `/collections/` folder. This section walks you through how to find what you need to edit and how to edit it.
+Most of what you'll need to edit the site is in the `/collections/` folder.
 
 ### Editing site pages (`/_collections/`)
 
@@ -24,11 +24,11 @@ In the `/_collections/` folder, there are four Jekyll collections ( _admin, _cou
 
 The /_courses/ folder has one subfolder for each course on the site (one - five). In each subfolder, you'll find an `overview.md` file which is the course overview page. These pages consist of a short description and a link to the lesson pages.
 
-You'll need to edit `overview.md` to change what's on a course overview page.
+Edit `overview.md` to change what's on a course overview page.
 
 ##### Changing the lessons that appear on the course page
 
-To change the lessons that appear on the course page, you'll have to edit the *header* in the `overview.md` for that course.
+To change the lessons that appear on the course page, edit the *header* in the `overview.md` for that course.
 
 For example, if I wanted to edit which lessons appear in course 2, I would navigate to `/collection/_courses/two/overview.md` and find this in the header of the file:
 ~~~
@@ -65,7 +65,7 @@ To edit a lesson, look for its markdown file in the `/_rubric/` folder.
 ##### Lesson headers
 
 * `dimension:`
-    * Each lesson has one or more rows/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubric page, `oo-high-1.md` is tagged with `oo1.1`.
+    * Each lesson has one or more rows/dimensions of the rubric associated with it. Lesson pages are tagged with corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubric page, `oo-high-1.md` is tagged with `oo1.1`.
     * These id tags are in the header of the lesson pages. So if you went to the header for `oo-high-1.md`, you'd find `dimension: oo1.1` that links it throughout the site.
     * For example, in the header of the lesson page `id-high-1.md` (pasted below), you'll see the tag `dimension: id1.1`. This `id1.1` corresponds to its id in `/_data/rubric.yaml`. You'd add this same id to the course page if you wanted this lesson to appear there.
 * `overview:`
@@ -109,7 +109,7 @@ state:
 * `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [/_data/](#_data) to populate the list on the resources pages and the Health Rubric pages.
 
 #### Creating links
-To link internally (to other pages on the site), you'll have to add {{ `| prepend: site.baseurl` }} to your Markdown links to link to internally on the site.
+To link internally (to other pages on the site), add {{ `| prepend: site.baseurl` }} to your Markdown links.
 
 Example from oo-low-1-2.md (this example links to another lesson, oo-high-1.md):
 
@@ -167,7 +167,7 @@ Changing the order or content of the [includes](#_includes) in `lesson.html` wil
 
 ## Site structure 
 
-This section walks you through the site's main directories, just in case you need to find something for an edit. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
+This section walks you through the site's main directories. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
 
 ### /_data/
 
