@@ -17,7 +17,7 @@ The entire site is [a Jekyll site](https://jekyllrb.com/). This is a commonly-us
 
 This section walks you through the site's main directories, just in case you need to find something for an edit. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
 
-## /_data/
+### /_data/
 
 In the `/_data/` folder are three critical YAML files which operate like data storage units.
 
@@ -28,7 +28,7 @@ In the `/_data/` folder are three critical YAML files which operate like data st
 * `rubric.yaml` builds the Health Rubric rows/dimensions. It is used everywhere rubric dimensions are rendered.
     * Pay attention to the `id:` row &mdash; this reappears when referencing the lessons in the course overview pages.
 
-## /_includes/
+### /_includes/
 
 "Includes" define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. 
 * `airtable-post` and `airtable-pre` generate the includes for linking to the Airtable pre-content and post-learning surveys.
@@ -61,7 +61,7 @@ You'll see references to these includes in the body of those pages like so:
 
 Changing any of these will change content all over the site. Be careful when doing so.
 
-## /_layouts/
+### /_layouts/
 
 These are the templates or basic elements that control different catergories of pages on the site. Content is flowed into these categories. Changing these can change the look and feel of the entire site. We've highlighted the most relevant ones below.
 
@@ -75,26 +75,26 @@ These are the templates or basic elements that control different catergories of 
     
     Changing the order or content of the [includes](#_includes) in `lesson.html` will change these elements for every lesson page on the site.
 
-## /collections/
+### /collections/
 
 There are four Jekyll collections ( `_admin`, `_courses`, `_pages`, `_rubric`)in this site that are housed in the `/collections/` folder. 
 
 **Most of what you'll need to edit content on the site is housed here.**
 
- ### /collections/_admin/
+ #### /collections/_admin/
 
 This folder houses information about the course and the website itself.
 
  * `learningcohorts.md` is the rationale behind the learning cohort and the course.
  * `/howto/careandfeeding.md` is the document you're reading right now!
 
-### /collections/_courses/ 
+#### /collections/_courses/ 
 
 The `/_courses/` folder has one subfolder for each course on the site (one - five). In each subfolder, you'll find an `overview.md` file which is the course overview page. This pages consist of a short description and a link to the lesson pages. 
 
 **Edit `overview.md` to change what's on the course overview pages.**
 
-#### Editing a course page (overview.md)
+##### Editing a course page (overview.md)
 
 Header of `overview.md`:
 
@@ -122,19 +122,19 @@ Body of `overview.md`:
  * contains "includes" that pull from the `_includes` folder to build lesson lists and summaries on the page
  * has text on the page for each course overview blurb
 
-### /collections/_pages/
+#### /collections/_pages/
 
  The `/_pages/` folder holds other static pages on the site. The Agile practices overview (`agile.md`) is an example of a static page.
 
 In this folder, `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [data](#_data) to populate the list on the resources pags and the rubric rows.
 
-### /collections/_rubric/
+#### /collections/_rubric/
 
 The `/_rubric/` folder contains all of lesson pages on the site. 
 
 **If you need to edit a lesson, you'd look for its markdown file in the `/_rubric/` folder.**
 
-#### Naming and numbering convention for lesson pages
+##### Naming and numbering convention for lesson pages
 
  * Each lesson page has a markdown file named with the Rubric primary indicator, priority level, and position in the full Rubric.
     * For example, the very first row of the Health Rubric is part of the "outcomes orientation" (oo) primary indicator, marked as "top priority," (high) and is the first (1) top priority row. So the lesson page for this row is named `oo-high-1.md`
@@ -154,11 +154,11 @@ The `/_rubric/` folder contains all of lesson pages on the site.
 
     ~~~
 
-## /assets/
+### /assets/
 
 All images, audio, CSS, and Javascript for the site live here.
 
-## How to link internally (to other pages on the site)
+### How to link internally (to other pages on the site)
 
 you'll have to add {{ `| prepend: site.baseurl` }} to your Markdown links to link to internally on the site.
 
