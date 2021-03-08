@@ -50,7 +50,7 @@ You can also make up your own tags if you want a certain course to appear on the
 
 Under the header, the body of `overview.md`has text on the page for each course overview blurb and contains "includes" that pull from the `_includes` folder to build lesson lists, rubric rows, and lesson summaries on the page. 
 
-#### Lesson pages
+#### Lesson pages (`/_rubric/`)
 
 The `/_rubric/` folder contains all of lesson pages on the site. 
 
@@ -63,33 +63,51 @@ To edit a lesson, look for its markdown file in the `/_rubric/` folder.
     * The numbering restarts by primary indicator, then by priority level. So for 2 rows in the state capacity primary indicator that are medium priority, the files are `sc-medium-1.md` and `sc-medium-2.md`
 
 ##### Lesson headers
-* Each lesson has one or more rows/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubric page, `oo-high-1.md` is tagged with `oo1.1`.
+
+* `dimension:`
+    * Each lesson has one or more rows/dimensions of the rubric associated with it, so each lesson page is tagged with the corresponding `id:` for the rubric dimension found in `/_data/rubric.yaml`. This links them to the main rubric page and allows you to pull them into lesson and course pages. For example, if you go to the main Rubric page, `oo-high-1.md` is tagged with `oo1.1`.
     * These id tags are in the header of the lesson pages. So if you went to the header for `oo-high-1.md`, you'd find `dimension: oo1.1` that links it throughout the site.
-    
     * For example, in the header of the lesson page `id-high-1.md` (pasted below), you'll see the tag `dimension: id1.1`. This `id1.1` corresponds to its id in `/_data/rubric.yaml`. You'd add this same id to the course page if you wanted this lesson to appear there.
-* Lesson page headers contain an `overview:` that is used to generate the summaries on course pages via the [includes](#_includes).
+* `overview:`
+    * Lesson page headers contain an `overview:` that is used to generate the summaries on course pages via the [includes](#_includes).
 
-* The `federal:` and `state:` tags in the header control the links to the [18F De-risking Guide](https://derisking-guide.18f.gov/) sections that appear at the bottom of the lesson. To include a page from the De-risking guide, the appropriate tag is placed in the lesson page header and built using [/_data/](#_data) from `fieldguide.yaml` and the derisking.html [include](#_includes).
+* `federal:` & `state:`
+    * The `federal:` and `state:` tags in the header control the links to the [18F De-risking Guide](https://derisking-guide.18f.gov/) sections that appear at the bottom of the lesson. 
+    * To include a page from the De-risking guide, the appropriate tag is placed in the lesson page header and built using [/_data/](#_data) from `fieldguide.yaml` and the derisking.html [include](#_includes).
 
-    ~~~
+~~~
 
-    layout: lesson
-    title: "Demos not memos"
-    dimension: id1.1
-    overview: |
-        The most important thing you can have in a project are demos, meaning working software. If someone gives you a report about a piece of software, the software probably doesn't work (ask me how I know). If someone shows you a video of a piece of software, the software may have worked once (ask me how I know). If someone shows you a piece of software, but they control it, the software barely works (ask me how I know). If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
-    federal:
-        - building
-        - constantfeedback
-        - infraascode
-        - quaspmon
-    state: 
-        - demosnotmemos
+layout: lesson
+title: "Demos not memos"
+dimension: id1.1
+overview: |
+    The most important thing you can have in a project are demos, meaning working software. If someone gives you a report about a piece of software, the software probably doesn't work (ask me how I know). If someone shows you a video of a piece of software, the software may have worked once (ask me how I know). If someone shows you a piece of software, but they control it, the software barely works (ask me how I know). If someone lets you use a piece of software, they have confidence. It might work, it might break, but they have confidence.
+federal:
+    - building
+    - constantfeedback
+    - infraascode
+    - quaspmon
+state: 
+    - demosnotmemos
 
-    ~~~
+~~~
     
+#### Static pages  (`/_admin/`) & (`/_pages/`)
 
-#### Static pages
+ The `/_admin/` folder houses information about the course and the website itself.
+
+ * `about.md` is the course about page.
+ * `coursefacilitation.md` is outlines how to faciliate the course.
+ * `learningcohorts.md` is the rationale behind the learning cohort and the course.
+ * `/howto/careandfeeding.md` is the document you're reading right now!
+ 
+ The `/_pages/` folder holds other static pages on the site. 
+ 
+* `agile.md` is an agile practices overview.
+* `joeltest.md` is the "Asking questions of software project teams" page.
+* `syllabus.md` is the course syllabus.
+* `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [/_data/](#_data) to populate the list on the resources pages and the Health Rubric pages.
+
 
 #### Creating links
 To link internally (to other pages on the site), you'll have to add {{ `| prepend: site.baseurl` }} to your Markdown links to link to internally on the site.
