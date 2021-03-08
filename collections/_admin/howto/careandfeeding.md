@@ -14,9 +14,9 @@ The entire site is [a Jekyll site](https://jekyllrb.com/). This is a commonly-us
 
 ## How to edit the site
 
-In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
+Most of what you'll need to edit the site is in the `/collections/` folder. This section walks you through how to find what you need to edit and how to edit it.
 
-### Editing site pages 
+### Editing site pages (`/_collections/`)
 
 In the `/_collections/` folder, there are four Jekyll collections ( _admin, _courses, _pages, _rubric) that house the site's pages in Markdown files.
 
@@ -108,7 +108,6 @@ state:
 * `syllabus.md` is the course syllabus.
 * `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [/_data/](#_data) to populate the list on the resources pages and the Health Rubric pages.
 
-
 #### Creating links
 To link internally (to other pages on the site), you'll have to add {{ `| prepend: site.baseurl` }} to your Markdown links to link to internally on the site.
 
@@ -120,48 +119,11 @@ Example from oo-low-1-2.md (this example links to another lesson, oo-high-1.md):
 
 ~~~
 
-### Editing repeatable elements (/_includes/)
+### Editing repeatable elements (`/_includes/`)
 
-#### Adding new resources and links
-#### Changing layouts
+[Includes](#_includes) define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. They can pull their info from the YAML files in `/_data/`.
 
-### Editing the site menu
-
-
-
-
-## Site structure 
-
-This section walks you through the site's main directories, just in case you need to find something for an edit. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
-
-### /_data/
-
-In the `/_data/` folder are three critical YAML files which operate like data storage units.
-
-* `fieldguide.yaml` controls the links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). Tags from this file link to specific pages from the guide. To include a page, the appropriate tag is placed in the lesson page header and built using the derisking.html [include](#_includes).
-* `navigation.yaml` builds the drop-down menus at the top of every page. Editing this file will let you add or remove menu links.
-* `resources.yaml` is a list of all the resources used throughout the courses. There is an [include](#_includes) that we then use to pull data out of this file. Think of this as a "link database."
-    * For example, in the oo-high-1.md lesson, you'll see `({% include link id="capreu" %})`. This tells us that the link is tagged with the id (`uid`) "capreu" in `resources.yaml`. You can find the link that appears under this tag, "Creating Agile Product Roadmaps Everyone Understands" in this yaml file. To add new resources, you'd need to add an `uid` and title, author, and url to this file.
-* `rubric.yaml` builds the Health Rubric rows/dimensions. It is used everywhere rubric dimensions are rendered.
-    * Pay attention to the `id:` row &mdash; this reappears when referencing the lessons in the course overview pages.
-
-### /_includes/
-
-"Includes" define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. 
-* `airtable-post` and `airtable-pre` generate the includes for linking to the Airtable pre-content and post-learning surveys.
-* `alert` is used to generate pop-out alerts on lesson pages.
-* `breadcrumbs` is used to generate a breadcrumb element that shows up in some lessons.
-* `countdowntimer` is used throughout the lessons to create the cute Javascript countdown timers.
-* `course_lesson_list` generates the list of lessons for a course overview page.
-* `course_lesson_summaries` then embeds the summaries from each rubric lesson and the dimension rows themselves. Used on course overview pages.
-* `derisking` embeds relevant links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). The links are controlled by header tags in the lesson pages under "federal" and "state". The specific tags and associated pages are stored in `fieldguide.yaml` in [/_data/](#_data).
-* `indicator` is used in the course content overview.
-* `link` is used to reach into `resources.yaml` and extract links. This is used everywhere. Change cautiously.
-* `resources` is used to render out sections of the resources page. This probably won't need editing in the future unless it is somehow malfunctioning.
-* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator (`id:`) in the `rubric.yaml` file that lives in [/_data/](#_data).
-* `shared-experience-prompt` is the text of the small group prompt that appears in lessons throughout the site.
-
-You'll see references to these includes in the body of those pages like so:
+You'll see references to these includes in the body of lesson and course pages like so:
 
 ~~~
 
@@ -175,8 +137,65 @@ You'll see references to these includes in the body of those pages like so:
 
 ~~~
 
+Ususally you'll just reference these files in the lesson or course pages above. Changing the files in `/_includes/` themselves will change your content all over the site. Be careful when doing so. 
 
-Changing any of these will change content all over the site. Be careful when doing so.
+More information on these files is in the [`/_includes/` site structure section](#_includes).
+
+#### Editing the site menu, resources page, de-risking guide links, and the Health Rubric (`/_data/`)
+
+In the [`/_data/`](#_data) folder are YAML files that store data used throughout the site.
+
+* To edit the site menu drop-downs, edit `navigation.yaml`.
+* To edit the resources linked throughout the site, edit `resources.yaml`.
+* To edit the links and tags in the De-risking guide sections, edit `fieldguide.yaml`.
+* To edit the Health Rubric rows and dimensions (which you likely will not need to significantly), edit `fieldguide.yaml`.
+
+More in-depth information on these files is in the [`/_data/` site structure section](#_data).
+
+#### Changing layouts and templates throughout the site (`/_layouts/`)
+
+To change the order of the elements on every lesson page on the site, look in the `/_layouts/` folder for `lesson.html`. 
+
+`lesson.html` controls the order and placement of the following elements:
+    * Lesson page title
+    * Rubric dimension row
+    * Table of contents/lesson outline
+    * De-risking Guide links
+    * Airtable feedback form  
+    
+    Changing the order or content of the [includes](#_includes) in `lesson.html` will change these elements for every lesson page on the site.
+
+## Site structure 
+
+This section walks you through the site's main directories, just in case you need to find something for an edit. In most cases, [you'll need a file in the `/collections/` folder](#collections) to edit site content.
+
+### /_data/
+
+In the `/_data/` folder are YAML files which operate like data storage units.
+
+* `fieldguide.yaml` controls the links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). Tags from this file link to specific pages from the guide. To include a page, the appropriate tag is placed in the lesson page header and built using the derisking.html [include](#_includes).
+* `navigation.yaml` builds the drop-down menus at the top of every page. Editing this file will let you add or remove menu links.
+* `resources.yaml` is a list of all the resources used throughout the courses. There is an [include](#_includes) that we then use to pull data out of this file. Think of this as a "link database."
+    * For example, in the oo-high-1.md lesson, you'll see `({% include link id="capreu" %})`. This tells us that the link is tagged with the id (`uid`) "capreu" in `resources.yaml`. You can find the link that appears under this tag, "Creating Agile Product Roadmaps Everyone Understands" in this yaml file. To add new resources, you'd need to add an `uid` and title, author, and url to this file.
+* `rubric.yaml` builds the Health Rubric rows/dimensions. It is used everywhere rubric dimensions are rendered.
+    * Pay attention to the `id:` row &mdash; this reappears when referencing the lessons in the course overview pages.
+
+### /_includes/
+
+"Includes" define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. 
+
+* `airtable-post` and `airtable-pre` generate the includes for linking to the Airtable pre-content and post-learning surveys.
+* `alert` is used to generate pop-out alerts on lesson pages.
+* `breadcrumbs` is used to generate a breadcrumb element that shows up in some lessons.
+* `countdowntimer` is used throughout the lessons to create the cute Javascript countdown timers.
+* `course_lesson_list` generates the list of lessons for a course overview page.
+* `course_lesson_summaries` then embeds the summaries from each rubric lesson and the dimension rows themselves. Used on course overview pages.
+* `derisking` embeds relevant links to the [18F De-risking Guide](https://derisking-guide.18f.gov/). The links are controlled by header tags in the lesson pages under "federal" and "state". The specific tags and associated pages are stored in `fieldguide.yaml` in [/_data/](#_data).
+* `indicator` is used in the course content overview.
+* `link` is used to reach into `resources.yaml` and extract links. This is used everywhere. Change cautiously.
+* `resources` is used to render out sections of the resources page. This probably won't need editing in the future unless it is somehow malfunctioning.
+* `rubric` renders out a dimension from the rubric itself, given a designator. You'll find the designator (`id:`) in the `rubric.yaml` file that lives in [/_data/](#_data).
+* `shared-experience-prompt` is the text of the small group prompt that appears in lessons throughout the site.
 
 ### /_layouts/
 
