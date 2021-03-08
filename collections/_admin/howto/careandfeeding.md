@@ -156,14 +156,14 @@ More in-depth information on these files is in the [`/_data/` site structure sec
 
 To change the order of the elements on every lesson page on the site, look in the `/_layouts/` folder for `lesson.html`. 
 
-`lesson.html` controls the order and placement of the following elements:
-    * Lesson page title
-    * Rubric dimension row
-    * Table of contents/lesson outline
-    * De-risking Guide links
-    * Airtable feedback form  
-    
-    Changing the order or content of the [includes](#_includes) in `lesson.html` will change these elements for every lesson page on the site.
+The `lesson.html` file controls the order and placement of the following elements:
+* Lesson page title
+* Rubric dimension row
+* Table of contents/lesson outline
+* De-risking Guide links
+* Airtable feedback form  
+
+Changing the order or content of the [includes](#_includes) in `lesson.html` will change these elements for every lesson page on the site.
 
 ## Site structure 
 
