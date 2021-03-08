@@ -10,7 +10,7 @@ This document shows how to maintain the State Officer, M.D. (SOMD) site. Listed 
 # About the site
 
 ## How it's built
-The entire site run on [Jekyll](https://jekyllrb.com/). Jekyll is a commonly-used open source framework for generating static websites. The Jekyll site is a great place to learn more, but a quick interner search for most anything regarding jekyll will turn up lots of resources.
+The entire site run on [Jekyll](https://jekyllrb.com/). Jekyll is a commonly-used open source framework for generating static websites. The Jekyll site is a great place to learn more, but a quick internet search for most anything regarding Jekyll will turn up lots of resources.
 
 ## How to edit the site
 
@@ -48,7 +48,7 @@ To add or remove a lesson from a course page, add or remove it from the `lessons
 
 You can also make up your own tags if you want a certain course to appear on the lesson page. In the example above, `id1.3-course2` is a tag we created to get `id-high-3.md` to be on the Course 2 page. Just be sure to tag in in both the header of the course page and the lesson page itself. If you peek at both, you'll see we've done this. More on this is in the [naming and number section below](#naming-and-numbering-convention-for-lesson-pages).
 
-Under the header, the body of `overview.md`has text on the page for each course overview blurb and contains "includes" that pull from the `_includes` folder to build lesson lists, rubric rows, and lesson summaries on the page. 
+Under the header, the body of `overview.md` has text on the page for each course overview blurb and contains "includes" that pull from the `_includes` folder to build lesson lists, rubric rows, and lesson summaries on the page. 
 
 #### Lesson pages (`/_rubric/`)
 
