@@ -10,21 +10,17 @@ Course facilitation is an opportunity to guide learners to link course material 
 ### Time commitment
 
 * Weekly full-cohort discussions (1 hour)
-* Facilitator weekly planning (2 hours)
+* Facilitator weekly planning (1 - 2 hours)
 * Small group meetings (30 minutes) 
-* Homework (1-2 hours weekly)
+* Homework (1 - 2 hours weekly)
 
-Total: 2.5-3.5 hours for cohort members
+Total: 
+* 2.5 - 3.5 hours/week for cohort members
+* ~ 3 hours/week for facilatators
 
 ## Values
 
 It’s important to start with an overview of the values that underlaid the course and its facilitation. While a more thorough discussion of the values in the course is given at the [Learning Cohorts page]({{ “admin/learningcohorts/” | prepend: site.baseurl }}), we’ve briefly summarized the values below and how they relate to our approach to facilitation.
-
-## Values
-
-The first thing that you need to fix in your mind, and **revisit regularly**, are the values you intend to bring to the facilitation. 
-
-We expand on each of these briefly, and provide references where appropriate to help further ground the ideas we summarize here.
 
 ### Facilitating learning cohorts
 
@@ -52,17 +48,17 @@ Here’s an outline of the 4 major facilitation values and how they relate to th
 
 Facilitation is a process that begins long before you are “in the room” with learners. 
 
-### Planning Ahead: Grouping Learners
+### Planning ahead: Grouping learners
 
 Given our commitments to learning in community with others, we ask participants to pair with a colleague in small discussion groups. What does not work is ask them to “find a partner and meet with them before next week.” 
 
 Put everyone into groups explicitly. Make it clear shuffle around can happen, but make sure groups are composed 2-3 people each. Ask them to schedule a regular/weekly 30m block for their partner. Some weeks, the time will go unused. However, it is better to have a weekly small group time slot than to have learning conversations *not* occur because of scheduling complexities.
 
-### Planning Ahead: Prompting Learning
+### Planning ahead: Prompting learning
 
 Assuming a weekly cadence for learning meetings, contact the learning cohort 1-2 days after the full-group facilitation. The note could highlight news that is related to the learner’s work, an inspirational note, or a quick message to ensure they remember to engage with the course material.  Also remind learners they can contact you with questions about the work.
 
-### Planning the Lesson: The Lesson Prompt
+### Planning the lesson: The lesson prompt
 Every lesson in the State Officer, M.D. course has a learning prompt. 
 An example is included in the image below, or one can be found at the end of [any given lesson]({{ “/rubric/oo-high-2/” | prepend: site.baseurl }}). If you are facilitating any kind of group learning experience, we consider this kind of “play-by-play” or “minute-by-minute” plan to be *essential*. 
 There are too many reasons for having a lesson plan; if nothing else, it is something to abandon when the group goes in a more interesting direction. However, an excellent lesson plan is about orchestrating a *learning experience in community with others*. When you develop a high quality plan, and execute it, you then have a framework against which you can concretely evaluate how the facilitated learning conversation went.
@@ -73,12 +69,12 @@ This kind of coordinated, participatory learning and dialogue does not happen ac
 
 This lesson plan/agenda is the most important part of the facilitation. Expect to spend 1-2 hours planning it. The State Officer course has lesson plans sketched out for you, potentially reducing your preparation time greatly. If you improve a course facilitation plan, make sure to contribute them back to the site via pull request.
 
-### Facilitation in Practice
+### Facilitation in practice
 
 For the first few sessions as a facilitator, you’ll be the learner. Be sure to learn the group member’s names and a little bit about their motivations, and background in the introductory session. Aspire to see the learners as whole people that you’ll learn more about as the sessions continue. Your own learning goal is to move your view of yourself past the role of leader, expert, or consultant and into the space of a colleague.
 It helps to start sessions with a centering exercise to help yourself and the group move into this mindset. Leave at least 5 minutes at the start of the group discussion for learners to do a short exercise or meditation together, like sharing a fun event from their week or doing some focused breathing.
 
-#### Running “The Show”
+#### Running “the show”
 
 If the learners have engaged in their “homework,” if you have a good lesson plan for the full-group facilitation, and if the group knows that you are going to be engaging them in rich, reflective activities, there is a good chance that “running the show” is the easiest part of the process. 
 Ideally, you have established some overall group norms at the beginning of the facilitation process. If not, you might want to gently guide the group into these practices over time.
