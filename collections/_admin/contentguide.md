@@ -5,7 +5,7 @@ title: Content guide
 
 ## Voice and tone
 
-State Officer, M.D. is written to be conversational, friendly, humerous, knowledgeable, and honest. 
+State Officer, M.D. is written to be conversational, friendly, humorous, knowledgeable, and honest. 
 
 ## Style guidelines
 
@@ -18,7 +18,7 @@ State Officer, M.D. is written to be conversational, friendly, humerous, knowled
 
 * State Officer, M.D. should be abbreviated as SOMD.
 * Spell out abreviations on the first mention.
-* Use "m" for minutes and "h" for hours in descriptions of time in lesson section headers. For example, "Wrapup (5m, solo)"
+* Use "m" for minutes and "h" for hours in time descriptions in lesson section headers. For example, `Wrapup (5m, solo)`
 
 ### Numbers
 
