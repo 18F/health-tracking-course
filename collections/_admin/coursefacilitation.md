@@ -20,7 +20,7 @@ Total:
 
 ## Values
 
-It’s important to start with an overview of the values that underlaid the course and its facilitation. While a more thorough discussion of the values in the course is given at the [Learning Cohorts page]({{ “admin/learningcohorts/” | prepend: site.baseurl }}), we’ve briefly summarized the values below and how they relate to our approach to facilitation.
+It’s important to start with an overview of the values that underlaid the course and its facilitation. While a more thorough discussion of the values in the course is given at the [learning cohorts page]({{ "admin/learningcohorts/" | prepend: site.baseurl }}), we've briefly summarized the values below and how they relate to our approach to facilitation.
 
 ### Facilitating learning cohorts
 
@@ -33,11 +33,11 @@ Here’s an outline of the 4 major facilitation values and how they relate to th
     * Participants' conversation about organizational practice and process can take place, allowing thoughts and practices that transform the organization to take root and grow.
 * Respect the learner
     * Dedicated time to dive deep into learning is a part of the State Officer job and work week.
-    * Individual time is valuable and limited &mdash; facilatation and materials should add value.
+    * Individual time is valuable and limited &mdash; facilitation and materials should add value.
     * Individual preparation and reflection enhances group discussions and knowledge exchange.
     * Learning and developing are a continuous process. It takes time and community support to develop new ways of working and thinking.
 * Create space for the “real”
-    * Care and compassion for others is an essential part of any good educational effort &mdash; faciliatation and dicussion is not seperate from the world at large.
+    * Care and compassion for others is an essential part of any good educational effort &mdash; facilitation and discussion is not separate from the world at large.
     * Centering exercises at the start of group discussions to help learners stay present and ready to listen and share.
     * Time and space for learners to share something good from their week or do a short meditation improve the discussion.
 * Empowering learners as agents of change/justice.

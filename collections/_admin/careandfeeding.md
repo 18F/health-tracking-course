@@ -109,7 +109,7 @@ state:
 * `resources.md`, `rubric.md`, and `rubrictxt.md` all use [includes](#_includes) and YAML files from [/_data/](#_data) to populate the list on the resources pages and the Health Rubric pages.
 
 #### Creating links
-To link internally (to other pages on the site), add {{ `| prepend: site.baseurl` }} to your Markdown links.
+To link internally (to other pages on the site), add `| prepend: site.baseurl` to your Markdown links.
 
 Example from oo-low-1-2.md (this example links to another lesson, oo-high-1.md):
 
@@ -247,25 +247,8 @@ All images, audio, CSS, and Javascript for the site live here.
 
 ## LICENSE
 
-Our work, as employees of the federal government, is free for all. Any future contributions should be made under the same license. This includes individuals as well as vendors; all contributions, edits, etc. will become CC0/public domain upon offering.
-
+Please see the LICENSE file in this repository for a full statement of the license for this material.
 
 # Building, Maintaining, Publishing
 
-After making any editing changes to the site, you will have to rebuild the site to get the changes to stick. There are also times when you'll need to update the gemfile.
-
-## Updating the Gemfile
-If you change the Gemfile, you will need to regenerate the lockfile.
-
-1. Remove Gemfile.lock. 
-2. docker-compose up
-3. Exit docker when complete.
-
-As part of the compose file, `bundle install` will execute. This is the easiest way to regenerate the lockfile after a change to the Gemfile.
-
-## Building content only
-
-`docker run -v $(PWD):/site bretfisher/jekyll-serve bui
-# C/O, etc
-
-We recommend updating this guide as site structure and editorial decisions change for SOMD. A more technical guide to care and feeding of the site will be created and linked here when hosting information for the site is updated.
+Please see DEVELOPMENT at the root of this repository for build and test instructions.
