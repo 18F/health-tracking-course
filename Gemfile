@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gem 'jekyll', '~> 4.2'
 
 # See https://github.com/envygeeks/jekyll-assets/issues/622
-gem "sprockets", "~> 3.7"
+gem "sprockets", "~> 4.0"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "public_suffix", "~> 4.0.6"
 gem "html-proofer", "~> 3.16"
