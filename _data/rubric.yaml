@@ -43,8 +43,8 @@
           yellow: Some priorities are aligned, others are disjointed.
           green: IT, program, finance, etc. priorities are aligned around end-user outcomes.
 - header: State capacity
-  question: Does the state have the skills and capacity to to manage the work?
-  wtm: Without some familiarity with software development, an agency is not well equipped to evaluate vendor work and lead a dvelopment project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
+  question: Does the state or agency have the skills and capacity to to manage the work?
+  wtm: Without some familiarity with software development, an agency is not well equipped to evaluate vendor work and lead a development project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
   priorities:
     - label: Top priority
       priority: high
@@ -52,10 +52,10 @@
         - id: sc1.1
           tips:
             - Ask the product and technical leads what their role is and what other responsibilities they have.
-            - Look at the APD staffing plan vs. current staffing.
+            - Look at the staffing plan vs. current staffing.
           red: The state depends entirely on a vendor for vision and strategy.
-          yellow: State leads are identified but have limited time to lead the strategy and take direction from the vendor.
-          green: State staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
+          yellow: State/agency leads are identified but have limited time to lead the strategy and take direction from the vendor.
+          green: State/agency staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
     - label: Medium priority
       priority: medium
       dimensions:
@@ -100,16 +100,16 @@
             - Ask how the team implements quality monitoring through their contracts.
           red: The state has little or no expectations for monitoring quality in their contracts.
           yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
-          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure monitoring is implmented.
+          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure monitoring is implemented.
     - label: Medium priority
       priority: medium
       dimensions:
         - id: pf2.1
           tips:
-            - Ask how the state manages and accesses system data.
-          red: The state has little or no visibility into how data is stored or accessed.
-          yellow: The state can use the vendor's tools to access data, but does not own the data.
-          green: The state owns and controls access to all data.
+            - Ask how the state/agency manages and accesses system data.
+          red: Little or no visibility into how data is stored or accessed.
+          yellow: Can use the vendor's tools to access data, but does not own the data.
+          green: The state/agency owns and controls access to all data.
     - label: Lower priority
       priority: lower
       dimensions: 
@@ -117,17 +117,17 @@
           tips:
             - Ask what challenges the team is having in driving toward intended outcomes.
             - Ask who is involved in setting strategy and outcomes.
-          red: The state blames or relies on the vendor for the strategy and achievement of the outcomes.
-          yellow: The state takes partial accountability for the strategy and achievement of the outcomes; leans on vendors for procurement strategy.
+          red: Blames or relies on the vendor for the strategy and achievement of the outcomes.
+          yellow: Takes partial accountability for the strategy and achievement of the outcomes; leans on vendors for procurement strategy.
           green: The state considers themselves wholly responsible for the strategy and achievement of the outcomes; leads strategy, collects feedback from vendors.
         - id: pf3.2
           tips:
             - Ask team leads and contract owners how they monitor vendor budget.
-          red: The state has little or no regular visibility into how the vendor is billing.
-          yellow: The state has visibility into how the vendor is billing but is uncertain how to manage if a vendor is burning too hot.
+          red: Little or no regular visibility into how the vendor is billing.
+          yellow: Visibility into how the vendor is billing but is uncertain how to manage if a vendor is burning too hot.
           green: The state has regular conversations with the vendor about burn rate.
 - header: Iterative development
-  question: Does the state use iterative, secure development practices?
+  question: Does the state/agency use iterative, secure development practices?
   wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
   priorities:
     - label: Top priority
@@ -142,13 +142,13 @@
           green: You see regular (once a month or more) demos ranging from very messy, incomplete work all the way to polished, finished products.
         - id: id1.2
           tips:
-           - Ask how the state incorporates the end user during the development & testing processes.
+           - Ask how the team incorporates the end user during the development & testing processes.
           red: The team only collects input from end users at the end of the process.
           yellow: The team collects feedback at the beginning of the process, but does not validate they are meeting user needs during development.
           green: The team regularly collects feedback and tests to ensure the product improves the experience for end users.
         - id: id1.3
           tips:
-            - Ask how the state approaches security, performance, and migration testing.
+            - Ask how the state/agency approaches security, performance, and migration testing.
             - Ask how project leads interact with the testing process.
           red: The team cannot answer what types of testing they are doing, only that they test at the end of the process.
           yellow: The team can describe their testing approaches but testing is done by a siloed team.
@@ -172,8 +172,8 @@
         - id: id2.3
           tips: 
             - Ask how they monitor system health in production.
-          red: The state can't tell you about the health of the system that's being used.
-          yellow: The state manually monitors system health and creates reports on a regular basis.
+          red: The state/agency can't tell you about the health of the system that's being used.
+          yellow: The team manually monitors system health and creates reports on a regular basis.
           green: System health is monitored automatically and staff can show you a reporting dashboard.
     - label: Lower priority
       priority: lower
@@ -182,7 +182,7 @@
           tips:
             - Ask how development choices are made and if open source or reusable options are considered.
           red: The state can't tell you how they make/made their decisions.
-          yellow: The state can tell you how they made their decisions, but did not consider open source options.
-          green: The state can show you how/why they make their decisions and are using open source when possible.
+          yellow: The state/agency can tell you how they made their decisions, but did not consider open source options.
+          green: The team can show you how/why they make their decisions and are using open source when possible.
 
       
