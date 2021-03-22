@@ -41,8 +41,6 @@ You've finished all the courses!
 
 Pause to reflect on the material, where you are confident at this moment, and where you have concerns. This form is anonymous, and it will help us as we shape the course and the conversations we have throughout the courses.
 
-{% include airtable-pre.html %}
-
 ## Congratulations! (team huddle)
 
 Take time to celebrate your lessons learned and the actionable next steps. Sharing lessons learned at a team huddle is an opportunity for your colleagues to lift you up for having undertaken this learning and a chance for you to share out how you hope to advance and grow as a {{site.productowner}}. 

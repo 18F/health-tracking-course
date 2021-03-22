@@ -184,7 +184,6 @@ In the `/_data/` folder are YAML files which operate like data storage units.
 
 "Includes" define text/HTML/code once and then re-use it throughout the site. These act as shortcuts to reuse the same items in the course and lesson pages. 
 
-* `airtable-post` and `airtable-pre` generate the includes for linking to the Airtable pre-content and post-learning surveys.
 * `alert` is used to generate pop-out alerts on lesson pages.
 * `breadcrumbs` is used to generate a breadcrumb element that shows up in some lessons.
 * `countdowntimer` is used throughout the lessons to create the cute Javascript countdown timers.

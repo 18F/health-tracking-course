@@ -48,8 +48,6 @@ When you're done, you'll have "lessons learned" and actionable "next steps" you 
 
 Now that you've completed this course, pause to reflect on the material, where you are confident at this moment, and where you have concerns. This form is anonymous, and it will help us as we shape the course and the conversations we have throughout the courses.
 
-{% include airtable-pre.html %}
-
 ## Congratulations! (team huddle)
 
 Take time to celebrate your lessons learned and the actionable next steps. You've covered a top priority row from every Primary Indicator in the Health Rubric! 
