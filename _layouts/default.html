@@ -8,6 +8,8 @@ The home page uses wide.html layout, since it extends full width of page
 {% endcomment %}
 
 <main id="main-content">
-  {% include notofficial.html %}
+  {% comment %} Uncomment this to add an "unofficial" warning to the site. {% endcomment %}
+  {% comment %}{% include notofficial.html %}{% endcomment %}
+  
   {{ content }}
 </main>

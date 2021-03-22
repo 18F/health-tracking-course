@@ -9,7 +9,7 @@ Build process may, therefore, change.
 First, you will need to build a Docker container. This container will have within it all the Jekyll goodness you need to build and preview this site.
 
 ```
-docker build -t htmd/build .
+docker build -t pomd/build .
 ```
 
 ## To build the site
@@ -19,7 +19,7 @@ Once you have built the container, you can use it to build the site. If you pass
 The first time you do this, it may be slow/take some time.
 
 ```
-docker run -ti --rm -p 4000:4000 -v ${PWD}:/site htmd/build:latest -b 
+docker run -ti --rm -p 4000:4000 -v ${PWD}:/site pomd/build:latest -b 
 ```
 
 ## To serve and test the site
@@ -27,6 +27,6 @@ docker run -ti --rm -p 4000:4000 -v ${PWD}:/site htmd/build:latest -b
 To serve the site (for local testing while developing content), use the `-s` flag.
 
 ```
-docker run -ti --rm -p 4000:4000 -v ${PWD}:/site htmd/build:latest -s
+docker run -ti --rm -p 4000:4000 -v ${PWD}:/site pomd/build:latest -s
 ```
 
