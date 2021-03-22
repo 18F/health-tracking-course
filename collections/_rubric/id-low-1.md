@@ -45,7 +45,7 @@ Find a partner and find a 30m block of time that the two of you can get together
 3. Did you see parallels to the work you do with states and vendors? How?
 4. What challenged you most about this presentation? "Challenge" could mean everything from "this concept really made me think" to "this thing he said really made me angry."
 
-This conversation is part of your preparation for coming together as a larger group to discuss the notion of free and open-source software ("FOSS"), government contracting, and the work of SOs in managing The People's investment in software and IT.
+This conversation is part of your preparation for coming together as a larger group to discuss the notion of free and open-source software ("FOSS"), government contracting, and the work of {{site.po}}s in managing The People's investment in software and IT.
 ## Keystones (15m, solo)
 
 You've had a conversation. You've possibly ranted about Stallman. Perhaps you agreed in places. We do want to highlight an idea here, however, as a takeaway that we think you should carry with you. You might agree, you might not, but we believe (at the least) you should continue to wrestle with this idea.
@@ -95,7 +95,7 @@ The taxpayer paid for this content. **It is theirs**. And because there is no wa
 
 There are many things that could happen with this content. It could be repackaged and resold by a vendor (the license allows that). It could be modified and used by other government agencies at the federal, state, and local level as part of their own training and contracting process (the license allows that). It could be translated into other languages and used by other governments around the world to shape their contracting and software management practices (the license allows that). 
 
-Or it might be that SOs at CMS are the only people to ever use this content. That would be wonderful, because that is who this content was developed for. But it is important to note that the work belongs to you (and the rest of the world) and no one can take it away from you.
+Or it might be that {{site.po}}s are the only people to ever use this content. That would be wonderful, because that is who this content was developed for. But it is important to note that the work belongs to you (and the rest of the world) and no one can take it away from you.
 
 ## A smattering of open (10m, solo)
 

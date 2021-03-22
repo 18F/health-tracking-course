@@ -69,7 +69,7 @@ The important distinction is that we cannot observe understanding. However, we c
 ### Recruit content expertise
 It is common for people to believe that good instruction is all about the content. It is important for instructional designers to work with SMEs, or have content expertise themselves, but it is unlikely that becoming a field-leading expert is the end-goal of a learning experience. 
 
-In the development of the SOMD course, our team had people who both had expertise in the design and development of educational experiences as well as expertise in content regarding software systems design and implementation. However, there are lessons that leveraged SMEs for content, and the learning environment then was “wrapped around” the value they brought to the process. (The lesson on QASPs is a good example of this.) 
+In the development of the {{site.short}} course, our team had people who both had expertise in the design and development of educational experiences as well as expertise in content regarding software systems design and implementation. However, there are lessons that leveraged SMEs for content, and the learning environment then was “wrapped around” the value they brought to the process. (The lesson on QASPs is a good example of this.) 
 
 MES has a great deal of internal content expertise. How that expertise is transformed into learning (and, through it, cultural change) can be accomplished in many ways. The MES team might grow instructional design expertise internally; they might hire in a new team member to lead ongoing instructional development/cultural change efforts; or, the team can work with vendors to provide ongoing design and delivery of learning experiences. Regardless, the team needs to know what they value and be thinking about what they might observe (measure) about the learning that their teams are engaged in.
 
@@ -104,9 +104,9 @@ Each lesson in the {{site.short}} course follows a common template, for the simp
 ### Laying the groundwork for discussion
 In order to make the most of the time together as a cohort, each lesson included materials to introduce the learning outcome and content to add background context and details to a specific row in the Health Rubric. {{site.Productowner}}s were asked to read/watch/listen, apply, and reflect on these materials in preparation for group discussion. These materials roughly followed the below outline: 
 * Restates the learning outcome (aligned directly with a row of the rubric)
-* Introduces the SO to content related to the learning outcome.
-* Asks questions to engage the SO with the content in a manner that connects it back to their professional practice.
-* Sometimes, active techniques, like writing to think are employed, and other times SOs are encouraged to partner with others, thus leveraging think-pair-share or similar pairwise/small group learning strategies.
+* Introduces the {{site.po}} to content related to the learning outcome.
+* Asks questions to engage the {{site.po}} with the content in a manner that connects it back to their professional practice.
+* Sometimes, active techniques, like writing to think are employed, and other times {{site.po}}s are encouraged to partner with others, thus leveraging think-pair-share or similar pairwise/small group learning strategies.
 * Reflection and preparation is explicitly encouraged in advance of group conversations (readying the learner for analysis and evaluation of their learning in concert with others)
 
 To lay the ground for group discussion and give {{site.productowner}}s time to reflect, the above materials were distributed the week before the lesson. 
@@ -123,7 +123,7 @@ When the group got together, facilitated conversation dove into the material to 
 After each group conversation the facilitators set aside 30 minutes to debrief on how the discussion went and what changes may improve future discussions or materials. 
 
 ### Assessing learning
-The initial learning cohort did not emphasize the delivery of products from the learning, and does not have clear, measurable behaviors for assessment. This is a conversation that needs to be had, as there are many, many ways to measure what is going on with the SOs as they engage with material. Some of those will support the learning and cultural transformation that the course is intended to foster, and others will actively hinder the transformations MES hopes to encourage. Hence why the assessment of programs and learning alike are so complex.
+The initial learning cohort did not emphasize the delivery of products from the learning, and does not have clear, measurable behaviors for assessment. This is a conversation that needs to be had, as there are many, many ways to measure what is going on with the {{site.po}}s as they engage with material. Some of those will support the learning and cultural transformation that the course is intended to foster, and others will actively hinder the transformations MES hopes to encourage. Hence why the assessment of programs and learning alike are so complex.
 
 **Resources**
 * [Designing Criterion Referenced Assessment](https://files.eric.ed.gov/fulltext/EJ1066490.pdf) provides an overview of an alternative approach to traditional modes of assessment known as criterion-referencing, whereby clear, measurable criteria are used to set transparent and achievable learning outcomes in concert with the learner.

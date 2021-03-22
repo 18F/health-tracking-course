@@ -1,6 +1,6 @@
 ---
 layout: widepage
-title: SOMD Overview
+title: Course Overview
 course: 1
 lesson: 0
 indicator: admin

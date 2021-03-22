@@ -93,7 +93,7 @@ You’ll get informal feedback from the cohort from the discussions, but feel fr
 
 #### Group reflection 
 
-At the end of the course, it’s useful to review all the Mural form submissions and pick out any themes or standouts to discuss in a group reflection session. In the initial SOMD cohort, we created presentations with this feedback and discussed suggestions for course improvement with the group. We provided a few improvement suggestions based on the course feedback and wrote down any new suggestions that the group made. 
+At the end of the course, it’s useful to review all the Mural form submissions and pick out any themes or standouts to discuss in a group reflection session. In the initial {{site.short}} cohort, we created presentations with this feedback and discussed suggestions for course improvement with the group. We provided a few improvement suggestions based on the course feedback and wrote down any new suggestions that the group made. 
 
 This is the agenda we used for the Course 1 group reflection session (This is what we did for Course 1 feedback/wrapup).
 

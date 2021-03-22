@@ -29,7 +29,7 @@ To get a quick overview of what a database is and how it is used, sit back, chan
 
 Although short, it may be worth taking notes on terminology and the metaphors used here. If you're working with states and vendors and they can't break down how their data is stored and organized in a simple, clear way, *there are problems*. 
 
-### Data, in CMS terms
+### Data, in PO terms
 
 Now that we have visions of LEGO people dancing in our heads, lets imagine we're building a case management system for SNAP. Essentially, it's an interface on top of a database system. We're going to need to keep track of a lot of information:
 

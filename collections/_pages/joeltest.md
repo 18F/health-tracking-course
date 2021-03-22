@@ -62,7 +62,7 @@ So, for the modern era, the question should really be *do you build with every c
 
 Github, Bitbucket, and GitLab (all version control systems) all have bug databases attached to them. For example, here is the bug database for [Tock](https://github.com/18F/tock/issues), a tool used for tracking time within the Technology Transformation Services at the GSA. 
 
-If the vendor does not have a bug database that is up-to-date and actively used for tracking the work that needs to be done, that is a huge problem. It means they don't know what is broken, and what needs to be fixed. A good bug database is an easy way for a state or SO to check and see if work is "ticking over" at a good rate. If bugs lay around for months and none ever go away, that means either 1) nothing is happening, or 2) the vendor is not "gardening" their bugs. (Sometimes, the act of curating or keeping up on things like a bug tracking system is referred to as "gardening," because you shuffle around making sure weeds are pulled, and things are healthy, etc. It's a metaphor.) 
+If the vendor does not have a bug database that is up-to-date and actively used for tracking the work that needs to be done, that is a huge problem. It means they don't know what is broken, and what needs to be fixed. A good bug database is an easy way for a state or {{site.po}} to check and see if work is "ticking over" at a good rate. If bugs lay around for months and none ever go away, that means either 1) nothing is happening, or 2) the vendor is not "gardening" their bugs. (Sometimes, the act of curating or keeping up on things like a bug tracking system is referred to as "gardening," because you shuffle around making sure weeds are pulled, and things are healthy, etc. It's a metaphor.) 
 
 If bugs are being entered, commented on, and fixed on a regular basis (perhaps even daily), that means the vendor is on top of their implementation. If the state is filing tickets when they find things that are wrong, and the vendor is fixing them, and pushing fixes live within days (how? **becuase #1, #2, and #3**), then you've got the core of a really resilient and healthy software project.
 
@@ -184,7 +184,7 @@ A vendor who cannot, or otherwise will not, develop comprehensive tests for thei
 
 The {% include link id="deriskingguide" text="18F Derisking Guide" %} has, in its [State Field Guide](https://derisking-guide.18f.gov/state-field-guide/) section, some words on [demos not memos](https://derisking-guide.18f.gov/state-field-guide/#require-demos-not-memos).
 
-If the state, and for that matter, the SO, can actually use the software at the end of every sprint to explore and try things, then that's a good final "check" that the vendor, in conjunction with the state, are developing high-quality software. 10a and 10b, as methods, will help the developers get to a point (along with #1, #2, #3, and #4) where they are confident that the software will work, and work well. 
+If the state/agency, and for that matter, the {{site.po}}, can actually use the software at the end of every sprint to explore and try things, then that's a good final "check" that the vendor, in conjunction with the state, are developing high-quality software. 10a and 10b, as methods, will help the developers get to a point (along with #1, #2, #3, and #4) where they are confident that the software will work, and work well. 
 
 ## 11. Do new candidates write code during their interview?
 

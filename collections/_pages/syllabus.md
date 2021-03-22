@@ -10,17 +10,17 @@ permalink: /syllabus/
 
 ## Why become a {{site.productowner}}, M.D.?
 
-You may not realize it, but our doctors don’t like it when we only come to them when we’re sick. If they had their way, most doctors would love to see us 1) more often, 2) for less time, and 3) help us make sure we take better care of ourselves so that 4) we wouldn’t get sick in the first place! As an SO, which kind of doctor would you rather be? We suspect you’d prefer more checkups, for less time, and avoid the need for major heart surgery when an improved diet and a short walk every day would do the same job!
+You may not realize it, but our doctors don’t like it when we only come to them when we’re sick. If they had their way, most doctors would love to see us 1) more often, 2) for less time, and 3) help us make sure we take better care of ourselves so that 4) we wouldn’t get sick in the first place! As an {{site.po}}, which kind of doctor would you rather be? We suspect you’d prefer more checkups, for less time, and avoid the need for major heart surgery when an improved diet and a short walk every day would do the same job!
 
 This course is intended to help you apply your existing expertise as a {{site.productowner}} in new ways. It will help you think about how to apply your expertise on a continuous basis instead of annually or bi-annually. This will help more projects succeed, and yield better and more robust services for the people that we serve.
 
 ## How will this course help you succeed?
 
-There are three ways this course will help you improve your practices as an SO.
+There are three ways this course will help you improve your practices as an {{site.po}}.
 
-**Confidence in community**. The SOs are a team. As you engage in this learning, the most important thing you can leave with is the knowledge that you are not alone. You have a community of people to ask questions of and ask for advice as you learn new ways of thinking and new practices. 
+**Confidence in community**. The {{site.po}}s are a team. As you engage in this learning, the most important thing you can leave with is the knowledge that you are not alone. You have a community of people to ask questions of and ask for advice as you learn new ways of thinking and new practices. 
  
-**Strategy**. The “Doctor SO” needs to be thinking long term. We’ll lay a foundation for strategic approaches to managing the “long term care” of CMS projects going on in your state. These practices will give you a shared foundation with your fellow SOs and, over time, with your states and vendors, so that the entire community can move to a place of sustained health and well-being.
+**Strategy**. The “Doctor {{site.po}}” needs to be thinking long term. We’ll lay a foundation for strategic approaches to managing the “long term care” of projects going on in your agency or state. These practices will give you a shared foundation with your fellow {{site.po}}s and, over time, with your states and vendors, so that the entire community can move to a place of sustained health and well-being.
  
 **Tactics**. Long-term health often involves dealing with troublesome patients in the short term. Through case studies and role-plays, we’ll explore challenges you’re likely to encounter, and provide some concrete approaches to shaping behavior for the better.
 
