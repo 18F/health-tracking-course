@@ -83,7 +83,7 @@ All of these tests should allow the software team to have the live (production) 
 
 ### Incremental Migration: In summary
 
-**This is a lot of detail, yet it still glosses over a great deal.** The important thing to remember here is that an incremental migration isn't necessarily small or simple. However, it does mean that the system is always available, and always improving. You, as the State Officer, M.D., should be on the lookout for situations where a state or vendor is claiming a system will need to be offline for several days, or that a change will take more funds, or months, or any number of things that suggest that the data and system are not being tested and managed in a way that allow for incremental change (More questions of this sort will come at the end of this lesson).
+**This is a lot of detail, yet it still glosses over a great deal.** The important thing to remember here is that an incremental migration isn't necessarily small or simple. However, it does mean that the system is always available, and always improving. You, as the {{site.long}}, should be on the lookout for situations where a state or vendor is claiming a system will need to be offline for several days, or that a change will take more funds, or months, or any number of things that suggest that the data and system are not being tested and managed in a way that allow for incremental change (More questions of this sort will come at the end of this lesson).
 
 ## Migration: Geographic
 

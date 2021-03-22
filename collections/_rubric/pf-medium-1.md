@@ -150,7 +150,7 @@ We suspect that states cannot move their data from one system to another nearly 
 In your group conversation, you fundamentally have two questions to explore:
 
 1. Is your state's data locked in to a single vendor? If so, how?
-2. What steps can you take, as state officers, to help your states break free?
+2. What steps can you take, as {{site.productowner}}s, to help your states break free?
 
 For #2 and #3, below, you'll want someone to take notes. Whomever has a birthday closest to Veteran's Day (after, not before) is encouraged to step up.
 

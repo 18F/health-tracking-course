@@ -3,7 +3,7 @@ layout: widepage
 title: Care and feeding
 --- 
 
-This document shows how to maintain the State Officer, M.D. (SOMD) site. Listed below details how to manage site elements for future content addition, maintenance, editing.
+This document shows how to maintain the {{site.long}} ({{site.short}}) site. Listed below details how to manage site elements for future content addition, maintenance, editing.
 
 {% include toc.html %}
 

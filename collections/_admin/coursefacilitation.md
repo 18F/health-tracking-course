@@ -5,7 +5,7 @@ title: Course facilitation
 
 ## Introduction
 
-Course facilitation is an opportunity to guide learners to link course material to their personal experiences. This guide intends to help the considerations and planning involved with the facilitation of courses like State Officer, M.D. (SOMD). 
+Course facilitation is an opportunity to guide learners to link course material to their personal experiences. This guide intends to help the considerations and planning involved with the facilitation of courses like {{site.long}}. 
 
 ### Time commitment
 
@@ -32,7 +32,7 @@ Here’s an outline of the 4 major facilitation values and how they relate to th
     * Discussion and sharing of personal experiences helps participants learn new principles. Learning discussions in small groups is the ideal landscape for effective facilitation. Smaller group sizes are important to help learners feel comfortable sharing their experiences and for each learner’s voice to be heard. The facilitator encourages this community learning and sharing with question prompts that probe learners to share.
     * Participants' conversation about organizational practice and process can take place, allowing thoughts and practices that transform the organization to take root and grow.
 * Respect the learner
-    * Dedicated time to dive deep into learning is a part of the State Officer job and work week.
+    * Dedicated time to dive deep into learning is a part of the job and work week.
     * Individual time is valuable and limited &mdash; facilitation and materials should add value.
     * Individual preparation and reflection enhances group discussions and knowledge exchange.
     * Learning and developing are a continuous process. It takes time and community support to develop new ways of working and thinking.
@@ -59,7 +59,7 @@ Put everyone into groups explicitly. Make it clear shuffle around can happen, bu
 Assuming a weekly cadence for learning meetings, contact the learning cohort 1-2 days after the full-group facilitation. The note could highlight news that is related to the learner’s work, an inspirational note, or a quick message to ensure they remember to engage with the course material.  Also remind learners they can contact you with questions about the work.
 
 ### Planning the lesson: The lesson prompt
-Every lesson in the State Officer, M.D. course has a learning prompt. 
+Every lesson in the {{site.short}} course has a learning prompt. 
 An example is included in the image below, or one can be found at the end of any given lesson. If you are facilitating any kind of group learning experience, we consider this kind of “play-by-play” or “minute-by-minute” plan to be *essential*. 
 
 There are too many reasons for having a lesson plan; if nothing else, it is something to abandon when the group goes in a more interesting direction. However, an excellent lesson plan is about orchestrating a *learning experience in community with others*. When you develop a high quality plan, and execute it, you then have a framework against which you can concretely evaluate how the facilitated learning conversation went.
@@ -68,7 +68,7 @@ The prompt at the end of the [second high-priority rubric dimension of outcomes 
 
 This kind of coordinated, participatory learning and dialogue does not happen accidentally. As a facilitator, becoming familiar with *group instructional training techniques* or *group work activities* will give you a rich toolbox for icebreakers and lightweight learning activities around which you can structure full-group learning activities. 
 
-This lesson plan/agenda is the most important part of the facilitation. Expect to spend 1-2 hours planning it. The State Officer course has lesson plans sketched out for you, potentially reducing your preparation time greatly. If you improve a course facilitation plan, make sure to contribute them back to the site via pull request.
+This lesson plan/agenda is the most important part of the facilitation. Expect to spend 1-2 hours planning it. The {{site.short}} course has lesson plans sketched out for you, potentially reducing your preparation time greatly. If you improve a course facilitation plan, make sure to contribute them back to the site via pull request.
 
 ### Facilitation in practice
 
@@ -79,7 +79,7 @@ It helps to start sessions with a centering exercise to help yourself and the gr
 
 If the learners have engaged in their “homework,” if you have a good lesson plan for the full-group facilitation, and if the group knows that you are going to be engaging them in rich, reflective activities, there is a good chance that “running the show” is the easiest part of the process. 
 Ideally, you have established some overall group norms at the beginning of the facilitation process. If not, you might want to gently guide the group into these practices over time.
-1. **Step up, step back.** Make sure that everyone has space to contribute. Much of this work is about the State Officers transforming themselves in community with each other. Keep that distinction at the front of your mind at all times. If someone is contributing a lot, perhaps encourage them to pause for a moment, and see what their colleagues think. Likewise, make sure that *you* are not contributing too much. Your role is to facilitate, and occasionally chime in as an SME. You can tell them things, but you cannot *learn them* things. 
+1. **Step up, step back.** Make sure that everyone has space to contribute. Much of this work is about the product owners transforming themselves in community with each other. Keep that distinction at the front of your mind at all times. If someone is contributing a lot, perhaps encourage them to pause for a moment, and see what their colleagues think. Likewise, make sure that *you* are not contributing too much. Your role is to facilitate, and occasionally chime in as an SME. You can tell them things, but you cannot *learn them* things. 
 2. **Leave space for answers.** If you float a question&mdash;or, if one of the participants raises a question&mdash;create space for it. “What does everyone else think?” Then **count to 20** in your head. Generally, facilitators are willing to wait 2-3 seconds before jumping in. Practice waiting for the group. People need time to think, formulate thoughts, and work up the courage to speak. For you, the facilitator, that means explicitly conditioning yourself *not to say anything*. If you ask a question, be quiet for at least 8-10 seconds. If no one responds, ask if the question was clear, or if anyone has any thoughts. Then give them another 8-10 count. 
 3. **Question the cohort.** Step back to encourage discussion and let learners lead the conversation. Prompt with questions when they help to jog the conversation in an open-ended direction, like explaining how a process fits into a framework or making a prediction about an outcome. Build opportunities for the cohort to tie back to personal experiences that can provide metaphors or even directly applicable examples. For help with questions that prompt learning, consult the resources below:  
     * [Using Effective Questions](https://teaching.cornell.edu/teaching-resources/engaging-students/using-effective-questions)

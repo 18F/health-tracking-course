@@ -82,7 +82,7 @@ To close out this lesson, come together with your learning cohort.
 
 1. **Checkin**. {% include countdowntimer minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December, and work backwards through the year.
 2. **Prep**. {% include countdowntimer minutes=3 %} Now divide the group, so that part of the group is people who are on the State side &mdash; a developer, a procurement officer, and a project manager for the State. The other half the group represents the SO asking questions of the group. The State group should put themselves in the place of their state's project, and imagine themselves as a program manager (or procurement officer, or developer) for that project. The SO group should take this time and imagine they are prepping for a conversation with these state team members to work on assessing project health. Take three minutes to prep for the roleplay.
-3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into groups. Each pair should have one state officer and each of the state team members. Have the state officer talking each of the team members, working to understand the health of the project and asking the team members to explain the project. 
+3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into groups. Each pair should have one {{site.productowner}} and each of the state team members. Have the {{site.productowner}} talking each of the team members, working to understand the health of the project and asking the team members to explain the project. 
 If it helps, feel free to choose questions to ask from the two guides mentioned earlier: [Asking Questions of Software Project Teams]({{ "/questioning/" | prepend: site.baseurl }}) and {% include link id="atqoa" text="Asking Technical Questions of Agencies" %} 
 4. **Debrief I**. {% include countdowntimer minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
    * For the SOs: What questions were particularly useful? What words/behaviors did you note from the state team members that were encouraging or inspired confidence? 
@@ -100,7 +100,7 @@ If it helps, feel free to choose questions to ask from the two guides mentioned 
 </p>
 
 <p>
-   When you are roleplaying the State Officer engaging with the vendor, you're developing and practicing questioning skills that are fundamental to your work. But, you're practicing them in a safe environment where, if you make mistakes, you get to step back with colleagues and discuss what might have been a better approach.
+   When you are roleplaying the {{site.productowner}} engaging with the vendor, you're developing and practicing questioning skills that are fundamental to your work. But, you're practicing them in a safe environment where, if you make mistakes, you get to step back with colleagues and discuss what might have been a better approach.
 </p>
 
 <p>

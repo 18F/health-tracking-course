@@ -8,11 +8,11 @@ permalink: /syllabus/
 * TOC
 {:toc}
 
-## Why become a state officer, M.D.?
+## Why become a {{site.productowner}}, M.D.?
 
 You may not realize it, but our doctors don’t like it when we only come to them when we’re sick. If they had their way, most doctors would love to see us 1) more often, 2) for less time, and 3) help us make sure we take better care of ourselves so that 4) we wouldn’t get sick in the first place! As an SO, which kind of doctor would you rather be? We suspect you’d prefer more checkups, for less time, and avoid the need for major heart surgery when an improved diet and a short walk every day would do the same job!
 
-This course is intended to help you apply your existing expertise as a State Officer in new ways. It will help you think about how to apply your expertise on a continuous basis instead of annually or bi-annually. This will help more projects succeed, and yield better and more robust services for the people that we serve.
+This course is intended to help you apply your existing expertise as a {{site.productowner}} in new ways. It will help you think about how to apply your expertise on a continuous basis instead of annually or bi-annually. This will help more projects succeed, and yield better and more robust services for the people that we serve.
 
 ## How will this course help you succeed?
 

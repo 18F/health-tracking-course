@@ -42,7 +42,7 @@ The second video is a bit more in depth and is essentially a *story*. In this vi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/502ILHjX9EE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-As you watch these two videos, take notes. In particular, think about what kinds of activities a product manager at a vendor might be engaging in, and how you, as a state officer, could gain insight into the work they are doing. What kinds of questions might you be asking your state? If you can talk to the product manager at the vendor as part of your oversight, what kinds of questions would you want to ask to assess overall health? If you can't or are not talking to a PM at the vendor delivering solutions to the state... *should you be?* 
+As you watch these two videos, take notes. In particular, think about what kinds of activities a product manager at a vendor might be engaging in, and how you, as a {{site.productowner}}, could gain insight into the work they are doing. What kinds of questions might you be asking yourself and your agency? If you can talk to the product manager at the vendor as part of your oversight, what kinds of questions would you want to ask to assess overall health? If you can't or are not talking to a PM at the vendor delivering solutions to the state... *should you be?* 
 
 ### Reflect: Program management (15m, solo)
 
@@ -92,7 +92,7 @@ To close out this lesson, come together with your learning cohort.
 
 1. **Checkin**. {% include countdowntimer minutes=10 %} How is everyone? Take a moment to go around the group, and offer up something that brought you joy this past week. Start with birthdays in December and work backwards throguh the year.
 2. **Prep**. {% include countdowntimer minutes=3 %} Count off so that half of the group is an "Green" group and half the group is "Purple." The green group should put themselves in the place of their state's project and imagine themselves as a program manager for that project. The purple group should take this time and imagine they are prepping for a conversation with the program manager to work on assessing project health. Take three minutes to prep for the roleplay.
-3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into pairs. The purple group should be playing the role of a state officer talking to the project's program manager, working to understand the health of the project. The green group should be playing the role of a program manager working on their state's software.
+3. **Breakout I**. {% include countdowntimer minutes=5 %} Break into pairs. The purple group should be playing the role of a {{site.productowner}} talking to the project's program manager, working to understand the health of the project. The green group should be playing the role of a program manager working on their state's software.
 4. **Debrief I**. {% include countdowntimer minutes=15 %} After 5 minutes, come back to your large group. As a group, discuss the roleplays. 
    * For the purple group: What questions were particularly useful? What words/behaviors did you note from the program managers that were encouraging or inspired confidence? 
    * For the green group: How did getting into the program manager's head shape your thinking about the role of the SO? What mindset did you bring to the conversation? Was it collaborative? Evasive? Why?

@@ -18,14 +18,21 @@
 # Be sure to edit the values below
 ##########################################################################################
 
-title: State Officer, M.D.
+title: Product Owner, M.D.
 email: matthew.jadud@gsa.gov
 description: >-
-  Pilot materials supporting CMS/SOs in using the Health Tracker.
+  Product ownership, learned in community.
 baseurl: "" 
 # the base hostname & protocol for your site, e.g. http://example.com
 # url: "https://example.gov"
 twitter: 18F
+
+long: Product Owner, M.D.
+short: POMD
+productowner: product owner
+Productowner: Product owner
+po: PO
+
 
 # This is used in meta.html to choose the version of USWDS from
 # the assets directory. It becomes

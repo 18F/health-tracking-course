@@ -7,13 +7,15 @@ layout: widepage
 
 A learning cohort is a group of people who come together to transform their foundational knowledges and practices. It might be two or twenty people, but 3-8 people working and learning together represent an optimal size when it comes to having a diversity of ideas while, at the same time, creating space for every voice to be heard. 
 
-These learning materials are structured with the intention that small groups of people will engage in learning and transformation in community with each other. What follows are the principles and practices that guided the design and development of the State Officer, M.D. course.
+These learning materials are structured with the intention that small groups of people will engage in learning and transformation in community with each other. What follows are the principles and practices that guided the design and development of the {{site.long}} course.
 
 ## Learning as a tool for organizational transformation
-The MES Team is shifting the oversight of state MES investments toward a more outcomes-oriented approach. We believe this will improve Medicaid IT’s direct support of program needs and ongoing compliance with federal policy requirements. This shift requires a  significant cultural change in how the MES Team and State Officers engage with states. A plan for learning new ways of engagement is pivotal to the success of this effort.
+
+It is not uncommon to shift project oversight from an ad-hoc approach toward a measurable, outcomes-oriented approach. We believe this improves an organization's support of programmatic needs and ongoing focus with the needs of end users (the people). This shift requires a  significant cultural change in how teams engage with their partners and vendors. A plan for learning new ways of engagement is pivotal to the success of this kind of effort.
 
 ### Learning cohorts provide a model for professional development that encourages the following values: 
-* **Dedicated time** to dive deep into learning is a part of the State Officer job and work week.
+
+* **Dedicated time** to dive deep into learning is a part of the job and work week.
 * **Discussion and sharing of personal experiences** helps us learn new principles.
 * **Small communities** (6-8 people max) are best for supporting learners and encouraging mutual accountability as they engage in learning and transformation. 
 * **Individual preparation and reflection** enhances group discussions and knowledge exchange.
@@ -22,7 +24,7 @@ The MES Team is shifting the oversight of state MES investments toward a more ou
 ## Developing a Learning Cohort 
 Organizing a learning cohort and their learning is broadly referred to as instructional design. It’s not very different from other design processes, and routinely involves large numbers of sticky notes. Like all skills, designing and facilitating educational experiences is a practice in which expertise is developed over time. 
 
-With that in mind, there are common components that will be needed for any learning cohort. We’ve broken them down below based on what is tangible and seen by learners versus built, designed, and decided on behind the scenes. We’ve also provided examples of how we applied these for State Officer, M.D. (SOMD): 
+With that in mind, there are common components that will be needed for any learning cohort. We’ve broken them down below based on what is tangible and seen by learners versus built, designed, and decided on behind the scenes. We’ve also provided examples of how we applied these for {{site.long}} ({{site.short}}): 
 
 ![a diagram showing the flow and cyclical nature of the instructional design process (described in detail in the content below)]({{ "/assets/images/cohort-process.png" | prepend: site.baseurl }})
 
@@ -40,7 +42,7 @@ As people who grew up in the United States, much of our instruction was in schoo
 ### Define learning values
 Education is extremely value-laden. This is because learning is such a fundamentally human experience, and we are all complex, changing, value-laden beings. 
 
-As an organization, knowing what you value or what values you aspire to is critical. Do you value a community of State Officers who trust, support, and work with one another? If you do, then the learning experiences you provide need to mirror the culture and community you wish to foster and develop, and through that learning, reinforce the habits of mind and practices that will yield to the community of practice that you envision. 
+As an organization, knowing what you value or what values you aspire to is critical. Do you value a community of product owners who trust, support, and work with one another? If you do, then the learning experiences you provide need to mirror the culture and community you wish to foster and develop, and through that learning, reinforce the habits of mind and practices that will yield to the community of practice that you envision. 
 
 **Resources**
 * There are [many instructional design models](https://www.shiftelearning.com/blog/top-instructional-design-models-explained). Different models center values (their solicitation, explication) differently.  Knowing what you value allows for the alignment of values with the design framework you employ.
@@ -51,11 +53,11 @@ Values drive goals. For example, valuing community implies learning goals regard
 
 “Measurable” here does not necessarily mean we score everything as an “A,” “B,” “C,” or on a 100 point scale. Assessment of learning is (surprise!) exceedingly complex. **“Measurable” does generally mean observable.** For this reason, avoid learning outcomes like this:
 
-_State Officers will understand the importance of clear communications._
+_Product owners will understand the importance of clear communications._
 
 Instead, state something we can observe:
 
-_State Officers communicate with each other multiple times per day using plain language._
+_Product owners communicate with each other multiple times per day using plain language._
 
 The important distinction is that we cannot observe understanding. However, we can observe communications that occur frequently and in plain language. In short, good assessment will align with your values and goals, and be tied to easily observable behaviors that exemplify the spirit of those values and goals.
 
@@ -83,7 +85,7 @@ With values, goals, and outcomes in hand, and content expertise in the wings, ef
 * The outcomes that are desired. 
 * The content to be articulated in support of those values, goals, and outcomes.
 
-If MES values collaboration and communication amongst the State Officers as part of their work, then it may be that instructional strategies that explicitly require collaboration would be preferable to approaches that emphasize independent learning by the SOs. Or, even if SOs come together in a group, an instructional approach that centers an instructor conveying content will fail to reinforce those core values that undergird trust and community. 
+If you value collaboration and communication amongst product owners as part of their work, then it may be that instructional strategies that explicitly require collaboration would be preferable to approaches that emphasize independent learning by the {{site.po}}s. Or, even if {{site.po}}s come together in a group, an instructional approach that centers an instructor conveying content will fail to reinforce those core values that undergird trust and community. 
 
 Put simply: the right instructional methods will achieve desired learning outcomes and reinforce the values that drive your culture-change process. 
 
@@ -94,20 +96,20 @@ Put simply: the right instructional methods will achieve desired learning outcom
 ## Developing a lesson 
 As with any design process, the product—the lessons and learning experiences themselves—are the last thing to be generated.
 
-In the case of the SOMD course, the design and development process behind the Health Rubric, the development of the Health Tracker, and the many interconnected efforts between the MES team and 18F deeply informed the work that went into the course.
+In the case of the {{site.short}} course, the design and development process behind the Health Rubric, the development of the Health Tracker, and the many interconnected efforts between the MES team and 18F deeply informed the work that went into the course.
 
-Each lesson in the SOMD course follows a common template, for the simple reason that the consistency of lesson structure is intended to reduce barriers to learning for the State Officers. However, it is not a template that necessarily works for all learning situations, nor does it support all values, goals, and outcomes that might be imagined for other/future learning environments. In the case of SOMD, each lesson was expressed roughly as follows:
+Each lesson in the {{site.short}} course follows a common template, for the simple reason that the consistency of lesson structure is intended to reduce barriers to learning for the {{site.productowner}}s. However, it is not a template that necessarily works for all learning situations, nor does it support all values, goals, and outcomes that might be imagined for other/future learning environments. In the case of {{site.short}}, each lesson was expressed roughly as follows:
 
 
 ### Laying the groundwork for discussion
-In order to make the most of the time together as a cohort, each lesson included materials to introduce the learning outcome and content to add background context and details to a specific row in the Health Rubric. State Officers were asked to read/watch/listen, apply, and reflect on these materials in preparation for group discussion. These materials roughly followed the below outline: 
+In order to make the most of the time together as a cohort, each lesson included materials to introduce the learning outcome and content to add background context and details to a specific row in the Health Rubric. {{site.Productowner}}s were asked to read/watch/listen, apply, and reflect on these materials in preparation for group discussion. These materials roughly followed the below outline: 
 * Restates the learning outcome (aligned directly with a row of the rubric)
 * Introduces the SO to content related to the learning outcome.
 * Asks questions to engage the SO with the content in a manner that connects it back to their professional practice.
 * Sometimes, active techniques, like writing to think are employed, and other times SOs are encouraged to partner with others, thus leveraging think-pair-share or similar pairwise/small group learning strategies.
 * Reflection and preparation is explicitly encouraged in advance of group conversations (readying the learner for analysis and evaluation of their learning in concert with others)
 
-To lay the ground for group discussion and give State Officers time to reflect, the above materials were distributed the week before the lesson. 
+To lay the ground for group discussion and give {{site.productowner}}s time to reflect, the above materials were distributed the week before the lesson. 
 
 ### Learning as a community 
 When the group got together, facilitated conversation dove into the material to encourage processing as a group, again with a common structure:
@@ -130,7 +132,7 @@ The initial learning cohort did not emphasize the delivery of products from the 
 ## Equity and justice in education
 Teaching and learning are fundamentally human acts: we engage in learning from the moment we are born and we pass our knowledge from generation-to-generation, through all that we do. It takes explicit work on the part of the instructional team to create learning spaces that are fundamentally empowering and inclusive. How we frame our instruction can include or exclude.
 
-There is more to be said on equitable and just instructional design than can be hinted at here. Materials must support all learners, which means being conscious and attentive to how bias and discrimination casually creep into an educator’s practices. Learners must ask questions of the course material itself as well as the reality of racism, sexism, and their work as agents of the US government. This questioning should occur constructively and critically, on an ongoing basis. State Officers should be lifted up during this process, as these questions and their work thread a difficult needle—they are worthy of all of our support and respect as they work to transform the systems that make up our nation’s healthcare safety net.
+There is more to be said on equitable and just instructional design than can be hinted at here. Materials must support all learners, which means being conscious and attentive to how bias and discrimination casually creep into an educator’s practices. Learners must ask questions of the course material itself as well as the reality of racism, sexism, and their work as agents of the US government. This questioning should occur constructively and critically, on an ongoing basis. {{site.Productowner}}s should be lifted up during this process, as these questions and their work thread a difficult needle—they are worthy of all of our support and respect as they work to transform the systems that make up our nation’s healthcare safety net.
 
 **Resources**
 * [Structure Matters: Twenty-One Teaching Strategies to Promote Student Engagement and Cultivate Classroom Equity](https://www.lifescied.org/doi/full/10.1187/cbe.13-06-0115), Tanner, CBE Life Sciences Education. This article is essential; if you read nothing else cited in this document, read Tanner’s article.
@@ -138,4 +140,5 @@ There is more to be said on equitable and just instructional design than can be 
 * [Teaching Community](https://bookshop.org/books/teaching-to-transgress-education-as-the-practice-of-freedom/9780415908085) and [Teaching Critical Thinking](https://bookshop.org/books/teaching-critical-thinking-practical-wisdom/9780415968201) complement [Teaching to Transgress](https://bookshop.org/books/teaching-to-transgress-education-as-the-practice-of-freedom/9780415908085), and take those ideas even further. 
 
 ## Conclusion
-Instructional design is a field that is deep, wide, and has its roots in educational psychology and the study of teaching and learning. The development of the course for State Officers touched on all of the dimensions described above and more, and did so in a largely invisible manner. We believe that learning is a powerful vehicle for the transformation of practices and organizational culture, and are excited to support MES in this critical, ongoing work.
+
+Instructional design is a field that is deep, wide, and has its roots in educational psychology and the study of teaching and learning. The development of the course for {{site.productowner}} touched on all of the dimensions described above and more, and did so in a largely invisible manner. We believe that learning is a powerful vehicle for the transformation of practices and organizational culture, and are excited to support agencies in this critical, ongoing work.

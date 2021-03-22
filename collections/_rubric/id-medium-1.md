@@ -24,7 +24,7 @@ state:
 
 This is bad.
 
-As much as we love Bob, this is now how software should go into production. It is, however, how things have happened too often in the past, and (in some places) still happens. As a State Officer, M.D., your job is to discover where Bob is and encourage states to help Bob develop new practices and habits.
+As much as we love Bob, this is now how software should go into production. It is, however, how things have happened too often in the past, and (in some places) still happens. As a {{site.long}}, your job is to discover where Bob is and encourage states to help Bob develop new practices and habits.
 
 # Strategies for deployment (15m, solo)
 

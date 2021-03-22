@@ -166,9 +166,9 @@ These are fairly common roadmap questions.
 
 **Timer**: {% include countdowntimer minutes=30 %} 
 
-These questions are of a different nature. The previous set of questions asked you to make some judgements... but, really, they're questions that a good roadmap should almost answer for you.
+These questions are of a different nature. The previous set of questions asked you to make some judgments... but, really, they're questions that a good roadmap should almost answer for you.
 
-Your job as a State Officer, M.D. is to probe deeper. If you have a healthy relationship with your state and their vendors, these questions will be easy. However, it might be that the vendor is concerned about holding on to their contract, but less worried about delivering excellence and value to the state. In that case, you're going to need to ask bigger, harder questions about the roadmap. 
+Your job as a {{site.long}} is to probe deeper. If you have a healthy relationship with your state and their vendors, these questions will be easy. However, it might be that the vendor is concerned about holding on to their contract, but less worried about delivering excellence and value to the state. In that case, you're going to need to ask bigger, harder questions about the roadmap. 
 
 1. Was the roadmap written with a general audience in mind, or does it use technical terms and make things complex where they might otherwise be simple?
 2. Is it up-to-date, or is the same roadmap used over-and-over, from one cycle to the next?

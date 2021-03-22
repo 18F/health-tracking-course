@@ -40,7 +40,7 @@ But... hopefully, a co-worker who is a friend.
 
 Instead of solo writing in your journal after watching this video, talk with a colleague or a few colleagues together about how you do (or do not) have visibility into software delivery on the projects you're overseeing. What do you see as opportunities in the space of "demos not memos?" What do you see as challenges? 
 
-If you can, try and brainstorm together some ideas about how you, as a State Officer, can start to nudge the system so that instead of long-running, memo-laden software development processes, you start to see actual software being developed as part of your health tracking process.
+If you can, try and brainstorm together some ideas about how you, as a {{site.productowner}}, can `s`tart to nudge the system so that instead of long-running, memo-laden software development processes, you start to see actual software being developed as part of your health tracking process.
 
 ## Discussion: No memos (1h, group)
 
@@ -51,7 +51,7 @@ Buried in that phrase is *massive* culture change. It represents change for vend
 Your conversation today may end up a little wide-ranging, but the question is this:
 
 {% capture body %}
-What concrete steps can you take, as State Officers, to begin moving the needle on our projects from <b>memos</b> to <b>demos</b>?
+What concrete steps can you take, as {{site.productowner}}s, to begin moving the needle on our projects from <b>memos</b> to <b>demos</b>?
 {% endcapture %}
 {% include alert level="no-icon" heading="Move the needle" body=body %}
 

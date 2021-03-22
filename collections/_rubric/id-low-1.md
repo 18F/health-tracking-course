@@ -56,7 +56,7 @@ Stallman suggests that free software&mdash;software for which we have access to 
 
 To ground this idea, consider the following.
 
-The website you are reading *right now* is free and open content. This content was developed by content specialists and engineers at 18F, a unit housed within the Technology Transformation Services (TTS) in the General Services Administration (GSA). It was developed for you, State Officers, to support you in your work shepherding the people's resources as Medicare and Medicaid IT systems are developed and deployed at the state level across the nation. 
+The website you are reading *right now* is free and open content. This content was developed by content specialists and engineers at 18F, a unit housed within the Technology Transformation Services (TTS) in the General Services Administration (GSA). It was developed for you, {{site.productowner}}s, to support you in your work shepherding the people's resources as Medicare and Medicaid IT systems are developed and deployed at the state level across the nation. 
 
 Almost everything that 18F does is free and open. Let's look at the LICENSE that is associated with this content:
 
