@@ -20,7 +20,7 @@ state:
 
 This is a deceivingly complex question and one with a rich history in the space of technology, law, and politics. Some of the complexity is necessary in our case, because we deal with people and money. Despite the amount of money involved, we get law and politics *for free* (We, the authors of this content, are neither lawyers nor politicians. You are forewarned.)!
 
-Let's start with a 5-minute video.
+Let's start with a 5-minute video. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a8fHgx9mE5U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -30,29 +30,28 @@ This is an overview to provide context. We don't anticipate that you will need t
 
 Did we mention law and politics? 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ag1AKIl_2GM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E3ftpYQyLOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a video of Richard Stallman speaking on open source software at a TEDx event in Geneva in 2014. Stallman is considered both a founding and a divisive figure in the world of free and open software &mdash; he certainly is clear and unabashed in his views and opinions. By sharing Stallman's talk with you, we are not advocating his positions so much as... challenging you with them. 
-
-Put another way: he unapologetically believes firmly in truly free and open access to *everything* in his technology.
+Ben Balter has a long history in open source, and did some significant work during the Obama administration regarding open source in government and {% include link text="rethinking how we procure software and technology" url="https://ben.balter.com/2011/11/29/towards-a-more-agile-government/" %}. This talk, recorded in 2015, is *ancient* in internet terms. In government terms... this is work that continues today. It is not *old* news, but *current* news. In fact, given the amount of money being spent on procuring closed-source, locked-in software services... it might be that this still is *future* news.
 
 {% include countdowntimer minutes=30 %}
 
 Find a partner and find a 30m block of time that the two of you can get together to watch and chat.
 
 1. Initial impressions?
-2. What things did Stallman say that you found yourself agreeing with? Disagreeing with?
+2. What things did Balter say that you found yourself agreeing with? Disagreeing with?
 3. Did you see parallels to the work you do with states and vendors? How?
 4. What challenged you most about this presentation? "Challenge" could mean everything from "this concept really made me think" to "this thing he said really made me angry."
 
 This conversation is part of your preparation for coming together as a larger group to discuss the notion of free and open-source software ("FOSS"), government contracting, and the work of {{site.po}}s in managing The People's investment in software and IT.
+
 ## Keystones (15m, solo)
 
-You've had a conversation. You've possibly ranted about Stallman. Perhaps you agreed in places. We do want to highlight an idea here, however, as a takeaway that we think you should carry with you. You might agree, you might not, but we believe (at the least) you should continue to wrestle with this idea.
+You've had a conversation. Perhaps you agreed in places. We do want to highlight an idea here, however, as a takeaway that we think you should carry with you. You might agree, you might not, but we believe (at the least) you should continue to wrestle with this idea.
 
 <img src="{{ '/assets/images/keystones.png' | prepend: site.baseurl }}" alt="A picture of a stone arch, depicting free software as a keystone of fundamental rights, comparable to freedom of speech." />
 
-Stallman suggests that free software&mdash;software for which we have access to the source and can modify or use in perpetuity without paying a licensing fee for the privilege&mdash;is a fundamental right in the world we live in today. *How do we feel about that?*
+Some suggest that free software&mdash;software for which we have access to the source and can modify or use in perpetuity without paying a licensing fee for the privilege&mdash;is a fundamental right in the world we live in today. *How do we feel about that?*
 
 To ground this idea, consider the following.
 
