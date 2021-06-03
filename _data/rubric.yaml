@@ -1,6 +1,6 @@
 - header: Outcomes-orientation
   question: Are efforts clearly connected to intended outcomes and end users?
-  wtm: Outcomes-oriented Medicaid IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work.
+  wtm: Outcomes-oriented IT teams have a clear, program-driven direction. As a result, they more promptly identify and address issues that can impact progress and make smart tradeoffs in their day-to-day work.
   priorities:
     - label: "Top priority" 
       priority: high
@@ -14,7 +14,7 @@
         - id: oo1.2
           tips:
             - Ask to see how teams measure their progress against program, policy, and/or baseline metrics.
-          red: Explanations of how the state will measure progress or program impact are incongruent or missing all together.
+          red: Explanations of how the team will measure progress or program impact are incongruent or missing all together.
           yellow: Teams consistently articulate the impact they are targeting but do not have metrics or baselines.
           green: Teams consistently articulate their target metrics and can demonstrate how they are doing against baselines.
     - label: "Medium priority" 
@@ -23,7 +23,7 @@
         - id: oo2.1
           tips:
             - Ask how feedback from users impacts priorities.
-            - Ask how the state ensures services are accessible for all.
+            - Ask how the team ensures services are accessible for all.
           red: The team has no information about the current user experience.
           yellow: The team has information about the current experience but has not spoken directly to users.
           green: The team has collected feedback from end users directly and can demonstrate how they apply what they learn.
@@ -33,17 +33,17 @@
         - id: oo3.1
           tips:
             - Ask both project and enterprise-level team members what the current priorities are.
-          red: State team members can't speak to priorities at all.
-          yellow: State team members can speak to priorities, but they're not captured anywhere in written or visual form.
-          green: Outcomes and priorities are clearly articulated by all state team members and live in a shared roadmap that's regularly updated.
+          red: Team members can't speak to priorities at all.
+          yellow: Team members can speak to priorities, but they're not captured anywhere in written or visual form.
+          green: Outcomes and priorities are clearly articulated by all team members and live in a shared roadmap that's regularly updated.
         - id: oo3.2 
           tips:
             - Ask team members from different departments (program, IT, procurement, etc.) about their role and priorities.
           red: IT, program, finance, etc. priorities are unconnected or at odds.
           yellow: Some priorities are aligned, others are disjointed.
           green: IT, program, finance, etc. priorities are aligned around end-user outcomes.
-- header: State capacity
-  question: Does the state or agency have the skills and capacity to to manage the work?
+- header: Agency capacity
+  question: Does the agency have the skills and capacity to to manage the work?
   wtm: Without some familiarity with software development, an agency is not well equipped to evaluate vendor work and lead a development project successfully. Poor working relationships and limited capacity across departments is the biggest blocker we see in projects at both the federal and state level.
   priorities:
     - label: Top priority
@@ -53,24 +53,24 @@
           tips:
             - Ask the product and technical leads what their role is and what other responsibilities they have.
             - Look at the staffing plan vs. current staffing.
-          red: The state depends entirely on a vendor for vision and strategy.
-          yellow: State/agency leads are identified but have limited time to lead the strategy and take direction from the vendor.
-          green: State/agency staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
+          red: The agency depends entirely on a vendor for vision and strategy.
+          yellow: Agency leads are identified but have limited time to lead the strategy and take direction from the vendor.
+          green: Agency staff with IT experience have the bandwidth to lead the technical strategy with feedback from vendors.
     - label: Medium priority
       priority: medium
       dimensions:
         - id: sc2.1
           tips:
             - Ask how and when the team utilizes different types of expertise.
-          red: Teams are not able to be staffed, are only staffed with one skill set/perspective (ex. only a PM), and/or do not include program expertise.
-          yellow: Teams are staffed with project and program expertise, able to pull in other experts when needed.
-          green: Teams are staffed with project, program, technical, and other expertise.
+          red: Agency teams are not able to be staffed, are only staffed with one skill set/perspective (ex. only a PM), and/or do not include program expertise.
+          yellow: Agency teams are staffed with project and program expertise, able to pull in other experts when needed.
+          green: Agency teams are staffed with project, program, technical, and other expertise.
         - id: sc2.2
           tips:
             - Ask detailed questions about technology, program goals, end users, etc.
             - Pay attention to who answers each question.
-          red: Team members can't answer questions about the project or issues in plain language.
-          yellow: Team members rely on vendors to answer questions, but answers are in plain language.
+          red: Agency team members can't answer questions about the project or issues in plain language.
+          yellow: Agency team members rely on vendors to answer questions, but answers are in plain language.
           green: All team members (including IT and procurement) can speak in plain language about the project.
     - label: Lower priority
       priority: lower
@@ -82,34 +82,34 @@
           yellow: Individuals have good relationships, but team dynamics are strained.
           green: Individuals and teams from all divisions talk regularly and have good relationships.
 - header: Procurement flexibility
-  question: Do the state's procurement and vendor management practices provide visibility and flexibility?
-  wtm: States and vendors have different incentives. In order to make sure work is driving toward program outcomes, the state should drive and actively manage vendor work and build monitoring of quality into their contracts.
+  question: Do the agency's procurement and vendor management practices provide visibility and flexibility?
+  wtm: Agencies and vendors have different incentives. In order to make sure work is driving toward program outcomes, the agency should drive and actively manage vendor work and build monitoring of quality into their contracts.
   priorities:
     - label: Top priority
       priority: high
       dimensions:
         - id: pf1.1
           tips: 
-            - Ask how the state knows what progress has been made.
+            - Ask how the agency knows what progress has been made.
             - Ask if there are known risks that may cause delay.
           red: Little to no visibility into progress. Target dates and budget estimates are missed or frequently revised.
           yellow: There's limited visibility into progress. Many dates are hit, but misses are surprising. 
-          green: State has full visibility into progress. Most dates are hit, and the state knows early on when and why they are not going to meet a date.
+          green: Agency has full visibility into progress. Most dates are hit, and the agency knows early on when and why they are not going to meet a date.
         - id: pf1.2
           tips:
             - Ask how the team implements quality monitoring through their contracts.
-          red: The state has little or no expectations for monitoring quality in their contracts.
-          yellow: The state has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
-          green: The state can demonstrate how they monitor quality in their contracts and work with teams to make sure monitoring is implemented.
+          red: The agency has little or no expectations for monitoring quality in their contracts.
+          yellow: The agency has vague expectations around monitoring quality in their contracts, mostly leaves monitoring to development teams.
+          green: The agency can demonstrate how they monitor quality in their contracts and work with teams to make sure monitoring is implemented.
     - label: Medium priority
       priority: medium
       dimensions:
         - id: pf2.1
           tips:
-            - Ask how the state/agency manages and accesses system data.
+            - Ask how the agency manages and accesses system data.
           red: Little or no visibility into how data is stored or accessed.
           yellow: Can use the vendor's tools to access data, but does not own the data.
-          green: The state/agency owns and controls access to all data.
+          green: The agency owns and controls access to all data.
     - label: Lower priority
       priority: lower
       dimensions: 
@@ -119,23 +119,23 @@
             - Ask who is involved in setting strategy and outcomes.
           red: Blames or relies on the vendor for the strategy and achievement of the outcomes.
           yellow: Takes partial accountability for the strategy and achievement of the outcomes; leans on vendors for procurement strategy.
-          green: The state considers themselves wholly responsible for the strategy and achievement of the outcomes; leads strategy, collects feedback from vendors.
+          green: The agency considers themselves wholly responsible for the strategy and achievement of the outcomes; leads strategy, collects feedback from vendors.
         - id: pf3.2
           tips:
             - Ask team leads and contract owners how they monitor vendor budget.
           red: Little or no regular visibility into how the vendor is billing.
           yellow: Visibility into how the vendor is billing but is uncertain how to manage if a vendor is burning too hot.
-          green: The state has regular conversations with the vendor about burn rate.
+          green: The agency has regular conversations with the vendor about burn rate.
 - header: Iterative development
-  question: Does the state/agency use iterative, secure development practices?
-  wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight a state has, the better able they are at identifying whether they are on track or not. One tool states use for this is <i>testing</i>. There are many different types of testing. CMS is in the process of releasing new testing guidance to teams.
+  question: Does the agency use iterative, secure development practices?
+  wtm: More important than any individual practice or technique, healthy design and development teams are able to iterate quickly by 1) identifying process failures and opportunities for improvement, and 2) adjusting and improving their approach accordingly, in real time. <br>&nbsp;<br> The more insight an agency has, the better able they are at identifying whether they are on track or not. One tool agencies use for this is <i>testing</i>. There are many different types of testing.
   priorities:
     - label: Top priority
       priority: high
       dimensions:
         - id: id1.1
           tips:
-            - Ask how the development and state team share in-progress work.
+            - Ask how the development and agency team share in-progress work.
             - Ask to see progress. For example, join demos throughout development.
           red: Nothing is shared until its completely finished, no code is shown.
           yellow: In-progress work is shown, but it's always fairly polished, some code is shown.
@@ -148,7 +148,7 @@
           green: The team regularly collects feedback and tests to ensure the product improves the experience for end users.
         - id: id1.3
           tips:
-            - Ask how the state/agency approaches security, performance, and migration testing.
+            - Ask how the agency approaches security, performance, and migration testing.
             - Ask how project leads interact with the testing process.
           red: The team cannot answer what types of testing they are doing, only that they test at the end of the process.
           yellow: The team can describe their testing approaches but testing is done by a siloed team.
@@ -172,7 +172,7 @@
         - id: id2.3
           tips: 
             - Ask how they monitor system health in production.
-          red: The state/agency can't tell you about the health of the system that's being used.
+          red: The agency can't tell you about the health of the system that's being used.
           yellow: The team manually monitors system health and creates reports on a regular basis.
           green: System health is monitored automatically and staff can show you a reporting dashboard.
     - label: Lower priority
@@ -181,8 +181,8 @@
         - id: id3.1
           tips:
             - Ask how development choices are made and if open source or reusable options are considered.
-          red: The state can't tell you how they make/made their decisions.
-          yellow: The state/agency can tell you how they made their decisions, but did not consider open source options.
+          red: The agency can't tell you how they make/made their decisions.
+          yellow: The agency can tell you how they made their decisions, but did not consider open source options.
           green: The team can show you how/why they make their decisions and are using open source when possible.
 
       
